@@ -1,0 +1,14 @@
+{
+    "dataset": "xrfdataset",
+    "memory_size": 1650,  
+    "memory_per_class": 30,   
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 30,
+    "increment": 5,
+    "model_name": "icarl",
+    "convnet_type": "unet",
+    "device": ["2","3"],
+    "seed": [1993]
+}
+

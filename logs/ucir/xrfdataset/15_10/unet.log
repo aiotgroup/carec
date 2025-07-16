@@ -1,0 +1,1162 @@
+2024-01-11 14:05:04,653 [trainer.py] => 实验名称:WiFi 测试类交换
+2024-01-11 14:05:04,664 [trainer.py] => config: ./exps/ucir.json
+2024-01-11 14:05:04,664 [trainer.py] => experiment_name: 实验名称:WiFi 测试类交换
+2024-01-11 14:05:04,665 [trainer.py] => dataset: xrfdataset
+2024-01-11 14:05:04,665 [trainer.py] => memory_size: 1650
+2024-01-11 14:05:04,665 [trainer.py] => memory_per_class: 30
+2024-01-11 14:05:04,665 [trainer.py] => fixed_memory: True
+2024-01-11 14:05:04,665 [trainer.py] => shuffle: True
+2024-01-11 14:05:04,665 [trainer.py] => init_cls: 15
+2024-01-11 14:05:04,665 [trainer.py] => increment: 10
+2024-01-11 14:05:04,665 [trainer.py] => model_name: ucir
+2024-01-11 14:05:04,665 [trainer.py] => convnet_type: unet
+2024-01-11 14:05:04,665 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-01-11 14:05:04,665 [trainer.py] => seed: 1993
+2024-01-11 14:05:04,692 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 14:05:04,702 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 14:05:04,877 [trainer.py] => All params: 21041612
+2024-01-11 14:05:04,878 [trainer.py] => Trainable params: 21041612
+2024-01-11 14:05:04,878 [ucir.py] => Learning on 0-15
+2024-01-11 14:05:21,652 [ucir.py] => Task 0, Epoch 1/2 => Loss 2.493, Train_accy 16.49, Test_accy 10.56
+2024-01-11 14:05:30,537 [ucir.py] => Task 0, Epoch 2/2 => Loss 2.149, Train_accy 22.76
+2024-01-11 14:05:30,538 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 14:05:50,386 [ucir.py] => Exemplar size: 450
+2024-01-11 14:05:50,589 [trainer.py] => CNN: {'total': 15.7, '0': 25.0, '1': 15.56, '2': 0.0, '3': 0.0, '4': 16.67, '5': 4.44, '6': 0.56, '7': 12.78, '8': 47.78, '9': 26.11, '10': 15.0, '11': 24.44, '12': 34.44, '13': 0.0, 'old': 0, 'new': 15.7}
+2024-01-11 14:05:50,589 [trainer.py] => NME: {'total': 17.52, '0': 26.67, '1': 0.56, '2': 23.89, '3': 6.67, '4': 36.67, '5': 12.22, '6': 20.0, '7': 15.56, '8': 18.89, '9': 3.33, '10': 5.0, '11': 44.44, '12': 13.33, '13': 0.56, 'old': 0, 'new': 17.52}
+2024-01-11 14:05:50,589 [trainer.py] => CNN top1 curve: [15.7]
+2024-01-11 14:05:50,589 [trainer.py] => CNN top5 curve: [62.7]
+2024-01-11 14:05:50,589 [trainer.py] => NME top1 curve: [17.52]
+2024-01-11 14:05:50,589 [trainer.py] => NME top5 curve: [63.0]
+
+2024-01-11 14:05:50,590 [trainer.py] => All params: 21043533
+2024-01-11 14:05:50,590 [trainer.py] => Trainable params: 21043533
+2024-01-11 14:05:50,590 [ucir.py] => Learning on 15-25
+2024-01-11 14:06:02,986 [ucir.py] => Task 1, Epoch 1/2 => Loss 3.904, Loss_clf 2.741, Loss_lf 0.512, Loss_mr 0.651, Train_accy 11.63, Test_accy 11.33
+2024-01-11 14:06:11,330 [ucir.py] => Task 1, Epoch 2/2 => Loss 3.399, Loss_clf 2.556, Loss_lf 0.320, Loss_mr 0.523, Train_accy 15.61
+2024-01-11 14:06:11,331 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 14:06:34,050 [ucir.py] => Exemplar size: 750
+2024-01-11 14:06:34,243 [trainer.py] => CNN: {'total': 11.4, '0': 5.0, '1': 0.0, '2': 15.0, '3': 0.0, '4': 22.22, '5': 0.0, '6': 13.33, '7': 12.22, '8': 0.0, '9': 0.0, '10': 11.67, '11': 32.78, '12': 0.0, '13': 30.0, '14': 0.0, '15': 28.33, '16': 6.67, '17': 7.78, '18': 8.89, '19': 0.0, '20': 0.56, '21': 5.56, '22': 73.33, '23': 11.11, 'old': 9.48, 'new': 14.28}
+2024-01-11 14:06:34,243 [trainer.py] => NME: {'total': 12.16, '0': 35.56, '1': 0.0, '2': 8.33, '3': 3.89, '4': 23.89, '5': 6.67, '6': 3.33, '7': 18.33, '8': 0.0, '9': 2.22, '10': 9.44, '11': 35.56, '12': 31.67, '13': 17.22, '14': 28.33, '15': 8.89, '16': 2.22, '17': 2.22, '18': 21.67, '19': 5.56, '20': 3.89, '21': 3.33, '22': 3.33, '23': 6.11, 'old': 14.96, 'new': 7.94}
+2024-01-11 14:06:34,243 [trainer.py] => CNN top1 curve: [15.7, 11.4]
+2024-01-11 14:06:34,243 [trainer.py] => CNN top5 curve: [62.7, 46.84]
+2024-01-11 14:06:34,243 [trainer.py] => NME top1 curve: [17.52, 12.16]
+2024-01-11 14:06:34,243 [trainer.py] => NME top5 curve: [63.0, 47.36]
+
+2024-01-11 14:06:34,243 [trainer.py] => All params: 21044813
+2024-01-11 14:06:34,244 [trainer.py] => Trainable params: 21044813
+2024-01-11 14:06:34,244 [ucir.py] => Learning on 25-35
+2024-01-11 14:06:48,470 [ucir.py] => Task 2, Epoch 1/2 => Loss 3.860, Loss_clf 2.794, Loss_lf 0.277, Loss_mr 0.789, Train_accy 18.34, Test_accy 9.41
+2024-01-11 14:06:57,741 [ucir.py] => Task 2, Epoch 2/2 => Loss 3.363, Loss_clf 2.418, Loss_lf 0.219, Loss_mr 0.726, Train_accy 26.00
+2024-01-11 14:06:57,742 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 14:07:27,756 [ucir.py] => Exemplar size: 1050
+2024-01-11 14:07:27,916 [trainer.py] => CNN: {'total': 11.13, '0': 0.0, '1': 0.0, '2': 2.78, '3': 0.0, '4': 0.0, '5': 0.0, '6': 0.0, '7': 1.11, '8': 0.0, '9': 2.22, '10': 3.33, '11': 6.67, '12': 0.0, '13': 1.11, '14': 0.0, '15': 15.56, '16': 2.78, '17': 5.0, '18': 10.0, '19': 0.0, '20': 13.33, '21': 4.44, '22': 0.0, '23': 1.67, '24': 0.0, '25': 10.56, '26': 79.44, '27': 17.22, '28': 5.0, '29': 23.89, '30': 46.11, '31': 27.78, '32': 82.78, '33': 1.11, 'old': 2.8, 'new': 31.94}
+2024-01-11 14:07:27,916 [trainer.py] => NME: {'total': 11.24, '0': 36.67, '1': 0.0, '2': 17.22, '3': 11.11, '4': 8.89, '5': 0.0, '6': 2.78, '7': 11.11, '8': 1.67, '9': 8.33, '10': 3.89, '11': 40.0, '12': 25.0, '13': 15.56, '14': 17.78, '15': 32.78, '16': 6.67, '17': 7.78, '18': 21.67, '19': 3.33, '20': 3.33, '21': 7.22, '22': 5.56, '23': 2.22, '24': 12.78, '25': 8.33, '26': 8.33, '27': 5.0, '28': 0.0, '29': 7.22, '30': 6.67, '31': 18.89, '32': 26.67, '33': 1.67, 'old': 12.13, 'new': 9.0}
+2024-01-11 14:07:27,916 [trainer.py] => CNN top1 curve: [15.7, 11.4, 11.13]
+2024-01-11 14:07:27,916 [trainer.py] => CNN top5 curve: [62.7, 46.84, 42.46]
+2024-01-11 14:07:27,916 [trainer.py] => NME top1 curve: [17.52, 12.16, 11.24]
+2024-01-11 14:07:27,916 [trainer.py] => NME top5 curve: [63.0, 47.36, 44.16]
+
+2024-01-11 14:07:27,916 [trainer.py] => All params: 21046093
+2024-01-11 14:07:27,917 [trainer.py] => Trainable params: 21046093
+2024-01-11 14:07:27,917 [ucir.py] => Learning on 35-45
+2024-01-11 14:07:44,229 [ucir.py] => Task 3, Epoch 1/2 => Loss 3.735, Loss_clf 2.792, Loss_lf 0.243, Loss_mr 0.700, Train_accy 17.83, Test_accy 6.32
+2024-01-11 14:07:53,715 [ucir.py] => Task 3, Epoch 2/2 => Loss 3.453, Loss_clf 2.465, Loss_lf 0.330, Loss_mr 0.659, Train_accy 21.66
+2024-01-11 14:07:53,716 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 14:08:30,142 [ucir.py] => Exemplar size: 1350
+2024-01-11 14:08:30,419 [trainer.py] => CNN: {'total': 8.01, '0': 0.0, '1': 0.0, '2': 2.78, '3': 0.0, '4': 0.0, '5': 0.0, '6': 0.0, '7': 5.56, '8': 0.0, '9': 10.56, '10': 15.56, '11': 1.67, '12': 0.0, '13': 0.0, '14': 9.44, '15': 16.11, '16': 9.44, '17': 6.67, '18': 9.44, '19': 0.0, '20': 10.0, '21': 7.22, '22': 0.0, '23': 0.0, '24': 0.0, '25': 0.0, '26': 0.0, '27': 0.56, '28': 0.0, '29': 0.0, '30': 0.0, '31': 1.67, '32': 0.0, '33': 0.0, '34': 0.0, '35': 40.0, '36': 18.33, '37': 9.44, '38': 60.0, '39': 36.67, '40': 13.33, '41': 23.33, '42': 0.0, '43': 22.78, 'old': 3.05, 'new': 25.39}
+2024-01-11 14:08:30,419 [trainer.py] => NME: {'total': 9.12, '0': 27.78, '1': 0.0, '2': 25.0, '3': 6.67, '4': 17.78, '5': 4.44, '6': 8.89, '7': 13.33, '8': 0.0, '9': 8.33, '10': 0.56, '11': 12.78, '12': 24.44, '13': 0.0, '14': 16.67, '15': 17.78, '16': 10.0, '17': 1.11, '18': 18.33, '19': 12.22, '20': 7.78, '21': 13.89, '22': 14.44, '23': 2.78, '24': 3.89, '25': 0.56, '26': 1.67, '27': 2.78, '28': 0.0, '29': 2.78, '30': 5.56, '31': 0.0, '32': 13.89, '33': 0.56, '34': 2.22, '35': 0.0, '36': 18.33, '37': 0.56, '38': 30.0, '39': 6.67, '40': 1.11, '41': 22.22, '42': 17.22, '43': 6.11, 'old': 8.54, 'new': 11.17}
+2024-01-11 14:08:30,419 [trainer.py] => CNN top1 curve: [15.7, 11.4, 11.13, 8.01]
+2024-01-11 14:08:30,419 [trainer.py] => CNN top5 curve: [62.7, 46.84, 42.46, 32.8]
+2024-01-11 14:08:30,419 [trainer.py] => NME top1 curve: [17.52, 12.16, 11.24, 9.12]
+2024-01-11 14:08:30,419 [trainer.py] => NME top5 curve: [63.0, 47.36, 44.16, 38.89]
+
+2024-01-11 14:08:30,419 [trainer.py] => All params: 21047373
+2024-01-11 14:08:30,420 [trainer.py] => Trainable params: 21047373
+2024-01-11 14:08:30,420 [ucir.py] => Learning on 45-55
+2024-01-11 14:08:48,566 [ucir.py] => Task 4, Epoch 1/2 => Loss 4.172, Loss_clf 3.302, Loss_lf 0.289, Loss_mr 0.581, Train_accy 8.97, Test_accy 8.00
+2024-01-11 14:08:58,602 [ucir.py] => Task 4, Epoch 2/2 => Loss 3.592, Loss_clf 2.874, Loss_lf 0.199, Loss_mr 0.518, Train_accy 12.58
+2024-01-11 14:08:58,603 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 14:09:43,322 [ucir.py] => Exemplar size: 1650
+2024-01-11 14:09:43,491 [trainer.py] => CNN: {'total': 10.4, '0': 7.78, '1': 8.33, '2': 10.0, '3': 0.0, '4': 0.0, '5': 5.56, '6': 0.56, '7': 0.56, '8': 4.44, '9': 7.78, '10': 1.67, '11': 27.78, '12': 0.0, '13': 17.22, '14': 25.0, '15': 38.33, '16': 6.11, '17': 30.56, '18': 33.89, '19': 11.67, '20': 17.78, '21': 0.0, '22': 14.44, '23': 0.0, '24': 5.56, '25': 11.67, '26': 0.0, '27': 5.0, '28': 0.0, '29': 0.0, '30': 3.89, '31': 6.67, '32': 18.33, '33': 0.0, '34': 1.11, '35': 15.56, '36': 5.0, '37': 5.56, '38': 17.78, '39': 3.89, '40': 0.0, '41': 15.56, '42': 24.44, '43': 19.44, '44': 1.67, '45': 16.67, '46': 15.56, '47': 27.78, '48': 0.56, '49': 11.11, '50': 17.78, '51': 15.0, '52': 10.0, '53': 20.0, 'old': 9.57, 'new': 14.17}
+2024-01-11 14:09:43,491 [trainer.py] => NME: {'total': 10.74, '0': 32.22, '1': 4.44, '2': 13.89, '3': 0.56, '4': 11.67, '5': 6.11, '6': 13.89, '7': 13.33, '8': 9.44, '9': 7.22, '10': 6.11, '11': 28.33, '12': 17.22, '13': 5.0, '14': 22.22, '15': 36.67, '16': 14.44, '17': 10.0, '18': 33.33, '19': 3.33, '20': 15.0, '21': 8.89, '22': 15.0, '23': 7.78, '24': 9.44, '25': 10.0, '26': 1.11, '27': 13.89, '28': 1.11, '29': 2.78, '30': 7.22, '31': 8.89, '32': 16.11, '33': 0.56, '34': 3.89, '35': 0.56, '36': 17.22, '37': 2.22, '38': 26.67, '39': 10.56, '40': 4.44, '41': 17.22, '42': 26.67, '43': 16.11, '44': 12.22, '45': 8.33, '46': 0.56, '47': 4.44, '48': 0.0, '49': 0.56, '50': 0.0, '51': 6.67, '52': 3.89, '53': 0.0, 'old': 12.11, 'new': 4.56}
+2024-01-11 14:09:43,491 [trainer.py] => CNN top1 curve: [15.7, 11.4, 11.13, 8.01, 10.4]
+2024-01-11 14:09:43,491 [trainer.py] => CNN top5 curve: [62.7, 46.84, 42.46, 32.8, 36.96]
+2024-01-11 14:09:43,491 [trainer.py] => NME top1 curve: [17.52, 12.16, 11.24, 9.12, 10.74]
+2024-01-11 14:09:43,491 [trainer.py] => NME top5 curve: [63.0, 47.36, 44.16, 38.89, 39.34]
+
+2024-01-11 14:13:49,400 [trainer.py] => 实验名称:WiFi 测试类交换
+2024-01-11 14:13:49,401 [trainer.py] => config: ./exps/ucir.json
+2024-01-11 14:13:49,401 [trainer.py] => experiment_name: 实验名称:WiFi 测试类交换
+2024-01-11 14:13:49,401 [trainer.py] => dataset: xrfdataset
+2024-01-11 14:13:49,401 [trainer.py] => memory_size: 1650
+2024-01-11 14:13:49,401 [trainer.py] => memory_per_class: 30
+2024-01-11 14:13:49,401 [trainer.py] => fixed_memory: True
+2024-01-11 14:13:49,401 [trainer.py] => shuffle: True
+2024-01-11 14:13:49,401 [trainer.py] => init_cls: 15
+2024-01-11 14:13:49,401 [trainer.py] => increment: 10
+2024-01-11 14:13:49,401 [trainer.py] => model_name: ucir
+2024-01-11 14:13:49,401 [trainer.py] => convnet_type: unet
+2024-01-11 14:13:49,401 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-01-11 14:13:49,401 [trainer.py] => seed: 1993
+2024-01-11 14:13:49,413 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 14:13:49,419 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 14:13:49,581 [trainer.py] => All params: 21041612
+2024-01-11 14:13:49,581 [trainer.py] => Trainable params: 21041612
+2024-01-11 14:13:49,581 [ucir.py] => Learning on 0-15
+2024-01-11 14:14:02,543 [ucir.py] => Task 0, Epoch 1/200 => Loss 2.493, Train_accy 16.49, Test_accy 10.56
+2024-01-11 14:14:11,305 [ucir.py] => Task 0, Epoch 2/200 => Loss 2.149, Train_accy 22.76
+2024-01-11 14:14:20,238 [ucir.py] => Task 0, Epoch 3/200 => Loss 1.944, Train_accy 28.73
+2024-01-11 14:14:28,942 [ucir.py] => Task 0, Epoch 4/200 => Loss 1.734, Train_accy 35.63
+2024-01-11 14:14:37,651 [ucir.py] => Task 0, Epoch 5/200 => Loss 1.629, Train_accy 39.56
+2024-01-11 14:14:48,792 [ucir.py] => Task 0, Epoch 6/200 => Loss 1.529, Train_accy 41.94, Test_accy 37.74
+2024-01-11 14:14:57,673 [ucir.py] => Task 0, Epoch 7/200 => Loss 1.372, Train_accy 47.59
+2024-01-11 14:15:06,410 [ucir.py] => Task 0, Epoch 8/200 => Loss 1.211, Train_accy 54.29
+2024-01-11 14:15:15,065 [ucir.py] => Task 0, Epoch 9/200 => Loss 1.123, Train_accy 57.46
+2024-01-11 14:15:23,753 [ucir.py] => Task 0, Epoch 10/200 => Loss 1.005, Train_accy 62.05
+2024-01-11 14:15:34,868 [ucir.py] => Task 0, Epoch 11/200 => Loss 0.962, Train_accy 63.95, Test_accy 45.59
+2024-01-11 14:15:43,517 [ucir.py] => Task 0, Epoch 12/200 => Loss 0.911, Train_accy 66.33
+2024-01-11 14:15:52,306 [ucir.py] => Task 0, Epoch 13/200 => Loss 0.815, Train_accy 70.11
+2024-01-11 14:16:00,979 [ucir.py] => Task 0, Epoch 14/200 => Loss 0.696, Train_accy 73.14
+2024-01-11 14:16:09,599 [ucir.py] => Task 0, Epoch 15/200 => Loss 0.676, Train_accy 75.03
+2024-01-11 14:16:20,674 [ucir.py] => Task 0, Epoch 16/200 => Loss 0.674, Train_accy 75.00, Test_accy 51.33
+2024-01-11 14:16:29,405 [ucir.py] => Task 0, Epoch 17/200 => Loss 0.576, Train_accy 78.13
+2024-01-11 14:16:38,170 [ucir.py] => Task 0, Epoch 18/200 => Loss 0.560, Train_accy 79.24
+2024-01-11 14:16:47,117 [ucir.py] => Task 0, Epoch 19/200 => Loss 0.548, Train_accy 78.89
+2024-01-11 14:16:55,753 [ucir.py] => Task 0, Epoch 20/200 => Loss 0.507, Train_accy 81.46
+2024-01-11 14:17:06,999 [ucir.py] => Task 0, Epoch 21/200 => Loss 0.485, Train_accy 81.76, Test_accy 56.93
+2024-01-11 14:17:15,849 [ucir.py] => Task 0, Epoch 22/200 => Loss 0.513, Train_accy 81.40
+2024-01-11 14:17:24,714 [ucir.py] => Task 0, Epoch 23/200 => Loss 0.426, Train_accy 84.13
+2024-01-11 14:17:33,384 [ucir.py] => Task 0, Epoch 24/200 => Loss 0.410, Train_accy 84.40
+2024-01-11 14:17:42,153 [ucir.py] => Task 0, Epoch 25/200 => Loss 0.432, Train_accy 83.44
+2024-01-11 14:17:53,558 [ucir.py] => Task 0, Epoch 26/200 => Loss 0.444, Train_accy 83.52, Test_accy 71.30
+2024-01-11 14:18:02,296 [ucir.py] => Task 0, Epoch 27/200 => Loss 0.378, Train_accy 86.06
+2024-01-11 14:18:11,259 [ucir.py] => Task 0, Epoch 28/200 => Loss 0.350, Train_accy 86.79
+2024-01-11 14:18:20,133 [ucir.py] => Task 0, Epoch 29/200 => Loss 0.422, Train_accy 84.75
+2024-01-11 14:18:28,819 [ucir.py] => Task 0, Epoch 30/200 => Loss 0.404, Train_accy 85.48
+2024-01-11 14:18:40,063 [ucir.py] => Task 0, Epoch 31/200 => Loss 0.319, Train_accy 88.06, Test_accy 56.48
+2024-01-11 14:18:49,121 [ucir.py] => Task 0, Epoch 32/200 => Loss 0.341, Train_accy 87.60
+2024-01-11 14:18:58,047 [ucir.py] => Task 0, Epoch 33/200 => Loss 0.376, Train_accy 86.24
+2024-01-11 14:19:06,707 [ucir.py] => Task 0, Epoch 34/200 => Loss 0.382, Train_accy 86.37
+2024-01-11 14:19:15,602 [ucir.py] => Task 0, Epoch 35/200 => Loss 0.375, Train_accy 86.70
+2024-01-11 14:19:26,739 [ucir.py] => Task 0, Epoch 36/200 => Loss 0.371, Train_accy 86.62, Test_accy 66.15
+2024-01-11 14:19:35,694 [ucir.py] => Task 0, Epoch 37/200 => Loss 0.266, Train_accy 90.41
+2024-01-11 14:19:44,321 [ucir.py] => Task 0, Epoch 38/200 => Loss 0.303, Train_accy 89.44
+2024-01-11 14:19:53,205 [ucir.py] => Task 0, Epoch 39/200 => Loss 0.298, Train_accy 88.92
+2024-01-11 14:20:01,972 [ucir.py] => Task 0, Epoch 40/200 => Loss 0.265, Train_accy 90.27
+2024-01-11 14:20:13,334 [ucir.py] => Task 0, Epoch 41/200 => Loss 0.260, Train_accy 90.37, Test_accy 70.07
+2024-01-11 14:20:21,947 [ucir.py] => Task 0, Epoch 42/200 => Loss 0.287, Train_accy 89.57
+2024-01-11 14:20:30,843 [ucir.py] => Task 0, Epoch 43/200 => Loss 0.289, Train_accy 89.44
+2024-01-11 14:20:40,067 [ucir.py] => Task 0, Epoch 44/200 => Loss 0.315, Train_accy 88.81
+2024-01-11 14:20:49,132 [ucir.py] => Task 0, Epoch 45/200 => Loss 0.284, Train_accy 90.16
+2024-01-11 14:21:00,430 [ucir.py] => Task 0, Epoch 46/200 => Loss 0.281, Train_accy 89.83, Test_accy 67.33
+2024-01-11 14:21:09,799 [ucir.py] => Task 0, Epoch 47/200 => Loss 0.260, Train_accy 90.59
+2024-01-11 14:21:18,515 [ucir.py] => Task 0, Epoch 48/200 => Loss 0.312, Train_accy 88.83
+2024-01-11 14:21:27,646 [ucir.py] => Task 0, Epoch 49/200 => Loss 0.293, Train_accy 89.44
+2024-01-11 14:21:36,782 [ucir.py] => Task 0, Epoch 50/200 => Loss 0.306, Train_accy 89.37
+2024-01-11 14:21:47,906 [ucir.py] => Task 0, Epoch 51/200 => Loss 0.294, Train_accy 89.38, Test_accy 74.59
+2024-01-11 14:21:57,129 [ucir.py] => Task 0, Epoch 52/200 => Loss 0.273, Train_accy 90.29
+2024-01-11 14:22:06,182 [ucir.py] => Task 0, Epoch 53/200 => Loss 0.319, Train_accy 88.89
+2024-01-11 14:22:15,223 [ucir.py] => Task 0, Epoch 54/200 => Loss 0.287, Train_accy 90.00
+2024-01-11 14:22:24,081 [ucir.py] => Task 0, Epoch 55/200 => Loss 0.234, Train_accy 91.32
+2024-01-11 14:22:35,614 [ucir.py] => Task 0, Epoch 56/200 => Loss 0.278, Train_accy 90.60, Test_accy 71.04
+2024-01-11 14:22:44,769 [ucir.py] => Task 0, Epoch 57/200 => Loss 0.272, Train_accy 90.76
+2024-01-11 14:22:53,664 [ucir.py] => Task 0, Epoch 58/200 => Loss 0.242, Train_accy 91.27
+2024-01-11 14:23:02,425 [ucir.py] => Task 0, Epoch 59/200 => Loss 0.184, Train_accy 93.65
+2024-01-11 14:23:11,357 [ucir.py] => Task 0, Epoch 60/200 => Loss 0.271, Train_accy 90.27
+2024-01-11 14:23:22,943 [ucir.py] => Task 0, Epoch 61/200 => Loss 0.135, Train_accy 95.68, Test_accy 86.41
+2024-01-11 14:23:31,692 [ucir.py] => Task 0, Epoch 62/200 => Loss 0.086, Train_accy 97.52
+2024-01-11 14:23:40,542 [ucir.py] => Task 0, Epoch 63/200 => Loss 0.079, Train_accy 97.83
+2024-01-11 14:23:49,270 [ucir.py] => Task 0, Epoch 64/200 => Loss 0.069, Train_accy 98.22
+2024-01-11 14:23:58,146 [ucir.py] => Task 0, Epoch 65/200 => Loss 0.069, Train_accy 98.27
+2024-01-11 14:24:09,349 [ucir.py] => Task 0, Epoch 66/200 => Loss 0.063, Train_accy 98.32, Test_accy 88.22
+2024-01-11 14:24:18,380 [ucir.py] => Task 0, Epoch 67/200 => Loss 0.061, Train_accy 98.32
+2024-01-11 14:24:27,311 [ucir.py] => Task 0, Epoch 68/200 => Loss 0.060, Train_accy 98.54
+2024-01-11 14:24:36,389 [ucir.py] => Task 0, Epoch 69/200 => Loss 0.059, Train_accy 98.52
+2024-01-11 14:24:45,155 [ucir.py] => Task 0, Epoch 70/200 => Loss 0.056, Train_accy 98.56
+2024-01-11 14:24:56,499 [ucir.py] => Task 0, Epoch 71/200 => Loss 0.052, Train_accy 98.73, Test_accy 87.93
+2024-01-11 14:25:05,482 [ucir.py] => Task 0, Epoch 72/200 => Loss 0.052, Train_accy 98.76
+2024-01-11 14:25:14,341 [ucir.py] => Task 0, Epoch 73/200 => Loss 0.050, Train_accy 98.78
+2024-01-11 14:25:23,173 [ucir.py] => Task 0, Epoch 74/200 => Loss 0.050, Train_accy 98.86
+2024-01-11 14:25:31,905 [ucir.py] => Task 0, Epoch 75/200 => Loss 0.051, Train_accy 98.71
+2024-01-11 14:25:43,222 [ucir.py] => Task 0, Epoch 76/200 => Loss 0.045, Train_accy 99.02, Test_accy 88.26
+2024-01-11 14:25:52,074 [ucir.py] => Task 0, Epoch 77/200 => Loss 0.047, Train_accy 98.98
+2024-01-11 14:26:00,885 [ucir.py] => Task 0, Epoch 78/200 => Loss 0.050, Train_accy 98.67
+2024-01-11 14:26:09,720 [ucir.py] => Task 0, Epoch 79/200 => Loss 0.044, Train_accy 98.86
+2024-01-11 14:26:18,650 [ucir.py] => Task 0, Epoch 80/200 => Loss 0.042, Train_accy 99.08
+2024-01-11 14:26:30,023 [ucir.py] => Task 0, Epoch 81/200 => Loss 0.045, Train_accy 99.05, Test_accy 88.63
+2024-01-11 14:26:39,252 [ucir.py] => Task 0, Epoch 82/200 => Loss 0.043, Train_accy 98.98
+2024-01-11 14:26:48,471 [ucir.py] => Task 0, Epoch 83/200 => Loss 0.045, Train_accy 99.05
+2024-01-11 14:26:57,278 [ucir.py] => Task 0, Epoch 84/200 => Loss 0.042, Train_accy 99.05
+2024-01-11 14:27:06,248 [ucir.py] => Task 0, Epoch 85/200 => Loss 0.037, Train_accy 99.16
+2024-01-11 14:27:17,767 [ucir.py] => Task 0, Epoch 86/200 => Loss 0.041, Train_accy 99.14, Test_accy 88.44
+2024-01-11 14:27:26,621 [ucir.py] => Task 0, Epoch 87/200 => Loss 0.040, Train_accy 99.17
+2024-01-11 14:27:35,519 [ucir.py] => Task 0, Epoch 88/200 => Loss 0.041, Train_accy 99.00
+2024-01-11 14:27:44,564 [ucir.py] => Task 0, Epoch 89/200 => Loss 0.041, Train_accy 99.24
+2024-01-11 14:27:53,345 [ucir.py] => Task 0, Epoch 90/200 => Loss 0.035, Train_accy 99.21
+2024-01-11 14:28:04,673 [ucir.py] => Task 0, Epoch 91/200 => Loss 0.033, Train_accy 99.29, Test_accy 87.81
+2024-01-11 14:28:13,427 [ucir.py] => Task 0, Epoch 92/200 => Loss 0.034, Train_accy 99.29
+2024-01-11 14:28:22,287 [ucir.py] => Task 0, Epoch 93/200 => Loss 0.032, Train_accy 99.41
+2024-01-11 14:28:31,035 [ucir.py] => Task 0, Epoch 94/200 => Loss 0.038, Train_accy 99.33
+2024-01-11 14:28:39,919 [ucir.py] => Task 0, Epoch 95/200 => Loss 0.030, Train_accy 99.38
+2024-01-11 14:28:51,150 [ucir.py] => Task 0, Epoch 96/200 => Loss 0.029, Train_accy 99.44, Test_accy 88.48
+2024-01-11 14:28:59,920 [ucir.py] => Task 0, Epoch 97/200 => Loss 0.030, Train_accy 99.52
+2024-01-11 14:29:08,654 [ucir.py] => Task 0, Epoch 98/200 => Loss 0.031, Train_accy 99.29
+2024-01-11 14:29:17,467 [ucir.py] => Task 0, Epoch 99/200 => Loss 0.029, Train_accy 99.48
+2024-01-11 14:29:26,285 [ucir.py] => Task 0, Epoch 100/200 => Loss 0.029, Train_accy 99.52
+2024-01-11 14:29:37,641 [ucir.py] => Task 0, Epoch 101/200 => Loss 0.030, Train_accy 99.49, Test_accy 88.07
+2024-01-11 14:29:46,673 [ucir.py] => Task 0, Epoch 102/200 => Loss 0.028, Train_accy 99.57
+2024-01-11 14:29:55,527 [ucir.py] => Task 0, Epoch 103/200 => Loss 0.028, Train_accy 99.46
+2024-01-11 14:30:04,655 [ucir.py] => Task 0, Epoch 104/200 => Loss 0.025, Train_accy 99.54
+2024-01-11 14:30:13,575 [ucir.py] => Task 0, Epoch 105/200 => Loss 0.024, Train_accy 99.60
+2024-01-11 14:30:25,333 [ucir.py] => Task 0, Epoch 106/200 => Loss 0.028, Train_accy 99.43, Test_accy 88.30
+2024-01-11 14:30:34,241 [ucir.py] => Task 0, Epoch 107/200 => Loss 0.023, Train_accy 99.52
+2024-01-11 14:30:43,145 [ucir.py] => Task 0, Epoch 108/200 => Loss 0.022, Train_accy 99.62
+2024-01-11 14:30:52,209 [ucir.py] => Task 0, Epoch 109/200 => Loss 0.022, Train_accy 99.67
+2024-01-11 14:31:01,061 [ucir.py] => Task 0, Epoch 110/200 => Loss 0.021, Train_accy 99.65
+2024-01-11 14:31:12,489 [ucir.py] => Task 0, Epoch 111/200 => Loss 0.022, Train_accy 99.59, Test_accy 88.78
+2024-01-11 14:31:21,478 [ucir.py] => Task 0, Epoch 112/200 => Loss 0.023, Train_accy 99.62
+2024-01-11 14:31:30,371 [ucir.py] => Task 0, Epoch 113/200 => Loss 0.023, Train_accy 99.63
+2024-01-11 14:31:39,188 [ucir.py] => Task 0, Epoch 114/200 => Loss 0.022, Train_accy 99.65
+2024-01-11 14:31:48,241 [ucir.py] => Task 0, Epoch 115/200 => Loss 0.022, Train_accy 99.67
+2024-01-11 14:31:59,553 [ucir.py] => Task 0, Epoch 116/200 => Loss 0.021, Train_accy 99.70, Test_accy 87.63
+2024-01-11 14:32:08,558 [ucir.py] => Task 0, Epoch 117/200 => Loss 0.021, Train_accy 99.62
+2024-01-11 14:32:17,673 [ucir.py] => Task 0, Epoch 118/200 => Loss 0.019, Train_accy 99.65
+2024-01-11 14:32:26,733 [ucir.py] => Task 0, Epoch 119/200 => Loss 0.024, Train_accy 99.65
+2024-01-11 14:32:35,732 [ucir.py] => Task 0, Epoch 120/200 => Loss 0.021, Train_accy 99.65
+2024-01-11 14:32:47,104 [ucir.py] => Task 0, Epoch 121/200 => Loss 0.020, Train_accy 99.73, Test_accy 88.00
+2024-01-11 14:32:55,910 [ucir.py] => Task 0, Epoch 122/200 => Loss 0.018, Train_accy 99.73
+2024-01-11 14:33:04,886 [ucir.py] => Task 0, Epoch 123/200 => Loss 0.018, Train_accy 99.78
+2024-01-11 14:33:13,722 [ucir.py] => Task 0, Epoch 124/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 14:33:22,817 [ucir.py] => Task 0, Epoch 125/200 => Loss 0.019, Train_accy 99.81
+2024-01-11 14:33:34,205 [ucir.py] => Task 0, Epoch 126/200 => Loss 0.019, Train_accy 99.71, Test_accy 87.85
+2024-01-11 14:33:43,228 [ucir.py] => Task 0, Epoch 127/200 => Loss 0.016, Train_accy 99.86
+2024-01-11 14:33:52,137 [ucir.py] => Task 0, Epoch 128/200 => Loss 0.016, Train_accy 99.90
+2024-01-11 14:34:01,066 [ucir.py] => Task 0, Epoch 129/200 => Loss 0.017, Train_accy 99.83
+2024-01-11 14:34:10,248 [ucir.py] => Task 0, Epoch 130/200 => Loss 0.016, Train_accy 99.87
+2024-01-11 14:34:21,690 [ucir.py] => Task 0, Epoch 131/200 => Loss 0.016, Train_accy 99.84, Test_accy 88.22
+2024-01-11 14:34:30,807 [ucir.py] => Task 0, Epoch 132/200 => Loss 0.016, Train_accy 99.83
+2024-01-11 14:34:39,693 [ucir.py] => Task 0, Epoch 133/200 => Loss 0.016, Train_accy 99.89
+2024-01-11 14:34:48,932 [ucir.py] => Task 0, Epoch 134/200 => Loss 0.018, Train_accy 99.83
+2024-01-11 14:34:58,501 [ucir.py] => Task 0, Epoch 135/200 => Loss 0.017, Train_accy 99.89
+2024-01-11 14:35:10,021 [ucir.py] => Task 0, Epoch 136/200 => Loss 0.017, Train_accy 99.79, Test_accy 88.19
+2024-01-11 14:35:19,107 [ucir.py] => Task 0, Epoch 137/200 => Loss 0.016, Train_accy 99.84
+2024-01-11 14:35:28,125 [ucir.py] => Task 0, Epoch 138/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 14:35:37,228 [ucir.py] => Task 0, Epoch 139/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 14:35:46,134 [ucir.py] => Task 0, Epoch 140/200 => Loss 0.017, Train_accy 99.86
+2024-01-11 14:35:57,834 [ucir.py] => Task 0, Epoch 141/200 => Loss 0.016, Train_accy 99.75, Test_accy 88.22
+2024-01-11 14:36:06,734 [ucir.py] => Task 0, Epoch 142/200 => Loss 0.016, Train_accy 99.89
+2024-01-11 14:36:15,729 [ucir.py] => Task 0, Epoch 143/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 14:36:24,872 [ucir.py] => Task 0, Epoch 144/200 => Loss 0.019, Train_accy 99.79
+2024-01-11 14:36:33,826 [ucir.py] => Task 0, Epoch 145/200 => Loss 0.018, Train_accy 99.86
+2024-01-11 14:36:45,822 [ucir.py] => Task 0, Epoch 146/200 => Loss 0.015, Train_accy 99.87, Test_accy 88.11
+2024-01-11 14:36:54,987 [ucir.py] => Task 0, Epoch 147/200 => Loss 0.013, Train_accy 99.92
+2024-01-11 14:37:04,076 [ucir.py] => Task 0, Epoch 148/200 => Loss 0.013, Train_accy 99.87
+2024-01-11 14:37:13,025 [ucir.py] => Task 0, Epoch 149/200 => Loss 0.015, Train_accy 99.84
+2024-01-11 14:37:21,921 [ucir.py] => Task 0, Epoch 150/200 => Loss 0.015, Train_accy 99.92
+2024-01-11 14:37:33,686 [ucir.py] => Task 0, Epoch 151/200 => Loss 0.015, Train_accy 99.83, Test_accy 87.96
+2024-01-11 14:37:42,628 [ucir.py] => Task 0, Epoch 152/200 => Loss 0.016, Train_accy 99.83
+2024-01-11 14:37:51,973 [ucir.py] => Task 0, Epoch 153/200 => Loss 0.016, Train_accy 99.81
+2024-01-11 14:38:01,054 [ucir.py] => Task 0, Epoch 154/200 => Loss 0.014, Train_accy 99.84
+2024-01-11 14:38:10,192 [ucir.py] => Task 0, Epoch 155/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 14:38:21,796 [ucir.py] => Task 0, Epoch 156/200 => Loss 0.014, Train_accy 99.84, Test_accy 88.22
+2024-01-11 14:38:30,714 [ucir.py] => Task 0, Epoch 157/200 => Loss 0.017, Train_accy 99.89
+2024-01-11 14:38:40,063 [ucir.py] => Task 0, Epoch 158/200 => Loss 0.020, Train_accy 99.89
+2024-01-11 14:38:48,920 [ucir.py] => Task 0, Epoch 159/200 => Loss 0.015, Train_accy 99.97
+2024-01-11 14:38:58,324 [ucir.py] => Task 0, Epoch 160/200 => Loss 0.016, Train_accy 99.84
+2024-01-11 14:39:10,050 [ucir.py] => Task 0, Epoch 161/200 => Loss 0.016, Train_accy 99.84, Test_accy 88.04
+2024-01-11 14:39:19,121 [ucir.py] => Task 0, Epoch 162/200 => Loss 0.012, Train_accy 99.89
+2024-01-11 14:39:28,011 [ucir.py] => Task 0, Epoch 163/200 => Loss 0.014, Train_accy 99.89
+2024-01-11 14:39:37,128 [ucir.py] => Task 0, Epoch 164/200 => Loss 0.013, Train_accy 99.89
+2024-01-11 14:39:46,069 [ucir.py] => Task 0, Epoch 165/200 => Loss 0.014, Train_accy 99.89
+2024-01-11 14:39:57,864 [ucir.py] => Task 0, Epoch 166/200 => Loss 0.021, Train_accy 99.79, Test_accy 87.96
+2024-01-11 14:40:06,993 [ucir.py] => Task 0, Epoch 167/200 => Loss 0.014, Train_accy 99.83
+2024-01-11 14:40:15,908 [ucir.py] => Task 0, Epoch 168/200 => Loss 0.014, Train_accy 99.86
+2024-01-11 14:40:25,054 [ucir.py] => Task 0, Epoch 169/200 => Loss 0.015, Train_accy 99.84
+2024-01-11 14:40:34,238 [ucir.py] => Task 0, Epoch 170/200 => Loss 0.021, Train_accy 99.83
+2024-01-11 14:40:46,315 [ucir.py] => Task 0, Epoch 171/200 => Loss 0.014, Train_accy 99.84, Test_accy 88.48
+2024-01-11 14:40:55,713 [ucir.py] => Task 0, Epoch 172/200 => Loss 0.014, Train_accy 99.84
+2024-01-11 14:41:04,989 [ucir.py] => Task 0, Epoch 173/200 => Loss 0.013, Train_accy 99.86
+2024-01-11 14:41:14,111 [ucir.py] => Task 0, Epoch 174/200 => Loss 0.014, Train_accy 99.92
+2024-01-11 14:41:23,148 [ucir.py] => Task 0, Epoch 175/200 => Loss 0.014, Train_accy 99.87
+2024-01-11 14:41:34,728 [ucir.py] => Task 0, Epoch 176/200 => Loss 0.014, Train_accy 99.87, Test_accy 88.07
+2024-01-11 14:41:43,667 [ucir.py] => Task 0, Epoch 177/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 14:41:52,922 [ucir.py] => Task 0, Epoch 178/200 => Loss 0.018, Train_accy 99.83
+2024-01-11 14:42:01,861 [ucir.py] => Task 0, Epoch 179/200 => Loss 0.017, Train_accy 99.84
+2024-01-11 14:42:11,167 [ucir.py] => Task 0, Epoch 180/200 => Loss 0.015, Train_accy 99.90
+2024-01-11 14:42:23,326 [ucir.py] => Task 0, Epoch 181/200 => Loss 0.013, Train_accy 99.92, Test_accy 88.30
+2024-01-11 14:42:32,805 [ucir.py] => Task 0, Epoch 182/200 => Loss 0.017, Train_accy 99.86
+2024-01-11 14:42:42,297 [ucir.py] => Task 0, Epoch 183/200 => Loss 0.014, Train_accy 99.87
+2024-01-11 14:42:51,268 [ucir.py] => Task 0, Epoch 184/200 => Loss 0.016, Train_accy 99.83
+2024-01-11 14:43:00,322 [ucir.py] => Task 0, Epoch 185/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 14:43:12,150 [ucir.py] => Task 0, Epoch 186/200 => Loss 0.014, Train_accy 99.90, Test_accy 88.44
+2024-01-11 14:43:21,400 [ucir.py] => Task 0, Epoch 187/200 => Loss 0.015, Train_accy 99.89
+2024-01-11 14:43:30,403 [ucir.py] => Task 0, Epoch 188/200 => Loss 0.017, Train_accy 99.86
+2024-01-11 14:43:39,612 [ucir.py] => Task 0, Epoch 189/200 => Loss 0.016, Train_accy 99.92
+2024-01-11 14:43:49,252 [ucir.py] => Task 0, Epoch 190/200 => Loss 0.018, Train_accy 99.89
+2024-01-11 14:44:00,934 [ucir.py] => Task 0, Epoch 191/200 => Loss 0.017, Train_accy 99.89, Test_accy 88.00
+2024-01-11 14:44:10,536 [ucir.py] => Task 0, Epoch 192/200 => Loss 0.017, Train_accy 99.84
+2024-01-11 14:44:19,750 [ucir.py] => Task 0, Epoch 193/200 => Loss 0.021, Train_accy 99.83
+2024-01-11 14:44:29,290 [ucir.py] => Task 0, Epoch 194/200 => Loss 0.014, Train_accy 99.87
+2024-01-11 14:44:38,404 [ucir.py] => Task 0, Epoch 195/200 => Loss 0.014, Train_accy 99.83
+2024-01-11 14:44:49,885 [ucir.py] => Task 0, Epoch 196/200 => Loss 0.013, Train_accy 99.87, Test_accy 88.41
+2024-01-11 14:44:58,844 [ucir.py] => Task 0, Epoch 197/200 => Loss 0.014, Train_accy 99.92
+2024-01-11 14:45:07,681 [ucir.py] => Task 0, Epoch 198/200 => Loss 0.013, Train_accy 99.90
+2024-01-11 14:45:16,575 [ucir.py] => Task 0, Epoch 199/200 => Loss 0.017, Train_accy 99.84
+2024-01-11 14:45:25,680 [ucir.py] => Task 0, Epoch 200/200 => Loss 0.014, Train_accy 99.84
+2024-01-11 14:45:25,681 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 14:45:45,538 [ucir.py] => Exemplar size: 450
+2024-01-11 14:45:46,105 [trainer.py] => CNN: {'total': 88.07, '0': 100.0, '1': 95.56, '2': 94.44, '3': 82.22, '4': 89.44, '5': 81.11, '6': 75.0, '7': 93.89, '8': 92.22, '9': 55.56, '10': 97.78, '11': 99.44, '12': 89.44, '13': 87.78, 'old': 0, 'new': 88.07}
+2024-01-11 14:45:46,105 [trainer.py] => NME: {'total': 87.52, '0': 100.0, '1': 96.11, '2': 93.89, '3': 79.44, '4': 88.89, '5': 81.67, '6': 76.11, '7': 93.89, '8': 90.0, '9': 51.11, '10': 96.67, '11': 99.44, '12': 88.89, '13': 89.44, 'old': 0, 'new': 87.52}
+2024-01-11 14:45:46,105 [trainer.py] => CNN top1 curve: [88.07]
+2024-01-11 14:45:46,105 [trainer.py] => CNN top5 curve: [98.78]
+2024-01-11 14:45:46,105 [trainer.py] => NME top1 curve: [87.52]
+2024-01-11 14:45:46,105 [trainer.py] => NME top5 curve: [98.89]
+
+2024-01-11 14:45:46,105 [trainer.py] => All params: 21043533
+2024-01-11 14:45:46,106 [trainer.py] => Trainable params: 21043533
+2024-01-11 14:45:46,106 [ucir.py] => Learning on 15-25
+2024-01-11 14:45:59,062 [ucir.py] => Task 1, Epoch 1/200 => Loss 3.509, Loss_clf 1.942, Loss_lf 1.035, Loss_mr 0.532, Train_accy 37.05, Test_accy 20.93
+2024-01-11 14:46:07,956 [ucir.py] => Task 1, Epoch 2/200 => Loss 2.715, Loss_clf 1.455, Loss_lf 0.881, Loss_mr 0.379, Train_accy 48.30
+2024-01-11 14:46:16,988 [ucir.py] => Task 1, Epoch 3/200 => Loss 2.229, Loss_clf 1.210, Loss_lf 0.747, Loss_mr 0.272, Train_accy 58.15
+2024-01-11 14:46:25,551 [ucir.py] => Task 1, Epoch 4/200 => Loss 1.821, Loss_clf 0.962, Loss_lf 0.631, Loss_mr 0.228, Train_accy 68.65
+2024-01-11 14:46:34,314 [ucir.py] => Task 1, Epoch 5/200 => Loss 1.690, Loss_clf 0.839, Loss_lf 0.652, Loss_mr 0.199, Train_accy 72.95
+2024-01-11 14:46:47,562 [ucir.py] => Task 1, Epoch 6/200 => Loss 1.534, Loss_clf 0.714, Loss_lf 0.634, Loss_mr 0.186, Train_accy 77.61, Test_accy 53.29
+2024-01-11 14:46:56,208 [ucir.py] => Task 1, Epoch 7/200 => Loss 1.381, Loss_clf 0.604, Loss_lf 0.605, Loss_mr 0.171, Train_accy 82.82
+2024-01-11 14:47:04,725 [ucir.py] => Task 1, Epoch 8/200 => Loss 1.296, Loss_clf 0.534, Loss_lf 0.598, Loss_mr 0.165, Train_accy 84.60
+2024-01-11 14:47:13,424 [ucir.py] => Task 1, Epoch 9/200 => Loss 1.175, Loss_clf 0.454, Loss_lf 0.573, Loss_mr 0.148, Train_accy 87.72
+2024-01-11 14:47:21,955 [ucir.py] => Task 1, Epoch 10/200 => Loss 1.072, Loss_clf 0.382, Loss_lf 0.553, Loss_mr 0.137, Train_accy 90.15
+2024-01-11 14:47:34,668 [ucir.py] => Task 1, Epoch 11/200 => Loss 1.036, Loss_clf 0.363, Loss_lf 0.539, Loss_mr 0.134, Train_accy 90.60, Test_accy 63.73
+2024-01-11 14:47:43,139 [ucir.py] => Task 1, Epoch 12/200 => Loss 1.037, Loss_clf 0.357, Loss_lf 0.541, Loss_mr 0.139, Train_accy 90.34
+2024-01-11 14:47:51,731 [ucir.py] => Task 1, Epoch 13/200 => Loss 1.030, Loss_clf 0.340, Loss_lf 0.551, Loss_mr 0.139, Train_accy 91.83
+2024-01-11 14:48:00,312 [ucir.py] => Task 1, Epoch 14/200 => Loss 0.948, Loss_clf 0.298, Loss_lf 0.529, Loss_mr 0.120, Train_accy 92.65
+2024-01-11 14:48:08,948 [ucir.py] => Task 1, Epoch 15/200 => Loss 0.952, Loss_clf 0.304, Loss_lf 0.524, Loss_mr 0.124, Train_accy 92.13
+2024-01-11 14:48:21,511 [ucir.py] => Task 1, Epoch 16/200 => Loss 0.884, Loss_clf 0.264, Loss_lf 0.508, Loss_mr 0.112, Train_accy 93.78, Test_accy 68.62
+2024-01-11 14:48:30,061 [ucir.py] => Task 1, Epoch 17/200 => Loss 0.817, Loss_clf 0.222, Loss_lf 0.486, Loss_mr 0.108, Train_accy 95.05
+2024-01-11 14:48:38,706 [ucir.py] => Task 1, Epoch 18/200 => Loss 0.788, Loss_clf 0.211, Loss_lf 0.475, Loss_mr 0.102, Train_accy 95.44
+2024-01-11 14:48:47,277 [ucir.py] => Task 1, Epoch 19/200 => Loss 0.784, Loss_clf 0.211, Loss_lf 0.469, Loss_mr 0.104, Train_accy 95.14
+2024-01-11 14:48:56,198 [ucir.py] => Task 1, Epoch 20/200 => Loss 0.814, Loss_clf 0.220, Loss_lf 0.490, Loss_mr 0.104, Train_accy 94.88
+2024-01-11 14:49:08,772 [ucir.py] => Task 1, Epoch 21/200 => Loss 0.816, Loss_clf 0.217, Loss_lf 0.489, Loss_mr 0.109, Train_accy 95.29, Test_accy 69.44
+2024-01-11 14:49:17,330 [ucir.py] => Task 1, Epoch 22/200 => Loss 0.772, Loss_clf 0.200, Loss_lf 0.477, Loss_mr 0.094, Train_accy 95.74
+2024-01-11 14:49:25,940 [ucir.py] => Task 1, Epoch 23/200 => Loss 0.765, Loss_clf 0.191, Loss_lf 0.475, Loss_mr 0.099, Train_accy 95.89
+2024-01-11 14:49:34,583 [ucir.py] => Task 1, Epoch 24/200 => Loss 0.790, Loss_clf 0.205, Loss_lf 0.480, Loss_mr 0.105, Train_accy 95.23
+2024-01-11 14:49:43,146 [ucir.py] => Task 1, Epoch 25/200 => Loss 0.766, Loss_clf 0.190, Loss_lf 0.481, Loss_mr 0.096, Train_accy 95.85
+2024-01-11 14:49:55,808 [ucir.py] => Task 1, Epoch 26/200 => Loss 0.726, Loss_clf 0.172, Loss_lf 0.463, Loss_mr 0.090, Train_accy 96.77, Test_accy 65.51
+2024-01-11 14:50:04,373 [ucir.py] => Task 1, Epoch 27/200 => Loss 0.818, Loss_clf 0.215, Loss_lf 0.495, Loss_mr 0.108, Train_accy 95.05
+2024-01-11 14:50:13,138 [ucir.py] => Task 1, Epoch 28/200 => Loss 0.778, Loss_clf 0.195, Loss_lf 0.487, Loss_mr 0.096, Train_accy 95.31
+2024-01-11 14:50:21,528 [ucir.py] => Task 1, Epoch 29/200 => Loss 0.763, Loss_clf 0.192, Loss_lf 0.478, Loss_mr 0.093, Train_accy 96.02
+2024-01-11 14:50:30,617 [ucir.py] => Task 1, Epoch 30/200 => Loss 0.766, Loss_clf 0.192, Loss_lf 0.481, Loss_mr 0.093, Train_accy 95.29
+2024-01-11 14:50:43,656 [ucir.py] => Task 1, Epoch 31/200 => Loss 0.671, Loss_clf 0.143, Loss_lf 0.450, Loss_mr 0.078, Train_accy 97.53, Test_accy 71.89
+2024-01-11 14:50:52,031 [ucir.py] => Task 1, Epoch 32/200 => Loss 0.647, Loss_clf 0.132, Loss_lf 0.440, Loss_mr 0.075, Train_accy 98.11
+2024-01-11 14:51:00,790 [ucir.py] => Task 1, Epoch 33/200 => Loss 0.597, Loss_clf 0.122, Loss_lf 0.407, Loss_mr 0.068, Train_accy 98.15
+2024-01-11 14:51:09,194 [ucir.py] => Task 1, Epoch 34/200 => Loss 0.586, Loss_clf 0.117, Loss_lf 0.403, Loss_mr 0.067, Train_accy 98.32
+2024-01-11 14:51:17,848 [ucir.py] => Task 1, Epoch 35/200 => Loss 0.598, Loss_clf 0.124, Loss_lf 0.406, Loss_mr 0.067, Train_accy 98.13
+2024-01-11 14:51:30,649 [ucir.py] => Task 1, Epoch 36/200 => Loss 0.601, Loss_clf 0.124, Loss_lf 0.406, Loss_mr 0.071, Train_accy 97.89, Test_accy 72.33
+2024-01-11 14:51:39,047 [ucir.py] => Task 1, Epoch 37/200 => Loss 0.612, Loss_clf 0.135, Loss_lf 0.410, Loss_mr 0.067, Train_accy 97.46
+2024-01-11 14:51:47,636 [ucir.py] => Task 1, Epoch 38/200 => Loss 0.628, Loss_clf 0.131, Loss_lf 0.429, Loss_mr 0.068, Train_accy 97.66
+2024-01-11 14:51:56,024 [ucir.py] => Task 1, Epoch 39/200 => Loss 0.655, Loss_clf 0.148, Loss_lf 0.433, Loss_mr 0.074, Train_accy 97.31
+2024-01-11 14:52:04,569 [ucir.py] => Task 1, Epoch 40/200 => Loss 0.672, Loss_clf 0.152, Loss_lf 0.444, Loss_mr 0.076, Train_accy 96.75
+2024-01-11 14:52:16,846 [ucir.py] => Task 1, Epoch 41/200 => Loss 0.670, Loss_clf 0.147, Loss_lf 0.443, Loss_mr 0.081, Train_accy 97.14, Test_accy 68.36
+2024-01-11 14:52:25,848 [ucir.py] => Task 1, Epoch 42/200 => Loss 0.682, Loss_clf 0.165, Loss_lf 0.445, Loss_mr 0.072, Train_accy 96.77
+2024-01-11 14:52:34,582 [ucir.py] => Task 1, Epoch 43/200 => Loss 0.629, Loss_clf 0.134, Loss_lf 0.429, Loss_mr 0.066, Train_accy 97.55
+2024-01-11 14:52:43,250 [ucir.py] => Task 1, Epoch 44/200 => Loss 0.605, Loss_clf 0.125, Loss_lf 0.420, Loss_mr 0.060, Train_accy 97.61
+2024-01-11 14:52:51,906 [ucir.py] => Task 1, Epoch 45/200 => Loss 0.624, Loss_clf 0.136, Loss_lf 0.427, Loss_mr 0.061, Train_accy 97.16
+2024-01-11 14:53:04,459 [ucir.py] => Task 1, Epoch 46/200 => Loss 0.619, Loss_clf 0.130, Loss_lf 0.421, Loss_mr 0.068, Train_accy 97.63, Test_accy 67.24
+2024-01-11 14:53:13,082 [ucir.py] => Task 1, Epoch 47/200 => Loss 0.628, Loss_clf 0.132, Loss_lf 0.431, Loss_mr 0.065, Train_accy 97.83
+2024-01-11 14:53:21,852 [ucir.py] => Task 1, Epoch 48/200 => Loss 0.671, Loss_clf 0.148, Loss_lf 0.455, Loss_mr 0.068, Train_accy 96.90
+2024-01-11 14:53:30,515 [ucir.py] => Task 1, Epoch 49/200 => Loss 0.732, Loss_clf 0.183, Loss_lf 0.471, Loss_mr 0.077, Train_accy 95.85
+2024-01-11 14:53:39,203 [ucir.py] => Task 1, Epoch 50/200 => Loss 0.673, Loss_clf 0.152, Loss_lf 0.450, Loss_mr 0.071, Train_accy 96.80
+2024-01-11 14:53:51,980 [ucir.py] => Task 1, Epoch 51/200 => Loss 0.871, Loss_clf 0.241, Loss_lf 0.526, Loss_mr 0.105, Train_accy 93.51, Test_accy 60.24
+2024-01-11 14:54:00,866 [ucir.py] => Task 1, Epoch 52/200 => Loss 0.788, Loss_clf 0.186, Loss_lf 0.506, Loss_mr 0.096, Train_accy 95.46
+2024-01-11 14:54:09,597 [ucir.py] => Task 1, Epoch 53/200 => Loss 0.664, Loss_clf 0.137, Loss_lf 0.456, Loss_mr 0.071, Train_accy 97.27
+2024-01-11 14:54:18,560 [ucir.py] => Task 1, Epoch 54/200 => Loss 0.583, Loss_clf 0.110, Loss_lf 0.418, Loss_mr 0.055, Train_accy 98.17
+2024-01-11 14:54:27,176 [ucir.py] => Task 1, Epoch 55/200 => Loss 0.554, Loss_clf 0.101, Loss_lf 0.405, Loss_mr 0.048, Train_accy 98.75
+2024-01-11 14:54:40,225 [ucir.py] => Task 1, Epoch 56/200 => Loss 0.541, Loss_clf 0.099, Loss_lf 0.399, Loss_mr 0.043, Train_accy 98.54, Test_accy 73.47
+2024-01-11 14:54:48,686 [ucir.py] => Task 1, Epoch 57/200 => Loss 0.502, Loss_clf 0.086, Loss_lf 0.377, Loss_mr 0.039, Train_accy 99.12
+2024-01-11 14:54:57,388 [ucir.py] => Task 1, Epoch 58/200 => Loss 0.471, Loss_clf 0.079, Loss_lf 0.359, Loss_mr 0.033, Train_accy 99.27
+2024-01-11 14:55:06,301 [ucir.py] => Task 1, Epoch 59/200 => Loss 0.521, Loss_clf 0.108, Loss_lf 0.376, Loss_mr 0.037, Train_accy 98.47
+2024-01-11 14:55:14,863 [ucir.py] => Task 1, Epoch 60/200 => Loss 0.517, Loss_clf 0.093, Loss_lf 0.382, Loss_mr 0.042, Train_accy 98.60
+2024-01-11 14:55:28,052 [ucir.py] => Task 1, Epoch 61/200 => Loss 0.461, Loss_clf 0.069, Loss_lf 0.361, Loss_mr 0.031, Train_accy 99.31, Test_accy 75.62
+2024-01-11 14:55:37,148 [ucir.py] => Task 1, Epoch 62/200 => Loss 0.402, Loss_clf 0.053, Loss_lf 0.330, Loss_mr 0.020, Train_accy 99.87
+2024-01-11 14:55:45,873 [ucir.py] => Task 1, Epoch 63/200 => Loss 0.390, Loss_clf 0.051, Loss_lf 0.321, Loss_mr 0.018, Train_accy 99.91
+2024-01-11 14:55:54,459 [ucir.py] => Task 1, Epoch 64/200 => Loss 0.379, Loss_clf 0.051, Loss_lf 0.314, Loss_mr 0.014, Train_accy 99.89
+2024-01-11 14:56:02,970 [ucir.py] => Task 1, Epoch 65/200 => Loss 0.377, Loss_clf 0.053, Loss_lf 0.311, Loss_mr 0.014, Train_accy 99.94
+2024-01-11 14:56:16,212 [ucir.py] => Task 1, Epoch 66/200 => Loss 0.366, Loss_clf 0.049, Loss_lf 0.302, Loss_mr 0.014, Train_accy 99.91, Test_accy 76.40
+2024-01-11 14:56:24,637 [ucir.py] => Task 1, Epoch 67/200 => Loss 0.370, Loss_clf 0.053, Loss_lf 0.305, Loss_mr 0.013, Train_accy 99.94
+2024-01-11 14:56:33,050 [ucir.py] => Task 1, Epoch 68/200 => Loss 0.368, Loss_clf 0.051, Loss_lf 0.301, Loss_mr 0.016, Train_accy 100.00
+2024-01-11 14:56:41,764 [ucir.py] => Task 1, Epoch 69/200 => Loss 0.366, Loss_clf 0.053, Loss_lf 0.300, Loss_mr 0.013, Train_accy 99.96
+2024-01-11 14:56:50,232 [ucir.py] => Task 1, Epoch 70/200 => Loss 0.365, Loss_clf 0.051, Loss_lf 0.301, Loss_mr 0.013, Train_accy 99.91
+2024-01-11 14:57:03,055 [ucir.py] => Task 1, Epoch 71/200 => Loss 0.361, Loss_clf 0.051, Loss_lf 0.297, Loss_mr 0.013, Train_accy 100.00, Test_accy 76.93
+2024-01-11 14:57:11,518 [ucir.py] => Task 1, Epoch 72/200 => Loss 0.362, Loss_clf 0.055, Loss_lf 0.298, Loss_mr 0.009, Train_accy 99.96
+2024-01-11 14:57:20,166 [ucir.py] => Task 1, Epoch 73/200 => Loss 0.355, Loss_clf 0.051, Loss_lf 0.293, Loss_mr 0.011, Train_accy 99.94
+2024-01-11 14:57:28,906 [ucir.py] => Task 1, Epoch 74/200 => Loss 0.354, Loss_clf 0.050, Loss_lf 0.292, Loss_mr 0.012, Train_accy 99.94
+2024-01-11 14:57:37,409 [ucir.py] => Task 1, Epoch 75/200 => Loss 0.354, Loss_clf 0.050, Loss_lf 0.293, Loss_mr 0.011, Train_accy 99.96
+2024-01-11 14:57:49,961 [ucir.py] => Task 1, Epoch 76/200 => Loss 0.357, Loss_clf 0.055, Loss_lf 0.293, Loss_mr 0.009, Train_accy 99.91, Test_accy 76.89
+2024-01-11 14:57:58,634 [ucir.py] => Task 1, Epoch 77/200 => Loss 0.354, Loss_clf 0.052, Loss_lf 0.291, Loss_mr 0.012, Train_accy 99.98
+2024-01-11 14:58:07,320 [ucir.py] => Task 1, Epoch 78/200 => Loss 0.355, Loss_clf 0.053, Loss_lf 0.293, Loss_mr 0.009, Train_accy 99.91
+2024-01-11 14:58:16,076 [ucir.py] => Task 1, Epoch 79/200 => Loss 0.355, Loss_clf 0.053, Loss_lf 0.292, Loss_mr 0.011, Train_accy 99.87
+2024-01-11 14:58:25,074 [ucir.py] => Task 1, Epoch 80/200 => Loss 0.356, Loss_clf 0.054, Loss_lf 0.291, Loss_mr 0.012, Train_accy 99.89
+2024-01-11 14:58:38,537 [ucir.py] => Task 1, Epoch 81/200 => Loss 0.350, Loss_clf 0.050, Loss_lf 0.289, Loss_mr 0.011, Train_accy 99.94, Test_accy 76.91
+2024-01-11 14:58:47,336 [ucir.py] => Task 1, Epoch 82/200 => Loss 0.351, Loss_clf 0.053, Loss_lf 0.289, Loss_mr 0.010, Train_accy 99.94
+2024-01-11 14:58:56,042 [ucir.py] => Task 1, Epoch 83/200 => Loss 0.352, Loss_clf 0.053, Loss_lf 0.288, Loss_mr 0.011, Train_accy 99.96
+2024-01-11 14:59:04,621 [ucir.py] => Task 1, Epoch 84/200 => Loss 0.354, Loss_clf 0.056, Loss_lf 0.288, Loss_mr 0.010, Train_accy 99.89
+2024-01-11 14:59:13,014 [ucir.py] => Task 1, Epoch 85/200 => Loss 0.352, Loss_clf 0.052, Loss_lf 0.288, Loss_mr 0.012, Train_accy 99.91
+2024-01-11 14:59:26,000 [ucir.py] => Task 1, Epoch 86/200 => Loss 0.346, Loss_clf 0.049, Loss_lf 0.287, Loss_mr 0.010, Train_accy 99.98, Test_accy 76.67
+2024-01-11 14:59:34,456 [ucir.py] => Task 1, Epoch 87/200 => Loss 0.344, Loss_clf 0.051, Loss_lf 0.286, Loss_mr 0.008, Train_accy 99.94
+2024-01-11 14:59:42,955 [ucir.py] => Task 1, Epoch 88/200 => Loss 0.341, Loss_clf 0.051, Loss_lf 0.282, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 14:59:51,346 [ucir.py] => Task 1, Epoch 89/200 => Loss 0.344, Loss_clf 0.052, Loss_lf 0.284, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 14:59:59,701 [ucir.py] => Task 1, Epoch 90/200 => Loss 0.338, Loss_clf 0.051, Loss_lf 0.280, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:00:13,202 [ucir.py] => Task 1, Epoch 91/200 => Loss 0.341, Loss_clf 0.050, Loss_lf 0.281, Loss_mr 0.009, Train_accy 99.98, Test_accy 76.91
+2024-01-11 15:00:21,679 [ucir.py] => Task 1, Epoch 92/200 => Loss 0.339, Loss_clf 0.052, Loss_lf 0.278, Loss_mr 0.010, Train_accy 99.94
+2024-01-11 15:00:30,224 [ucir.py] => Task 1, Epoch 93/200 => Loss 0.349, Loss_clf 0.052, Loss_lf 0.286, Loss_mr 0.011, Train_accy 99.96
+2024-01-11 15:00:39,012 [ucir.py] => Task 1, Epoch 94/200 => Loss 0.339, Loss_clf 0.050, Loss_lf 0.281, Loss_mr 0.008, Train_accy 100.00
+2024-01-11 15:00:48,301 [ucir.py] => Task 1, Epoch 95/200 => Loss 0.336, Loss_clf 0.050, Loss_lf 0.277, Loss_mr 0.008, Train_accy 99.94
+2024-01-11 15:01:01,254 [ucir.py] => Task 1, Epoch 96/200 => Loss 0.343, Loss_clf 0.054, Loss_lf 0.279, Loss_mr 0.010, Train_accy 99.94, Test_accy 77.00
+2024-01-11 15:01:09,908 [ucir.py] => Task 1, Epoch 97/200 => Loss 0.338, Loss_clf 0.049, Loss_lf 0.279, Loss_mr 0.010, Train_accy 99.94
+2024-01-11 15:01:18,462 [ucir.py] => Task 1, Epoch 98/200 => Loss 0.340, Loss_clf 0.051, Loss_lf 0.280, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 15:01:27,250 [ucir.py] => Task 1, Epoch 99/200 => Loss 0.332, Loss_clf 0.050, Loss_lf 0.275, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:01:36,131 [ucir.py] => Task 1, Epoch 100/200 => Loss 0.338, Loss_clf 0.051, Loss_lf 0.279, Loss_mr 0.009, Train_accy 99.91
+2024-01-11 15:01:49,157 [ucir.py] => Task 1, Epoch 101/200 => Loss 0.332, Loss_clf 0.051, Loss_lf 0.274, Loss_mr 0.008, Train_accy 99.94, Test_accy 77.04
+2024-01-11 15:01:57,872 [ucir.py] => Task 1, Epoch 102/200 => Loss 0.333, Loss_clf 0.050, Loss_lf 0.275, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 15:02:06,673 [ucir.py] => Task 1, Epoch 103/200 => Loss 0.335, Loss_clf 0.051, Loss_lf 0.274, Loss_mr 0.009, Train_accy 100.00
+2024-01-11 15:02:15,417 [ucir.py] => Task 1, Epoch 104/200 => Loss 0.326, Loss_clf 0.049, Loss_lf 0.270, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:02:24,519 [ucir.py] => Task 1, Epoch 105/200 => Loss 0.330, Loss_clf 0.047, Loss_lf 0.274, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 15:02:37,568 [ucir.py] => Task 1, Epoch 106/200 => Loss 0.332, Loss_clf 0.052, Loss_lf 0.272, Loss_mr 0.008, Train_accy 99.94, Test_accy 77.00
+2024-01-11 15:02:46,097 [ucir.py] => Task 1, Epoch 107/200 => Loss 0.336, Loss_clf 0.054, Loss_lf 0.274, Loss_mr 0.007, Train_accy 99.87
+2024-01-11 15:02:54,900 [ucir.py] => Task 1, Epoch 108/200 => Loss 0.327, Loss_clf 0.050, Loss_lf 0.270, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:03:03,567 [ucir.py] => Task 1, Epoch 109/200 => Loss 0.328, Loss_clf 0.049, Loss_lf 0.272, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:03:12,184 [ucir.py] => Task 1, Epoch 110/200 => Loss 0.328, Loss_clf 0.050, Loss_lf 0.271, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:03:25,162 [ucir.py] => Task 1, Epoch 111/200 => Loss 0.325, Loss_clf 0.049, Loss_lf 0.270, Loss_mr 0.006, Train_accy 99.98, Test_accy 76.49
+2024-01-11 15:03:33,644 [ucir.py] => Task 1, Epoch 112/200 => Loss 0.328, Loss_clf 0.051, Loss_lf 0.270, Loss_mr 0.007, Train_accy 99.94
+2024-01-11 15:03:42,467 [ucir.py] => Task 1, Epoch 113/200 => Loss 0.328, Loss_clf 0.051, Loss_lf 0.269, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:03:50,903 [ucir.py] => Task 1, Epoch 114/200 => Loss 0.326, Loss_clf 0.051, Loss_lf 0.268, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 15:03:59,474 [ucir.py] => Task 1, Epoch 115/200 => Loss 0.322, Loss_clf 0.047, Loss_lf 0.267, Loss_mr 0.008, Train_accy 99.98
+2024-01-11 15:04:12,216 [ucir.py] => Task 1, Epoch 116/200 => Loss 0.328, Loss_clf 0.051, Loss_lf 0.268, Loss_mr 0.008, Train_accy 99.94, Test_accy 77.02
+2024-01-11 15:04:20,776 [ucir.py] => Task 1, Epoch 117/200 => Loss 0.323, Loss_clf 0.048, Loss_lf 0.268, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:04:30,022 [ucir.py] => Task 1, Epoch 118/200 => Loss 0.327, Loss_clf 0.051, Loss_lf 0.270, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:04:38,587 [ucir.py] => Task 1, Epoch 119/200 => Loss 0.328, Loss_clf 0.052, Loss_lf 0.266, Loss_mr 0.010, Train_accy 99.96
+2024-01-11 15:04:47,225 [ucir.py] => Task 1, Epoch 120/200 => Loss 0.323, Loss_clf 0.048, Loss_lf 0.268, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:04:59,918 [ucir.py] => Task 1, Epoch 121/200 => Loss 0.322, Loss_clf 0.049, Loss_lf 0.267, Loss_mr 0.006, Train_accy 99.96, Test_accy 76.93
+2024-01-11 15:05:08,603 [ucir.py] => Task 1, Epoch 122/200 => Loss 0.320, Loss_clf 0.049, Loss_lf 0.265, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:05:17,097 [ucir.py] => Task 1, Epoch 123/200 => Loss 0.320, Loss_clf 0.047, Loss_lf 0.267, Loss_mr 0.006, Train_accy 99.98
+2024-01-11 15:05:25,595 [ucir.py] => Task 1, Epoch 124/200 => Loss 0.325, Loss_clf 0.048, Loss_lf 0.268, Loss_mr 0.008, Train_accy 99.98
+2024-01-11 15:05:34,436 [ucir.py] => Task 1, Epoch 125/200 => Loss 0.319, Loss_clf 0.046, Loss_lf 0.265, Loss_mr 0.007, Train_accy 100.00
+2024-01-11 15:05:47,194 [ucir.py] => Task 1, Epoch 126/200 => Loss 0.316, Loss_clf 0.045, Loss_lf 0.265, Loss_mr 0.006, Train_accy 100.00, Test_accy 76.93
+2024-01-11 15:05:55,669 [ucir.py] => Task 1, Epoch 127/200 => Loss 0.316, Loss_clf 0.047, Loss_lf 0.263, Loss_mr 0.005, Train_accy 99.98
+2024-01-11 15:06:04,409 [ucir.py] => Task 1, Epoch 128/200 => Loss 0.320, Loss_clf 0.047, Loss_lf 0.267, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:06:13,044 [ucir.py] => Task 1, Epoch 129/200 => Loss 0.319, Loss_clf 0.048, Loss_lf 0.265, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:06:21,899 [ucir.py] => Task 1, Epoch 130/200 => Loss 0.321, Loss_clf 0.049, Loss_lf 0.265, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:06:35,503 [ucir.py] => Task 1, Epoch 131/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.265, Loss_mr 0.007, Train_accy 99.96, Test_accy 77.09
+2024-01-11 15:06:44,341 [ucir.py] => Task 1, Epoch 132/200 => Loss 0.324, Loss_clf 0.049, Loss_lf 0.268, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:06:53,115 [ucir.py] => Task 1, Epoch 133/200 => Loss 0.319, Loss_clf 0.051, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:07:01,770 [ucir.py] => Task 1, Epoch 134/200 => Loss 0.319, Loss_clf 0.047, Loss_lf 0.265, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:07:10,262 [ucir.py] => Task 1, Epoch 135/200 => Loss 0.320, Loss_clf 0.047, Loss_lf 0.265, Loss_mr 0.007, Train_accy 100.00
+2024-01-11 15:07:22,994 [ucir.py] => Task 1, Epoch 136/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.96, Test_accy 76.80
+2024-01-11 15:07:31,704 [ucir.py] => Task 1, Epoch 137/200 => Loss 0.314, Loss_clf 0.048, Loss_lf 0.261, Loss_mr 0.005, Train_accy 99.94
+2024-01-11 15:07:40,545 [ucir.py] => Task 1, Epoch 138/200 => Loss 0.319, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:07:49,646 [ucir.py] => Task 1, Epoch 139/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.265, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:07:58,825 [ucir.py] => Task 1, Epoch 140/200 => Loss 0.320, Loss_clf 0.049, Loss_lf 0.264, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:08:12,260 [ucir.py] => Task 1, Epoch 141/200 => Loss 0.322, Loss_clf 0.052, Loss_lf 0.264, Loss_mr 0.006, Train_accy 99.96, Test_accy 76.64
+2024-01-11 15:08:21,341 [ucir.py] => Task 1, Epoch 142/200 => Loss 0.319, Loss_clf 0.049, Loss_lf 0.265, Loss_mr 0.005, Train_accy 99.96
+2024-01-11 15:08:30,957 [ucir.py] => Task 1, Epoch 143/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.91
+2024-01-11 15:08:39,681 [ucir.py] => Task 1, Epoch 144/200 => Loss 0.319, Loss_clf 0.049, Loss_lf 0.263, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:08:48,327 [ucir.py] => Task 1, Epoch 145/200 => Loss 0.318, Loss_clf 0.048, Loss_lf 0.264, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:09:01,511 [ucir.py] => Task 1, Epoch 146/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.007, Train_accy 99.94, Test_accy 76.67
+2024-01-11 15:09:10,257 [ucir.py] => Task 1, Epoch 147/200 => Loss 0.323, Loss_clf 0.051, Loss_lf 0.264, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 15:09:18,959 [ucir.py] => Task 1, Epoch 148/200 => Loss 0.314, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.005, Train_accy 100.00
+2024-01-11 15:09:27,498 [ucir.py] => Task 1, Epoch 149/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.98
+2024-01-11 15:09:35,991 [ucir.py] => Task 1, Epoch 150/200 => Loss 0.314, Loss_clf 0.045, Loss_lf 0.264, Loss_mr 0.005, Train_accy 100.00
+2024-01-11 15:09:49,011 [ucir.py] => Task 1, Epoch 151/200 => Loss 0.314, Loss_clf 0.047, Loss_lf 0.262, Loss_mr 0.005, Train_accy 99.94, Test_accy 76.73
+2024-01-11 15:09:57,573 [ucir.py] => Task 1, Epoch 152/200 => Loss 0.320, Loss_clf 0.050, Loss_lf 0.262, Loss_mr 0.008, Train_accy 99.98
+2024-01-11 15:10:06,342 [ucir.py] => Task 1, Epoch 153/200 => Loss 0.322, Loss_clf 0.050, Loss_lf 0.264, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:10:14,896 [ucir.py] => Task 1, Epoch 154/200 => Loss 0.318, Loss_clf 0.048, Loss_lf 0.264, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:10:23,611 [ucir.py] => Task 1, Epoch 155/200 => Loss 0.317, Loss_clf 0.047, Loss_lf 0.262, Loss_mr 0.007, Train_accy 100.00
+2024-01-11 15:10:37,135 [ucir.py] => Task 1, Epoch 156/200 => Loss 0.313, Loss_clf 0.046, Loss_lf 0.260, Loss_mr 0.007, Train_accy 99.96, Test_accy 76.51
+2024-01-11 15:10:45,973 [ucir.py] => Task 1, Epoch 157/200 => Loss 0.317, Loss_clf 0.047, Loss_lf 0.264, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:10:54,544 [ucir.py] => Task 1, Epoch 158/200 => Loss 0.311, Loss_clf 0.047, Loss_lf 0.260, Loss_mr 0.004, Train_accy 100.00
+2024-01-11 15:11:03,455 [ucir.py] => Task 1, Epoch 159/200 => Loss 0.321, Loss_clf 0.049, Loss_lf 0.266, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:11:12,955 [ucir.py] => Task 1, Epoch 160/200 => Loss 0.317, Loss_clf 0.047, Loss_lf 0.263, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:11:26,482 [ucir.py] => Task 1, Epoch 161/200 => Loss 0.321, Loss_clf 0.050, Loss_lf 0.265, Loss_mr 0.006, Train_accy 99.98, Test_accy 77.04
+2024-01-11 15:11:35,301 [ucir.py] => Task 1, Epoch 162/200 => Loss 0.320, Loss_clf 0.050, Loss_lf 0.264, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:11:44,101 [ucir.py] => Task 1, Epoch 163/200 => Loss 0.316, Loss_clf 0.045, Loss_lf 0.264, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:11:53,184 [ucir.py] => Task 1, Epoch 164/200 => Loss 0.317, Loss_clf 0.049, Loss_lf 0.262, Loss_mr 0.006, Train_accy 99.91
+2024-01-11 15:12:02,263 [ucir.py] => Task 1, Epoch 165/200 => Loss 0.312, Loss_clf 0.048, Loss_lf 0.259, Loss_mr 0.005, Train_accy 99.96
+2024-01-11 15:12:16,251 [ucir.py] => Task 1, Epoch 166/200 => Loss 0.323, Loss_clf 0.050, Loss_lf 0.266, Loss_mr 0.007, Train_accy 99.96, Test_accy 77.13
+2024-01-11 15:12:25,163 [ucir.py] => Task 1, Epoch 167/200 => Loss 0.318, Loss_clf 0.047, Loss_lf 0.264, Loss_mr 0.007, Train_accy 100.00
+2024-01-11 15:12:34,581 [ucir.py] => Task 1, Epoch 168/200 => Loss 0.321, Loss_clf 0.049, Loss_lf 0.265, Loss_mr 0.008, Train_accy 99.96
+2024-01-11 15:12:43,791 [ucir.py] => Task 1, Epoch 169/200 => Loss 0.316, Loss_clf 0.047, Loss_lf 0.264, Loss_mr 0.005, Train_accy 99.98
+2024-01-11 15:12:52,840 [ucir.py] => Task 1, Epoch 170/200 => Loss 0.316, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:13:06,151 [ucir.py] => Task 1, Epoch 171/200 => Loss 0.319, Loss_clf 0.049, Loss_lf 0.264, Loss_mr 0.006, Train_accy 100.00, Test_accy 76.51
+2024-01-11 15:13:15,288 [ucir.py] => Task 1, Epoch 172/200 => Loss 0.315, Loss_clf 0.048, Loss_lf 0.260, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:13:24,171 [ucir.py] => Task 1, Epoch 173/200 => Loss 0.316, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:13:33,360 [ucir.py] => Task 1, Epoch 174/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.264, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:13:42,294 [ucir.py] => Task 1, Epoch 175/200 => Loss 0.322, Loss_clf 0.048, Loss_lf 0.266, Loss_mr 0.008, Train_accy 99.98
+2024-01-11 15:13:56,133 [ucir.py] => Task 1, Epoch 176/200 => Loss 0.315, Loss_clf 0.046, Loss_lf 0.262, Loss_mr 0.007, Train_accy 99.98, Test_accy 76.56
+2024-01-11 15:14:04,994 [ucir.py] => Task 1, Epoch 177/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:14:13,936 [ucir.py] => Task 1, Epoch 178/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.264, Loss_mr 0.007, Train_accy 100.00
+2024-01-11 15:14:23,506 [ucir.py] => Task 1, Epoch 179/200 => Loss 0.326, Loss_clf 0.051, Loss_lf 0.269, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:14:33,011 [ucir.py] => Task 1, Epoch 180/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:14:47,527 [ucir.py] => Task 1, Epoch 181/200 => Loss 0.315, Loss_clf 0.049, Loss_lf 0.259, Loss_mr 0.007, Train_accy 99.98, Test_accy 77.00
+2024-01-11 15:14:56,626 [ucir.py] => Task 1, Epoch 182/200 => Loss 0.314, Loss_clf 0.048, Loss_lf 0.261, Loss_mr 0.006, Train_accy 99.98
+2024-01-11 15:15:05,698 [ucir.py] => Task 1, Epoch 183/200 => Loss 0.317, Loss_clf 0.049, Loss_lf 0.262, Loss_mr 0.006, Train_accy 99.98
+2024-01-11 15:15:14,630 [ucir.py] => Task 1, Epoch 184/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.98
+2024-01-11 15:15:23,587 [ucir.py] => Task 1, Epoch 185/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.264, Loss_mr 0.007, Train_accy 99.98
+2024-01-11 15:15:37,199 [ucir.py] => Task 1, Epoch 186/200 => Loss 0.318, Loss_clf 0.049, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.96, Test_accy 76.76
+2024-01-11 15:15:46,138 [ucir.py] => Task 1, Epoch 187/200 => Loss 0.313, Loss_clf 0.046, Loss_lf 0.262, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:15:55,190 [ucir.py] => Task 1, Epoch 188/200 => Loss 0.311, Loss_clf 0.046, Loss_lf 0.259, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:16:04,203 [ucir.py] => Task 1, Epoch 189/200 => Loss 0.315, Loss_clf 0.047, Loss_lf 0.261, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:16:13,142 [ucir.py] => Task 1, Epoch 190/200 => Loss 0.317, Loss_clf 0.049, Loss_lf 0.262, Loss_mr 0.006, Train_accy 99.94
+2024-01-11 15:16:26,257 [ucir.py] => Task 1, Epoch 191/200 => Loss 0.316, Loss_clf 0.047, Loss_lf 0.263, Loss_mr 0.006, Train_accy 99.98, Test_accy 76.53
+2024-01-11 15:16:35,054 [ucir.py] => Task 1, Epoch 192/200 => Loss 0.315, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.005, Train_accy 99.98
+2024-01-11 15:16:43,820 [ucir.py] => Task 1, Epoch 193/200 => Loss 0.317, Loss_clf 0.049, Loss_lf 0.262, Loss_mr 0.006, Train_accy 99.96
+2024-01-11 15:16:53,353 [ucir.py] => Task 1, Epoch 194/200 => Loss 0.316, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.005, Train_accy 99.98
+2024-01-11 15:17:02,112 [ucir.py] => Task 1, Epoch 195/200 => Loss 0.316, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:17:15,295 [ucir.py] => Task 1, Epoch 196/200 => Loss 0.318, Loss_clf 0.049, Loss_lf 0.263, Loss_mr 0.006, Train_accy 100.00, Test_accy 77.13
+2024-01-11 15:17:24,076 [ucir.py] => Task 1, Epoch 197/200 => Loss 0.319, Loss_clf 0.050, Loss_lf 0.263, Loss_mr 0.007, Train_accy 99.96
+2024-01-11 15:17:33,099 [ucir.py] => Task 1, Epoch 198/200 => Loss 0.313, Loss_clf 0.047, Loss_lf 0.260, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:17:42,523 [ucir.py] => Task 1, Epoch 199/200 => Loss 0.315, Loss_clf 0.048, Loss_lf 0.261, Loss_mr 0.005, Train_accy 99.98
+2024-01-11 15:17:51,710 [ucir.py] => Task 1, Epoch 200/200 => Loss 0.315, Loss_clf 0.047, Loss_lf 0.262, Loss_mr 0.006, Train_accy 100.00
+2024-01-11 15:17:51,711 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 15:18:17,279 [ucir.py] => Exemplar size: 750
+2024-01-11 15:18:18,178 [trainer.py] => CNN: {'total': 77.16, '0': 85.0, '1': 71.67, '2': 75.56, '3': 54.44, '4': 67.78, '5': 62.78, '6': 52.22, '7': 37.78, '8': 37.78, '9': 40.0, '10': 85.56, '11': 92.78, '12': 77.22, '13': 78.33, '14': 78.33, '15': 92.78, '16': 96.67, '17': 94.44, '18': 94.44, '19': 92.78, '20': 91.67, '21': 91.11, '22': 95.0, '23': 90.56, 'old': 66.48, 'new': 93.17}
+2024-01-11 15:18:18,178 [trainer.py] => NME: {'total': 65.58, '0': 87.22, '1': 72.22, '2': 73.89, '3': 51.67, '4': 70.0, '5': 68.33, '6': 55.0, '7': 32.78, '8': 22.22, '9': 37.22, '10': 87.22, '11': 94.44, '12': 75.56, '13': 78.89, '14': 81.11, '15': 56.11, '16': 71.67, '17': 65.0, '18': 58.89, '19': 47.22, '20': 51.11, '21': 72.22, '22': 85.56, '23': 78.89, 'old': 65.85, 'new': 65.17}
+2024-01-11 15:18:18,179 [trainer.py] => CNN top1 curve: [88.07, 77.16]
+2024-01-11 15:18:18,179 [trainer.py] => CNN top5 curve: [98.78, 95.24]
+2024-01-11 15:18:18,179 [trainer.py] => NME top1 curve: [87.52, 65.58]
+2024-01-11 15:18:18,179 [trainer.py] => NME top5 curve: [98.89, 93.44]
+
+2024-01-11 15:18:18,180 [trainer.py] => All params: 21044813
+2024-01-11 15:18:18,181 [trainer.py] => Trainable params: 21044813
+2024-01-11 15:18:18,182 [ucir.py] => Learning on 25-35
+2024-01-11 15:18:48,751 [ucir.py] => Task 2, Epoch 1/200 => Loss 3.581, Loss_clf 2.296, Loss_lf 0.742, Loss_mr 0.543, Train_accy 43.25, Test_accy 26.29
+2024-01-11 15:18:58,383 [ucir.py] => Task 2, Epoch 2/200 => Loss 2.383, Loss_clf 1.246, Loss_lf 0.741, Loss_mr 0.396, Train_accy 58.12
+2024-01-11 15:19:08,030 [ucir.py] => Task 2, Epoch 3/200 => Loss 1.806, Loss_clf 0.909, Loss_lf 0.580, Loss_mr 0.317, Train_accy 69.64
+2024-01-11 15:19:17,307 [ucir.py] => Task 2, Epoch 4/200 => Loss 1.491, Loss_clf 0.687, Loss_lf 0.526, Loss_mr 0.278, Train_accy 77.86
+2024-01-11 15:19:26,630 [ucir.py] => Task 2, Epoch 5/200 => Loss 1.332, Loss_clf 0.583, Loss_lf 0.501, Loss_mr 0.248, Train_accy 81.39
+2024-01-11 15:19:41,580 [ucir.py] => Task 2, Epoch 6/200 => Loss 1.224, Loss_clf 0.497, Loss_lf 0.494, Loss_mr 0.233, Train_accy 84.85, Test_accy 52.75
+2024-01-11 15:19:50,932 [ucir.py] => Task 2, Epoch 7/200 => Loss 1.138, Loss_clf 0.445, Loss_lf 0.482, Loss_mr 0.210, Train_accy 86.08
+2024-01-11 15:20:00,211 [ucir.py] => Task 2, Epoch 8/200 => Loss 1.058, Loss_clf 0.386, Loss_lf 0.472, Loss_mr 0.200, Train_accy 88.30
+2024-01-11 15:20:09,467 [ucir.py] => Task 2, Epoch 9/200 => Loss 1.026, Loss_clf 0.362, Loss_lf 0.476, Loss_mr 0.189, Train_accy 89.47
+2024-01-11 15:20:18,561 [ucir.py] => Task 2, Epoch 10/200 => Loss 1.013, Loss_clf 0.355, Loss_lf 0.475, Loss_mr 0.182, Train_accy 89.45
+2024-01-11 15:20:33,643 [ucir.py] => Task 2, Epoch 11/200 => Loss 0.936, Loss_clf 0.302, Loss_lf 0.459, Loss_mr 0.175, Train_accy 91.62, Test_accy 58.70
+2024-01-11 15:20:42,766 [ucir.py] => Task 2, Epoch 12/200 => Loss 0.888, Loss_clf 0.278, Loss_lf 0.447, Loss_mr 0.163, Train_accy 92.61
+2024-01-11 15:20:52,470 [ucir.py] => Task 2, Epoch 13/200 => Loss 0.861, Loss_clf 0.267, Loss_lf 0.445, Loss_mr 0.150, Train_accy 92.73
+2024-01-11 15:21:02,703 [ucir.py] => Task 2, Epoch 14/200 => Loss 0.837, Loss_clf 0.251, Loss_lf 0.436, Loss_mr 0.149, Train_accy 93.31
+2024-01-11 15:21:12,681 [ucir.py] => Task 2, Epoch 15/200 => Loss 0.786, Loss_clf 0.226, Loss_lf 0.425, Loss_mr 0.135, Train_accy 93.90
+2024-01-11 15:21:27,892 [ucir.py] => Task 2, Epoch 16/200 => Loss 0.814, Loss_clf 0.231, Loss_lf 0.436, Loss_mr 0.148, Train_accy 94.12, Test_accy 61.87
+2024-01-11 15:21:37,155 [ucir.py] => Task 2, Epoch 17/200 => Loss 0.772, Loss_clf 0.210, Loss_lf 0.429, Loss_mr 0.134, Train_accy 94.83
+2024-01-11 15:21:46,684 [ucir.py] => Task 2, Epoch 18/200 => Loss 0.743, Loss_clf 0.194, Loss_lf 0.421, Loss_mr 0.129, Train_accy 95.43
+2024-01-11 15:21:55,919 [ucir.py] => Task 2, Epoch 19/200 => Loss 0.727, Loss_clf 0.186, Loss_lf 0.414, Loss_mr 0.126, Train_accy 95.72
+2024-01-11 15:22:05,399 [ucir.py] => Task 2, Epoch 20/200 => Loss 0.728, Loss_clf 0.193, Loss_lf 0.413, Loss_mr 0.122, Train_accy 95.21
+2024-01-11 15:22:20,542 [ucir.py] => Task 2, Epoch 21/200 => Loss 0.715, Loss_clf 0.182, Loss_lf 0.408, Loss_mr 0.125, Train_accy 95.60, Test_accy 59.67
+2024-01-11 15:22:29,815 [ucir.py] => Task 2, Epoch 22/200 => Loss 0.734, Loss_clf 0.181, Loss_lf 0.423, Loss_mr 0.129, Train_accy 95.49
+2024-01-11 15:22:39,057 [ucir.py] => Task 2, Epoch 23/200 => Loss 0.748, Loss_clf 0.200, Loss_lf 0.423, Loss_mr 0.126, Train_accy 94.91
+2024-01-11 15:22:48,623 [ucir.py] => Task 2, Epoch 24/200 => Loss 0.694, Loss_clf 0.172, Loss_lf 0.408, Loss_mr 0.114, Train_accy 95.76
+2024-01-11 15:22:57,822 [ucir.py] => Task 2, Epoch 25/200 => Loss 0.677, Loss_clf 0.160, Loss_lf 0.405, Loss_mr 0.112, Train_accy 96.08
+2024-01-11 15:23:13,969 [ucir.py] => Task 2, Epoch 26/200 => Loss 0.666, Loss_clf 0.164, Loss_lf 0.397, Loss_mr 0.106, Train_accy 96.14, Test_accy 61.43
+2024-01-11 15:23:23,380 [ucir.py] => Task 2, Epoch 27/200 => Loss 0.652, Loss_clf 0.150, Loss_lf 0.398, Loss_mr 0.104, Train_accy 96.46
+2024-01-11 15:23:32,819 [ucir.py] => Task 2, Epoch 28/200 => Loss 0.652, Loss_clf 0.156, Loss_lf 0.389, Loss_mr 0.107, Train_accy 96.12
+2024-01-11 15:23:42,054 [ucir.py] => Task 2, Epoch 29/200 => Loss 0.681, Loss_clf 0.163, Loss_lf 0.406, Loss_mr 0.112, Train_accy 96.51
+2024-01-11 15:23:51,639 [ucir.py] => Task 2, Epoch 30/200 => Loss 0.669, Loss_clf 0.158, Loss_lf 0.405, Loss_mr 0.105, Train_accy 96.34
+2024-01-11 15:24:06,564 [ucir.py] => Task 2, Epoch 31/200 => Loss 0.672, Loss_clf 0.156, Loss_lf 0.409, Loss_mr 0.107, Train_accy 96.34, Test_accy 62.87
+2024-01-11 15:24:16,045 [ucir.py] => Task 2, Epoch 32/200 => Loss 0.646, Loss_clf 0.146, Loss_lf 0.402, Loss_mr 0.098, Train_accy 96.97
+2024-01-11 15:24:26,238 [ucir.py] => Task 2, Epoch 33/200 => Loss 0.656, Loss_clf 0.149, Loss_lf 0.405, Loss_mr 0.103, Train_accy 96.91
+2024-01-11 15:24:35,486 [ucir.py] => Task 2, Epoch 34/200 => Loss 0.678, Loss_clf 0.156, Loss_lf 0.412, Loss_mr 0.110, Train_accy 96.26
+2024-01-11 15:24:44,538 [ucir.py] => Task 2, Epoch 35/200 => Loss 0.658, Loss_clf 0.150, Loss_lf 0.406, Loss_mr 0.102, Train_accy 96.34
+2024-01-11 15:24:59,661 [ucir.py] => Task 2, Epoch 36/200 => Loss 0.616, Loss_clf 0.136, Loss_lf 0.389, Loss_mr 0.091, Train_accy 96.95, Test_accy 61.48
+2024-01-11 15:25:08,846 [ucir.py] => Task 2, Epoch 37/200 => Loss 0.598, Loss_clf 0.131, Loss_lf 0.379, Loss_mr 0.087, Train_accy 97.33
+2024-01-11 15:25:18,763 [ucir.py] => Task 2, Epoch 38/200 => Loss 0.583, Loss_clf 0.123, Loss_lf 0.375, Loss_mr 0.084, Train_accy 97.64
+2024-01-11 15:25:28,072 [ucir.py] => Task 2, Epoch 39/200 => Loss 0.626, Loss_clf 0.139, Loss_lf 0.394, Loss_mr 0.093, Train_accy 96.75
+2024-01-11 15:25:37,568 [ucir.py] => Task 2, Epoch 40/200 => Loss 0.646, Loss_clf 0.155, Loss_lf 0.400, Loss_mr 0.091, Train_accy 96.22
+2024-01-11 15:25:52,566 [ucir.py] => Task 2, Epoch 41/200 => Loss 0.647, Loss_clf 0.153, Loss_lf 0.404, Loss_mr 0.090, Train_accy 96.40, Test_accy 59.98
+2024-01-11 15:26:02,014 [ucir.py] => Task 2, Epoch 42/200 => Loss 0.642, Loss_clf 0.143, Loss_lf 0.407, Loss_mr 0.092, Train_accy 96.79
+2024-01-11 15:26:11,163 [ucir.py] => Task 2, Epoch 43/200 => Loss 0.631, Loss_clf 0.142, Loss_lf 0.400, Loss_mr 0.090, Train_accy 96.79
+2024-01-11 15:26:20,579 [ucir.py] => Task 2, Epoch 44/200 => Loss 0.615, Loss_clf 0.137, Loss_lf 0.385, Loss_mr 0.093, Train_accy 96.85
+2024-01-11 15:26:30,076 [ucir.py] => Task 2, Epoch 45/200 => Loss 0.606, Loss_clf 0.135, Loss_lf 0.388, Loss_mr 0.083, Train_accy 96.79
+2024-01-11 15:26:44,988 [ucir.py] => Task 2, Epoch 46/200 => Loss 0.607, Loss_clf 0.135, Loss_lf 0.387, Loss_mr 0.085, Train_accy 97.01, Test_accy 63.78
+2024-01-11 15:26:54,212 [ucir.py] => Task 2, Epoch 47/200 => Loss 0.566, Loss_clf 0.113, Loss_lf 0.377, Loss_mr 0.076, Train_accy 97.76
+2024-01-11 15:27:03,820 [ucir.py] => Task 2, Epoch 48/200 => Loss 0.562, Loss_clf 0.112, Loss_lf 0.374, Loss_mr 0.076, Train_accy 97.86
+2024-01-11 15:27:12,825 [ucir.py] => Task 2, Epoch 49/200 => Loss 0.551, Loss_clf 0.110, Loss_lf 0.370, Loss_mr 0.071, Train_accy 97.96
+2024-01-11 15:27:22,577 [ucir.py] => Task 2, Epoch 50/200 => Loss 0.551, Loss_clf 0.112, Loss_lf 0.368, Loss_mr 0.071, Train_accy 97.98
+2024-01-11 15:27:39,180 [ucir.py] => Task 2, Epoch 51/200 => Loss 0.603, Loss_clf 0.133, Loss_lf 0.391, Loss_mr 0.079, Train_accy 97.17, Test_accy 59.43
+2024-01-11 15:27:48,672 [ucir.py] => Task 2, Epoch 52/200 => Loss 0.607, Loss_clf 0.136, Loss_lf 0.385, Loss_mr 0.087, Train_accy 97.15
+2024-01-11 15:27:57,930 [ucir.py] => Task 2, Epoch 53/200 => Loss 0.584, Loss_clf 0.122, Loss_lf 0.385, Loss_mr 0.077, Train_accy 97.64
+2024-01-11 15:28:07,601 [ucir.py] => Task 2, Epoch 54/200 => Loss 0.575, Loss_clf 0.120, Loss_lf 0.382, Loss_mr 0.073, Train_accy 97.68
+2024-01-11 15:28:16,695 [ucir.py] => Task 2, Epoch 55/200 => Loss 0.586, Loss_clf 0.129, Loss_lf 0.382, Loss_mr 0.075, Train_accy 97.11
+2024-01-11 15:28:31,839 [ucir.py] => Task 2, Epoch 56/200 => Loss 0.564, Loss_clf 0.120, Loss_lf 0.369, Loss_mr 0.075, Train_accy 97.43, Test_accy 60.10
+2024-01-11 15:28:41,339 [ucir.py] => Task 2, Epoch 57/200 => Loss 0.576, Loss_clf 0.120, Loss_lf 0.382, Loss_mr 0.074, Train_accy 97.66
+2024-01-11 15:28:50,670 [ucir.py] => Task 2, Epoch 58/200 => Loss 0.553, Loss_clf 0.112, Loss_lf 0.375, Loss_mr 0.065, Train_accy 97.68
+2024-01-11 15:28:59,971 [ucir.py] => Task 2, Epoch 59/200 => Loss 0.578, Loss_clf 0.119, Loss_lf 0.382, Loss_mr 0.077, Train_accy 97.80
+2024-01-11 15:29:09,588 [ucir.py] => Task 2, Epoch 60/200 => Loss 0.549, Loss_clf 0.115, Loss_lf 0.366, Loss_mr 0.068, Train_accy 97.86
+2024-01-11 15:29:24,539 [ucir.py] => Task 2, Epoch 61/200 => Loss 0.475, Loss_clf 0.069, Loss_lf 0.350, Loss_mr 0.055, Train_accy 99.21, Test_accy 68.17
+2024-01-11 15:29:34,537 [ucir.py] => Task 2, Epoch 62/200 => Loss 0.405, Loss_clf 0.050, Loss_lf 0.314, Loss_mr 0.041, Train_accy 99.76
+2024-01-11 15:29:43,688 [ucir.py] => Task 2, Epoch 63/200 => Loss 0.398, Loss_clf 0.051, Loss_lf 0.308, Loss_mr 0.038, Train_accy 99.80
+2024-01-11 15:29:53,211 [ucir.py] => Task 2, Epoch 64/200 => Loss 0.382, Loss_clf 0.050, Loss_lf 0.298, Loss_mr 0.034, Train_accy 99.80
+2024-01-11 15:30:02,345 [ucir.py] => Task 2, Epoch 65/200 => Loss 0.375, Loss_clf 0.049, Loss_lf 0.292, Loss_mr 0.034, Train_accy 99.86
+2024-01-11 15:30:17,336 [ucir.py] => Task 2, Epoch 66/200 => Loss 0.373, Loss_clf 0.048, Loss_lf 0.290, Loss_mr 0.035, Train_accy 99.88, Test_accy 69.14
+2024-01-11 15:30:26,465 [ucir.py] => Task 2, Epoch 67/200 => Loss 0.369, Loss_clf 0.050, Loss_lf 0.286, Loss_mr 0.033, Train_accy 99.96
+2024-01-11 15:30:35,784 [ucir.py] => Task 2, Epoch 68/200 => Loss 0.362, Loss_clf 0.048, Loss_lf 0.282, Loss_mr 0.032, Train_accy 99.92
+2024-01-11 15:30:45,087 [ucir.py] => Task 2, Epoch 69/200 => Loss 0.361, Loss_clf 0.048, Loss_lf 0.281, Loss_mr 0.031, Train_accy 99.90
+2024-01-11 15:30:55,197 [ucir.py] => Task 2, Epoch 70/200 => Loss 0.367, Loss_clf 0.052, Loss_lf 0.282, Loss_mr 0.032, Train_accy 99.84
+2024-01-11 15:31:10,431 [ucir.py] => Task 2, Epoch 71/200 => Loss 0.363, Loss_clf 0.051, Loss_lf 0.282, Loss_mr 0.031, Train_accy 99.80, Test_accy 68.94
+2024-01-11 15:31:19,825 [ucir.py] => Task 2, Epoch 72/200 => Loss 0.356, Loss_clf 0.049, Loss_lf 0.278, Loss_mr 0.029, Train_accy 99.88
+2024-01-11 15:31:29,143 [ucir.py] => Task 2, Epoch 73/200 => Loss 0.357, Loss_clf 0.049, Loss_lf 0.278, Loss_mr 0.030, Train_accy 99.90
+2024-01-11 15:31:39,173 [ucir.py] => Task 2, Epoch 74/200 => Loss 0.356, Loss_clf 0.052, Loss_lf 0.274, Loss_mr 0.031, Train_accy 99.82
+2024-01-11 15:31:48,414 [ucir.py] => Task 2, Epoch 75/200 => Loss 0.355, Loss_clf 0.049, Loss_lf 0.277, Loss_mr 0.030, Train_accy 99.94
+2024-01-11 15:32:03,388 [ucir.py] => Task 2, Epoch 76/200 => Loss 0.355, Loss_clf 0.050, Loss_lf 0.274, Loss_mr 0.031, Train_accy 99.88, Test_accy 68.71
+2024-01-11 15:32:12,741 [ucir.py] => Task 2, Epoch 77/200 => Loss 0.348, Loss_clf 0.047, Loss_lf 0.274, Loss_mr 0.027, Train_accy 99.90
+2024-01-11 15:32:21,933 [ucir.py] => Task 2, Epoch 78/200 => Loss 0.347, Loss_clf 0.049, Loss_lf 0.270, Loss_mr 0.028, Train_accy 99.92
+2024-01-11 15:32:31,390 [ucir.py] => Task 2, Epoch 79/200 => Loss 0.347, Loss_clf 0.051, Loss_lf 0.270, Loss_mr 0.026, Train_accy 99.86
+2024-01-11 15:32:40,505 [ucir.py] => Task 2, Epoch 80/200 => Loss 0.355, Loss_clf 0.052, Loss_lf 0.274, Loss_mr 0.029, Train_accy 99.74
+2024-01-11 15:32:55,496 [ucir.py] => Task 2, Epoch 81/200 => Loss 0.352, Loss_clf 0.050, Loss_lf 0.274, Loss_mr 0.029, Train_accy 99.88, Test_accy 69.03
+2024-01-11 15:33:04,811 [ucir.py] => Task 2, Epoch 82/200 => Loss 0.350, Loss_clf 0.051, Loss_lf 0.270, Loss_mr 0.029, Train_accy 99.88
+2024-01-11 15:33:14,011 [ucir.py] => Task 2, Epoch 83/200 => Loss 0.348, Loss_clf 0.049, Loss_lf 0.271, Loss_mr 0.028, Train_accy 99.82
+2024-01-11 15:33:23,185 [ucir.py] => Task 2, Epoch 84/200 => Loss 0.339, Loss_clf 0.047, Loss_lf 0.265, Loss_mr 0.027, Train_accy 99.98
+2024-01-11 15:33:32,590 [ucir.py] => Task 2, Epoch 85/200 => Loss 0.340, Loss_clf 0.048, Loss_lf 0.266, Loss_mr 0.026, Train_accy 99.86
+2024-01-11 15:33:48,516 [ucir.py] => Task 2, Epoch 86/200 => Loss 0.339, Loss_clf 0.048, Loss_lf 0.265, Loss_mr 0.026, Train_accy 99.96, Test_accy 68.87
+2024-01-11 15:33:57,776 [ucir.py] => Task 2, Epoch 87/200 => Loss 0.341, Loss_clf 0.049, Loss_lf 0.267, Loss_mr 0.025, Train_accy 99.94
+2024-01-11 15:34:07,686 [ucir.py] => Task 2, Epoch 88/200 => Loss 0.336, Loss_clf 0.047, Loss_lf 0.264, Loss_mr 0.025, Train_accy 99.96
+2024-01-11 15:34:17,442 [ucir.py] => Task 2, Epoch 89/200 => Loss 0.337, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.026, Train_accy 99.92
+2024-01-11 15:34:26,707 [ucir.py] => Task 2, Epoch 90/200 => Loss 0.339, Loss_clf 0.049, Loss_lf 0.263, Loss_mr 0.027, Train_accy 99.80
+2024-01-11 15:34:41,627 [ucir.py] => Task 2, Epoch 91/200 => Loss 0.340, Loss_clf 0.050, Loss_lf 0.264, Loss_mr 0.026, Train_accy 99.88, Test_accy 68.78
+2024-01-11 15:34:50,869 [ucir.py] => Task 2, Epoch 92/200 => Loss 0.335, Loss_clf 0.049, Loss_lf 0.261, Loss_mr 0.025, Train_accy 99.88
+2024-01-11 15:34:59,975 [ucir.py] => Task 2, Epoch 93/200 => Loss 0.343, Loss_clf 0.051, Loss_lf 0.266, Loss_mr 0.026, Train_accy 99.94
+2024-01-11 15:35:09,405 [ucir.py] => Task 2, Epoch 94/200 => Loss 0.335, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.025, Train_accy 99.92
+2024-01-11 15:35:18,500 [ucir.py] => Task 2, Epoch 95/200 => Loss 0.333, Loss_clf 0.048, Loss_lf 0.261, Loss_mr 0.024, Train_accy 99.84
+2024-01-11 15:35:33,749 [ucir.py] => Task 2, Epoch 96/200 => Loss 0.330, Loss_clf 0.048, Loss_lf 0.260, Loss_mr 0.022, Train_accy 99.88, Test_accy 68.97
+2024-01-11 15:35:42,961 [ucir.py] => Task 2, Epoch 97/200 => Loss 0.335, Loss_clf 0.048, Loss_lf 0.262, Loss_mr 0.025, Train_accy 99.90
+2024-01-11 15:35:52,743 [ucir.py] => Task 2, Epoch 98/200 => Loss 0.330, Loss_clf 0.047, Loss_lf 0.261, Loss_mr 0.022, Train_accy 99.98
+2024-01-11 15:36:02,096 [ucir.py] => Task 2, Epoch 99/200 => Loss 0.338, Loss_clf 0.050, Loss_lf 0.265, Loss_mr 0.023, Train_accy 99.96
+2024-01-11 15:36:11,224 [ucir.py] => Task 2, Epoch 100/200 => Loss 0.332, Loss_clf 0.048, Loss_lf 0.261, Loss_mr 0.024, Train_accy 99.90
+2024-01-11 15:36:26,152 [ucir.py] => Task 2, Epoch 101/200 => Loss 0.334, Loss_clf 0.049, Loss_lf 0.260, Loss_mr 0.025, Train_accy 99.88, Test_accy 69.30
+2024-01-11 15:36:35,145 [ucir.py] => Task 2, Epoch 102/200 => Loss 0.336, Loss_clf 0.048, Loss_lf 0.263, Loss_mr 0.025, Train_accy 99.96
+2024-01-11 15:36:44,555 [ucir.py] => Task 2, Epoch 103/200 => Loss 0.334, Loss_clf 0.049, Loss_lf 0.262, Loss_mr 0.023, Train_accy 99.90
+2024-01-11 15:36:53,783 [ucir.py] => Task 2, Epoch 104/200 => Loss 0.332, Loss_clf 0.048, Loss_lf 0.261, Loss_mr 0.023, Train_accy 99.90
+2024-01-11 15:37:03,240 [ucir.py] => Task 2, Epoch 105/200 => Loss 0.330, Loss_clf 0.048, Loss_lf 0.257, Loss_mr 0.024, Train_accy 99.90
+2024-01-11 15:37:19,015 [ucir.py] => Task 2, Epoch 106/200 => Loss 0.330, Loss_clf 0.049, Loss_lf 0.259, Loss_mr 0.022, Train_accy 99.76, Test_accy 68.92
+2024-01-11 15:37:29,143 [ucir.py] => Task 2, Epoch 107/200 => Loss 0.330, Loss_clf 0.048, Loss_lf 0.258, Loss_mr 0.023, Train_accy 99.92
+2024-01-11 15:37:38,395 [ucir.py] => Task 2, Epoch 108/200 => Loss 0.328, Loss_clf 0.048, Loss_lf 0.258, Loss_mr 0.022, Train_accy 99.88
+2024-01-11 15:37:47,855 [ucir.py] => Task 2, Epoch 109/200 => Loss 0.328, Loss_clf 0.048, Loss_lf 0.259, Loss_mr 0.021, Train_accy 99.90
+2024-01-11 15:37:57,684 [ucir.py] => Task 2, Epoch 110/200 => Loss 0.326, Loss_clf 0.047, Loss_lf 0.257, Loss_mr 0.022, Train_accy 99.96
+2024-01-11 15:38:12,888 [ucir.py] => Task 2, Epoch 111/200 => Loss 0.328, Loss_clf 0.048, Loss_lf 0.255, Loss_mr 0.024, Train_accy 99.92, Test_accy 69.32
+2024-01-11 15:38:22,011 [ucir.py] => Task 2, Epoch 112/200 => Loss 0.327, Loss_clf 0.047, Loss_lf 0.258, Loss_mr 0.021, Train_accy 99.92
+2024-01-11 15:38:31,286 [ucir.py] => Task 2, Epoch 113/200 => Loss 0.333, Loss_clf 0.050, Loss_lf 0.260, Loss_mr 0.022, Train_accy 99.84
+2024-01-11 15:38:40,499 [ucir.py] => Task 2, Epoch 114/200 => Loss 0.324, Loss_clf 0.047, Loss_lf 0.255, Loss_mr 0.022, Train_accy 99.92
+2024-01-11 15:38:49,961 [ucir.py] => Task 2, Epoch 115/200 => Loss 0.328, Loss_clf 0.049, Loss_lf 0.257, Loss_mr 0.022, Train_accy 99.90
+2024-01-11 15:39:04,712 [ucir.py] => Task 2, Epoch 116/200 => Loss 0.324, Loss_clf 0.049, Loss_lf 0.253, Loss_mr 0.022, Train_accy 99.88, Test_accy 69.21
+2024-01-11 15:39:14,104 [ucir.py] => Task 2, Epoch 117/200 => Loss 0.318, Loss_clf 0.044, Loss_lf 0.253, Loss_mr 0.021, Train_accy 99.94
+2024-01-11 15:39:23,351 [ucir.py] => Task 2, Epoch 118/200 => Loss 0.319, Loss_clf 0.046, Loss_lf 0.254, Loss_mr 0.020, Train_accy 99.90
+2024-01-11 15:39:32,759 [ucir.py] => Task 2, Epoch 119/200 => Loss 0.324, Loss_clf 0.050, Loss_lf 0.253, Loss_mr 0.021, Train_accy 99.94
+2024-01-11 15:39:41,842 [ucir.py] => Task 2, Epoch 120/200 => Loss 0.326, Loss_clf 0.048, Loss_lf 0.255, Loss_mr 0.024, Train_accy 99.94
+2024-01-11 15:39:57,515 [ucir.py] => Task 2, Epoch 121/200 => Loss 0.316, Loss_clf 0.046, Loss_lf 0.252, Loss_mr 0.018, Train_accy 99.86, Test_accy 69.16
+2024-01-11 15:40:07,207 [ucir.py] => Task 2, Epoch 122/200 => Loss 0.312, Loss_clf 0.043, Loss_lf 0.250, Loss_mr 0.018, Train_accy 99.96
+2024-01-11 15:40:17,073 [ucir.py] => Task 2, Epoch 123/200 => Loss 0.316, Loss_clf 0.044, Loss_lf 0.252, Loss_mr 0.020, Train_accy 99.94
+2024-01-11 15:40:26,315 [ucir.py] => Task 2, Epoch 124/200 => Loss 0.313, Loss_clf 0.044, Loss_lf 0.249, Loss_mr 0.020, Train_accy 100.00
+2024-01-11 15:40:35,747 [ucir.py] => Task 2, Epoch 125/200 => Loss 0.318, Loss_clf 0.046, Loss_lf 0.253, Loss_mr 0.020, Train_accy 99.88
+2024-01-11 15:40:51,450 [ucir.py] => Task 2, Epoch 126/200 => Loss 0.323, Loss_clf 0.047, Loss_lf 0.257, Loss_mr 0.019, Train_accy 99.92, Test_accy 69.21
+2024-01-11 15:41:01,069 [ucir.py] => Task 2, Epoch 127/200 => Loss 0.321, Loss_clf 0.046, Loss_lf 0.256, Loss_mr 0.019, Train_accy 99.94
+2024-01-11 15:41:10,424 [ucir.py] => Task 2, Epoch 128/200 => Loss 0.320, Loss_clf 0.047, Loss_lf 0.254, Loss_mr 0.019, Train_accy 99.96
+2024-01-11 15:41:19,805 [ucir.py] => Task 2, Epoch 129/200 => Loss 0.316, Loss_clf 0.044, Loss_lf 0.252, Loss_mr 0.020, Train_accy 99.90
+2024-01-11 15:41:28,964 [ucir.py] => Task 2, Epoch 130/200 => Loss 0.313, Loss_clf 0.045, Loss_lf 0.249, Loss_mr 0.018, Train_accy 99.96
+2024-01-11 15:41:44,363 [ucir.py] => Task 2, Epoch 131/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.252, Loss_mr 0.020, Train_accy 99.98, Test_accy 69.35
+2024-01-11 15:41:53,652 [ucir.py] => Task 2, Epoch 132/200 => Loss 0.310, Loss_clf 0.043, Loss_lf 0.249, Loss_mr 0.018, Train_accy 99.96
+2024-01-11 15:42:03,215 [ucir.py] => Task 2, Epoch 133/200 => Loss 0.319, Loss_clf 0.047, Loss_lf 0.252, Loss_mr 0.019, Train_accy 99.86
+2024-01-11 15:42:12,830 [ucir.py] => Task 2, Epoch 134/200 => Loss 0.320, Loss_clf 0.046, Loss_lf 0.254, Loss_mr 0.020, Train_accy 99.90
+2024-01-11 15:42:22,417 [ucir.py] => Task 2, Epoch 135/200 => Loss 0.318, Loss_clf 0.046, Loss_lf 0.253, Loss_mr 0.019, Train_accy 99.92
+2024-01-11 15:42:37,459 [ucir.py] => Task 2, Epoch 136/200 => Loss 0.319, Loss_clf 0.046, Loss_lf 0.254, Loss_mr 0.020, Train_accy 99.90, Test_accy 69.29
+2024-01-11 15:42:46,938 [ucir.py] => Task 2, Epoch 137/200 => Loss 0.314, Loss_clf 0.045, Loss_lf 0.252, Loss_mr 0.018, Train_accy 99.96
+2024-01-11 15:42:56,159 [ucir.py] => Task 2, Epoch 138/200 => Loss 0.316, Loss_clf 0.046, Loss_lf 0.251, Loss_mr 0.019, Train_accy 99.96
+2024-01-11 15:43:05,838 [ucir.py] => Task 2, Epoch 139/200 => Loss 0.318, Loss_clf 0.047, Loss_lf 0.250, Loss_mr 0.020, Train_accy 99.92
+2024-01-11 15:43:15,027 [ucir.py] => Task 2, Epoch 140/200 => Loss 0.314, Loss_clf 0.045, Loss_lf 0.251, Loss_mr 0.018, Train_accy 99.94
+2024-01-11 15:43:30,185 [ucir.py] => Task 2, Epoch 141/200 => Loss 0.322, Loss_clf 0.048, Loss_lf 0.254, Loss_mr 0.020, Train_accy 99.90, Test_accy 69.00
+2024-01-11 15:43:39,661 [ucir.py] => Task 2, Epoch 142/200 => Loss 0.311, Loss_clf 0.044, Loss_lf 0.250, Loss_mr 0.018, Train_accy 99.98
+2024-01-11 15:43:49,173 [ucir.py] => Task 2, Epoch 143/200 => Loss 0.316, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.020, Train_accy 99.84
+2024-01-11 15:43:58,798 [ucir.py] => Task 2, Epoch 144/200 => Loss 0.314, Loss_clf 0.046, Loss_lf 0.248, Loss_mr 0.019, Train_accy 99.92
+2024-01-11 15:44:08,842 [ucir.py] => Task 2, Epoch 145/200 => Loss 0.318, Loss_clf 0.046, Loss_lf 0.251, Loss_mr 0.020, Train_accy 99.88
+2024-01-11 15:44:24,567 [ucir.py] => Task 2, Epoch 146/200 => Loss 0.320, Loss_clf 0.048, Loss_lf 0.252, Loss_mr 0.020, Train_accy 99.88, Test_accy 69.10
+2024-01-11 15:44:34,044 [ucir.py] => Task 2, Epoch 147/200 => Loss 0.321, Loss_clf 0.048, Loss_lf 0.254, Loss_mr 0.019, Train_accy 99.86
+2024-01-11 15:44:43,278 [ucir.py] => Task 2, Epoch 148/200 => Loss 0.317, Loss_clf 0.048, Loss_lf 0.250, Loss_mr 0.019, Train_accy 99.94
+2024-01-11 15:44:52,581 [ucir.py] => Task 2, Epoch 149/200 => Loss 0.311, Loss_clf 0.044, Loss_lf 0.248, Loss_mr 0.019, Train_accy 99.98
+2024-01-11 15:45:01,649 [ucir.py] => Task 2, Epoch 150/200 => Loss 0.312, Loss_clf 0.046, Loss_lf 0.248, Loss_mr 0.018, Train_accy 99.90
+2024-01-11 15:45:16,850 [ucir.py] => Task 2, Epoch 151/200 => Loss 0.313, Loss_clf 0.044, Loss_lf 0.248, Loss_mr 0.020, Train_accy 99.96, Test_accy 69.19
+2024-01-11 15:45:26,527 [ucir.py] => Task 2, Epoch 152/200 => Loss 0.313, Loss_clf 0.045, Loss_lf 0.249, Loss_mr 0.019, Train_accy 99.96
+2024-01-11 15:45:35,832 [ucir.py] => Task 2, Epoch 153/200 => Loss 0.310, Loss_clf 0.044, Loss_lf 0.245, Loss_mr 0.021, Train_accy 99.96
+2024-01-11 15:45:45,598 [ucir.py] => Task 2, Epoch 154/200 => Loss 0.313, Loss_clf 0.044, Loss_lf 0.249, Loss_mr 0.020, Train_accy 99.96
+2024-01-11 15:45:54,771 [ucir.py] => Task 2, Epoch 155/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.251, Loss_mr 0.019, Train_accy 99.90
+2024-01-11 15:46:09,777 [ucir.py] => Task 2, Epoch 156/200 => Loss 0.319, Loss_clf 0.047, Loss_lf 0.252, Loss_mr 0.020, Train_accy 99.90, Test_accy 69.17
+2024-01-11 15:46:19,457 [ucir.py] => Task 2, Epoch 157/200 => Loss 0.320, Loss_clf 0.047, Loss_lf 0.253, Loss_mr 0.020, Train_accy 99.90
+2024-01-11 15:46:29,199 [ucir.py] => Task 2, Epoch 158/200 => Loss 0.317, Loss_clf 0.047, Loss_lf 0.248, Loss_mr 0.021, Train_accy 99.88
+2024-01-11 15:46:38,359 [ucir.py] => Task 2, Epoch 159/200 => Loss 0.312, Loss_clf 0.045, Loss_lf 0.249, Loss_mr 0.019, Train_accy 99.98
+2024-01-11 15:46:47,632 [ucir.py] => Task 2, Epoch 160/200 => Loss 0.320, Loss_clf 0.049, Loss_lf 0.250, Loss_mr 0.021, Train_accy 99.88
+2024-01-11 15:47:02,638 [ucir.py] => Task 2, Epoch 161/200 => Loss 0.312, Loss_clf 0.045, Loss_lf 0.247, Loss_mr 0.020, Train_accy 99.90, Test_accy 69.22
+2024-01-11 15:47:12,264 [ucir.py] => Task 2, Epoch 162/200 => Loss 0.316, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.021, Train_accy 99.98
+2024-01-11 15:47:22,133 [ucir.py] => Task 2, Epoch 163/200 => Loss 0.309, Loss_clf 0.043, Loss_lf 0.247, Loss_mr 0.019, Train_accy 99.98
+2024-01-11 15:47:31,261 [ucir.py] => Task 2, Epoch 164/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.252, Loss_mr 0.019, Train_accy 99.94
+2024-01-11 15:47:40,703 [ucir.py] => Task 2, Epoch 165/200 => Loss 0.311, Loss_clf 0.044, Loss_lf 0.250, Loss_mr 0.017, Train_accy 99.98
+2024-01-11 15:47:55,817 [ucir.py] => Task 2, Epoch 166/200 => Loss 0.315, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.019, Train_accy 99.92, Test_accy 69.21
+2024-01-11 15:48:04,914 [ucir.py] => Task 2, Epoch 167/200 => Loss 0.313, Loss_clf 0.044, Loss_lf 0.250, Loss_mr 0.020, Train_accy 99.94
+2024-01-11 15:48:14,521 [ucir.py] => Task 2, Epoch 168/200 => Loss 0.315, Loss_clf 0.047, Loss_lf 0.248, Loss_mr 0.020, Train_accy 99.88
+2024-01-11 15:48:24,425 [ucir.py] => Task 2, Epoch 169/200 => Loss 0.310, Loss_clf 0.043, Loss_lf 0.249, Loss_mr 0.018, Train_accy 99.94
+2024-01-11 15:48:34,063 [ucir.py] => Task 2, Epoch 170/200 => Loss 0.313, Loss_clf 0.045, Loss_lf 0.250, Loss_mr 0.018, Train_accy 99.94
+2024-01-11 15:48:49,498 [ucir.py] => Task 2, Epoch 171/200 => Loss 0.319, Loss_clf 0.047, Loss_lf 0.252, Loss_mr 0.020, Train_accy 99.92, Test_accy 69.27
+2024-01-11 15:48:58,733 [ucir.py] => Task 2, Epoch 172/200 => Loss 0.315, Loss_clf 0.045, Loss_lf 0.249, Loss_mr 0.020, Train_accy 99.90
+2024-01-11 15:49:08,164 [ucir.py] => Task 2, Epoch 173/200 => Loss 0.312, Loss_clf 0.046, Loss_lf 0.248, Loss_mr 0.019, Train_accy 100.00
+2024-01-11 15:49:17,394 [ucir.py] => Task 2, Epoch 174/200 => Loss 0.316, Loss_clf 0.047, Loss_lf 0.249, Loss_mr 0.020, Train_accy 99.92
+2024-01-11 15:49:26,859 [ucir.py] => Task 2, Epoch 175/200 => Loss 0.313, Loss_clf 0.044, Loss_lf 0.249, Loss_mr 0.020, Train_accy 99.96
+2024-01-11 15:49:41,610 [ucir.py] => Task 2, Epoch 176/200 => Loss 0.310, Loss_clf 0.043, Loss_lf 0.248, Loss_mr 0.018, Train_accy 100.00, Test_accy 69.16
+2024-01-11 15:49:50,838 [ucir.py] => Task 2, Epoch 177/200 => Loss 0.315, Loss_clf 0.045, Loss_lf 0.251, Loss_mr 0.019, Train_accy 99.94
+2024-01-11 15:50:00,018 [ucir.py] => Task 2, Epoch 178/200 => Loss 0.321, Loss_clf 0.048, Loss_lf 0.251, Loss_mr 0.022, Train_accy 99.90
+2024-01-11 15:50:09,306 [ucir.py] => Task 2, Epoch 179/200 => Loss 0.317, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.021, Train_accy 99.94
+2024-01-11 15:50:18,597 [ucir.py] => Task 2, Epoch 180/200 => Loss 0.316, Loss_clf 0.045, Loss_lf 0.251, Loss_mr 0.021, Train_accy 99.96
+2024-01-11 15:50:35,333 [ucir.py] => Task 2, Epoch 181/200 => Loss 0.315, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.019, Train_accy 99.82, Test_accy 69.17
+2024-01-11 15:50:45,099 [ucir.py] => Task 2, Epoch 182/200 => Loss 0.311, Loss_clf 0.043, Loss_lf 0.249, Loss_mr 0.019, Train_accy 99.96
+2024-01-11 15:50:54,757 [ucir.py] => Task 2, Epoch 183/200 => Loss 0.315, Loss_clf 0.045, Loss_lf 0.250, Loss_mr 0.020, Train_accy 99.96
+2024-01-11 15:51:03,915 [ucir.py] => Task 2, Epoch 184/200 => Loss 0.316, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.020, Train_accy 99.92
+2024-01-11 15:51:13,306 [ucir.py] => Task 2, Epoch 185/200 => Loss 0.316, Loss_clf 0.045, Loss_lf 0.251, Loss_mr 0.020, Train_accy 99.92
+2024-01-11 15:51:28,038 [ucir.py] => Task 2, Epoch 186/200 => Loss 0.309, Loss_clf 0.045, Loss_lf 0.247, Loss_mr 0.018, Train_accy 99.94, Test_accy 69.16
+2024-01-11 15:51:37,480 [ucir.py] => Task 2, Epoch 187/200 => Loss 0.310, Loss_clf 0.045, Loss_lf 0.246, Loss_mr 0.020, Train_accy 99.94
+2024-01-11 15:51:46,717 [ucir.py] => Task 2, Epoch 188/200 => Loss 0.312, Loss_clf 0.046, Loss_lf 0.247, Loss_mr 0.019, Train_accy 99.92
+2024-01-11 15:51:56,202 [ucir.py] => Task 2, Epoch 189/200 => Loss 0.309, Loss_clf 0.044, Loss_lf 0.246, Loss_mr 0.019, Train_accy 99.88
+2024-01-11 15:52:05,320 [ucir.py] => Task 2, Epoch 190/200 => Loss 0.311, Loss_clf 0.046, Loss_lf 0.246, Loss_mr 0.019, Train_accy 99.98
+2024-01-11 15:52:20,483 [ucir.py] => Task 2, Epoch 191/200 => Loss 0.315, Loss_clf 0.045, Loss_lf 0.249, Loss_mr 0.021, Train_accy 99.92, Test_accy 69.30
+2024-01-11 15:52:29,819 [ucir.py] => Task 2, Epoch 192/200 => Loss 0.314, Loss_clf 0.046, Loss_lf 0.248, Loss_mr 0.019, Train_accy 99.94
+2024-01-11 15:52:39,311 [ucir.py] => Task 2, Epoch 193/200 => Loss 0.312, Loss_clf 0.045, Loss_lf 0.249, Loss_mr 0.019, Train_accy 99.90
+2024-01-11 15:52:48,899 [ucir.py] => Task 2, Epoch 194/200 => Loss 0.311, Loss_clf 0.044, Loss_lf 0.248, Loss_mr 0.019, Train_accy 99.92
+2024-01-11 15:52:58,288 [ucir.py] => Task 2, Epoch 195/200 => Loss 0.312, Loss_clf 0.044, Loss_lf 0.250, Loss_mr 0.018, Train_accy 100.00
+2024-01-11 15:53:13,465 [ucir.py] => Task 2, Epoch 196/200 => Loss 0.311, Loss_clf 0.045, Loss_lf 0.247, Loss_mr 0.018, Train_accy 99.96, Test_accy 69.29
+2024-01-11 15:53:22,890 [ucir.py] => Task 2, Epoch 197/200 => Loss 0.311, Loss_clf 0.045, Loss_lf 0.247, Loss_mr 0.019, Train_accy 99.96
+2024-01-11 15:53:32,289 [ucir.py] => Task 2, Epoch 198/200 => Loss 0.310, Loss_clf 0.045, Loss_lf 0.247, Loss_mr 0.018, Train_accy 99.94
+2024-01-11 15:53:41,858 [ucir.py] => Task 2, Epoch 199/200 => Loss 0.316, Loss_clf 0.046, Loss_lf 0.250, Loss_mr 0.020, Train_accy 99.96
+2024-01-11 15:53:51,531 [ucir.py] => Task 2, Epoch 200/200 => Loss 0.316, Loss_clf 0.047, Loss_lf 0.250, Loss_mr 0.019, Train_accy 99.96
+2024-01-11 15:53:51,532 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 15:54:23,831 [ucir.py] => Exemplar size: 1050
+2024-01-11 15:54:24,363 [trainer.py] => CNN: {'total': 69.24, '0': 70.0, '1': 54.44, '2': 68.33, '3': 44.44, '4': 57.78, '5': 35.0, '6': 52.22, '7': 29.44, '8': 32.78, '9': 40.56, '10': 78.33, '11': 85.0, '12': 68.33, '13': 65.56, '14': 47.78, '15': 77.78, '16': 80.0, '17': 85.56, '18': 83.89, '19': 71.11, '20': 75.0, '21': 77.22, '22': 82.78, '23': 62.22, '24': 46.11, '25': 84.44, '26': 88.33, '27': 91.11, '28': 77.22, '29': 79.44, '30': 88.89, '31': 85.0, '32': 96.67, '33': 80.56, 'old': 62.87, 'new': 85.17}
+2024-01-11 15:54:24,363 [trainer.py] => NME: {'total': 58.78, '0': 71.67, '1': 61.67, '2': 71.11, '3': 44.44, '4': 57.78, '5': 39.44, '6': 57.22, '7': 33.33, '8': 30.56, '9': 36.11, '10': 80.0, '11': 87.78, '12': 70.0, '13': 71.67, '14': 52.22, '15': 67.78, '16': 71.11, '17': 73.89, '18': 75.56, '19': 58.89, '20': 65.56, '21': 77.78, '22': 68.89, '23': 47.78, '24': 37.78, '25': 50.0, '26': 75.0, '27': 65.0, '28': 58.33, '29': 48.33, '30': 59.44, '31': 49.44, '32': 61.67, '33': 36.67, 'old': 60.4, 'new': 54.72}
+2024-01-11 15:54:24,363 [trainer.py] => CNN top1 curve: [88.07, 77.16, 69.24]
+2024-01-11 15:54:24,364 [trainer.py] => CNN top5 curve: [98.78, 95.24, 90.29]
+2024-01-11 15:54:24,364 [trainer.py] => NME top1 curve: [87.52, 65.58, 58.78]
+2024-01-11 15:54:24,364 [trainer.py] => NME top5 curve: [98.89, 93.44, 89.11]
+
+2024-01-11 15:54:24,365 [trainer.py] => All params: 21046093
+2024-01-11 15:54:24,365 [trainer.py] => Trainable params: 21046093
+2024-01-11 15:54:24,366 [ucir.py] => Learning on 35-45
+2024-01-11 15:54:54,865 [ucir.py] => Task 3, Epoch 1/200 => Loss 3.754, Loss_clf 2.238, Loss_lf 1.004, Loss_mr 0.512, Train_accy 43.77, Test_accy 20.72
+2024-01-11 15:55:04,643 [ucir.py] => Task 3, Epoch 2/200 => Loss 2.991, Loss_clf 1.566, Loss_lf 1.004, Loss_mr 0.421, Train_accy 52.76
+2024-01-11 15:55:14,813 [ucir.py] => Task 3, Epoch 3/200 => Loss 2.756, Loss_clf 1.387, Loss_lf 0.948, Loss_mr 0.421, Train_accy 58.30
+2024-01-11 15:55:24,690 [ucir.py] => Task 3, Epoch 4/200 => Loss 2.232, Loss_clf 1.054, Loss_lf 0.829, Loss_mr 0.348, Train_accy 66.90
+2024-01-11 15:55:34,827 [ucir.py] => Task 3, Epoch 5/200 => Loss 1.696, Loss_clf 0.684, Loss_lf 0.711, Loss_mr 0.302, Train_accy 77.39
+2024-01-11 15:55:52,921 [ucir.py] => Task 3, Epoch 6/200 => Loss 1.589, Loss_clf 0.711, Loss_lf 0.613, Loss_mr 0.265, Train_accy 83.14, Test_accy 32.42
+2024-01-11 15:56:03,311 [ucir.py] => Task 3, Epoch 7/200 => Loss 2.612, Loss_clf 1.278, Loss_lf 0.945, Loss_mr 0.389, Train_accy 61.92
+2024-01-11 15:56:13,543 [ucir.py] => Task 3, Epoch 8/200 => Loss 2.130, Loss_clf 0.979, Loss_lf 0.808, Loss_mr 0.343, Train_accy 71.75
+2024-01-11 15:56:23,812 [ucir.py] => Task 3, Epoch 9/200 => Loss 2.138, Loss_clf 0.953, Loss_lf 0.845, Loss_mr 0.340, Train_accy 68.69
+2024-01-11 15:56:33,799 [ucir.py] => Task 3, Epoch 10/200 => Loss 1.543, Loss_clf 0.588, Loss_lf 0.690, Loss_mr 0.265, Train_accy 81.90
+2024-01-11 15:56:52,030 [ucir.py] => Task 3, Epoch 11/200 => Loss 1.692, Loss_clf 0.678, Loss_lf 0.722, Loss_mr 0.291, Train_accy 79.85, Test_accy 41.74
+2024-01-11 15:57:03,026 [ucir.py] => Task 3, Epoch 12/200 => Loss 1.877, Loss_clf 0.843, Loss_lf 0.743, Loss_mr 0.292, Train_accy 78.74
+2024-01-11 15:57:13,477 [ucir.py] => Task 3, Epoch 13/200 => Loss 2.601, Loss_clf 1.195, Loss_lf 1.041, Loss_mr 0.365, Train_accy 66.84
+2024-01-11 15:57:23,334 [ucir.py] => Task 3, Epoch 14/200 => Loss 1.994, Loss_clf 0.863, Loss_lf 0.827, Loss_mr 0.305, Train_accy 75.43
+2024-01-11 15:57:33,639 [ucir.py] => Task 3, Epoch 15/200 => Loss 2.595, Loss_clf 1.140, Loss_lf 1.066, Loss_mr 0.389, Train_accy 65.52
+2024-01-11 15:57:50,842 [ucir.py] => Task 3, Epoch 16/200 => Loss 1.989, Loss_clf 0.810, Loss_lf 0.843, Loss_mr 0.336, Train_accy 76.57, Test_accy 37.06
+2024-01-11 15:58:00,733 [ucir.py] => Task 3, Epoch 17/200 => Loss 1.759, Loss_clf 0.692, Loss_lf 0.781, Loss_mr 0.287, Train_accy 79.18
+2024-01-11 15:58:10,997 [ucir.py] => Task 3, Epoch 18/200 => Loss 1.790, Loss_clf 0.726, Loss_lf 0.772, Loss_mr 0.293, Train_accy 81.87
+2024-01-11 15:58:21,132 [ucir.py] => Task 3, Epoch 19/200 => Loss 2.061, Loss_clf 0.899, Loss_lf 0.842, Loss_mr 0.320, Train_accy 73.45
+2024-01-11 15:58:31,267 [ucir.py] => Task 3, Epoch 20/200 => Loss 1.807, Loss_clf 0.701, Loss_lf 0.829, Loss_mr 0.276, Train_accy 79.43
+2024-01-11 15:58:48,524 [ucir.py] => Task 3, Epoch 21/200 => Loss 2.008, Loss_clf 0.846, Loss_lf 0.866, Loss_mr 0.296, Train_accy 76.95, Test_accy 40.94
+2024-01-11 15:58:58,428 [ucir.py] => Task 3, Epoch 22/200 => Loss 2.099, Loss_clf 0.912, Loss_lf 0.880, Loss_mr 0.307, Train_accy 74.51
+2024-01-11 15:59:09,382 [ucir.py] => Task 3, Epoch 23/200 => Loss 1.904, Loss_clf 0.801, Loss_lf 0.803, Loss_mr 0.299, Train_accy 79.14
+2024-01-11 15:59:19,183 [ucir.py] => Task 3, Epoch 24/200 => Loss 1.792, Loss_clf 0.726, Loss_lf 0.785, Loss_mr 0.280, Train_accy 79.01
+2024-01-11 15:59:28,941 [ucir.py] => Task 3, Epoch 25/200 => Loss 1.870, Loss_clf 0.777, Loss_lf 0.813, Loss_mr 0.280, Train_accy 76.59
+2024-01-11 15:59:46,123 [ucir.py] => Task 3, Epoch 26/200 => Loss 1.633, Loss_clf 0.600, Loss_lf 0.773, Loss_mr 0.261, Train_accy 82.36, Test_accy 46.22
+2024-01-11 15:59:56,084 [ucir.py] => Task 3, Epoch 27/200 => Loss 1.625, Loss_clf 0.603, Loss_lf 0.751, Loss_mr 0.272, Train_accy 82.90
+2024-01-11 16:00:05,880 [ucir.py] => Task 3, Epoch 28/200 => Loss 1.771, Loss_clf 0.764, Loss_lf 0.758, Loss_mr 0.249, Train_accy 82.42
+2024-01-11 16:00:16,097 [ucir.py] => Task 3, Epoch 29/200 => Loss 1.960, Loss_clf 0.822, Loss_lf 0.829, Loss_mr 0.309, Train_accy 78.08
+2024-01-11 16:00:26,746 [ucir.py] => Task 3, Epoch 30/200 => Loss 1.605, Loss_clf 0.645, Loss_lf 0.729, Loss_mr 0.230, Train_accy 83.41
+2024-01-11 16:00:44,683 [ucir.py] => Task 3, Epoch 31/200 => Loss 1.739, Loss_clf 0.693, Loss_lf 0.793, Loss_mr 0.253, Train_accy 81.81, Test_accy 45.77
+2024-01-11 16:00:54,758 [ucir.py] => Task 3, Epoch 32/200 => Loss 1.470, Loss_clf 0.522, Loss_lf 0.720, Loss_mr 0.228, Train_accy 86.53
+2024-01-11 16:01:04,824 [ucir.py] => Task 3, Epoch 33/200 => Loss 1.703, Loss_clf 0.679, Loss_lf 0.767, Loss_mr 0.257, Train_accy 83.87
+2024-01-11 16:01:15,497 [ucir.py] => Task 3, Epoch 34/200 => Loss 1.609, Loss_clf 0.611, Loss_lf 0.762, Loss_mr 0.236, Train_accy 81.56
+2024-01-11 16:01:25,328 [ucir.py] => Task 3, Epoch 35/200 => Loss 1.500, Loss_clf 0.525, Loss_lf 0.730, Loss_mr 0.244, Train_accy 84.97
+2024-01-11 16:01:42,652 [ucir.py] => Task 3, Epoch 36/200 => Loss 1.571, Loss_clf 0.646, Loss_lf 0.704, Loss_mr 0.221, Train_accy 87.26, Test_accy 49.86
+2024-01-11 16:01:52,559 [ucir.py] => Task 3, Epoch 37/200 => Loss 1.510, Loss_clf 0.540, Loss_lf 0.747, Loss_mr 0.223, Train_accy 85.77
+2024-01-11 16:02:02,884 [ucir.py] => Task 3, Epoch 38/200 => Loss 1.783, Loss_clf 0.736, Loss_lf 0.781, Loss_mr 0.266, Train_accy 83.89
+2024-01-11 16:02:15,841 [ucir.py] => Task 3, Epoch 39/200 => Loss 1.703, Loss_clf 0.709, Loss_lf 0.782, Loss_mr 0.212, Train_accy 80.78
+2024-01-11 16:02:31,603 [ucir.py] => Task 3, Epoch 40/200 => Loss 1.757, Loss_clf 0.640, Loss_lf 0.853, Loss_mr 0.263, Train_accy 82.61
+2024-01-11 16:02:57,074 [ucir.py] => Task 3, Epoch 41/200 => Loss 1.490, Loss_clf 0.539, Loss_lf 0.738, Loss_mr 0.213, Train_accy 85.60, Test_accy 48.84
+2024-01-11 16:03:10,165 [ucir.py] => Task 3, Epoch 42/200 => Loss 1.384, Loss_clf 0.503, Loss_lf 0.682, Loss_mr 0.198, Train_accy 87.49
+2024-01-11 16:03:26,445 [ucir.py] => Task 3, Epoch 43/200 => Loss 1.391, Loss_clf 0.503, Loss_lf 0.670, Loss_mr 0.219, Train_accy 87.83
+2024-01-11 16:03:42,406 [ucir.py] => Task 3, Epoch 44/200 => Loss 1.355, Loss_clf 0.464, Loss_lf 0.703, Loss_mr 0.188, Train_accy 87.31
+2024-01-11 16:03:58,233 [ucir.py] => Task 3, Epoch 45/200 => Loss 1.330, Loss_clf 0.439, Loss_lf 0.684, Loss_mr 0.208, Train_accy 88.93
+2024-01-11 16:04:22,537 [ucir.py] => Task 3, Epoch 46/200 => Loss 1.418, Loss_clf 0.517, Loss_lf 0.706, Loss_mr 0.196, Train_accy 87.68, Test_accy 53.20
+2024-01-11 16:04:38,020 [ucir.py] => Task 3, Epoch 47/200 => Loss 1.378, Loss_clf 0.498, Loss_lf 0.699, Loss_mr 0.181, Train_accy 86.04
+2024-01-11 16:04:53,854 [ucir.py] => Task 3, Epoch 48/200 => Loss 1.386, Loss_clf 0.456, Loss_lf 0.719, Loss_mr 0.212, Train_accy 87.71
+2024-01-11 16:05:09,493 [ucir.py] => Task 3, Epoch 49/200 => Loss 1.229, Loss_clf 0.375, Loss_lf 0.673, Loss_mr 0.180, Train_accy 89.89
+2024-01-11 16:05:19,855 [ucir.py] => Task 3, Epoch 50/200 => Loss 1.395, Loss_clf 0.493, Loss_lf 0.716, Loss_mr 0.186, Train_accy 87.58
+2024-01-11 16:05:46,020 [ucir.py] => Task 3, Epoch 51/200 => Loss 1.446, Loss_clf 0.514, Loss_lf 0.729, Loss_mr 0.203, Train_accy 87.35, Test_accy 45.63
+2024-01-11 16:06:01,754 [ucir.py] => Task 3, Epoch 52/200 => Loss 1.416, Loss_clf 0.503, Loss_lf 0.700, Loss_mr 0.213, Train_accy 87.39
+2024-01-11 16:06:17,466 [ucir.py] => Task 3, Epoch 53/200 => Loss 1.535, Loss_clf 0.593, Loss_lf 0.742, Loss_mr 0.200, Train_accy 82.91
+2024-01-11 16:06:30,499 [ucir.py] => Task 3, Epoch 54/200 => Loss 1.317, Loss_clf 0.429, Loss_lf 0.704, Loss_mr 0.185, Train_accy 88.32
+2024-01-11 16:06:46,231 [ucir.py] => Task 3, Epoch 55/200 => Loss 1.449, Loss_clf 0.532, Loss_lf 0.715, Loss_mr 0.203, Train_accy 85.26
+2024-01-11 16:07:12,565 [ucir.py] => Task 3, Epoch 56/200 => Loss 1.335, Loss_clf 0.468, Loss_lf 0.697, Loss_mr 0.170, Train_accy 88.50, Test_accy 52.17
+2024-01-11 16:07:25,524 [ucir.py] => Task 3, Epoch 57/200 => Loss 1.262, Loss_clf 0.396, Loss_lf 0.671, Loss_mr 0.195, Train_accy 88.84
+2024-01-11 16:07:35,983 [ucir.py] => Task 3, Epoch 58/200 => Loss 1.116, Loss_clf 0.322, Loss_lf 0.638, Loss_mr 0.157, Train_accy 90.84
+2024-01-11 16:07:46,158 [ucir.py] => Task 3, Epoch 59/200 => Loss 1.037, Loss_clf 0.280, Loss_lf 0.614, Loss_mr 0.143, Train_accy 94.23
+2024-01-11 16:07:56,358 [ucir.py] => Task 3, Epoch 60/200 => Loss 1.441, Loss_clf 0.522, Loss_lf 0.724, Loss_mr 0.195, Train_accy 87.05
+2024-01-11 16:08:13,708 [ucir.py] => Task 3, Epoch 61/200 => Loss 1.078, Loss_clf 0.297, Loss_lf 0.628, Loss_mr 0.154, Train_accy 92.97, Test_accy 52.83
+2024-01-11 16:08:23,809 [ucir.py] => Task 3, Epoch 62/200 => Loss 1.032, Loss_clf 0.280, Loss_lf 0.594, Loss_mr 0.158, Train_accy 96.23
+2024-01-11 16:08:33,739 [ucir.py] => Task 3, Epoch 63/200 => Loss 0.982, Loss_clf 0.260, Loss_lf 0.586, Loss_mr 0.136, Train_accy 95.68
+2024-01-11 16:08:43,923 [ucir.py] => Task 3, Epoch 64/200 => Loss 0.925, Loss_clf 0.221, Loss_lf 0.570, Loss_mr 0.134, Train_accy 96.86
+2024-01-11 16:08:53,905 [ucir.py] => Task 3, Epoch 65/200 => Loss 0.919, Loss_clf 0.211, Loss_lf 0.580, Loss_mr 0.128, Train_accy 96.84
+2024-01-11 16:09:11,658 [ucir.py] => Task 3, Epoch 66/200 => Loss 0.935, Loss_clf 0.244, Loss_lf 0.562, Loss_mr 0.129, Train_accy 96.74, Test_accy 57.58
+2024-01-11 16:09:21,584 [ucir.py] => Task 3, Epoch 67/200 => Loss 0.975, Loss_clf 0.242, Loss_lf 0.604, Loss_mr 0.129, Train_accy 97.12
+2024-01-11 16:09:31,911 [ucir.py] => Task 3, Epoch 68/200 => Loss 0.940, Loss_clf 0.251, Loss_lf 0.565, Loss_mr 0.124, Train_accy 97.16
+2024-01-11 16:09:42,394 [ucir.py] => Task 3, Epoch 69/200 => Loss 0.926, Loss_clf 0.237, Loss_lf 0.565, Loss_mr 0.124, Train_accy 97.18
+2024-01-11 16:09:52,380 [ucir.py] => Task 3, Epoch 70/200 => Loss 0.832, Loss_clf 0.177, Loss_lf 0.534, Loss_mr 0.121, Train_accy 97.45
+2024-01-11 16:10:10,477 [ucir.py] => Task 3, Epoch 71/200 => Loss 0.840, Loss_clf 0.160, Loss_lf 0.561, Loss_mr 0.119, Train_accy 97.50, Test_accy 59.88
+2024-01-11 16:10:21,229 [ucir.py] => Task 3, Epoch 72/200 => Loss 0.885, Loss_clf 0.216, Loss_lf 0.540, Loss_mr 0.130, Train_accy 97.66
+2024-01-11 16:10:31,362 [ucir.py] => Task 3, Epoch 73/200 => Loss 0.870, Loss_clf 0.224, Loss_lf 0.536, Loss_mr 0.110, Train_accy 97.58
+2024-01-11 16:10:41,124 [ucir.py] => Task 3, Epoch 74/200 => Loss 0.889, Loss_clf 0.235, Loss_lf 0.538, Loss_mr 0.116, Train_accy 97.30
+2024-01-11 16:10:51,178 [ucir.py] => Task 3, Epoch 75/200 => Loss 0.875, Loss_clf 0.208, Loss_lf 0.551, Loss_mr 0.117, Train_accy 97.70
+2024-01-11 16:11:08,126 [ucir.py] => Task 3, Epoch 76/200 => Loss 1.090, Loss_clf 0.394, Loss_lf 0.549, Loss_mr 0.147, Train_accy 97.50, Test_accy 57.16
+2024-01-11 16:11:18,187 [ucir.py] => Task 3, Epoch 77/200 => Loss 0.869, Loss_clf 0.207, Loss_lf 0.545, Loss_mr 0.117, Train_accy 97.52
+2024-01-11 16:11:28,128 [ucir.py] => Task 3, Epoch 78/200 => Loss 1.011, Loss_clf 0.318, Loss_lf 0.554, Loss_mr 0.139, Train_accy 97.58
+2024-01-11 16:11:38,393 [ucir.py] => Task 3, Epoch 79/200 => Loss 1.087, Loss_clf 0.398, Loss_lf 0.560, Loss_mr 0.130, Train_accy 96.95
+2024-01-11 16:11:49,131 [ucir.py] => Task 3, Epoch 80/200 => Loss 0.866, Loss_clf 0.219, Loss_lf 0.539, Loss_mr 0.107, Train_accy 97.10
+2024-01-11 16:12:06,330 [ucir.py] => Task 3, Epoch 81/200 => Loss 0.896, Loss_clf 0.234, Loss_lf 0.550, Loss_mr 0.112, Train_accy 97.83, Test_accy 59.49
+2024-01-11 16:12:16,266 [ucir.py] => Task 3, Epoch 82/200 => Loss 0.882, Loss_clf 0.226, Loss_lf 0.543, Loss_mr 0.113, Train_accy 97.54
+2024-01-11 16:12:26,003 [ucir.py] => Task 3, Epoch 83/200 => Loss 0.851, Loss_clf 0.195, Loss_lf 0.541, Loss_mr 0.116, Train_accy 97.87
+2024-01-11 16:12:35,744 [ucir.py] => Task 3, Epoch 84/200 => Loss 0.873, Loss_clf 0.219, Loss_lf 0.544, Loss_mr 0.110, Train_accy 97.87
+2024-01-11 16:12:45,684 [ucir.py] => Task 3, Epoch 85/200 => Loss 1.009, Loss_clf 0.340, Loss_lf 0.536, Loss_mr 0.134, Train_accy 97.89
+2024-01-11 16:13:03,004 [ucir.py] => Task 3, Epoch 86/200 => Loss 0.915, Loss_clf 0.227, Loss_lf 0.562, Loss_mr 0.126, Train_accy 97.35, Test_accy 60.83
+2024-01-11 16:13:12,861 [ucir.py] => Task 3, Epoch 87/200 => Loss 0.995, Loss_clf 0.312, Loss_lf 0.559, Loss_mr 0.125, Train_accy 97.81
+2024-01-11 16:13:23,086 [ucir.py] => Task 3, Epoch 88/200 => Loss 0.821, Loss_clf 0.199, Loss_lf 0.518, Loss_mr 0.105, Train_accy 97.10
+2024-01-11 16:13:33,690 [ucir.py] => Task 3, Epoch 89/200 => Loss 0.827, Loss_clf 0.188, Loss_lf 0.533, Loss_mr 0.107, Train_accy 97.71
+2024-01-11 16:13:44,320 [ucir.py] => Task 3, Epoch 90/200 => Loss 0.831, Loss_clf 0.198, Loss_lf 0.509, Loss_mr 0.123, Train_accy 97.79
+2024-01-11 16:14:02,229 [ucir.py] => Task 3, Epoch 91/200 => Loss 0.890, Loss_clf 0.260, Loss_lf 0.528, Loss_mr 0.102, Train_accy 97.71, Test_accy 59.35
+2024-01-11 16:14:12,156 [ucir.py] => Task 3, Epoch 92/200 => Loss 0.807, Loss_clf 0.164, Loss_lf 0.534, Loss_mr 0.109, Train_accy 97.66
+2024-01-11 16:14:22,243 [ucir.py] => Task 3, Epoch 93/200 => Loss 0.842, Loss_clf 0.219, Loss_lf 0.518, Loss_mr 0.105, Train_accy 98.10
+2024-01-11 16:14:32,373 [ucir.py] => Task 3, Epoch 94/200 => Loss 0.892, Loss_clf 0.240, Loss_lf 0.527, Loss_mr 0.124, Train_accy 98.06
+2024-01-11 16:14:43,037 [ucir.py] => Task 3, Epoch 95/200 => Loss 1.024, Loss_clf 0.364, Loss_lf 0.538, Loss_mr 0.122, Train_accy 98.30
+2024-01-11 16:15:00,564 [ucir.py] => Task 3, Epoch 96/200 => Loss 0.821, Loss_clf 0.195, Loss_lf 0.525, Loss_mr 0.101, Train_accy 97.43, Test_accy 59.37
+2024-01-11 16:15:10,562 [ucir.py] => Task 3, Epoch 97/200 => Loss 1.062, Loss_clf 0.384, Loss_lf 0.539, Loss_mr 0.139, Train_accy 97.98
+2024-01-11 16:15:20,556 [ucir.py] => Task 3, Epoch 98/200 => Loss 0.790, Loss_clf 0.171, Loss_lf 0.516, Loss_mr 0.104, Train_accy 98.30
+2024-01-11 16:15:30,653 [ucir.py] => Task 3, Epoch 99/200 => Loss 0.860, Loss_clf 0.213, Loss_lf 0.525, Loss_mr 0.123, Train_accy 98.15
+2024-01-11 16:15:40,508 [ucir.py] => Task 3, Epoch 100/200 => Loss 0.861, Loss_clf 0.241, Loss_lf 0.522, Loss_mr 0.098, Train_accy 97.60
+2024-01-11 16:15:58,500 [ucir.py] => Task 3, Epoch 101/200 => Loss 0.853, Loss_clf 0.233, Loss_lf 0.503, Loss_mr 0.117, Train_accy 98.11, Test_accy 60.43
+2024-01-11 16:16:08,374 [ucir.py] => Task 3, Epoch 102/200 => Loss 0.981, Loss_clf 0.306, Loss_lf 0.551, Loss_mr 0.125, Train_accy 97.83
+2024-01-11 16:16:18,489 [ucir.py] => Task 3, Epoch 103/200 => Loss 0.835, Loss_clf 0.215, Loss_lf 0.514, Loss_mr 0.106, Train_accy 97.87
+2024-01-11 16:16:28,563 [ucir.py] => Task 3, Epoch 104/200 => Loss 0.843, Loss_clf 0.221, Loss_lf 0.516, Loss_mr 0.106, Train_accy 98.13
+2024-01-11 16:16:38,474 [ucir.py] => Task 3, Epoch 105/200 => Loss 0.868, Loss_clf 0.212, Loss_lf 0.535, Loss_mr 0.121, Train_accy 98.02
+2024-01-11 16:16:57,335 [ucir.py] => Task 3, Epoch 106/200 => Loss 0.847, Loss_clf 0.216, Loss_lf 0.533, Loss_mr 0.098, Train_accy 97.89, Test_accy 60.32
+2024-01-11 16:17:07,085 [ucir.py] => Task 3, Epoch 107/200 => Loss 0.832, Loss_clf 0.215, Loss_lf 0.516, Loss_mr 0.100, Train_accy 98.13
+2024-01-11 16:17:16,957 [ucir.py] => Task 3, Epoch 108/200 => Loss 0.764, Loss_clf 0.154, Loss_lf 0.498, Loss_mr 0.112, Train_accy 98.34
+2024-01-11 16:17:26,833 [ucir.py] => Task 3, Epoch 109/200 => Loss 0.878, Loss_clf 0.264, Loss_lf 0.515, Loss_mr 0.099, Train_accy 98.30
+2024-01-11 16:17:36,602 [ucir.py] => Task 3, Epoch 110/200 => Loss 0.855, Loss_clf 0.221, Loss_lf 0.518, Loss_mr 0.116, Train_accy 98.29
+2024-01-11 16:17:54,192 [ucir.py] => Task 3, Epoch 111/200 => Loss 0.845, Loss_clf 0.238, Loss_lf 0.510, Loss_mr 0.097, Train_accy 98.04, Test_accy 58.98
+2024-01-11 16:18:04,681 [ucir.py] => Task 3, Epoch 112/200 => Loss 0.867, Loss_clf 0.221, Loss_lf 0.537, Loss_mr 0.108, Train_accy 97.85
+2024-01-11 16:18:14,527 [ucir.py] => Task 3, Epoch 113/200 => Loss 0.833, Loss_clf 0.194, Loss_lf 0.520, Loss_mr 0.118, Train_accy 98.19
+2024-01-11 16:18:24,560 [ucir.py] => Task 3, Epoch 114/200 => Loss 0.753, Loss_clf 0.166, Loss_lf 0.490, Loss_mr 0.097, Train_accy 98.38
+2024-01-11 16:18:34,535 [ucir.py] => Task 3, Epoch 115/200 => Loss 0.731, Loss_clf 0.137, Loss_lf 0.496, Loss_mr 0.098, Train_accy 98.63
+2024-01-11 16:18:51,838 [ucir.py] => Task 3, Epoch 116/200 => Loss 0.804, Loss_clf 0.187, Loss_lf 0.503, Loss_mr 0.115, Train_accy 98.61, Test_accy 61.20
+2024-01-11 16:19:01,473 [ucir.py] => Task 3, Epoch 117/200 => Loss 0.869, Loss_clf 0.253, Loss_lf 0.506, Loss_mr 0.110, Train_accy 98.34
+2024-01-11 16:19:11,577 [ucir.py] => Task 3, Epoch 118/200 => Loss 0.825, Loss_clf 0.215, Loss_lf 0.518, Loss_mr 0.093, Train_accy 98.34
+2024-01-11 16:19:21,493 [ucir.py] => Task 3, Epoch 119/200 => Loss 0.776, Loss_clf 0.181, Loss_lf 0.493, Loss_mr 0.102, Train_accy 97.94
+2024-01-11 16:19:31,772 [ucir.py] => Task 3, Epoch 120/200 => Loss 0.821, Loss_clf 0.211, Loss_lf 0.495, Loss_mr 0.114, Train_accy 98.53
+2024-01-11 16:19:49,109 [ucir.py] => Task 3, Epoch 121/200 => Loss 0.802, Loss_clf 0.199, Loss_lf 0.490, Loss_mr 0.113, Train_accy 98.36, Test_accy 60.78
+2024-01-11 16:19:58,882 [ucir.py] => Task 3, Epoch 122/200 => Loss 0.773, Loss_clf 0.178, Loss_lf 0.501, Loss_mr 0.095, Train_accy 98.32
+2024-01-11 16:20:10,280 [ucir.py] => Task 3, Epoch 123/200 => Loss 0.776, Loss_clf 0.173, Loss_lf 0.507, Loss_mr 0.096, Train_accy 98.38
+2024-01-11 16:20:20,562 [ucir.py] => Task 3, Epoch 124/200 => Loss 0.823, Loss_clf 0.205, Loss_lf 0.525, Loss_mr 0.093, Train_accy 98.76
+2024-01-11 16:20:30,490 [ucir.py] => Task 3, Epoch 125/200 => Loss 0.711, Loss_clf 0.143, Loss_lf 0.473, Loss_mr 0.094, Train_accy 98.97
+2024-01-11 16:20:47,713 [ucir.py] => Task 3, Epoch 126/200 => Loss 0.898, Loss_clf 0.283, Loss_lf 0.502, Loss_mr 0.113, Train_accy 98.95, Test_accy 59.89
+2024-01-11 16:20:57,575 [ucir.py] => Task 3, Epoch 127/200 => Loss 0.735, Loss_clf 0.154, Loss_lf 0.486, Loss_mr 0.094, Train_accy 98.61
+2024-01-11 16:21:07,329 [ucir.py] => Task 3, Epoch 128/200 => Loss 0.735, Loss_clf 0.158, Loss_lf 0.485, Loss_mr 0.092, Train_accy 98.90
+2024-01-11 16:21:17,358 [ucir.py] => Task 3, Epoch 129/200 => Loss 0.757, Loss_clf 0.172, Loss_lf 0.478, Loss_mr 0.107, Train_accy 98.74
+2024-01-11 16:21:27,154 [ucir.py] => Task 3, Epoch 130/200 => Loss 0.771, Loss_clf 0.167, Loss_lf 0.497, Loss_mr 0.107, Train_accy 98.69
+2024-01-11 16:21:44,229 [ucir.py] => Task 3, Epoch 131/200 => Loss 0.794, Loss_clf 0.208, Loss_lf 0.478, Loss_mr 0.108, Train_accy 98.86, Test_accy 61.35
+2024-01-11 16:21:54,268 [ucir.py] => Task 3, Epoch 132/200 => Loss 0.779, Loss_clf 0.184, Loss_lf 0.487, Loss_mr 0.108, Train_accy 98.93
+2024-01-11 16:22:04,004 [ucir.py] => Task 3, Epoch 133/200 => Loss 0.744, Loss_clf 0.128, Loss_lf 0.524, Loss_mr 0.091, Train_accy 98.80
+2024-01-11 16:22:14,391 [ucir.py] => Task 3, Epoch 134/200 => Loss 0.776, Loss_clf 0.195, Loss_lf 0.490, Loss_mr 0.091, Train_accy 98.53
+2024-01-11 16:22:24,842 [ucir.py] => Task 3, Epoch 135/200 => Loss 0.740, Loss_clf 0.158, Loss_lf 0.489, Loss_mr 0.094, Train_accy 98.97
+2024-01-11 16:22:42,340 [ucir.py] => Task 3, Epoch 136/200 => Loss 0.744, Loss_clf 0.162, Loss_lf 0.489, Loss_mr 0.094, Train_accy 98.51, Test_accy 59.54
+2024-01-11 16:22:52,283 [ucir.py] => Task 3, Epoch 137/200 => Loss 0.795, Loss_clf 0.206, Loss_lf 0.497, Loss_mr 0.092, Train_accy 98.78
+2024-01-11 16:23:02,224 [ucir.py] => Task 3, Epoch 138/200 => Loss 0.786, Loss_clf 0.190, Loss_lf 0.487, Loss_mr 0.109, Train_accy 98.86
+2024-01-11 16:23:12,016 [ucir.py] => Task 3, Epoch 139/200 => Loss 0.752, Loss_clf 0.162, Loss_lf 0.497, Loss_mr 0.094, Train_accy 98.95
+2024-01-11 16:23:22,978 [ucir.py] => Task 3, Epoch 140/200 => Loss 0.769, Loss_clf 0.163, Loss_lf 0.499, Loss_mr 0.107, Train_accy 98.80
+2024-01-11 16:23:40,732 [ucir.py] => Task 3, Epoch 141/200 => Loss 0.815, Loss_clf 0.218, Loss_lf 0.502, Loss_mr 0.094, Train_accy 99.03, Test_accy 59.81
+2024-01-11 16:23:51,121 [ucir.py] => Task 3, Epoch 142/200 => Loss 0.955, Loss_clf 0.332, Loss_lf 0.507, Loss_mr 0.116, Train_accy 98.74
+2024-01-11 16:24:00,861 [ucir.py] => Task 3, Epoch 143/200 => Loss 0.856, Loss_clf 0.251, Loss_lf 0.500, Loss_mr 0.105, Train_accy 98.61
+2024-01-11 16:24:10,756 [ucir.py] => Task 3, Epoch 144/200 => Loss 0.747, Loss_clf 0.164, Loss_lf 0.493, Loss_mr 0.091, Train_accy 98.72
+2024-01-11 16:24:21,016 [ucir.py] => Task 3, Epoch 145/200 => Loss 0.745, Loss_clf 0.169, Loss_lf 0.483, Loss_mr 0.092, Train_accy 98.76
+2024-01-11 16:24:38,243 [ucir.py] => Task 3, Epoch 146/200 => Loss 0.736, Loss_clf 0.140, Loss_lf 0.505, Loss_mr 0.091, Train_accy 98.84, Test_accy 62.14
+2024-01-11 16:24:47,955 [ucir.py] => Task 3, Epoch 147/200 => Loss 0.864, Loss_clf 0.266, Loss_lf 0.504, Loss_mr 0.094, Train_accy 98.65
+2024-01-11 16:24:57,693 [ucir.py] => Task 3, Epoch 148/200 => Loss 0.699, Loss_clf 0.125, Loss_lf 0.483, Loss_mr 0.091, Train_accy 98.97
+2024-01-11 16:25:07,750 [ucir.py] => Task 3, Epoch 149/200 => Loss 0.778, Loss_clf 0.182, Loss_lf 0.503, Loss_mr 0.093, Train_accy 98.91
+2024-01-11 16:25:17,544 [ucir.py] => Task 3, Epoch 150/200 => Loss 0.821, Loss_clf 0.214, Loss_lf 0.501, Loss_mr 0.106, Train_accy 98.55
+2024-01-11 16:25:34,432 [ucir.py] => Task 3, Epoch 151/200 => Loss 0.747, Loss_clf 0.173, Loss_lf 0.482, Loss_mr 0.092, Train_accy 98.95, Test_accy 61.32
+2024-01-11 16:25:44,188 [ucir.py] => Task 3, Epoch 152/200 => Loss 0.940, Loss_clf 0.332, Loss_lf 0.495, Loss_mr 0.114, Train_accy 98.82
+2024-01-11 16:25:54,242 [ucir.py] => Task 3, Epoch 153/200 => Loss 0.730, Loss_clf 0.134, Loss_lf 0.503, Loss_mr 0.092, Train_accy 98.74
+2024-01-11 16:26:04,315 [ucir.py] => Task 3, Epoch 154/200 => Loss 0.820, Loss_clf 0.220, Loss_lf 0.507, Loss_mr 0.093, Train_accy 98.78
+2024-01-11 16:26:14,276 [ucir.py] => Task 3, Epoch 155/200 => Loss 0.837, Loss_clf 0.246, Loss_lf 0.485, Loss_mr 0.105, Train_accy 99.09
+2024-01-11 16:26:32,362 [ucir.py] => Task 3, Epoch 156/200 => Loss 0.745, Loss_clf 0.154, Loss_lf 0.498, Loss_mr 0.092, Train_accy 98.76, Test_accy 61.38
+2024-01-11 16:26:43,111 [ucir.py] => Task 3, Epoch 157/200 => Loss 0.826, Loss_clf 0.208, Loss_lf 0.525, Loss_mr 0.093, Train_accy 98.78
+2024-01-11 16:26:53,315 [ucir.py] => Task 3, Epoch 158/200 => Loss 0.863, Loss_clf 0.248, Loss_lf 0.500, Loss_mr 0.114, Train_accy 98.70
+2024-01-11 16:27:03,448 [ucir.py] => Task 3, Epoch 159/200 => Loss 0.815, Loss_clf 0.195, Loss_lf 0.513, Loss_mr 0.107, Train_accy 98.78
+2024-01-11 16:27:13,354 [ucir.py] => Task 3, Epoch 160/200 => Loss 0.775, Loss_clf 0.192, Loss_lf 0.492, Loss_mr 0.091, Train_accy 98.90
+2024-01-11 16:27:30,398 [ucir.py] => Task 3, Epoch 161/200 => Loss 0.758, Loss_clf 0.166, Loss_lf 0.485, Loss_mr 0.106, Train_accy 98.88, Test_accy 59.96
+2024-01-11 16:27:40,121 [ucir.py] => Task 3, Epoch 162/200 => Loss 0.709, Loss_clf 0.137, Loss_lf 0.479, Loss_mr 0.093, Train_accy 98.86
+2024-01-11 16:27:50,015 [ucir.py] => Task 3, Epoch 163/200 => Loss 0.712, Loss_clf 0.125, Loss_lf 0.494, Loss_mr 0.093, Train_accy 98.78
+2024-01-11 16:27:59,684 [ucir.py] => Task 3, Epoch 164/200 => Loss 0.823, Loss_clf 0.226, Loss_lf 0.505, Loss_mr 0.092, Train_accy 98.90
+2024-01-11 16:28:09,829 [ucir.py] => Task 3, Epoch 165/200 => Loss 0.860, Loss_clf 0.251, Loss_lf 0.498, Loss_mr 0.111, Train_accy 98.69
+2024-01-11 16:28:26,556 [ucir.py] => Task 3, Epoch 166/200 => Loss 0.879, Loss_clf 0.258, Loss_lf 0.510, Loss_mr 0.112, Train_accy 98.86, Test_accy 61.26
+2024-01-11 16:28:36,961 [ucir.py] => Task 3, Epoch 167/200 => Loss 0.861, Loss_clf 0.241, Loss_lf 0.506, Loss_mr 0.114, Train_accy 98.61
+2024-01-11 16:28:46,783 [ucir.py] => Task 3, Epoch 168/200 => Loss 0.715, Loss_clf 0.142, Loss_lf 0.482, Loss_mr 0.091, Train_accy 98.78
+2024-01-11 16:28:56,745 [ucir.py] => Task 3, Epoch 169/200 => Loss 0.750, Loss_clf 0.152, Loss_lf 0.506, Loss_mr 0.092, Train_accy 98.99
+2024-01-11 16:29:06,367 [ucir.py] => Task 3, Epoch 170/200 => Loss 0.741, Loss_clf 0.157, Loss_lf 0.489, Loss_mr 0.095, Train_accy 98.91
+2024-01-11 16:29:23,604 [ucir.py] => Task 3, Epoch 171/200 => Loss 0.777, Loss_clf 0.174, Loss_lf 0.509, Loss_mr 0.093, Train_accy 98.95, Test_accy 60.59
+2024-01-11 16:29:33,359 [ucir.py] => Task 3, Epoch 172/200 => Loss 0.733, Loss_clf 0.162, Loss_lf 0.481, Loss_mr 0.090, Train_accy 98.72
+2024-01-11 16:29:43,188 [ucir.py] => Task 3, Epoch 173/200 => Loss 0.760, Loss_clf 0.169, Loss_lf 0.501, Loss_mr 0.090, Train_accy 98.97
+2024-01-11 16:29:53,203 [ucir.py] => Task 3, Epoch 174/200 => Loss 0.709, Loss_clf 0.140, Loss_lf 0.477, Loss_mr 0.091, Train_accy 98.90
+2024-01-11 16:30:03,811 [ucir.py] => Task 3, Epoch 175/200 => Loss 0.891, Loss_clf 0.267, Loss_lf 0.512, Loss_mr 0.112, Train_accy 99.03
+2024-01-11 16:30:20,736 [ucir.py] => Task 3, Epoch 176/200 => Loss 0.741, Loss_clf 0.170, Loss_lf 0.482, Loss_mr 0.089, Train_accy 98.61, Test_accy 60.89
+2024-01-11 16:30:30,676 [ucir.py] => Task 3, Epoch 177/200 => Loss 0.830, Loss_clf 0.247, Loss_lf 0.480, Loss_mr 0.103, Train_accy 98.84
+2024-01-11 16:30:40,599 [ucir.py] => Task 3, Epoch 178/200 => Loss 0.763, Loss_clf 0.168, Loss_lf 0.502, Loss_mr 0.093, Train_accy 98.78
+2024-01-11 16:30:51,182 [ucir.py] => Task 3, Epoch 179/200 => Loss 0.818, Loss_clf 0.229, Loss_lf 0.498, Loss_mr 0.091, Train_accy 98.90
+2024-01-11 16:31:00,913 [ucir.py] => Task 3, Epoch 180/200 => Loss 0.813, Loss_clf 0.203, Loss_lf 0.517, Loss_mr 0.093, Train_accy 98.80
+2024-01-11 16:31:18,527 [ucir.py] => Task 3, Epoch 181/200 => Loss 0.737, Loss_clf 0.162, Loss_lf 0.485, Loss_mr 0.091, Train_accy 98.82, Test_accy 62.17
+2024-01-11 16:31:28,273 [ucir.py] => Task 3, Epoch 182/200 => Loss 0.720, Loss_clf 0.143, Loss_lf 0.487, Loss_mr 0.090, Train_accy 98.84
+2024-01-11 16:31:38,218 [ucir.py] => Task 3, Epoch 183/200 => Loss 0.873, Loss_clf 0.261, Loss_lf 0.498, Loss_mr 0.114, Train_accy 98.67
+2024-01-11 16:31:48,183 [ucir.py] => Task 3, Epoch 184/200 => Loss 0.813, Loss_clf 0.214, Loss_lf 0.506, Loss_mr 0.094, Train_accy 98.80
+2024-01-11 16:31:58,419 [ucir.py] => Task 3, Epoch 185/200 => Loss 0.744, Loss_clf 0.177, Loss_lf 0.477, Loss_mr 0.090, Train_accy 99.10
+2024-01-11 16:32:15,808 [ucir.py] => Task 3, Epoch 186/200 => Loss 0.758, Loss_clf 0.180, Loss_lf 0.488, Loss_mr 0.090, Train_accy 98.82, Test_accy 61.10
+2024-01-11 16:32:25,524 [ucir.py] => Task 3, Epoch 187/200 => Loss 0.721, Loss_clf 0.132, Loss_lf 0.497, Loss_mr 0.092, Train_accy 98.82
+2024-01-11 16:32:35,498 [ucir.py] => Task 3, Epoch 188/200 => Loss 0.796, Loss_clf 0.209, Loss_lf 0.496, Loss_mr 0.091, Train_accy 99.07
+2024-01-11 16:32:45,298 [ucir.py] => Task 3, Epoch 189/200 => Loss 0.740, Loss_clf 0.173, Loss_lf 0.474, Loss_mr 0.093, Train_accy 98.86
+2024-01-11 16:32:56,206 [ucir.py] => Task 3, Epoch 190/200 => Loss 0.757, Loss_clf 0.168, Loss_lf 0.497, Loss_mr 0.093, Train_accy 98.72
+2024-01-11 16:33:14,015 [ucir.py] => Task 3, Epoch 191/200 => Loss 0.776, Loss_clf 0.183, Loss_lf 0.487, Loss_mr 0.105, Train_accy 98.88, Test_accy 61.15
+2024-01-11 16:33:24,822 [ucir.py] => Task 3, Epoch 192/200 => Loss 0.748, Loss_clf 0.167, Loss_lf 0.488, Loss_mr 0.093, Train_accy 98.93
+2024-01-11 16:33:34,577 [ucir.py] => Task 3, Epoch 193/200 => Loss 0.765, Loss_clf 0.170, Loss_lf 0.504, Loss_mr 0.091, Train_accy 99.01
+2024-01-11 16:33:44,664 [ucir.py] => Task 3, Epoch 194/200 => Loss 0.814, Loss_clf 0.216, Loss_lf 0.488, Loss_mr 0.110, Train_accy 98.69
+2024-01-11 16:33:54,357 [ucir.py] => Task 3, Epoch 195/200 => Loss 0.928, Loss_clf 0.303, Loss_lf 0.510, Loss_mr 0.115, Train_accy 98.80
+2024-01-11 16:34:11,538 [ucir.py] => Task 3, Epoch 196/200 => Loss 0.741, Loss_clf 0.160, Loss_lf 0.490, Loss_mr 0.091, Train_accy 98.95, Test_accy 58.73
+2024-01-11 16:34:21,504 [ucir.py] => Task 3, Epoch 197/200 => Loss 0.763, Loss_clf 0.190, Loss_lf 0.480, Loss_mr 0.093, Train_accy 98.82
+2024-01-11 16:34:31,453 [ucir.py] => Task 3, Epoch 198/200 => Loss 0.834, Loss_clf 0.217, Loss_lf 0.509, Loss_mr 0.108, Train_accy 98.61
+2024-01-11 16:34:41,097 [ucir.py] => Task 3, Epoch 199/200 => Loss 0.778, Loss_clf 0.189, Loss_lf 0.498, Loss_mr 0.091, Train_accy 98.88
+2024-01-11 16:34:51,165 [ucir.py] => Task 3, Epoch 200/200 => Loss 0.776, Loss_clf 0.195, Loss_lf 0.491, Loss_mr 0.090, Train_accy 98.82
+2024-01-11 16:34:51,166 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 16:35:30,440 [ucir.py] => Exemplar size: 1350
+2024-01-11 16:35:31,188 [trainer.py] => CNN: {'total': 61.73, '0': 53.89, '1': 59.44, '2': 65.56, '3': 27.78, '4': 58.89, '5': 39.44, '6': 45.56, '7': 27.22, '8': 52.78, '9': 35.0, '10': 74.44, '11': 72.22, '12': 55.0, '13': 52.78, '14': 46.67, '15': 67.78, '16': 73.89, '17': 68.89, '18': 65.56, '19': 50.0, '20': 51.67, '21': 65.0, '22': 63.89, '23': 55.0, '24': 57.78, '25': 48.89, '26': 60.56, '27': 62.78, '28': 50.0, '29': 49.44, '30': 55.0, '31': 54.44, '32': 48.89, '33': 17.22, '34': 32.22, '35': 89.44, '36': 90.56, '37': 81.67, '38': 96.67, '39': 93.33, '40': 84.44, '41': 92.78, '42': 96.11, '43': 98.33, 'old': 53.3, 'new': 91.22}
+2024-01-11 16:35:31,188 [trainer.py] => NME: {'total': 53.38, '0': 81.11, '1': 57.22, '2': 63.89, '3': 33.89, '4': 54.44, '5': 48.33, '6': 46.11, '7': 30.0, '8': 58.33, '9': 41.11, '10': 76.11, '11': 82.22, '12': 58.33, '13': 57.22, '14': 57.78, '15': 63.89, '16': 68.33, '17': 63.33, '18': 59.44, '19': 47.78, '20': 53.33, '21': 62.78, '22': 57.22, '23': 47.78, '24': 51.11, '25': 38.89, '26': 49.44, '27': 46.11, '28': 43.89, '29': 38.33, '30': 40.0, '31': 32.78, '32': 55.56, '33': 28.33, '34': 36.67, '35': 64.44, '36': 51.11, '37': 62.22, '38': 86.67, '39': 66.67, '40': 50.56, '41': 49.44, '42': 47.78, '43': 41.11, 'old': 52.32, 'new': 57.11}
+2024-01-11 16:35:31,188 [trainer.py] => CNN top1 curve: [88.07, 77.16, 69.24, 61.73]
+2024-01-11 16:35:31,188 [trainer.py] => CNN top5 curve: [98.78, 95.24, 90.29, 89.35]
+2024-01-11 16:35:31,188 [trainer.py] => NME top1 curve: [87.52, 65.58, 58.78, 53.38]
+2024-01-11 16:35:31,188 [trainer.py] => NME top5 curve: [98.89, 93.44, 89.11, 88.21]
+
+2024-01-11 16:35:31,189 [trainer.py] => All params: 21047373
+2024-01-11 16:35:31,190 [trainer.py] => Trainable params: 21047373
+2024-01-11 16:35:31,191 [ucir.py] => Learning on 45-55
+2024-01-11 16:38:01,394 [ucir.py] => Task 4, Epoch 1/200 => Loss 3.158, Loss_clf 2.338, Loss_lf 0.475, Loss_mr 0.345, Train_accy 34.13, Test_accy 40.57
+2024-01-11 16:38:17,874 [ucir.py] => Task 4, Epoch 2/200 => Loss 2.104, Loss_clf 1.499, Loss_lf 0.349, Loss_mr 0.256, Train_accy 50.40
+2024-01-11 16:38:28,652 [ucir.py] => Task 4, Epoch 3/200 => Loss 1.841, Loss_clf 1.251, Loss_lf 0.369, Loss_mr 0.220, Train_accy 60.13
+2024-01-11 16:38:39,716 [ucir.py] => Task 4, Epoch 4/200 => Loss 1.679, Loss_clf 1.088, Loss_lf 0.388, Loss_mr 0.203, Train_accy 66.02
+2024-01-11 16:38:50,397 [ucir.py] => Task 4, Epoch 5/200 => Loss 1.566, Loss_clf 0.966, Loss_lf 0.407, Loss_mr 0.193, Train_accy 69.82
+2024-01-11 16:39:11,591 [ucir.py] => Task 4, Epoch 6/200 => Loss 1.480, Loss_clf 0.872, Loss_lf 0.429, Loss_mr 0.179, Train_accy 73.66, Test_accy 52.41
+2024-01-11 16:39:22,903 [ucir.py] => Task 4, Epoch 7/200 => Loss 1.358, Loss_clf 0.760, Loss_lf 0.430, Loss_mr 0.169, Train_accy 77.50
+2024-01-11 16:39:33,514 [ucir.py] => Task 4, Epoch 8/200 => Loss 1.254, Loss_clf 0.673, Loss_lf 0.422, Loss_mr 0.159, Train_accy 81.23
+2024-01-11 16:39:44,605 [ucir.py] => Task 4, Epoch 9/200 => Loss 1.247, Loss_clf 0.649, Loss_lf 0.445, Loss_mr 0.153, Train_accy 81.50
+2024-01-11 16:39:55,331 [ucir.py] => Task 4, Epoch 10/200 => Loss 1.211, Loss_clf 0.614, Loss_lf 0.444, Loss_mr 0.153, Train_accy 82.02
+2024-01-11 16:40:14,546 [ucir.py] => Task 4, Epoch 11/200 => Loss 1.159, Loss_clf 0.557, Loss_lf 0.455, Loss_mr 0.147, Train_accy 84.38, Test_accy 54.51
+2024-01-11 16:40:24,854 [ucir.py] => Task 4, Epoch 12/200 => Loss 1.108, Loss_clf 0.518, Loss_lf 0.450, Loss_mr 0.140, Train_accy 85.62
+2024-01-11 16:40:35,506 [ucir.py] => Task 4, Epoch 13/200 => Loss 1.075, Loss_clf 0.489, Loss_lf 0.450, Loss_mr 0.136, Train_accy 87.03
+2024-01-11 16:40:46,010 [ucir.py] => Task 4, Epoch 14/200 => Loss 1.066, Loss_clf 0.485, Loss_lf 0.448, Loss_mr 0.134, Train_accy 86.59
+2024-01-11 16:40:56,632 [ucir.py] => Task 4, Epoch 15/200 => Loss 1.065, Loss_clf 0.472, Loss_lf 0.460, Loss_mr 0.133, Train_accy 87.05
+2024-01-11 16:41:17,101 [ucir.py] => Task 4, Epoch 16/200 => Loss 1.015, Loss_clf 0.430, Loss_lf 0.455, Loss_mr 0.131, Train_accy 88.59, Test_accy 54.40
+2024-01-11 16:41:27,588 [ucir.py] => Task 4, Epoch 17/200 => Loss 0.969, Loss_clf 0.401, Loss_lf 0.447, Loss_mr 0.121, Train_accy 89.50
+2024-01-11 16:41:38,156 [ucir.py] => Task 4, Epoch 18/200 => Loss 0.951, Loss_clf 0.383, Loss_lf 0.446, Loss_mr 0.122, Train_accy 89.86
+2024-01-11 16:41:48,751 [ucir.py] => Task 4, Epoch 19/200 => Loss 0.900, Loss_clf 0.349, Loss_lf 0.437, Loss_mr 0.113, Train_accy 91.17
+2024-01-11 16:41:59,621 [ucir.py] => Task 4, Epoch 20/200 => Loss 0.913, Loss_clf 0.362, Loss_lf 0.438, Loss_mr 0.113, Train_accy 90.59
+2024-01-11 16:42:19,292 [ucir.py] => Task 4, Epoch 21/200 => Loss 0.964, Loss_clf 0.386, Loss_lf 0.461, Loss_mr 0.117, Train_accy 89.48, Test_accy 52.98
+2024-01-11 16:42:29,803 [ucir.py] => Task 4, Epoch 22/200 => Loss 0.909, Loss_clf 0.349, Loss_lf 0.446, Loss_mr 0.114, Train_accy 91.06
+2024-01-11 16:42:40,441 [ucir.py] => Task 4, Epoch 23/200 => Loss 0.883, Loss_clf 0.337, Loss_lf 0.436, Loss_mr 0.110, Train_accy 90.50
+2024-01-11 16:42:51,005 [ucir.py] => Task 4, Epoch 24/200 => Loss 0.860, Loss_clf 0.316, Loss_lf 0.436, Loss_mr 0.108, Train_accy 92.40
+2024-01-11 16:43:02,423 [ucir.py] => Task 4, Epoch 25/200 => Loss 0.865, Loss_clf 0.320, Loss_lf 0.434, Loss_mr 0.112, Train_accy 91.48
+2024-01-11 16:43:21,577 [ucir.py] => Task 4, Epoch 26/200 => Loss 0.888, Loss_clf 0.327, Loss_lf 0.449, Loss_mr 0.112, Train_accy 91.33, Test_accy 56.19
+2024-01-11 16:43:31,680 [ucir.py] => Task 4, Epoch 27/200 => Loss 0.896, Loss_clf 0.334, Loss_lf 0.451, Loss_mr 0.110, Train_accy 91.21
+2024-01-11 16:43:41,983 [ucir.py] => Task 4, Epoch 28/200 => Loss 0.985, Loss_clf 0.386, Loss_lf 0.475, Loss_mr 0.123, Train_accy 89.37
+2024-01-11 16:43:51,949 [ucir.py] => Task 4, Epoch 29/200 => Loss 0.880, Loss_clf 0.317, Loss_lf 0.455, Loss_mr 0.109, Train_accy 92.05
+2024-01-11 16:44:02,297 [ucir.py] => Task 4, Epoch 30/200 => Loss 0.800, Loss_clf 0.271, Loss_lf 0.428, Loss_mr 0.101, Train_accy 93.69
+2024-01-11 16:44:20,892 [ucir.py] => Task 4, Epoch 31/200 => Loss 0.779, Loss_clf 0.255, Loss_lf 0.425, Loss_mr 0.099, Train_accy 93.95, Test_accy 55.84
+2024-01-11 16:44:30,924 [ucir.py] => Task 4, Epoch 32/200 => Loss 0.748, Loss_clf 0.247, Loss_lf 0.410, Loss_mr 0.091, Train_accy 94.70
+2024-01-11 16:44:41,083 [ucir.py] => Task 4, Epoch 33/200 => Loss 0.824, Loss_clf 0.286, Loss_lf 0.435, Loss_mr 0.104, Train_accy 92.88
+2024-01-11 16:44:51,271 [ucir.py] => Task 4, Epoch 34/200 => Loss 0.905, Loss_clf 0.330, Loss_lf 0.459, Loss_mr 0.116, Train_accy 90.76
+2024-01-11 16:45:01,499 [ucir.py] => Task 4, Epoch 35/200 => Loss 0.826, Loss_clf 0.287, Loss_lf 0.435, Loss_mr 0.104, Train_accy 92.77
+2024-01-11 16:45:19,843 [ucir.py] => Task 4, Epoch 36/200 => Loss 0.814, Loss_clf 0.271, Loss_lf 0.447, Loss_mr 0.097, Train_accy 93.15, Test_accy 53.07
+2024-01-11 16:45:30,087 [ucir.py] => Task 4, Epoch 37/200 => Loss 0.801, Loss_clf 0.270, Loss_lf 0.434, Loss_mr 0.097, Train_accy 93.30
+2024-01-11 16:45:40,474 [ucir.py] => Task 4, Epoch 38/200 => Loss 0.780, Loss_clf 0.255, Loss_lf 0.430, Loss_mr 0.095, Train_accy 93.69
+2024-01-11 16:45:50,583 [ucir.py] => Task 4, Epoch 39/200 => Loss 0.731, Loss_clf 0.226, Loss_lf 0.418, Loss_mr 0.087, Train_accy 94.83
+2024-01-11 16:46:00,809 [ucir.py] => Task 4, Epoch 40/200 => Loss 0.772, Loss_clf 0.249, Loss_lf 0.428, Loss_mr 0.095, Train_accy 93.93
+2024-01-11 16:46:20,131 [ucir.py] => Task 4, Epoch 41/200 => Loss 0.743, Loss_clf 0.232, Loss_lf 0.421, Loss_mr 0.090, Train_accy 94.72, Test_accy 50.79
+2024-01-11 16:46:30,264 [ucir.py] => Task 4, Epoch 42/200 => Loss 0.818, Loss_clf 0.276, Loss_lf 0.445, Loss_mr 0.098, Train_accy 92.79
+2024-01-11 16:46:40,515 [ucir.py] => Task 4, Epoch 43/200 => Loss 0.766, Loss_clf 0.249, Loss_lf 0.426, Loss_mr 0.090, Train_accy 94.02
+2024-01-11 16:46:50,772 [ucir.py] => Task 4, Epoch 44/200 => Loss 0.689, Loss_clf 0.199, Loss_lf 0.409, Loss_mr 0.080, Train_accy 95.91
+2024-01-11 16:47:00,870 [ucir.py] => Task 4, Epoch 45/200 => Loss 0.709, Loss_clf 0.214, Loss_lf 0.411, Loss_mr 0.084, Train_accy 95.17
+2024-01-11 16:47:19,157 [ucir.py] => Task 4, Epoch 46/200 => Loss 0.708, Loss_clf 0.214, Loss_lf 0.410, Loss_mr 0.085, Train_accy 95.19, Test_accy 56.61
+2024-01-11 16:47:29,113 [ucir.py] => Task 4, Epoch 47/200 => Loss 0.693, Loss_clf 0.203, Loss_lf 0.409, Loss_mr 0.081, Train_accy 95.33
+2024-01-11 16:47:39,791 [ucir.py] => Task 4, Epoch 48/200 => Loss 0.695, Loss_clf 0.202, Loss_lf 0.409, Loss_mr 0.083, Train_accy 95.53
+2024-01-11 16:47:49,925 [ucir.py] => Task 4, Epoch 49/200 => Loss 0.777, Loss_clf 0.257, Loss_lf 0.431, Loss_mr 0.090, Train_accy 94.04
+2024-01-11 16:47:59,977 [ucir.py] => Task 4, Epoch 50/200 => Loss 0.800, Loss_clf 0.263, Loss_lf 0.442, Loss_mr 0.095, Train_accy 93.30
+2024-01-11 16:48:18,240 [ucir.py] => Task 4, Epoch 51/200 => Loss 0.722, Loss_clf 0.215, Loss_lf 0.421, Loss_mr 0.087, Train_accy 95.19, Test_accy 55.96
+2024-01-11 16:48:28,514 [ucir.py] => Task 4, Epoch 52/200 => Loss 0.677, Loss_clf 0.191, Loss_lf 0.408, Loss_mr 0.078, Train_accy 96.23
+2024-01-11 16:48:38,512 [ucir.py] => Task 4, Epoch 53/200 => Loss 0.703, Loss_clf 0.205, Loss_lf 0.417, Loss_mr 0.081, Train_accy 95.46
+2024-01-11 16:48:48,772 [ucir.py] => Task 4, Epoch 54/200 => Loss 0.761, Loss_clf 0.240, Loss_lf 0.431, Loss_mr 0.090, Train_accy 94.27
+2024-01-11 16:48:58,812 [ucir.py] => Task 4, Epoch 55/200 => Loss 0.774, Loss_clf 0.249, Loss_lf 0.435, Loss_mr 0.090, Train_accy 93.77
+2024-01-11 16:49:17,151 [ucir.py] => Task 4, Epoch 56/200 => Loss 0.814, Loss_clf 0.268, Loss_lf 0.454, Loss_mr 0.093, Train_accy 93.32, Test_accy 47.60
+2024-01-11 16:49:27,593 [ucir.py] => Task 4, Epoch 57/200 => Loss 0.784, Loss_clf 0.257, Loss_lf 0.439, Loss_mr 0.088, Train_accy 93.78
+2024-01-11 16:49:38,654 [ucir.py] => Task 4, Epoch 58/200 => Loss 0.760, Loss_clf 0.238, Loss_lf 0.436, Loss_mr 0.086, Train_accy 94.41
+2024-01-11 16:49:49,455 [ucir.py] => Task 4, Epoch 59/200 => Loss 0.723, Loss_clf 0.223, Loss_lf 0.418, Loss_mr 0.082, Train_accy 94.79
+2024-01-11 16:50:00,116 [ucir.py] => Task 4, Epoch 60/200 => Loss 0.754, Loss_clf 0.232, Loss_lf 0.435, Loss_mr 0.087, Train_accy 94.32
+2024-01-11 16:50:19,459 [ucir.py] => Task 4, Epoch 61/200 => Loss 0.601, Loss_clf 0.129, Loss_lf 0.394, Loss_mr 0.078, Train_accy 98.27, Test_accy 60.91
+2024-01-11 16:50:29,810 [ucir.py] => Task 4, Epoch 62/200 => Loss 0.516, Loss_clf 0.095, Loss_lf 0.359, Loss_mr 0.062, Train_accy 99.28
+2024-01-11 16:50:40,508 [ucir.py] => Task 4, Epoch 63/200 => Loss 0.494, Loss_clf 0.090, Loss_lf 0.347, Loss_mr 0.058, Train_accy 99.55
+2024-01-11 16:50:50,861 [ucir.py] => Task 4, Epoch 64/200 => Loss 0.479, Loss_clf 0.085, Loss_lf 0.338, Loss_mr 0.056, Train_accy 99.66
+2024-01-11 16:51:01,664 [ucir.py] => Task 4, Epoch 65/200 => Loss 0.479, Loss_clf 0.090, Loss_lf 0.334, Loss_mr 0.055, Train_accy 99.69
+2024-01-11 16:51:21,288 [ucir.py] => Task 4, Epoch 66/200 => Loss 0.472, Loss_clf 0.083, Loss_lf 0.335, Loss_mr 0.055, Train_accy 99.69, Test_accy 62.46
+2024-01-11 16:51:31,756 [ucir.py] => Task 4, Epoch 67/200 => Loss 0.468, Loss_clf 0.084, Loss_lf 0.331, Loss_mr 0.053, Train_accy 99.71
+2024-01-11 16:51:42,190 [ucir.py] => Task 4, Epoch 68/200 => Loss 0.467, Loss_clf 0.085, Loss_lf 0.328, Loss_mr 0.053, Train_accy 99.69
+2024-01-11 16:51:53,033 [ucir.py] => Task 4, Epoch 69/200 => Loss 0.459, Loss_clf 0.083, Loss_lf 0.324, Loss_mr 0.053, Train_accy 99.77
+2024-01-11 16:52:03,624 [ucir.py] => Task 4, Epoch 70/200 => Loss 0.460, Loss_clf 0.082, Loss_lf 0.325, Loss_mr 0.053, Train_accy 99.80
+2024-01-11 16:52:22,744 [ucir.py] => Task 4, Epoch 71/200 => Loss 0.460, Loss_clf 0.086, Loss_lf 0.322, Loss_mr 0.052, Train_accy 99.66, Test_accy 62.89
+2024-01-11 16:52:33,341 [ucir.py] => Task 4, Epoch 72/200 => Loss 0.455, Loss_clf 0.083, Loss_lf 0.321, Loss_mr 0.051, Train_accy 99.64
+2024-01-11 16:52:43,667 [ucir.py] => Task 4, Epoch 73/200 => Loss 0.457, Loss_clf 0.085, Loss_lf 0.322, Loss_mr 0.050, Train_accy 99.60
+2024-01-11 16:52:54,643 [ucir.py] => Task 4, Epoch 74/200 => Loss 0.450, Loss_clf 0.080, Loss_lf 0.318, Loss_mr 0.052, Train_accy 99.73
+2024-01-11 16:53:04,898 [ucir.py] => Task 4, Epoch 75/200 => Loss 0.460, Loss_clf 0.088, Loss_lf 0.321, Loss_mr 0.052, Train_accy 99.57
+2024-01-11 16:53:23,733 [ucir.py] => Task 4, Epoch 76/200 => Loss 0.445, Loss_clf 0.079, Loss_lf 0.316, Loss_mr 0.050, Train_accy 99.71, Test_accy 62.83
+2024-01-11 16:53:34,172 [ucir.py] => Task 4, Epoch 77/200 => Loss 0.441, Loss_clf 0.078, Loss_lf 0.313, Loss_mr 0.050, Train_accy 99.86
+2024-01-11 16:53:44,545 [ucir.py] => Task 4, Epoch 78/200 => Loss 0.455, Loss_clf 0.086, Loss_lf 0.319, Loss_mr 0.050, Train_accy 99.77
+2024-01-11 16:53:54,782 [ucir.py] => Task 4, Epoch 79/200 => Loss 0.446, Loss_clf 0.083, Loss_lf 0.314, Loss_mr 0.049, Train_accy 99.78
+2024-01-11 16:54:05,065 [ucir.py] => Task 4, Epoch 80/200 => Loss 0.441, Loss_clf 0.076, Loss_lf 0.314, Loss_mr 0.051, Train_accy 99.87
+2024-01-11 16:54:23,687 [ucir.py] => Task 4, Epoch 81/200 => Loss 0.441, Loss_clf 0.082, Loss_lf 0.309, Loss_mr 0.050, Train_accy 99.73, Test_accy 62.72
+2024-01-11 16:54:33,951 [ucir.py] => Task 4, Epoch 82/200 => Loss 0.445, Loss_clf 0.085, Loss_lf 0.313, Loss_mr 0.048, Train_accy 99.62
+2024-01-11 16:54:44,128 [ucir.py] => Task 4, Epoch 83/200 => Loss 0.449, Loss_clf 0.084, Loss_lf 0.314, Loss_mr 0.051, Train_accy 99.66
+2024-01-11 16:54:54,241 [ucir.py] => Task 4, Epoch 84/200 => Loss 0.443, Loss_clf 0.082, Loss_lf 0.312, Loss_mr 0.049, Train_accy 99.75
+2024-01-11 16:55:04,658 [ucir.py] => Task 4, Epoch 85/200 => Loss 0.441, Loss_clf 0.081, Loss_lf 0.311, Loss_mr 0.048, Train_accy 99.66
+2024-01-11 16:55:22,794 [ucir.py] => Task 4, Epoch 86/200 => Loss 0.441, Loss_clf 0.083, Loss_lf 0.309, Loss_mr 0.049, Train_accy 99.77, Test_accy 63.07
+2024-01-11 16:55:32,976 [ucir.py] => Task 4, Epoch 87/200 => Loss 0.434, Loss_clf 0.080, Loss_lf 0.307, Loss_mr 0.048, Train_accy 99.82
+2024-01-11 16:55:43,035 [ucir.py] => Task 4, Epoch 88/200 => Loss 0.434, Loss_clf 0.079, Loss_lf 0.308, Loss_mr 0.047, Train_accy 99.78
+2024-01-11 16:55:53,158 [ucir.py] => Task 4, Epoch 89/200 => Loss 0.436, Loss_clf 0.080, Loss_lf 0.308, Loss_mr 0.048, Train_accy 99.78
+2024-01-11 16:56:03,933 [ucir.py] => Task 4, Epoch 90/200 => Loss 0.433, Loss_clf 0.078, Loss_lf 0.308, Loss_mr 0.047, Train_accy 99.75
+2024-01-11 16:56:23,163 [ucir.py] => Task 4, Epoch 91/200 => Loss 0.427, Loss_clf 0.076, Loss_lf 0.304, Loss_mr 0.047, Train_accy 99.69, Test_accy 62.88
+2024-01-11 16:56:33,470 [ucir.py] => Task 4, Epoch 92/200 => Loss 0.432, Loss_clf 0.079, Loss_lf 0.305, Loss_mr 0.048, Train_accy 99.73
+2024-01-11 16:56:43,727 [ucir.py] => Task 4, Epoch 93/200 => Loss 0.432, Loss_clf 0.080, Loss_lf 0.305, Loss_mr 0.046, Train_accy 99.84
+2024-01-11 16:56:53,976 [ucir.py] => Task 4, Epoch 94/200 => Loss 0.434, Loss_clf 0.079, Loss_lf 0.306, Loss_mr 0.049, Train_accy 99.75
+2024-01-11 16:57:04,382 [ucir.py] => Task 4, Epoch 95/200 => Loss 0.438, Loss_clf 0.083, Loss_lf 0.308, Loss_mr 0.047, Train_accy 99.73
+2024-01-11 16:57:23,211 [ucir.py] => Task 4, Epoch 96/200 => Loss 0.430, Loss_clf 0.077, Loss_lf 0.306, Loss_mr 0.047, Train_accy 99.78, Test_accy 63.14
+2024-01-11 16:57:33,497 [ucir.py] => Task 4, Epoch 97/200 => Loss 0.430, Loss_clf 0.080, Loss_lf 0.304, Loss_mr 0.046, Train_accy 99.69
+2024-01-11 16:57:44,125 [ucir.py] => Task 4, Epoch 98/200 => Loss 0.428, Loss_clf 0.080, Loss_lf 0.300, Loss_mr 0.047, Train_accy 99.75
+2024-01-11 16:57:54,432 [ucir.py] => Task 4, Epoch 99/200 => Loss 0.432, Loss_clf 0.079, Loss_lf 0.305, Loss_mr 0.048, Train_accy 99.66
+2024-01-11 16:58:05,110 [ucir.py] => Task 4, Epoch 100/200 => Loss 0.427, Loss_clf 0.077, Loss_lf 0.303, Loss_mr 0.047, Train_accy 99.78
+2024-01-11 16:58:25,261 [ucir.py] => Task 4, Epoch 101/200 => Loss 0.421, Loss_clf 0.076, Loss_lf 0.300, Loss_mr 0.045, Train_accy 99.77, Test_accy 63.29
+2024-01-11 16:58:35,368 [ucir.py] => Task 4, Epoch 102/200 => Loss 0.430, Loss_clf 0.080, Loss_lf 0.303, Loss_mr 0.046, Train_accy 99.69
+2024-01-11 16:58:45,570 [ucir.py] => Task 4, Epoch 103/200 => Loss 0.426, Loss_clf 0.077, Loss_lf 0.302, Loss_mr 0.047, Train_accy 99.69
+2024-01-11 16:58:55,793 [ucir.py] => Task 4, Epoch 104/200 => Loss 0.429, Loss_clf 0.076, Loss_lf 0.307, Loss_mr 0.047, Train_accy 99.77
+2024-01-11 16:59:05,874 [ucir.py] => Task 4, Epoch 105/200 => Loss 0.425, Loss_clf 0.078, Loss_lf 0.302, Loss_mr 0.046, Train_accy 99.77
+2024-01-11 16:59:25,145 [ucir.py] => Task 4, Epoch 106/200 => Loss 0.424, Loss_clf 0.076, Loss_lf 0.303, Loss_mr 0.045, Train_accy 99.80, Test_accy 63.00
+2024-01-11 16:59:35,098 [ucir.py] => Task 4, Epoch 107/200 => Loss 0.420, Loss_clf 0.075, Loss_lf 0.298, Loss_mr 0.047, Train_accy 99.84
+2024-01-11 16:59:45,075 [ucir.py] => Task 4, Epoch 108/200 => Loss 0.421, Loss_clf 0.079, Loss_lf 0.298, Loss_mr 0.044, Train_accy 99.73
+2024-01-11 16:59:55,221 [ucir.py] => Task 4, Epoch 109/200 => Loss 0.424, Loss_clf 0.079, Loss_lf 0.299, Loss_mr 0.046, Train_accy 99.62
+2024-01-11 17:00:05,140 [ucir.py] => Task 4, Epoch 110/200 => Loss 0.419, Loss_clf 0.074, Loss_lf 0.299, Loss_mr 0.046, Train_accy 99.80
+2024-01-11 17:00:23,570 [ucir.py] => Task 4, Epoch 111/200 => Loss 0.420, Loss_clf 0.076, Loss_lf 0.299, Loss_mr 0.045, Train_accy 99.77, Test_accy 63.08
+2024-01-11 17:00:33,722 [ucir.py] => Task 4, Epoch 112/200 => Loss 0.416, Loss_clf 0.075, Loss_lf 0.296, Loss_mr 0.045, Train_accy 99.73
+2024-01-11 17:00:43,782 [ucir.py] => Task 4, Epoch 113/200 => Loss 0.420, Loss_clf 0.077, Loss_lf 0.296, Loss_mr 0.047, Train_accy 99.87
+2024-01-11 17:00:54,081 [ucir.py] => Task 4, Epoch 114/200 => Loss 0.415, Loss_clf 0.075, Loss_lf 0.296, Loss_mr 0.044, Train_accy 99.82
+2024-01-11 17:01:04,104 [ucir.py] => Task 4, Epoch 115/200 => Loss 0.422, Loss_clf 0.080, Loss_lf 0.298, Loss_mr 0.045, Train_accy 99.73
+2024-01-11 17:01:22,295 [ucir.py] => Task 4, Epoch 116/200 => Loss 0.419, Loss_clf 0.075, Loss_lf 0.297, Loss_mr 0.046, Train_accy 99.75, Test_accy 62.86
+2024-01-11 17:01:32,586 [ucir.py] => Task 4, Epoch 117/200 => Loss 0.423, Loss_clf 0.077, Loss_lf 0.300, Loss_mr 0.046, Train_accy 99.66
+2024-01-11 17:01:42,731 [ucir.py] => Task 4, Epoch 118/200 => Loss 0.414, Loss_clf 0.074, Loss_lf 0.296, Loss_mr 0.044, Train_accy 99.82
+2024-01-11 17:01:52,902 [ucir.py] => Task 4, Epoch 119/200 => Loss 0.416, Loss_clf 0.075, Loss_lf 0.297, Loss_mr 0.045, Train_accy 99.86
+2024-01-11 17:02:03,113 [ucir.py] => Task 4, Epoch 120/200 => Loss 0.411, Loss_clf 0.073, Loss_lf 0.294, Loss_mr 0.044, Train_accy 99.86
+2024-01-11 17:02:21,141 [ucir.py] => Task 4, Epoch 121/200 => Loss 0.406, Loss_clf 0.071, Loss_lf 0.292, Loss_mr 0.042, Train_accy 99.84, Test_accy 63.34
+2024-01-11 17:02:31,270 [ucir.py] => Task 4, Epoch 122/200 => Loss 0.408, Loss_clf 0.070, Loss_lf 0.295, Loss_mr 0.043, Train_accy 99.87
+2024-01-11 17:02:41,837 [ucir.py] => Task 4, Epoch 123/200 => Loss 0.410, Loss_clf 0.075, Loss_lf 0.291, Loss_mr 0.044, Train_accy 99.84
+2024-01-11 17:02:51,934 [ucir.py] => Task 4, Epoch 124/200 => Loss 0.402, Loss_clf 0.068, Loss_lf 0.292, Loss_mr 0.042, Train_accy 99.89
+2024-01-11 17:03:01,968 [ucir.py] => Task 4, Epoch 125/200 => Loss 0.409, Loss_clf 0.072, Loss_lf 0.294, Loss_mr 0.044, Train_accy 99.82
+2024-01-11 17:03:19,996 [ucir.py] => Task 4, Epoch 126/200 => Loss 0.403, Loss_clf 0.069, Loss_lf 0.291, Loss_mr 0.042, Train_accy 99.98, Test_accy 63.31
+2024-01-11 17:03:30,215 [ucir.py] => Task 4, Epoch 127/200 => Loss 0.407, Loss_clf 0.072, Loss_lf 0.291, Loss_mr 0.043, Train_accy 99.82
+2024-01-11 17:03:40,139 [ucir.py] => Task 4, Epoch 128/200 => Loss 0.401, Loss_clf 0.066, Loss_lf 0.292, Loss_mr 0.043, Train_accy 99.95
+2024-01-11 17:03:50,177 [ucir.py] => Task 4, Epoch 129/200 => Loss 0.414, Loss_clf 0.073, Loss_lf 0.295, Loss_mr 0.046, Train_accy 99.73
+2024-01-11 17:04:00,455 [ucir.py] => Task 4, Epoch 130/200 => Loss 0.403, Loss_clf 0.070, Loss_lf 0.290, Loss_mr 0.042, Train_accy 99.80
+2024-01-11 17:04:18,617 [ucir.py] => Task 4, Epoch 131/200 => Loss 0.406, Loss_clf 0.071, Loss_lf 0.291, Loss_mr 0.044, Train_accy 99.91, Test_accy 63.21
+2024-01-11 17:04:28,620 [ucir.py] => Task 4, Epoch 132/200 => Loss 0.403, Loss_clf 0.070, Loss_lf 0.292, Loss_mr 0.042, Train_accy 99.86
+2024-01-11 17:04:38,650 [ucir.py] => Task 4, Epoch 133/200 => Loss 0.405, Loss_clf 0.071, Loss_lf 0.290, Loss_mr 0.044, Train_accy 99.78
+2024-01-11 17:04:49,131 [ucir.py] => Task 4, Epoch 134/200 => Loss 0.412, Loss_clf 0.073, Loss_lf 0.296, Loss_mr 0.043, Train_accy 99.75
+2024-01-11 17:05:00,080 [ucir.py] => Task 4, Epoch 135/200 => Loss 0.400, Loss_clf 0.068, Loss_lf 0.290, Loss_mr 0.042, Train_accy 99.86
+2024-01-11 17:05:18,322 [ucir.py] => Task 4, Epoch 136/200 => Loss 0.407, Loss_clf 0.072, Loss_lf 0.292, Loss_mr 0.043, Train_accy 99.87, Test_accy 62.99
+2024-01-11 17:05:28,396 [ucir.py] => Task 4, Epoch 137/200 => Loss 0.403, Loss_clf 0.070, Loss_lf 0.289, Loss_mr 0.044, Train_accy 99.84
+2024-01-11 17:05:38,647 [ucir.py] => Task 4, Epoch 138/200 => Loss 0.411, Loss_clf 0.074, Loss_lf 0.293, Loss_mr 0.045, Train_accy 99.73
+2024-01-11 17:05:49,119 [ucir.py] => Task 4, Epoch 139/200 => Loss 0.407, Loss_clf 0.071, Loss_lf 0.292, Loss_mr 0.044, Train_accy 99.84
+2024-01-11 17:05:59,784 [ucir.py] => Task 4, Epoch 140/200 => Loss 0.404, Loss_clf 0.071, Loss_lf 0.290, Loss_mr 0.043, Train_accy 99.78
+2024-01-11 17:06:17,822 [ucir.py] => Task 4, Epoch 141/200 => Loss 0.396, Loss_clf 0.067, Loss_lf 0.288, Loss_mr 0.040, Train_accy 99.93, Test_accy 63.29
+2024-01-11 17:06:27,919 [ucir.py] => Task 4, Epoch 142/200 => Loss 0.404, Loss_clf 0.071, Loss_lf 0.291, Loss_mr 0.042, Train_accy 99.89
+2024-01-11 17:06:37,934 [ucir.py] => Task 4, Epoch 143/200 => Loss 0.404, Loss_clf 0.070, Loss_lf 0.293, Loss_mr 0.041, Train_accy 99.78
+2024-01-11 17:06:48,160 [ucir.py] => Task 4, Epoch 144/200 => Loss 0.404, Loss_clf 0.071, Loss_lf 0.290, Loss_mr 0.042, Train_accy 99.87
+2024-01-11 17:06:58,270 [ucir.py] => Task 4, Epoch 145/200 => Loss 0.404, Loss_clf 0.069, Loss_lf 0.291, Loss_mr 0.044, Train_accy 99.87
+2024-01-11 17:07:16,256 [ucir.py] => Task 4, Epoch 146/200 => Loss 0.413, Loss_clf 0.077, Loss_lf 0.293, Loss_mr 0.042, Train_accy 99.71, Test_accy 63.31
+2024-01-11 17:07:26,331 [ucir.py] => Task 4, Epoch 147/200 => Loss 0.408, Loss_clf 0.073, Loss_lf 0.292, Loss_mr 0.043, Train_accy 99.89
+2024-01-11 17:07:36,495 [ucir.py] => Task 4, Epoch 148/200 => Loss 0.410, Loss_clf 0.072, Loss_lf 0.294, Loss_mr 0.044, Train_accy 99.84
+2024-01-11 17:07:46,640 [ucir.py] => Task 4, Epoch 149/200 => Loss 0.408, Loss_clf 0.071, Loss_lf 0.293, Loss_mr 0.043, Train_accy 99.86
+2024-01-11 17:07:56,691 [ucir.py] => Task 4, Epoch 150/200 => Loss 0.401, Loss_clf 0.070, Loss_lf 0.290, Loss_mr 0.041, Train_accy 99.91
+2024-01-11 17:08:14,905 [ucir.py] => Task 4, Epoch 151/200 => Loss 0.405, Loss_clf 0.073, Loss_lf 0.288, Loss_mr 0.044, Train_accy 99.87, Test_accy 63.57
+2024-01-11 17:08:24,949 [ucir.py] => Task 4, Epoch 152/200 => Loss 0.404, Loss_clf 0.070, Loss_lf 0.291, Loss_mr 0.043, Train_accy 99.82
+2024-01-11 17:08:35,099 [ucir.py] => Task 4, Epoch 153/200 => Loss 0.411, Loss_clf 0.073, Loss_lf 0.293, Loss_mr 0.044, Train_accy 99.80
+2024-01-11 17:08:44,966 [ucir.py] => Task 4, Epoch 154/200 => Loss 0.406, Loss_clf 0.071, Loss_lf 0.293, Loss_mr 0.042, Train_accy 99.86
+2024-01-11 17:08:55,221 [ucir.py] => Task 4, Epoch 155/200 => Loss 0.406, Loss_clf 0.073, Loss_lf 0.291, Loss_mr 0.042, Train_accy 99.86
+2024-01-11 17:09:13,842 [ucir.py] => Task 4, Epoch 156/200 => Loss 0.402, Loss_clf 0.070, Loss_lf 0.290, Loss_mr 0.042, Train_accy 99.86, Test_accy 63.35
+2024-01-11 17:09:23,917 [ucir.py] => Task 4, Epoch 157/200 => Loss 0.396, Loss_clf 0.067, Loss_lf 0.288, Loss_mr 0.041, Train_accy 99.95
+2024-01-11 17:09:33,698 [ucir.py] => Task 4, Epoch 158/200 => Loss 0.402, Loss_clf 0.071, Loss_lf 0.288, Loss_mr 0.043, Train_accy 99.87
+2024-01-11 17:09:43,824 [ucir.py] => Task 4, Epoch 159/200 => Loss 0.403, Loss_clf 0.069, Loss_lf 0.292, Loss_mr 0.043, Train_accy 99.91
+2024-01-11 17:09:53,899 [ucir.py] => Task 4, Epoch 160/200 => Loss 0.400, Loss_clf 0.070, Loss_lf 0.289, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:10:11,814 [ucir.py] => Task 4, Epoch 161/200 => Loss 0.406, Loss_clf 0.072, Loss_lf 0.292, Loss_mr 0.043, Train_accy 99.84, Test_accy 63.60
+2024-01-11 17:10:21,742 [ucir.py] => Task 4, Epoch 162/200 => Loss 0.400, Loss_clf 0.070, Loss_lf 0.288, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:10:31,891 [ucir.py] => Task 4, Epoch 163/200 => Loss 0.408, Loss_clf 0.074, Loss_lf 0.291, Loss_mr 0.042, Train_accy 99.82
+2024-01-11 17:10:41,722 [ucir.py] => Task 4, Epoch 164/200 => Loss 0.404, Loss_clf 0.072, Loss_lf 0.290, Loss_mr 0.041, Train_accy 99.86
+2024-01-11 17:10:52,231 [ucir.py] => Task 4, Epoch 165/200 => Loss 0.400, Loss_clf 0.069, Loss_lf 0.288, Loss_mr 0.043, Train_accy 99.89
+2024-01-11 17:11:10,803 [ucir.py] => Task 4, Epoch 166/200 => Loss 0.405, Loss_clf 0.069, Loss_lf 0.292, Loss_mr 0.044, Train_accy 99.93, Test_accy 63.18
+2024-01-11 17:11:21,041 [ucir.py] => Task 4, Epoch 167/200 => Loss 0.403, Loss_clf 0.070, Loss_lf 0.291, Loss_mr 0.042, Train_accy 99.89
+2024-01-11 17:11:31,215 [ucir.py] => Task 4, Epoch 168/200 => Loss 0.402, Loss_clf 0.070, Loss_lf 0.290, Loss_mr 0.042, Train_accy 99.91
+2024-01-11 17:11:41,470 [ucir.py] => Task 4, Epoch 169/200 => Loss 0.406, Loss_clf 0.074, Loss_lf 0.289, Loss_mr 0.043, Train_accy 99.73
+2024-01-11 17:11:51,941 [ucir.py] => Task 4, Epoch 170/200 => Loss 0.415, Loss_clf 0.077, Loss_lf 0.296, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:12:11,132 [ucir.py] => Task 4, Epoch 171/200 => Loss 0.403, Loss_clf 0.072, Loss_lf 0.290, Loss_mr 0.041, Train_accy 99.86, Test_accy 63.42
+2024-01-11 17:12:21,903 [ucir.py] => Task 4, Epoch 172/200 => Loss 0.401, Loss_clf 0.069, Loss_lf 0.291, Loss_mr 0.042, Train_accy 99.82
+2024-01-11 17:12:32,047 [ucir.py] => Task 4, Epoch 173/200 => Loss 0.400, Loss_clf 0.070, Loss_lf 0.288, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:12:42,437 [ucir.py] => Task 4, Epoch 174/200 => Loss 0.410, Loss_clf 0.072, Loss_lf 0.295, Loss_mr 0.043, Train_accy 99.84
+2024-01-11 17:12:52,569 [ucir.py] => Task 4, Epoch 175/200 => Loss 0.403, Loss_clf 0.071, Loss_lf 0.291, Loss_mr 0.041, Train_accy 99.89
+2024-01-11 17:13:11,838 [ucir.py] => Task 4, Epoch 176/200 => Loss 0.405, Loss_clf 0.071, Loss_lf 0.292, Loss_mr 0.042, Train_accy 99.84, Test_accy 63.34
+2024-01-11 17:13:24,174 [ucir.py] => Task 4, Epoch 177/200 => Loss 0.405, Loss_clf 0.073, Loss_lf 0.289, Loss_mr 0.043, Train_accy 99.84
+2024-01-11 17:13:38,987 [ucir.py] => Task 4, Epoch 178/200 => Loss 0.402, Loss_clf 0.070, Loss_lf 0.291, Loss_mr 0.041, Train_accy 99.86
+2024-01-11 17:13:54,187 [ucir.py] => Task 4, Epoch 179/200 => Loss 0.406, Loss_clf 0.071, Loss_lf 0.293, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:14:08,099 [ucir.py] => Task 4, Epoch 180/200 => Loss 0.408, Loss_clf 0.072, Loss_lf 0.293, Loss_mr 0.043, Train_accy 99.86
+2024-01-11 17:14:31,357 [ucir.py] => Task 4, Epoch 181/200 => Loss 0.404, Loss_clf 0.072, Loss_lf 0.290, Loss_mr 0.042, Train_accy 99.78, Test_accy 63.13
+2024-01-11 17:14:42,076 [ucir.py] => Task 4, Epoch 182/200 => Loss 0.400, Loss_clf 0.069, Loss_lf 0.288, Loss_mr 0.043, Train_accy 99.93
+2024-01-11 17:14:53,045 [ucir.py] => Task 4, Epoch 183/200 => Loss 0.401, Loss_clf 0.069, Loss_lf 0.289, Loss_mr 0.043, Train_accy 99.87
+2024-01-11 17:15:03,829 [ucir.py] => Task 4, Epoch 184/200 => Loss 0.400, Loss_clf 0.070, Loss_lf 0.288, Loss_mr 0.041, Train_accy 99.87
+2024-01-11 17:15:14,829 [ucir.py] => Task 4, Epoch 185/200 => Loss 0.406, Loss_clf 0.070, Loss_lf 0.293, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:15:35,113 [ucir.py] => Task 4, Epoch 186/200 => Loss 0.402, Loss_clf 0.069, Loss_lf 0.290, Loss_mr 0.043, Train_accy 99.95, Test_accy 63.12
+2024-01-11 17:15:46,025 [ucir.py] => Task 4, Epoch 187/200 => Loss 0.404, Loss_clf 0.067, Loss_lf 0.292, Loss_mr 0.044, Train_accy 99.87
+2024-01-11 17:15:56,750 [ucir.py] => Task 4, Epoch 188/200 => Loss 0.410, Loss_clf 0.074, Loss_lf 0.292, Loss_mr 0.044, Train_accy 99.82
+2024-01-11 17:16:07,011 [ucir.py] => Task 4, Epoch 189/200 => Loss 0.398, Loss_clf 0.067, Loss_lf 0.289, Loss_mr 0.042, Train_accy 99.87
+2024-01-11 17:16:17,122 [ucir.py] => Task 4, Epoch 190/200 => Loss 0.408, Loss_clf 0.072, Loss_lf 0.293, Loss_mr 0.043, Train_accy 99.87
+2024-01-11 17:16:35,336 [ucir.py] => Task 4, Epoch 191/200 => Loss 0.408, Loss_clf 0.073, Loss_lf 0.293, Loss_mr 0.042, Train_accy 99.84, Test_accy 63.35
+2024-01-11 17:16:45,599 [ucir.py] => Task 4, Epoch 192/200 => Loss 0.405, Loss_clf 0.070, Loss_lf 0.292, Loss_mr 0.043, Train_accy 99.87
+2024-01-11 17:16:56,043 [ucir.py] => Task 4, Epoch 193/200 => Loss 0.399, Loss_clf 0.069, Loss_lf 0.288, Loss_mr 0.042, Train_accy 99.91
+2024-01-11 17:17:06,211 [ucir.py] => Task 4, Epoch 194/200 => Loss 0.404, Loss_clf 0.070, Loss_lf 0.292, Loss_mr 0.042, Train_accy 99.89
+2024-01-11 17:17:16,368 [ucir.py] => Task 4, Epoch 195/200 => Loss 0.406, Loss_clf 0.072, Loss_lf 0.292, Loss_mr 0.042, Train_accy 99.84
+2024-01-11 17:17:35,240 [ucir.py] => Task 4, Epoch 196/200 => Loss 0.400, Loss_clf 0.069, Loss_lf 0.288, Loss_mr 0.043, Train_accy 99.89, Test_accy 63.28
+2024-01-11 17:17:45,391 [ucir.py] => Task 4, Epoch 197/200 => Loss 0.403, Loss_clf 0.070, Loss_lf 0.291, Loss_mr 0.043, Train_accy 99.87
+2024-01-11 17:17:55,827 [ucir.py] => Task 4, Epoch 198/200 => Loss 0.402, Loss_clf 0.069, Loss_lf 0.289, Loss_mr 0.044, Train_accy 99.80
+2024-01-11 17:18:06,083 [ucir.py] => Task 4, Epoch 199/200 => Loss 0.405, Loss_clf 0.071, Loss_lf 0.291, Loss_mr 0.043, Train_accy 99.89
+2024-01-11 17:18:16,963 [ucir.py] => Task 4, Epoch 200/200 => Loss 0.405, Loss_clf 0.072, Loss_lf 0.291, Loss_mr 0.043, Train_accy 99.89
+2024-01-11 17:18:16,964 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 17:19:02,506 [ucir.py] => Exemplar size: 1650
+2024-01-11 17:19:02,931 [trainer.py] => CNN: {'total': 63.58, '0': 76.11, '1': 58.33, '2': 63.33, '3': 11.67, '4': 47.22, '5': 36.11, '6': 46.11, '7': 26.67, '8': 56.11, '9': 36.11, '10': 66.11, '11': 73.33, '12': 54.44, '13': 55.0, '14': 48.89, '15': 66.67, '16': 68.33, '17': 70.0, '18': 71.67, '19': 53.33, '20': 57.78, '21': 61.67, '22': 66.67, '23': 61.67, '24': 60.56, '25': 51.11, '26': 61.67, '27': 58.33, '28': 40.56, '29': 52.22, '30': 62.78, '31': 60.56, '32': 73.33, '33': 48.33, '34': 49.44, '35': 82.78, '36': 78.89, '37': 50.0, '38': 91.11, '39': 79.44, '40': 36.67, '41': 83.89, '42': 87.78, '43': 87.22, '44': 33.33, '45': 88.33, '46': 84.44, '47': 87.22, '48': 83.89, '49': 73.33, '50': 85.0, '51': 82.22, '52': 83.33, '53': 81.11, 'old': 59.19, 'new': 83.33}
+2024-01-11 17:19:02,932 [trainer.py] => NME: {'total': 52.03, '0': 82.78, '1': 53.89, '2': 64.44, '3': 20.0, '4': 49.44, '5': 44.44, '6': 47.22, '7': 31.11, '8': 52.78, '9': 41.67, '10': 70.56, '11': 81.11, '12': 55.56, '13': 57.78, '14': 52.78, '15': 65.0, '16': 68.89, '17': 63.89, '18': 61.11, '19': 50.0, '20': 60.0, '21': 66.67, '22': 62.78, '23': 56.11, '24': 49.44, '25': 41.11, '26': 51.11, '27': 51.67, '28': 40.56, '29': 38.89, '30': 48.33, '31': 40.0, '32': 53.33, '33': 31.11, '34': 40.56, '35': 70.0, '36': 56.67, '37': 43.89, '38': 85.56, '39': 64.44, '40': 41.11, '41': 67.22, '42': 61.67, '43': 56.67, '44': 37.78, '45': 57.22, '46': 43.89, '47': 46.67, '48': 37.78, '49': 50.56, '50': 32.22, '51': 34.44, '52': 41.67, '53': 42.22, 'old': 54.02, 'new': 43.06}
+2024-01-11 17:19:02,932 [trainer.py] => CNN top1 curve: [88.07, 77.16, 69.24, 61.73, 63.58]
+2024-01-11 17:19:02,932 [trainer.py] => CNN top5 curve: [98.78, 95.24, 90.29, 89.35, 87.66]
+2024-01-11 17:19:02,932 [trainer.py] => NME top1 curve: [87.52, 65.58, 58.78, 53.38, 52.03]
+2024-01-11 17:19:02,932 [trainer.py] => NME top5 curve: [98.89, 93.44, 89.11, 88.21, 86.11]
+

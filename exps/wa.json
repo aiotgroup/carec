@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "xrfdataset",
+    "memory_size": 1650,
+    "memory_per_class": 30,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 15,
+    "increment": 10,
+    "model_name": "wa",
+    "convnet_type": "resnet34",
+    "device": ["1"],
+    "seed": [1993]
+}

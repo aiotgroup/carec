@@ -1,0 +1,1754 @@
+2024-01-10 21:36:18,042 [trainer.py] => 实验名称:WiFi 测试类交换
+2024-01-10 21:36:18,044 [trainer.py] => config: ./exps/icarl.json
+2024-01-10 21:36:18,044 [trainer.py] => experiment_name: 实验名称:WiFi 测试类交换
+2024-01-10 21:36:18,044 [trainer.py] => dataset: xrfdataset
+2024-01-10 21:36:18,044 [trainer.py] => memory_size: 1650
+2024-01-10 21:36:18,044 [trainer.py] => memory_per_class: 30
+2024-01-10 21:36:18,044 [trainer.py] => fixed_memory: True
+2024-01-10 21:36:18,044 [trainer.py] => shuffle: True
+2024-01-10 21:36:18,044 [trainer.py] => init_cls: 15
+2024-01-10 21:36:18,044 [trainer.py] => increment: 10
+2024-01-10 21:36:18,044 [trainer.py] => model_name: icarl
+2024-01-10 21:36:18,044 [trainer.py] => convnet_type: unet
+2024-01-10 21:36:18,044 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-01-10 21:36:18,044 [trainer.py] => seed: 1993
+2024-01-10 21:36:18,056 [data.py] => 加载完毕XRF原始数据集
+2024-01-10 21:36:18,062 [data.py] => 加载完毕XRF原始数据集
+2024-01-10 21:36:18,231 [trainer.py] => All params: 21041612
+2024-01-10 21:36:18,232 [trainer.py] => Trainable params: 21041612
+2024-01-10 21:36:18,232 [icarl.py] => Learning on 0-15
+2024-01-10 22:10:54,904 [icarl.py] => Task 0, Epoch 200/200 => Loss 0.015, Train_accy 99.81
+2024-01-10 22:10:54,905 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-10 22:11:15,030 [icarl.py] => Exemplar size: 450
+2024-01-10 22:11:15,511 [trainer.py] => CNN: {'total': 88.04, '0': 100.0, '1': 93.33, '2': 93.89, '3': 85.56, '4': 91.11, '5': 80.0, '6': 71.67, '7': 91.67, '8': 90.56, '9': 55.0, '10': 95.0, '11': 100.0, '12': 88.33, '13': 93.89, 'old': 0, 'new': 88.04}
+2024-01-10 22:11:15,512 [trainer.py] => NME: {'total': 86.19, '0': 100.0, '1': 91.67, '2': 88.89, '3': 81.67, '4': 90.0, '5': 77.22, '6': 69.44, '7': 91.11, '8': 85.56, '9': 52.78, '10': 94.44, '11': 100.0, '12': 87.78, '13': 90.0, 'old': 0, 'new': 86.19}
+2024-01-10 22:11:15,512 [trainer.py] => CNN top1 curve: [88.04]
+2024-01-10 22:11:15,512 [trainer.py] => CNN top5 curve: [98.81]
+2024-01-10 22:11:15,512 [trainer.py] => NME top1 curve: [86.19]
+2024-01-10 22:11:15,512 [trainer.py] => NME top5 curve: [98.93]
+
+2024-01-10 22:11:15,513 [trainer.py] => All params: 21043547
+2024-01-10 22:11:15,513 [trainer.py] => Trainable params: 21043547
+2024-01-10 22:11:15,515 [icarl.py] => Learning on 15-25
+2024-01-10 22:11:28,310 [icarl.py] => Task 1, Epoch 1/200 => Loss 4.503, Train_accy 25.72, Test_accy 12.47
+2024-01-10 22:11:36,740 [icarl.py] => Task 1, Epoch 2/200 => Loss 3.113, Train_accy 50.60
+2024-01-10 22:11:45,135 [icarl.py] => Task 1, Epoch 3/200 => Loss 2.617, Train_accy 66.65
+2024-01-10 22:11:53,289 [icarl.py] => Task 1, Epoch 4/200 => Loss 2.381, Train_accy 74.56
+2024-01-10 22:12:01,406 [icarl.py] => Task 1, Epoch 5/200 => Loss 2.189, Train_accy 80.52
+2024-01-10 22:12:13,796 [icarl.py] => Task 1, Epoch 6/200 => Loss 2.104, Train_accy 82.54, Test_accy 41.31
+2024-01-10 22:12:21,906 [icarl.py] => Task 1, Epoch 7/200 => Loss 2.027, Train_accy 85.23
+2024-01-10 22:12:30,275 [icarl.py] => Task 1, Epoch 8/200 => Loss 1.974, Train_accy 86.17
+2024-01-10 22:12:38,656 [icarl.py] => Task 1, Epoch 9/200 => Loss 1.882, Train_accy 88.43
+2024-01-10 22:12:46,921 [icarl.py] => Task 1, Epoch 10/200 => Loss 1.858, Train_accy 89.85
+2024-01-10 22:12:59,659 [icarl.py] => Task 1, Epoch 11/200 => Loss 1.791, Train_accy 91.35, Test_accy 58.98
+2024-01-10 22:13:08,001 [icarl.py] => Task 1, Epoch 12/200 => Loss 1.698, Train_accy 93.72
+2024-01-10 22:13:16,585 [icarl.py] => Task 1, Epoch 13/200 => Loss 1.638, Train_accy 94.92
+2024-01-10 22:13:25,319 [icarl.py] => Task 1, Epoch 14/200 => Loss 1.615, Train_accy 95.74
+2024-01-10 22:13:33,903 [icarl.py] => Task 1, Epoch 15/200 => Loss 1.613, Train_accy 95.48
+2024-01-10 22:13:46,798 [icarl.py] => Task 1, Epoch 16/200 => Loss 1.572, Train_accy 96.71, Test_accy 66.38
+2024-01-10 22:13:55,188 [icarl.py] => Task 1, Epoch 17/200 => Loss 1.576, Train_accy 96.47
+2024-01-10 22:14:03,625 [icarl.py] => Task 1, Epoch 18/200 => Loss 1.691, Train_accy 94.13
+2024-01-10 22:14:12,210 [icarl.py] => Task 1, Epoch 19/200 => Loss 1.624, Train_accy 95.16
+2024-01-10 22:14:20,557 [icarl.py] => Task 1, Epoch 20/200 => Loss 1.569, Train_accy 96.58
+2024-01-10 22:14:33,588 [icarl.py] => Task 1, Epoch 21/200 => Loss 1.550, Train_accy 97.44, Test_accy 61.69
+2024-01-10 22:14:42,203 [icarl.py] => Task 1, Epoch 22/200 => Loss 1.541, Train_accy 97.14
+2024-01-10 22:14:50,526 [icarl.py] => Task 1, Epoch 23/200 => Loss 1.515, Train_accy 97.89
+2024-01-10 22:14:58,984 [icarl.py] => Task 1, Epoch 24/200 => Loss 1.557, Train_accy 97.10
+2024-01-10 22:15:07,268 [icarl.py] => Task 1, Epoch 25/200 => Loss 1.555, Train_accy 97.01
+2024-01-10 22:15:19,745 [icarl.py] => Task 1, Epoch 26/200 => Loss 1.577, Train_accy 96.56, Test_accy 64.58
+2024-01-10 22:15:28,445 [icarl.py] => Task 1, Epoch 27/200 => Loss 1.562, Train_accy 96.45
+2024-01-10 22:15:36,938 [icarl.py] => Task 1, Epoch 28/200 => Loss 1.535, Train_accy 97.53
+2024-01-10 22:15:45,700 [icarl.py] => Task 1, Epoch 29/200 => Loss 1.525, Train_accy 97.61
+2024-01-10 22:15:54,380 [icarl.py] => Task 1, Epoch 30/200 => Loss 1.506, Train_accy 97.85
+2024-01-10 22:16:07,044 [icarl.py] => Task 1, Epoch 31/200 => Loss 1.461, Train_accy 98.88, Test_accy 66.44
+2024-01-10 22:16:15,591 [icarl.py] => Task 1, Epoch 32/200 => Loss 1.450, Train_accy 99.12
+2024-01-10 22:16:24,234 [icarl.py] => Task 1, Epoch 33/200 => Loss 1.443, Train_accy 99.01
+2024-01-10 22:16:32,758 [icarl.py] => Task 1, Epoch 34/200 => Loss 1.428, Train_accy 99.48
+2024-01-10 22:16:41,415 [icarl.py] => Task 1, Epoch 35/200 => Loss 1.412, Train_accy 99.70
+2024-01-10 22:16:53,989 [icarl.py] => Task 1, Epoch 36/200 => Loss 1.402, Train_accy 99.85, Test_accy 70.42
+2024-01-10 22:17:02,725 [icarl.py] => Task 1, Epoch 37/200 => Loss 1.409, Train_accy 99.63
+2024-01-10 22:17:11,126 [icarl.py] => Task 1, Epoch 38/200 => Loss 1.407, Train_accy 99.66
+2024-01-10 22:17:19,390 [icarl.py] => Task 1, Epoch 39/200 => Loss 1.434, Train_accy 99.14
+2024-01-10 22:17:27,864 [icarl.py] => Task 1, Epoch 40/200 => Loss 1.419, Train_accy 99.38
+2024-01-10 22:17:40,215 [icarl.py] => Task 1, Epoch 41/200 => Loss 1.414, Train_accy 99.46, Test_accy 68.93
+2024-01-10 22:17:48,456 [icarl.py] => Task 1, Epoch 42/200 => Loss 1.420, Train_accy 99.27
+2024-01-10 22:17:57,173 [icarl.py] => Task 1, Epoch 43/200 => Loss 1.483, Train_accy 97.81
+2024-01-10 22:18:05,782 [icarl.py] => Task 1, Epoch 44/200 => Loss 1.516, Train_accy 97.20
+2024-01-10 22:18:13,937 [icarl.py] => Task 1, Epoch 45/200 => Loss 1.557, Train_accy 96.75
+2024-01-10 22:18:26,559 [icarl.py] => Task 1, Epoch 46/200 => Loss 1.695, Train_accy 93.66, Test_accy 55.40
+2024-01-10 22:18:34,745 [icarl.py] => Task 1, Epoch 47/200 => Loss 1.697, Train_accy 93.83
+2024-01-10 22:18:43,141 [icarl.py] => Task 1, Epoch 48/200 => Loss 1.648, Train_accy 95.33
+2024-01-10 22:18:51,647 [icarl.py] => Task 1, Epoch 49/200 => Loss 1.585, Train_accy 96.09
+2024-01-10 22:19:00,205 [icarl.py] => Task 1, Epoch 50/200 => Loss 1.603, Train_accy 95.70
+2024-01-10 22:19:12,672 [icarl.py] => Task 1, Epoch 51/200 => Loss 1.527, Train_accy 97.23, Test_accy 64.62
+2024-01-10 22:19:20,930 [icarl.py] => Task 1, Epoch 52/200 => Loss 1.493, Train_accy 98.00
+2024-01-10 22:19:29,348 [icarl.py] => Task 1, Epoch 53/200 => Loss 1.460, Train_accy 98.92
+2024-01-10 22:19:37,488 [icarl.py] => Task 1, Epoch 54/200 => Loss 1.450, Train_accy 99.20
+2024-01-10 22:19:45,758 [icarl.py] => Task 1, Epoch 55/200 => Loss 1.447, Train_accy 99.42
+2024-01-10 22:19:58,416 [icarl.py] => Task 1, Epoch 56/200 => Loss 1.416, Train_accy 99.66, Test_accy 69.56
+2024-01-10 22:20:06,785 [icarl.py] => Task 1, Epoch 57/200 => Loss 1.434, Train_accy 99.33
+2024-01-10 22:20:15,143 [icarl.py] => Task 1, Epoch 58/200 => Loss 1.402, Train_accy 99.55
+2024-01-10 22:20:23,629 [icarl.py] => Task 1, Epoch 59/200 => Loss 1.397, Train_accy 99.72
+2024-01-10 22:20:31,874 [icarl.py] => Task 1, Epoch 60/200 => Loss 1.398, Train_accy 99.63
+2024-01-10 22:20:44,357 [icarl.py] => Task 1, Epoch 61/200 => Loss 1.376, Train_accy 99.83, Test_accy 72.13
+2024-01-10 22:20:52,777 [icarl.py] => Task 1, Epoch 62/200 => Loss 1.362, Train_accy 99.94
+2024-01-10 22:21:01,310 [icarl.py] => Task 1, Epoch 63/200 => Loss 1.362, Train_accy 100.00
+2024-01-10 22:21:10,184 [icarl.py] => Task 1, Epoch 64/200 => Loss 1.363, Train_accy 100.00
+2024-01-10 22:21:19,241 [icarl.py] => Task 1, Epoch 65/200 => Loss 1.362, Train_accy 100.00
+2024-01-10 22:21:32,517 [icarl.py] => Task 1, Epoch 66/200 => Loss 1.357, Train_accy 100.00, Test_accy 72.27
+2024-01-10 22:21:41,378 [icarl.py] => Task 1, Epoch 67/200 => Loss 1.358, Train_accy 99.94
+2024-01-10 22:21:50,068 [icarl.py] => Task 1, Epoch 68/200 => Loss 1.359, Train_accy 100.00
+2024-01-10 22:21:58,993 [icarl.py] => Task 1, Epoch 69/200 => Loss 1.356, Train_accy 100.00
+2024-01-10 22:22:07,562 [icarl.py] => Task 1, Epoch 70/200 => Loss 1.357, Train_accy 99.98
+2024-01-10 22:22:21,287 [icarl.py] => Task 1, Epoch 71/200 => Loss 1.360, Train_accy 100.00, Test_accy 72.16
+2024-01-10 22:22:30,117 [icarl.py] => Task 1, Epoch 72/200 => Loss 1.360, Train_accy 99.96
+2024-01-10 22:22:39,199 [icarl.py] => Task 1, Epoch 73/200 => Loss 1.359, Train_accy 99.98
+2024-01-10 22:22:48,662 [icarl.py] => Task 1, Epoch 74/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:22:57,682 [icarl.py] => Task 1, Epoch 75/200 => Loss 1.355, Train_accy 100.00
+2024-01-10 22:23:11,691 [icarl.py] => Task 1, Epoch 76/200 => Loss 1.361, Train_accy 99.94, Test_accy 72.58
+2024-01-10 22:23:20,421 [icarl.py] => Task 1, Epoch 77/200 => Loss 1.354, Train_accy 99.98
+2024-01-10 22:23:29,491 [icarl.py] => Task 1, Epoch 78/200 => Loss 1.359, Train_accy 100.00
+2024-01-10 22:23:38,622 [icarl.py] => Task 1, Epoch 79/200 => Loss 1.358, Train_accy 100.00
+2024-01-10 22:23:47,505 [icarl.py] => Task 1, Epoch 80/200 => Loss 1.357, Train_accy 100.00
+2024-01-10 22:24:01,617 [icarl.py] => Task 1, Epoch 81/200 => Loss 1.358, Train_accy 100.00, Test_accy 72.71
+2024-01-10 22:24:10,491 [icarl.py] => Task 1, Epoch 82/200 => Loss 1.355, Train_accy 100.00
+2024-01-10 22:24:19,565 [icarl.py] => Task 1, Epoch 83/200 => Loss 1.358, Train_accy 99.98
+2024-01-10 22:24:28,657 [icarl.py] => Task 1, Epoch 84/200 => Loss 1.357, Train_accy 99.96
+2024-01-10 22:24:37,483 [icarl.py] => Task 1, Epoch 85/200 => Loss 1.356, Train_accy 100.00
+2024-01-10 22:24:50,867 [icarl.py] => Task 1, Epoch 86/200 => Loss 1.351, Train_accy 99.98, Test_accy 72.31
+2024-01-10 22:24:59,667 [icarl.py] => Task 1, Epoch 87/200 => Loss 1.355, Train_accy 100.00
+2024-01-10 22:25:08,467 [icarl.py] => Task 1, Epoch 88/200 => Loss 1.353, Train_accy 100.00
+2024-01-10 22:25:17,771 [icarl.py] => Task 1, Epoch 89/200 => Loss 1.353, Train_accy 100.00
+2024-01-10 22:25:26,398 [icarl.py] => Task 1, Epoch 90/200 => Loss 1.353, Train_accy 100.00
+2024-01-10 22:25:40,565 [icarl.py] => Task 1, Epoch 91/200 => Loss 1.355, Train_accy 100.00, Test_accy 72.47
+2024-01-10 22:25:49,256 [icarl.py] => Task 1, Epoch 92/200 => Loss 1.354, Train_accy 100.00
+2024-01-10 22:25:58,780 [icarl.py] => Task 1, Epoch 93/200 => Loss 1.358, Train_accy 100.00
+2024-01-10 22:26:08,203 [icarl.py] => Task 1, Epoch 94/200 => Loss 1.351, Train_accy 100.00
+2024-01-10 22:26:17,185 [icarl.py] => Task 1, Epoch 95/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:26:31,273 [icarl.py] => Task 1, Epoch 96/200 => Loss 1.347, Train_accy 100.00, Test_accy 72.73
+2024-01-10 22:26:40,072 [icarl.py] => Task 1, Epoch 97/200 => Loss 1.349, Train_accy 99.98
+2024-01-10 22:26:48,944 [icarl.py] => Task 1, Epoch 98/200 => Loss 1.353, Train_accy 100.00
+2024-01-10 22:26:58,008 [icarl.py] => Task 1, Epoch 99/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:27:07,144 [icarl.py] => Task 1, Epoch 100/200 => Loss 1.351, Train_accy 100.00
+2024-01-10 22:27:20,944 [icarl.py] => Task 1, Epoch 101/200 => Loss 1.346, Train_accy 100.00, Test_accy 72.87
+2024-01-10 22:27:29,662 [icarl.py] => Task 1, Epoch 102/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:27:38,546 [icarl.py] => Task 1, Epoch 103/200 => Loss 1.351, Train_accy 100.00
+2024-01-10 22:27:47,615 [icarl.py] => Task 1, Epoch 104/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:27:56,335 [icarl.py] => Task 1, Epoch 105/200 => Loss 1.352, Train_accy 100.00
+2024-01-10 22:28:10,006 [icarl.py] => Task 1, Epoch 106/200 => Loss 1.350, Train_accy 99.98, Test_accy 72.91
+2024-01-10 22:28:18,801 [icarl.py] => Task 1, Epoch 107/200 => Loss 1.350, Train_accy 100.00
+2024-01-10 22:28:27,650 [icarl.py] => Task 1, Epoch 108/200 => Loss 1.346, Train_accy 100.00
+2024-01-10 22:28:36,703 [icarl.py] => Task 1, Epoch 109/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:28:45,475 [icarl.py] => Task 1, Epoch 110/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:28:59,474 [icarl.py] => Task 1, Epoch 111/200 => Loss 1.350, Train_accy 100.00, Test_accy 73.00
+2024-01-10 22:29:08,526 [icarl.py] => Task 1, Epoch 112/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:29:17,603 [icarl.py] => Task 1, Epoch 113/200 => Loss 1.352, Train_accy 100.00
+2024-01-10 22:29:26,867 [icarl.py] => Task 1, Epoch 114/200 => Loss 1.352, Train_accy 99.98
+2024-01-10 22:29:35,891 [icarl.py] => Task 1, Epoch 115/200 => Loss 1.347, Train_accy 99.98
+2024-01-10 22:29:49,479 [icarl.py] => Task 1, Epoch 116/200 => Loss 1.356, Train_accy 99.98, Test_accy 73.20
+2024-01-10 22:29:58,789 [icarl.py] => Task 1, Epoch 117/200 => Loss 1.350, Train_accy 100.00
+2024-01-10 22:30:07,794 [icarl.py] => Task 1, Epoch 118/200 => Loss 1.353, Train_accy 99.96
+2024-01-10 22:30:16,632 [icarl.py] => Task 1, Epoch 119/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:30:25,795 [icarl.py] => Task 1, Epoch 120/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:30:39,967 [icarl.py] => Task 1, Epoch 121/200 => Loss 1.345, Train_accy 99.98, Test_accy 72.69
+2024-01-10 22:30:49,100 [icarl.py] => Task 1, Epoch 122/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:30:57,903 [icarl.py] => Task 1, Epoch 123/200 => Loss 1.349, Train_accy 99.94
+2024-01-10 22:31:06,690 [icarl.py] => Task 1, Epoch 124/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:31:16,059 [icarl.py] => Task 1, Epoch 125/200 => Loss 1.350, Train_accy 99.98
+2024-01-10 22:31:30,056 [icarl.py] => Task 1, Epoch 126/200 => Loss 1.347, Train_accy 100.00, Test_accy 73.16
+2024-01-10 22:31:39,019 [icarl.py] => Task 1, Epoch 127/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:31:47,857 [icarl.py] => Task 1, Epoch 128/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:31:56,510 [icarl.py] => Task 1, Epoch 129/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:32:05,793 [icarl.py] => Task 1, Epoch 130/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:32:19,218 [icarl.py] => Task 1, Epoch 131/200 => Loss 1.348, Train_accy 100.00, Test_accy 72.64
+2024-01-10 22:32:28,390 [icarl.py] => Task 1, Epoch 132/200 => Loss 1.352, Train_accy 99.96
+2024-01-10 22:32:37,373 [icarl.py] => Task 1, Epoch 133/200 => Loss 1.346, Train_accy 100.00
+2024-01-10 22:32:46,207 [icarl.py] => Task 1, Epoch 134/200 => Loss 1.343, Train_accy 100.00
+2024-01-10 22:32:55,199 [icarl.py] => Task 1, Epoch 135/200 => Loss 1.346, Train_accy 100.00
+2024-01-10 22:33:08,775 [icarl.py] => Task 1, Epoch 136/200 => Loss 1.343, Train_accy 100.00, Test_accy 72.84
+2024-01-10 22:33:17,684 [icarl.py] => Task 1, Epoch 137/200 => Loss 1.346, Train_accy 100.00
+2024-01-10 22:33:26,358 [icarl.py] => Task 1, Epoch 138/200 => Loss 1.346, Train_accy 99.98
+2024-01-10 22:33:34,842 [icarl.py] => Task 1, Epoch 139/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:33:43,564 [icarl.py] => Task 1, Epoch 140/200 => Loss 1.350, Train_accy 100.00
+2024-01-10 22:33:56,897 [icarl.py] => Task 1, Epoch 141/200 => Loss 1.349, Train_accy 99.98, Test_accy 72.44
+2024-01-10 22:34:05,715 [icarl.py] => Task 1, Epoch 142/200 => Loss 1.344, Train_accy 99.98
+2024-01-10 22:34:14,571 [icarl.py] => Task 1, Epoch 143/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:34:23,056 [icarl.py] => Task 1, Epoch 144/200 => Loss 1.351, Train_accy 100.00
+2024-01-10 22:34:31,831 [icarl.py] => Task 1, Epoch 145/200 => Loss 1.341, Train_accy 99.98
+2024-01-10 22:34:44,881 [icarl.py] => Task 1, Epoch 146/200 => Loss 1.345, Train_accy 100.00, Test_accy 72.78
+2024-01-10 22:34:53,706 [icarl.py] => Task 1, Epoch 147/200 => Loss 1.347, Train_accy 99.96
+2024-01-10 22:35:02,123 [icarl.py] => Task 1, Epoch 148/200 => Loss 1.344, Train_accy 99.98
+2024-01-10 22:35:10,862 [icarl.py] => Task 1, Epoch 149/200 => Loss 1.343, Train_accy 100.00
+2024-01-10 22:35:19,438 [icarl.py] => Task 1, Epoch 150/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:35:32,176 [icarl.py] => Task 1, Epoch 151/200 => Loss 1.346, Train_accy 100.00, Test_accy 72.71
+2024-01-10 22:35:41,129 [icarl.py] => Task 1, Epoch 152/200 => Loss 1.350, Train_accy 99.98
+2024-01-10 22:35:49,807 [icarl.py] => Task 1, Epoch 153/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:35:58,590 [icarl.py] => Task 1, Epoch 154/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:36:07,224 [icarl.py] => Task 1, Epoch 155/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:36:20,340 [icarl.py] => Task 1, Epoch 156/200 => Loss 1.345, Train_accy 100.00, Test_accy 72.73
+2024-01-10 22:36:28,986 [icarl.py] => Task 1, Epoch 157/200 => Loss 1.350, Train_accy 100.00
+2024-01-10 22:36:37,562 [icarl.py] => Task 1, Epoch 158/200 => Loss 1.345, Train_accy 99.98
+2024-01-10 22:36:46,356 [icarl.py] => Task 1, Epoch 159/200 => Loss 1.348, Train_accy 99.98
+2024-01-10 22:36:54,830 [icarl.py] => Task 1, Epoch 160/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:37:08,152 [icarl.py] => Task 1, Epoch 161/200 => Loss 1.347, Train_accy 100.00, Test_accy 73.09
+2024-01-10 22:37:16,585 [icarl.py] => Task 1, Epoch 162/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:37:25,222 [icarl.py] => Task 1, Epoch 163/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:37:33,996 [icarl.py] => Task 1, Epoch 164/200 => Loss 1.346, Train_accy 99.98
+2024-01-10 22:37:42,631 [icarl.py] => Task 1, Epoch 165/200 => Loss 1.342, Train_accy 100.00
+2024-01-10 22:37:55,890 [icarl.py] => Task 1, Epoch 166/200 => Loss 1.347, Train_accy 99.98, Test_accy 72.89
+2024-01-10 22:38:04,442 [icarl.py] => Task 1, Epoch 167/200 => Loss 1.343, Train_accy 99.98
+2024-01-10 22:38:12,947 [icarl.py] => Task 1, Epoch 168/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:38:21,636 [icarl.py] => Task 1, Epoch 169/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:38:30,332 [icarl.py] => Task 1, Epoch 170/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:38:43,491 [icarl.py] => Task 1, Epoch 171/200 => Loss 1.347, Train_accy 100.00, Test_accy 72.73
+2024-01-10 22:38:52,052 [icarl.py] => Task 1, Epoch 172/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:39:00,673 [icarl.py] => Task 1, Epoch 173/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:39:09,413 [icarl.py] => Task 1, Epoch 174/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:39:18,143 [icarl.py] => Task 1, Epoch 175/200 => Loss 1.350, Train_accy 99.98
+2024-01-10 22:39:31,133 [icarl.py] => Task 1, Epoch 176/200 => Loss 1.345, Train_accy 100.00, Test_accy 72.89
+2024-01-10 22:39:39,645 [icarl.py] => Task 1, Epoch 177/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:39:48,115 [icarl.py] => Task 1, Epoch 178/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:39:56,983 [icarl.py] => Task 1, Epoch 179/200 => Loss 1.351, Train_accy 100.00
+2024-01-10 22:40:05,596 [icarl.py] => Task 1, Epoch 180/200 => Loss 1.346, Train_accy 99.98
+2024-01-10 22:40:18,745 [icarl.py] => Task 1, Epoch 181/200 => Loss 1.346, Train_accy 100.00, Test_accy 72.71
+2024-01-10 22:40:27,289 [icarl.py] => Task 1, Epoch 182/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:40:35,976 [icarl.py] => Task 1, Epoch 183/200 => Loss 1.343, Train_accy 100.00
+2024-01-10 22:40:44,990 [icarl.py] => Task 1, Epoch 184/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:40:53,818 [icarl.py] => Task 1, Epoch 185/200 => Loss 1.348, Train_accy 100.00
+2024-01-10 22:41:06,758 [icarl.py] => Task 1, Epoch 186/200 => Loss 1.348, Train_accy 99.98, Test_accy 72.69
+2024-01-10 22:41:15,264 [icarl.py] => Task 1, Epoch 187/200 => Loss 1.341, Train_accy 100.00
+2024-01-10 22:41:24,143 [icarl.py] => Task 1, Epoch 188/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:41:32,854 [icarl.py] => Task 1, Epoch 189/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:41:41,459 [icarl.py] => Task 1, Epoch 190/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:41:54,766 [icarl.py] => Task 1, Epoch 191/200 => Loss 1.345, Train_accy 100.00, Test_accy 73.11
+2024-01-10 22:42:03,383 [icarl.py] => Task 1, Epoch 192/200 => Loss 1.349, Train_accy 100.00
+2024-01-10 22:42:12,186 [icarl.py] => Task 1, Epoch 193/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:42:20,882 [icarl.py] => Task 1, Epoch 194/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:42:29,487 [icarl.py] => Task 1, Epoch 195/200 => Loss 1.345, Train_accy 100.00
+2024-01-10 22:42:42,514 [icarl.py] => Task 1, Epoch 196/200 => Loss 1.347, Train_accy 99.96, Test_accy 72.89
+2024-01-10 22:42:51,155 [icarl.py] => Task 1, Epoch 197/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:42:59,694 [icarl.py] => Task 1, Epoch 198/200 => Loss 1.341, Train_accy 100.00
+2024-01-10 22:43:08,217 [icarl.py] => Task 1, Epoch 199/200 => Loss 1.347, Train_accy 100.00
+2024-01-10 22:43:16,832 [icarl.py] => Task 1, Epoch 200/200 => Loss 1.344, Train_accy 100.00
+2024-01-10 22:43:16,833 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-10 22:43:39,887 [icarl.py] => Exemplar size: 750
+2024-01-10 22:43:40,458 [trainer.py] => CNN: {'total': 72.76, '0': 62.78, '1': 55.0, '2': 68.33, '3': 48.33, '4': 63.89, '5': 45.56, '6': 48.89, '7': 39.44, '8': 41.67, '9': 50.0, '10': 84.44, '11': 83.89, '12': 53.89, '13': 58.33, '14': 63.33, '15': 92.78, '16': 96.67, '17': 95.0, '18': 95.56, '19': 96.11, '20': 96.67, '21': 89.44, '22': 97.22, '23': 98.89, 'old': 57.85, 'new': 95.11}
+2024-01-10 22:43:40,458 [trainer.py] => NME: {'total': 76.29, '0': 85.56, '1': 71.67, '2': 70.56, '3': 52.78, '4': 65.0, '5': 56.67, '6': 51.67, '7': 60.56, '8': 56.11, '9': 52.78, '10': 88.89, '11': 88.33, '12': 55.56, '13': 56.11, '14': 72.78, '15': 88.89, '16': 98.33, '17': 92.78, '18': 93.33, '19': 90.0, '20': 93.33, '21': 92.22, '22': 91.67, '23': 90.0, 'old': 65.67, 'new': 92.22}
+2024-01-10 22:43:40,458 [trainer.py] => CNN top1 curve: [88.04, 72.76]
+2024-01-10 22:43:40,458 [trainer.py] => CNN top5 curve: [98.81, 96.51]
+2024-01-10 22:43:40,458 [trainer.py] => NME top1 curve: [86.19, 76.29]
+2024-01-10 22:43:40,458 [trainer.py] => NME top5 curve: [98.93, 97.47]
+
+2024-01-10 22:43:40,459 [trainer.py] => All params: 21044837
+2024-01-10 22:43:40,460 [trainer.py] => Trainable params: 21044837
+2024-01-10 22:43:40,461 [icarl.py] => Learning on 25-35
+2024-01-10 22:43:55,673 [icarl.py] => Task 2, Epoch 1/200 => Loss 5.061, Train_accy 31.96, Test_accy 22.87
+2024-01-10 22:44:04,615 [icarl.py] => Task 2, Epoch 2/200 => Loss 3.074, Train_accy 53.70
+2024-01-10 22:44:13,542 [icarl.py] => Task 2, Epoch 3/200 => Loss 2.631, Train_accy 65.49
+2024-01-10 22:44:22,380 [icarl.py] => Task 2, Epoch 4/200 => Loss 2.395, Train_accy 73.13
+2024-01-10 22:44:31,453 [icarl.py] => Task 2, Epoch 5/200 => Loss 2.204, Train_accy 79.37
+2024-01-10 22:44:46,279 [icarl.py] => Task 2, Epoch 6/200 => Loss 2.069, Train_accy 82.24, Test_accy 46.62
+2024-01-10 22:44:55,255 [icarl.py] => Task 2, Epoch 7/200 => Loss 1.973, Train_accy 84.87
+2024-01-10 22:45:04,067 [icarl.py] => Task 2, Epoch 8/200 => Loss 1.905, Train_accy 86.67
+2024-01-10 22:45:13,429 [icarl.py] => Task 2, Epoch 9/200 => Loss 1.900, Train_accy 87.43
+2024-01-10 22:45:22,605 [icarl.py] => Task 2, Epoch 10/200 => Loss 1.885, Train_accy 88.48
+2024-01-10 22:45:37,868 [icarl.py] => Task 2, Epoch 11/200 => Loss 1.804, Train_accy 89.98, Test_accy 48.84
+2024-01-10 22:45:46,956 [icarl.py] => Task 2, Epoch 12/200 => Loss 1.776, Train_accy 90.46
+2024-01-10 22:45:56,075 [icarl.py] => Task 2, Epoch 13/200 => Loss 1.742, Train_accy 91.33
+2024-01-10 22:46:05,257 [icarl.py] => Task 2, Epoch 14/200 => Loss 1.703, Train_accy 91.98
+2024-01-10 22:46:14,057 [icarl.py] => Task 2, Epoch 15/200 => Loss 1.651, Train_accy 93.56
+2024-01-10 22:46:29,673 [icarl.py] => Task 2, Epoch 16/200 => Loss 1.740, Train_accy 91.47, Test_accy 52.17
+2024-01-10 22:46:38,572 [icarl.py] => Task 2, Epoch 17/200 => Loss 1.686, Train_accy 92.89
+2024-01-10 22:46:47,780 [icarl.py] => Task 2, Epoch 18/200 => Loss 1.642, Train_accy 93.72
+2024-01-10 22:46:56,753 [icarl.py] => Task 2, Epoch 19/200 => Loss 1.574, Train_accy 95.54
+2024-01-10 22:47:05,608 [icarl.py] => Task 2, Epoch 20/200 => Loss 1.581, Train_accy 95.27
+2024-01-10 22:47:20,254 [icarl.py] => Task 2, Epoch 21/200 => Loss 1.561, Train_accy 95.84, Test_accy 53.95
+2024-01-10 22:47:29,345 [icarl.py] => Task 2, Epoch 22/200 => Loss 1.538, Train_accy 96.02
+2024-01-10 22:47:38,555 [icarl.py] => Task 2, Epoch 23/200 => Loss 1.578, Train_accy 94.73
+2024-01-10 22:47:47,578 [icarl.py] => Task 2, Epoch 24/200 => Loss 1.609, Train_accy 94.38
+2024-01-10 22:47:56,389 [icarl.py] => Task 2, Epoch 25/200 => Loss 1.581, Train_accy 95.47
+2024-01-10 22:48:10,800 [icarl.py] => Task 2, Epoch 26/200 => Loss 1.546, Train_accy 95.80, Test_accy 56.29
+2024-01-10 22:48:19,878 [icarl.py] => Task 2, Epoch 27/200 => Loss 1.531, Train_accy 96.59
+2024-01-10 22:48:28,931 [icarl.py] => Task 2, Epoch 28/200 => Loss 1.515, Train_accy 96.71
+2024-01-10 22:48:37,671 [icarl.py] => Task 2, Epoch 29/200 => Loss 1.510, Train_accy 96.83
+2024-01-10 22:48:46,653 [icarl.py] => Task 2, Epoch 30/200 => Loss 1.502, Train_accy 97.19
+2024-01-10 22:49:02,237 [icarl.py] => Task 2, Epoch 31/200 => Loss 1.512, Train_accy 96.61, Test_accy 57.62
+2024-01-10 22:49:11,825 [icarl.py] => Task 2, Epoch 32/200 => Loss 1.536, Train_accy 96.32
+2024-01-10 22:49:20,818 [icarl.py] => Task 2, Epoch 33/200 => Loss 1.546, Train_accy 95.70
+2024-01-10 22:49:29,602 [icarl.py] => Task 2, Epoch 34/200 => Loss 1.532, Train_accy 96.46
+2024-01-10 22:49:38,645 [icarl.py] => Task 2, Epoch 35/200 => Loss 1.498, Train_accy 97.15
+2024-01-10 22:49:54,314 [icarl.py] => Task 2, Epoch 36/200 => Loss 1.475, Train_accy 97.47, Test_accy 56.63
+2024-01-10 22:50:03,278 [icarl.py] => Task 2, Epoch 37/200 => Loss 1.461, Train_accy 98.08
+2024-01-10 22:50:12,480 [icarl.py] => Task 2, Epoch 38/200 => Loss 1.431, Train_accy 98.81
+2024-01-10 22:50:21,412 [icarl.py] => Task 2, Epoch 39/200 => Loss 1.440, Train_accy 98.10
+2024-01-10 22:50:30,399 [icarl.py] => Task 2, Epoch 40/200 => Loss 1.455, Train_accy 97.45
+2024-01-10 22:50:46,205 [icarl.py] => Task 2, Epoch 41/200 => Loss 1.467, Train_accy 97.80, Test_accy 56.35
+2024-01-10 22:50:55,052 [icarl.py] => Task 2, Epoch 42/200 => Loss 1.423, Train_accy 98.67
+2024-01-10 22:51:04,236 [icarl.py] => Task 2, Epoch 43/200 => Loss 1.412, Train_accy 98.71
+2024-01-10 22:51:13,192 [icarl.py] => Task 2, Epoch 44/200 => Loss 1.415, Train_accy 98.73
+2024-01-10 22:51:22,358 [icarl.py] => Task 2, Epoch 45/200 => Loss 1.438, Train_accy 98.12
+2024-01-10 22:51:37,815 [icarl.py] => Task 2, Epoch 46/200 => Loss 1.481, Train_accy 97.31, Test_accy 57.10
+2024-01-10 22:51:46,974 [icarl.py] => Task 2, Epoch 47/200 => Loss 1.530, Train_accy 96.40
+2024-01-10 22:51:55,989 [icarl.py] => Task 2, Epoch 48/200 => Loss 1.496, Train_accy 97.11
+2024-01-10 22:52:05,006 [icarl.py] => Task 2, Epoch 49/200 => Loss 1.532, Train_accy 96.55
+2024-01-10 22:52:14,285 [icarl.py] => Task 2, Epoch 50/200 => Loss 1.478, Train_accy 97.72
+2024-01-10 22:52:29,948 [icarl.py] => Task 2, Epoch 51/200 => Loss 1.473, Train_accy 97.60, Test_accy 58.13
+2024-01-10 22:52:38,902 [icarl.py] => Task 2, Epoch 52/200 => Loss 1.432, Train_accy 98.24
+2024-01-10 22:52:47,804 [icarl.py] => Task 2, Epoch 53/200 => Loss 1.441, Train_accy 97.98
+2024-01-10 22:52:56,922 [icarl.py] => Task 2, Epoch 54/200 => Loss 1.419, Train_accy 98.63
+2024-01-10 22:53:05,672 [icarl.py] => Task 2, Epoch 55/200 => Loss 1.430, Train_accy 98.42
+2024-01-10 22:53:21,146 [icarl.py] => Task 2, Epoch 56/200 => Loss 1.441, Train_accy 98.32, Test_accy 60.25
+2024-01-10 22:53:30,203 [icarl.py] => Task 2, Epoch 57/200 => Loss 1.424, Train_accy 98.14
+2024-01-10 22:53:39,507 [icarl.py] => Task 2, Epoch 58/200 => Loss 1.416, Train_accy 98.30
+2024-01-10 22:53:48,697 [icarl.py] => Task 2, Epoch 59/200 => Loss 1.437, Train_accy 98.16
+2024-01-10 22:53:57,959 [icarl.py] => Task 2, Epoch 60/200 => Loss 1.430, Train_accy 97.98
+2024-01-10 22:54:12,659 [icarl.py] => Task 2, Epoch 61/200 => Loss 1.378, Train_accy 99.31, Test_accy 63.75
+2024-01-10 22:54:22,190 [icarl.py] => Task 2, Epoch 62/200 => Loss 1.335, Train_accy 99.84
+2024-01-10 22:54:31,283 [icarl.py] => Task 2, Epoch 63/200 => Loss 1.331, Train_accy 99.86
+2024-01-10 22:54:40,784 [icarl.py] => Task 2, Epoch 64/200 => Loss 1.325, Train_accy 99.96
+2024-01-10 22:54:50,091 [icarl.py] => Task 2, Epoch 65/200 => Loss 1.320, Train_accy 99.94
+2024-01-10 22:55:05,324 [icarl.py] => Task 2, Epoch 66/200 => Loss 1.322, Train_accy 99.98, Test_accy 65.49
+2024-01-10 22:55:14,788 [icarl.py] => Task 2, Epoch 67/200 => Loss 1.318, Train_accy 99.98
+2024-01-10 22:55:23,963 [icarl.py] => Task 2, Epoch 68/200 => Loss 1.314, Train_accy 99.96
+2024-01-10 22:55:33,486 [icarl.py] => Task 2, Epoch 69/200 => Loss 1.316, Train_accy 99.98
+2024-01-10 22:55:42,899 [icarl.py] => Task 2, Epoch 70/200 => Loss 1.315, Train_accy 99.96
+2024-01-10 22:55:59,015 [icarl.py] => Task 2, Epoch 71/200 => Loss 1.314, Train_accy 99.98, Test_accy 65.71
+2024-01-10 22:56:08,243 [icarl.py] => Task 2, Epoch 72/200 => Loss 1.312, Train_accy 100.00
+2024-01-10 22:56:17,510 [icarl.py] => Task 2, Epoch 73/200 => Loss 1.313, Train_accy 100.00
+2024-01-10 22:56:26,754 [icarl.py] => Task 2, Epoch 74/200 => Loss 1.309, Train_accy 100.00
+2024-01-10 22:56:35,975 [icarl.py] => Task 2, Epoch 75/200 => Loss 1.309, Train_accy 100.00
+2024-01-10 22:56:51,782 [icarl.py] => Task 2, Epoch 76/200 => Loss 1.311, Train_accy 99.98, Test_accy 65.86
+2024-01-10 22:57:01,253 [icarl.py] => Task 2, Epoch 77/200 => Loss 1.309, Train_accy 100.00
+2024-01-10 22:57:10,658 [icarl.py] => Task 2, Epoch 78/200 => Loss 1.307, Train_accy 99.96
+2024-01-10 22:57:19,940 [icarl.py] => Task 2, Epoch 79/200 => Loss 1.309, Train_accy 99.98
+2024-01-10 22:57:29,158 [icarl.py] => Task 2, Epoch 80/200 => Loss 1.311, Train_accy 100.00
+2024-01-10 22:57:44,264 [icarl.py] => Task 2, Epoch 81/200 => Loss 1.312, Train_accy 99.94, Test_accy 65.70
+2024-01-10 22:57:52,981 [icarl.py] => Task 2, Epoch 82/200 => Loss 1.306, Train_accy 100.00
+2024-01-10 22:58:01,791 [icarl.py] => Task 2, Epoch 83/200 => Loss 1.307, Train_accy 100.00
+2024-01-10 22:58:10,547 [icarl.py] => Task 2, Epoch 84/200 => Loss 1.302, Train_accy 99.98
+2024-01-10 22:58:19,502 [icarl.py] => Task 2, Epoch 85/200 => Loss 1.302, Train_accy 100.00
+2024-01-10 22:58:33,493 [icarl.py] => Task 2, Epoch 86/200 => Loss 1.305, Train_accy 100.00, Test_accy 66.40
+2024-01-10 22:58:42,348 [icarl.py] => Task 2, Epoch 87/200 => Loss 1.306, Train_accy 100.00
+2024-01-10 22:58:51,003 [icarl.py] => Task 2, Epoch 88/200 => Loss 1.303, Train_accy 100.00
+2024-01-10 22:59:00,220 [icarl.py] => Task 2, Epoch 89/200 => Loss 1.305, Train_accy 100.00
+2024-01-10 22:59:08,902 [icarl.py] => Task 2, Epoch 90/200 => Loss 1.305, Train_accy 100.00
+2024-01-10 22:59:23,675 [icarl.py] => Task 2, Epoch 91/200 => Loss 1.305, Train_accy 99.98, Test_accy 65.75
+2024-01-10 22:59:32,464 [icarl.py] => Task 2, Epoch 92/200 => Loss 1.301, Train_accy 100.00
+2024-01-10 22:59:41,390 [icarl.py] => Task 2, Epoch 93/200 => Loss 1.306, Train_accy 100.00
+2024-01-10 22:59:50,120 [icarl.py] => Task 2, Epoch 94/200 => Loss 1.301, Train_accy 100.00
+2024-01-10 22:59:58,866 [icarl.py] => Task 2, Epoch 95/200 => Loss 1.301, Train_accy 100.00
+2024-01-10 23:00:13,438 [icarl.py] => Task 2, Epoch 96/200 => Loss 1.300, Train_accy 100.00, Test_accy 65.90
+2024-01-10 23:00:22,301 [icarl.py] => Task 2, Epoch 97/200 => Loss 1.304, Train_accy 99.98
+2024-01-10 23:00:31,214 [icarl.py] => Task 2, Epoch 98/200 => Loss 1.304, Train_accy 100.00
+2024-01-10 23:00:40,064 [icarl.py] => Task 2, Epoch 99/200 => Loss 1.303, Train_accy 99.98
+2024-01-10 23:00:49,424 [icarl.py] => Task 2, Epoch 100/200 => Loss 1.303, Train_accy 100.00
+2024-01-10 23:01:04,099 [icarl.py] => Task 2, Epoch 101/200 => Loss 1.302, Train_accy 100.00, Test_accy 65.98
+2024-01-10 23:01:13,229 [icarl.py] => Task 2, Epoch 102/200 => Loss 1.302, Train_accy 100.00
+2024-01-10 23:01:22,221 [icarl.py] => Task 2, Epoch 103/200 => Loss 1.302, Train_accy 99.98
+2024-01-10 23:01:31,096 [icarl.py] => Task 2, Epoch 104/200 => Loss 1.302, Train_accy 99.98
+2024-01-10 23:01:39,943 [icarl.py] => Task 2, Epoch 105/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:01:54,637 [icarl.py] => Task 2, Epoch 106/200 => Loss 1.303, Train_accy 99.98, Test_accy 65.90
+2024-01-10 23:02:03,644 [icarl.py] => Task 2, Epoch 107/200 => Loss 1.301, Train_accy 99.98
+2024-01-10 23:02:12,644 [icarl.py] => Task 2, Epoch 108/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:02:21,409 [icarl.py] => Task 2, Epoch 109/200 => Loss 1.300, Train_accy 99.98
+2024-01-10 23:02:30,459 [icarl.py] => Task 2, Epoch 110/200 => Loss 1.301, Train_accy 100.00
+2024-01-10 23:02:45,157 [icarl.py] => Task 2, Epoch 111/200 => Loss 1.299, Train_accy 100.00, Test_accy 66.40
+2024-01-10 23:02:54,032 [icarl.py] => Task 2, Epoch 112/200 => Loss 1.300, Train_accy 100.00
+2024-01-10 23:03:02,697 [icarl.py] => Task 2, Epoch 113/200 => Loss 1.299, Train_accy 100.00
+2024-01-10 23:03:11,467 [icarl.py] => Task 2, Epoch 114/200 => Loss 1.299, Train_accy 100.00
+2024-01-10 23:03:20,228 [icarl.py] => Task 2, Epoch 115/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:03:34,450 [icarl.py] => Task 2, Epoch 116/200 => Loss 1.300, Train_accy 100.00, Test_accy 66.08
+2024-01-10 23:03:43,147 [icarl.py] => Task 2, Epoch 117/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:03:51,752 [icarl.py] => Task 2, Epoch 118/200 => Loss 1.299, Train_accy 100.00
+2024-01-10 23:04:00,751 [icarl.py] => Task 2, Epoch 119/200 => Loss 1.297, Train_accy 99.98
+2024-01-10 23:04:09,461 [icarl.py] => Task 2, Epoch 120/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:04:23,794 [icarl.py] => Task 2, Epoch 121/200 => Loss 1.297, Train_accy 100.00, Test_accy 66.14
+2024-01-10 23:04:32,385 [icarl.py] => Task 2, Epoch 122/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:04:41,171 [icarl.py] => Task 2, Epoch 123/200 => Loss 1.296, Train_accy 99.98
+2024-01-10 23:04:49,840 [icarl.py] => Task 2, Epoch 124/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:04:58,559 [icarl.py] => Task 2, Epoch 125/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:05:12,735 [icarl.py] => Task 2, Epoch 126/200 => Loss 1.302, Train_accy 100.00, Test_accy 66.19
+2024-01-10 23:05:21,362 [icarl.py] => Task 2, Epoch 127/200 => Loss 1.296, Train_accy 99.98
+2024-01-10 23:05:30,328 [icarl.py] => Task 2, Epoch 128/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:05:39,112 [icarl.py] => Task 2, Epoch 129/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:05:47,849 [icarl.py] => Task 2, Epoch 130/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:06:01,841 [icarl.py] => Task 2, Epoch 131/200 => Loss 1.299, Train_accy 99.98, Test_accy 66.29
+2024-01-10 23:06:10,641 [icarl.py] => Task 2, Epoch 132/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:06:19,331 [icarl.py] => Task 2, Epoch 133/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:06:27,935 [icarl.py] => Task 2, Epoch 134/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:06:36,831 [icarl.py] => Task 2, Epoch 135/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:06:50,924 [icarl.py] => Task 2, Epoch 136/200 => Loss 1.299, Train_accy 100.00, Test_accy 66.19
+2024-01-10 23:06:59,785 [icarl.py] => Task 2, Epoch 137/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:07:08,407 [icarl.py] => Task 2, Epoch 138/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:07:17,245 [icarl.py] => Task 2, Epoch 139/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:07:25,869 [icarl.py] => Task 2, Epoch 140/200 => Loss 1.297, Train_accy 99.98
+2024-01-10 23:07:40,050 [icarl.py] => Task 2, Epoch 141/200 => Loss 1.297, Train_accy 99.98, Test_accy 66.03
+2024-01-10 23:07:48,847 [icarl.py] => Task 2, Epoch 142/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:07:57,605 [icarl.py] => Task 2, Epoch 143/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:08:06,405 [icarl.py] => Task 2, Epoch 144/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:08:15,023 [icarl.py] => Task 2, Epoch 145/200 => Loss 1.295, Train_accy 99.98
+2024-01-10 23:08:29,481 [icarl.py] => Task 2, Epoch 146/200 => Loss 1.298, Train_accy 99.98, Test_accy 66.13
+2024-01-10 23:08:38,164 [icarl.py] => Task 2, Epoch 147/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:08:46,810 [icarl.py] => Task 2, Epoch 148/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:08:55,701 [icarl.py] => Task 2, Epoch 149/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:09:04,320 [icarl.py] => Task 2, Epoch 150/200 => Loss 1.296, Train_accy 99.98
+2024-01-10 23:09:18,835 [icarl.py] => Task 2, Epoch 151/200 => Loss 1.294, Train_accy 100.00, Test_accy 66.24
+2024-01-10 23:09:27,461 [icarl.py] => Task 2, Epoch 152/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:09:36,361 [icarl.py] => Task 2, Epoch 153/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:09:45,085 [icarl.py] => Task 2, Epoch 154/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:09:53,952 [icarl.py] => Task 2, Epoch 155/200 => Loss 1.296, Train_accy 99.98
+2024-01-10 23:10:08,950 [icarl.py] => Task 2, Epoch 156/200 => Loss 1.297, Train_accy 100.00, Test_accy 66.46
+2024-01-10 23:10:17,941 [icarl.py] => Task 2, Epoch 157/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:10:26,698 [icarl.py] => Task 2, Epoch 158/200 => Loss 1.299, Train_accy 99.98
+2024-01-10 23:10:28,664 [trainer.py] => 实验名称:WiFi 测试类交换
+2024-01-10 23:10:28,664 [trainer.py] => config: ./exps/icarl.json
+2024-01-10 23:10:28,664 [trainer.py] => experiment_name: 实验名称:WiFi 测试类交换
+2024-01-10 23:10:28,664 [trainer.py] => dataset: xrfdataset
+2024-01-10 23:10:28,664 [trainer.py] => memory_size: 1650
+2024-01-10 23:10:28,664 [trainer.py] => memory_per_class: 30
+2024-01-10 23:10:28,664 [trainer.py] => fixed_memory: True
+2024-01-10 23:10:28,664 [trainer.py] => shuffle: True
+2024-01-10 23:10:28,664 [trainer.py] => init_cls: 15
+2024-01-10 23:10:28,664 [trainer.py] => increment: 10
+2024-01-10 23:10:28,664 [trainer.py] => model_name: icarl
+2024-01-10 23:10:28,664 [trainer.py] => convnet_type: unet
+2024-01-10 23:10:28,665 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-01-10 23:10:28,665 [trainer.py] => seed: 1993
+2024-01-10 23:10:28,676 [data.py] => 加载完毕XRF原始数据集
+2024-01-10 23:10:28,681 [data.py] => 加载完毕XRF原始数据集
+2024-01-10 23:10:28,846 [trainer.py] => All params: 21041612
+2024-01-10 23:10:28,846 [trainer.py] => Trainable params: 21041612
+2024-01-10 23:10:28,846 [icarl.py] => Learning on 0-15
+2024-01-10 23:10:37,687 [icarl.py] => Task 2, Epoch 159/200 => Loss 1.292, Train_accy 99.98
+2024-01-10 23:10:50,513 [icarl.py] => Task 2, Epoch 160/200 => Loss 1.297, Train_accy 99.96
+2024-01-10 23:11:11,023 [icarl.py] => Task 2, Epoch 161/200 => Loss 1.294, Train_accy 100.00, Test_accy 66.22
+2024-01-10 23:11:24,710 [icarl.py] => Task 2, Epoch 162/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:11:38,371 [icarl.py] => Task 2, Epoch 163/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:11:51,953 [icarl.py] => Task 2, Epoch 164/200 => Loss 1.300, Train_accy 99.98
+2024-01-10 23:12:05,123 [icarl.py] => Task 2, Epoch 165/200 => Loss 1.297, Train_accy 99.98
+2024-01-10 23:12:26,026 [icarl.py] => Task 2, Epoch 166/200 => Loss 1.297, Train_accy 100.00, Test_accy 66.06
+2024-01-10 23:12:39,312 [icarl.py] => Task 2, Epoch 167/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:12:53,328 [icarl.py] => Task 2, Epoch 168/200 => Loss 1.294, Train_accy 99.98
+2024-01-10 23:13:06,997 [icarl.py] => Task 2, Epoch 169/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:13:19,916 [icarl.py] => Task 2, Epoch 170/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:13:40,625 [icarl.py] => Task 2, Epoch 171/200 => Loss 1.296, Train_accy 99.98, Test_accy 66.29
+2024-01-10 23:13:54,175 [icarl.py] => Task 2, Epoch 172/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:14:07,892 [icarl.py] => Task 2, Epoch 173/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:14:21,829 [icarl.py] => Task 2, Epoch 174/200 => Loss 1.298, Train_accy 99.98
+2024-01-10 23:14:34,546 [icarl.py] => Task 2, Epoch 175/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:14:55,936 [icarl.py] => Task 2, Epoch 176/200 => Loss 1.296, Train_accy 100.00, Test_accy 66.46
+2024-01-10 23:15:09,692 [icarl.py] => Task 2, Epoch 177/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:15:23,765 [icarl.py] => Task 2, Epoch 178/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:15:37,413 [icarl.py] => Task 2, Epoch 179/200 => Loss 1.298, Train_accy 99.96
+2024-01-10 23:15:50,101 [icarl.py] => Task 2, Epoch 180/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:16:11,081 [icarl.py] => Task 2, Epoch 181/200 => Loss 1.294, Train_accy 100.00, Test_accy 66.17
+2024-01-10 23:16:25,336 [icarl.py] => Task 2, Epoch 182/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:16:39,362 [icarl.py] => Task 2, Epoch 183/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:16:53,873 [icarl.py] => Task 2, Epoch 184/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:17:07,867 [icarl.py] => Task 2, Epoch 185/200 => Loss 1.296, Train_accy 99.98
+2024-01-10 23:17:29,972 [icarl.py] => Task 2, Epoch 186/200 => Loss 1.292, Train_accy 100.00, Test_accy 66.21
+2024-01-10 23:17:44,540 [icarl.py] => Task 2, Epoch 187/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:17:58,788 [icarl.py] => Task 2, Epoch 188/200 => Loss 1.293, Train_accy 100.00
+2024-01-10 23:18:13,715 [icarl.py] => Task 2, Epoch 189/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:18:27,795 [icarl.py] => Task 2, Epoch 190/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:18:50,319 [icarl.py] => Task 2, Epoch 191/200 => Loss 1.298, Train_accy 99.98, Test_accy 66.33
+2024-01-10 23:19:04,614 [icarl.py] => Task 2, Epoch 192/200 => Loss 1.294, Train_accy 100.00
+2024-01-10 23:19:18,723 [icarl.py] => Task 2, Epoch 193/200 => Loss 1.298, Train_accy 100.00
+2024-01-10 23:19:32,717 [icarl.py] => Task 2, Epoch 194/200 => Loss 1.292, Train_accy 100.00
+2024-01-10 23:19:47,486 [icarl.py] => Task 2, Epoch 195/200 => Loss 1.293, Train_accy 100.00
+2024-01-10 23:20:10,801 [icarl.py] => Task 2, Epoch 196/200 => Loss 1.295, Train_accy 100.00, Test_accy 66.11
+2024-01-10 23:20:25,171 [icarl.py] => Task 2, Epoch 197/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:20:38,801 [icarl.py] => Task 2, Epoch 198/200 => Loss 1.296, Train_accy 100.00
+2024-01-10 23:20:52,888 [icarl.py] => Task 2, Epoch 199/200 => Loss 1.295, Train_accy 100.00
+2024-01-10 23:21:07,258 [icarl.py] => Task 2, Epoch 200/200 => Loss 1.297, Train_accy 100.00
+2024-01-10 23:21:07,259 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-10 23:21:53,992 [icarl.py] => Exemplar size: 1050
+2024-01-10 23:21:54,224 [trainer.py] => CNN: {'total': 65.83, '0': 54.44, '1': 29.44, '2': 59.44, '3': 35.56, '4': 52.22, '5': 21.67, '6': 40.56, '7': 35.56, '8': 31.11, '9': 43.33, '10': 68.33, '11': 61.11, '12': 53.33, '13': 55.0, '14': 27.78, '15': 77.22, '16': 83.89, '17': 85.0, '18': 81.67, '19': 77.78, '20': 78.33, '21': 76.67, '22': 71.67, '23': 66.11, '24': 37.78, '25': 92.22, '26': 93.33, '27': 91.67, '28': 80.56, '29': 86.11, '30': 91.11, '31': 93.89, '32': 100.0, '33': 82.78, 'old': 56.2, 'new': 89.89}
+2024-01-10 23:21:54,224 [trainer.py] => NME: {'total': 66.89, '0': 72.78, '1': 45.56, '2': 68.89, '3': 43.33, '4': 57.78, '5': 38.33, '6': 42.22, '7': 51.11, '8': 58.89, '9': 48.89, '10': 73.89, '11': 76.11, '12': 55.56, '13': 57.22, '14': 48.33, '15': 72.78, '16': 87.22, '17': 85.56, '18': 79.44, '19': 80.0, '20': 77.22, '21': 77.78, '22': 78.33, '23': 73.33, '24': 57.78, '25': 73.89, '26': 81.67, '27': 80.56, '28': 56.67, '29': 56.67, '30': 68.89, '31': 76.11, '32': 90.0, '33': 67.22, 'old': 64.33, 'new': 73.28}
+2024-01-10 23:21:54,224 [trainer.py] => CNN top1 curve: [88.04, 72.76, 65.83]
+2024-01-10 23:21:54,224 [trainer.py] => CNN top5 curve: [98.81, 96.51, 92.4]
+2024-01-10 23:21:54,224 [trainer.py] => NME top1 curve: [86.19, 76.29, 66.89]
+2024-01-10 23:21:54,224 [trainer.py] => NME top5 curve: [98.93, 97.47, 93.94]
+
+2024-01-10 23:21:54,225 [trainer.py] => All params: 21046127
+2024-01-10 23:21:54,225 [trainer.py] => Trainable params: 21046127
+2024-01-10 23:21:54,226 [icarl.py] => Learning on 35-45
+2024-01-10 23:22:21,112 [icarl.py] => Task 3, Epoch 1/200 => Loss 5.262, Train_accy 33.71, Test_accy 21.35
+2024-01-10 23:22:35,708 [icarl.py] => Task 3, Epoch 2/200 => Loss 3.174, Train_accy 59.68
+2024-01-10 23:22:51,659 [icarl.py] => Task 3, Epoch 3/200 => Loss 3.018, Train_accy 65.58
+2024-01-10 23:23:07,008 [icarl.py] => Task 3, Epoch 4/200 => Loss 2.880, Train_accy 70.06
+2024-01-10 23:23:21,994 [icarl.py] => Task 3, Epoch 5/200 => Loss 2.616, Train_accy 75.01
+2024-01-10 23:23:48,391 [icarl.py] => Task 3, Epoch 6/200 => Loss 2.506, Train_accy 80.70, Test_accy 38.85
+2024-01-10 23:24:04,239 [icarl.py] => Task 3, Epoch 7/200 => Loss 2.560, Train_accy 77.79
+2024-01-10 23:24:20,494 [icarl.py] => Task 3, Epoch 8/200 => Loss 2.542, Train_accy 79.92
+2024-01-10 23:24:34,846 [icarl.py] => Task 3, Epoch 9/200 => Loss 2.788, Train_accy 74.50
+2024-01-10 23:24:51,156 [icarl.py] => Task 3, Epoch 10/200 => Loss 2.441, Train_accy 80.57
+2024-01-10 23:25:18,932 [icarl.py] => Task 3, Epoch 11/200 => Loss 2.416, Train_accy 82.13, Test_accy 42.89
+2024-01-10 23:25:34,383 [icarl.py] => Task 3, Epoch 12/200 => Loss 2.489, Train_accy 83.30
+2024-01-10 23:25:49,271 [icarl.py] => Task 3, Epoch 13/200 => Loss 2.494, Train_accy 83.16
+2024-01-10 23:26:04,401 [icarl.py] => Task 3, Epoch 14/200 => Loss 2.487, Train_accy 81.89
+2024-01-10 23:26:20,263 [icarl.py] => Task 3, Epoch 15/200 => Loss 2.901, Train_accy 73.64
+2024-01-10 23:26:47,826 [icarl.py] => Task 3, Epoch 16/200 => Loss 2.844, Train_accy 73.31, Test_accy 27.98
+2024-01-10 23:27:03,124 [icarl.py] => Task 3, Epoch 17/200 => Loss 2.499, Train_accy 80.69
+2024-01-10 23:27:18,099 [icarl.py] => Task 3, Epoch 18/200 => Loss 2.391, Train_accy 84.51
+2024-01-10 23:27:33,353 [icarl.py] => Task 3, Epoch 19/200 => Loss 2.545, Train_accy 81.24
+2024-01-10 23:27:48,748 [icarl.py] => Task 3, Epoch 20/200 => Loss 2.338, Train_accy 85.83
+2024-01-10 23:28:14,260 [icarl.py] => Task 3, Epoch 21/200 => Loss 2.739, Train_accy 77.92, Test_accy 41.17
+2024-01-10 23:28:29,094 [icarl.py] => Task 3, Epoch 22/200 => Loss 2.747, Train_accy 77.62
+2024-01-10 23:28:44,067 [icarl.py] => Task 3, Epoch 23/200 => Loss 2.550, Train_accy 82.61
+2024-01-10 23:28:59,715 [icarl.py] => Task 3, Epoch 24/200 => Loss 2.482, Train_accy 84.40
+2024-01-10 23:29:14,436 [icarl.py] => Task 3, Epoch 25/200 => Loss 2.509, Train_accy 82.50
+2024-01-10 23:29:39,796 [icarl.py] => Task 3, Epoch 26/200 => Loss 2.343, Train_accy 85.83, Test_accy 48.79
+2024-01-10 23:29:55,571 [icarl.py] => Task 3, Epoch 27/200 => Loss 2.213, Train_accy 87.50
+2024-01-10 23:30:10,279 [icarl.py] => Task 3, Epoch 28/200 => Loss 2.420, Train_accy 88.29
+2024-01-10 23:30:26,047 [icarl.py] => Task 3, Epoch 29/200 => Loss 2.347, Train_accy 86.97
+2024-01-10 23:30:40,802 [icarl.py] => Task 3, Epoch 30/200 => Loss 2.358, Train_accy 87.39
+2024-01-10 23:31:06,051 [icarl.py] => Task 3, Epoch 31/200 => Loss 2.875, Train_accy 76.78, Test_accy 38.02
+2024-01-10 23:31:22,691 [icarl.py] => Task 3, Epoch 32/200 => Loss 2.374, Train_accy 85.52
+2024-01-10 23:31:37,278 [icarl.py] => Task 3, Epoch 33/200 => Loss 2.450, Train_accy 85.24
+2024-01-10 23:31:53,227 [icarl.py] => Task 3, Epoch 34/200 => Loss 2.429, Train_accy 84.36
+2024-01-10 23:32:08,672 [icarl.py] => Task 3, Epoch 35/200 => Loss 2.452, Train_accy 83.50
+2024-01-10 23:32:33,333 [icarl.py] => Task 3, Epoch 36/200 => Loss 2.530, Train_accy 84.82, Test_accy 39.79
+2024-01-10 23:32:48,059 [icarl.py] => Task 3, Epoch 37/200 => Loss 2.231, Train_accy 88.32
+2024-01-10 23:33:03,037 [icarl.py] => Task 3, Epoch 38/200 => Loss 2.288, Train_accy 90.63
+2024-01-10 23:33:17,273 [icarl.py] => Task 3, Epoch 39/200 => Loss 2.325, Train_accy 88.76
+2024-01-10 23:33:31,983 [icarl.py] => Task 3, Epoch 40/200 => Loss 2.246, Train_accy 87.94
+2024-01-10 23:33:58,566 [icarl.py] => Task 3, Epoch 41/200 => Loss 2.137, Train_accy 91.09, Test_accy 45.09
+2024-01-10 23:34:13,214 [icarl.py] => Task 3, Epoch 42/200 => Loss 2.107, Train_accy 91.87
+2024-01-10 23:34:28,804 [icarl.py] => Task 3, Epoch 43/200 => Loss 2.124, Train_accy 90.55
+2024-01-10 23:34:43,929 [icarl.py] => Task 3, Epoch 44/200 => Loss 2.111, Train_accy 91.50
+2024-01-10 23:34:59,467 [icarl.py] => Task 3, Epoch 45/200 => Loss 2.130, Train_accy 90.04
+2024-01-10 23:35:26,371 [icarl.py] => Task 3, Epoch 46/200 => Loss 2.069, Train_accy 92.84, Test_accy 52.43
+2024-01-10 23:35:41,623 [icarl.py] => Task 3, Epoch 47/200 => Loss 2.029, Train_accy 93.37
+2024-01-10 23:35:57,490 [icarl.py] => Task 3, Epoch 48/200 => Loss 2.111, Train_accy 89.52
+2024-01-10 23:36:12,995 [icarl.py] => Task 3, Epoch 49/200 => Loss 2.013, Train_accy 92.13
+2024-01-10 23:36:29,709 [icarl.py] => Task 3, Epoch 50/200 => Loss 2.079, Train_accy 91.10
+2024-01-10 23:36:58,311 [icarl.py] => Task 3, Epoch 51/200 => Loss 2.109, Train_accy 90.59, Test_accy 41.56
+2024-01-10 23:37:14,201 [icarl.py] => Task 3, Epoch 52/200 => Loss 2.207, Train_accy 88.91
+2024-01-10 23:37:30,690 [icarl.py] => Task 3, Epoch 53/200 => Loss 2.181, Train_accy 89.10
+2024-01-10 23:37:46,928 [icarl.py] => Task 3, Epoch 54/200 => Loss 2.109, Train_accy 89.73
+2024-01-10 23:38:02,184 [icarl.py] => Task 3, Epoch 55/200 => Loss 2.053, Train_accy 92.46
+2024-01-10 23:38:30,497 [icarl.py] => Task 3, Epoch 56/200 => Loss 2.347, Train_accy 85.37, Test_accy 44.94
+2024-01-10 23:38:45,545 [icarl.py] => Task 3, Epoch 57/200 => Loss 2.152, Train_accy 89.18
+2024-01-10 23:39:01,058 [icarl.py] => Task 3, Epoch 58/200 => Loss 2.085, Train_accy 90.95
+2024-01-10 23:39:16,684 [icarl.py] => Task 3, Epoch 59/200 => Loss 2.060, Train_accy 91.35
+2024-01-10 23:39:31,907 [icarl.py] => Task 3, Epoch 60/200 => Loss 2.149, Train_accy 90.50
+2024-01-10 23:40:00,648 [icarl.py] => Task 3, Epoch 61/200 => Loss 1.879, Train_accy 95.37, Test_accy 54.15
+2024-01-10 23:40:18,056 [icarl.py] => Task 3, Epoch 62/200 => Loss 1.803, Train_accy 97.87
+2024-01-10 23:40:33,515 [icarl.py] => Task 3, Epoch 63/200 => Loss 1.738, Train_accy 97.98
+2024-01-10 23:40:49,270 [icarl.py] => Task 3, Epoch 64/200 => Loss 1.698, Train_accy 98.44
+2024-01-10 23:41:05,681 [icarl.py] => Task 3, Epoch 65/200 => Loss 1.743, Train_accy 98.65
+2024-01-10 23:41:32,595 [icarl.py] => Task 3, Epoch 66/200 => Loss 1.713, Train_accy 98.57, Test_accy 55.07
+2024-01-10 23:41:49,042 [icarl.py] => Task 3, Epoch 67/200 => Loss 1.743, Train_accy 98.80
+2024-01-10 23:42:04,898 [icarl.py] => Task 3, Epoch 68/200 => Loss 1.752, Train_accy 98.32
+2024-01-10 23:42:20,988 [icarl.py] => Task 3, Epoch 69/200 => Loss 1.781, Train_accy 98.27
+2024-01-10 23:42:35,663 [icarl.py] => Task 3, Epoch 70/200 => Loss 1.720, Train_accy 98.51
+2024-01-10 23:43:04,732 [icarl.py] => Task 3, Epoch 71/200 => Loss 1.701, Train_accy 98.65, Test_accy 57.77
+2024-01-10 23:43:21,462 [icarl.py] => Task 3, Epoch 72/200 => Loss 1.742, Train_accy 98.95
+2024-01-10 23:43:37,289 [icarl.py] => Task 3, Epoch 73/200 => Loss 1.737, Train_accy 98.74
+2024-01-10 23:43:52,170 [icarl.py] => Task 3, Epoch 74/200 => Loss 1.796, Train_accy 97.89
+2024-01-10 23:44:08,718 [icarl.py] => Task 3, Epoch 75/200 => Loss 1.776, Train_accy 98.51
+2024-01-10 23:44:37,368 [icarl.py] => Task 3, Epoch 76/200 => Loss 1.828, Train_accy 98.17, Test_accy 54.83
+2024-01-10 23:44:52,722 [icarl.py] => Task 3, Epoch 77/200 => Loss 1.702, Train_accy 98.90
+2024-01-10 23:45:08,067 [icarl.py] => Task 3, Epoch 78/200 => Loss 1.773, Train_accy 99.10
+2024-01-10 23:45:23,836 [icarl.py] => Task 3, Epoch 79/200 => Loss 1.806, Train_accy 98.97
+2024-01-10 23:45:40,056 [icarl.py] => Task 3, Epoch 80/200 => Loss 1.689, Train_accy 99.20
+2024-01-10 23:46:10,829 [icarl.py] => Task 3, Epoch 81/200 => Loss 1.716, Train_accy 99.20, Test_accy 57.54
+2024-01-10 23:46:25,889 [icarl.py] => Task 3, Epoch 82/200 => Loss 1.753, Train_accy 98.91
+2024-01-10 23:46:42,963 [icarl.py] => Task 3, Epoch 83/200 => Loss 1.746, Train_accy 98.65
+2024-01-10 23:46:58,483 [icarl.py] => Task 3, Epoch 84/200 => Loss 1.722, Train_accy 98.78
+2024-01-10 23:47:15,811 [icarl.py] => Task 3, Epoch 85/200 => Loss 1.766, Train_accy 98.69
+2024-01-10 23:47:45,108 [icarl.py] => Task 3, Epoch 86/200 => Loss 1.709, Train_accy 98.76, Test_accy 56.74
+2024-01-10 23:48:00,688 [icarl.py] => Task 3, Epoch 87/200 => Loss 1.824, Train_accy 99.01
+2024-01-10 23:48:16,672 [icarl.py] => Task 3, Epoch 88/200 => Loss 1.683, Train_accy 98.99
+2024-01-10 23:48:32,114 [icarl.py] => Task 3, Epoch 89/200 => Loss 1.692, Train_accy 99.16
+2024-01-10 23:48:48,151 [icarl.py] => Task 3, Epoch 90/200 => Loss 1.706, Train_accy 99.03
+2024-01-10 23:49:17,487 [icarl.py] => Task 3, Epoch 91/200 => Loss 1.693, Train_accy 99.28, Test_accy 59.27
+2024-01-10 23:49:33,261 [icarl.py] => Task 3, Epoch 92/200 => Loss 1.700, Train_accy 99.01
+2024-01-10 23:49:49,225 [icarl.py] => Task 3, Epoch 93/200 => Loss 1.684, Train_accy 99.20
+2024-01-10 23:50:04,904 [icarl.py] => Task 3, Epoch 94/200 => Loss 1.779, Train_accy 99.28
+2024-01-10 23:50:19,701 [icarl.py] => Task 3, Epoch 95/200 => Loss 1.849, Train_accy 98.27
+2024-01-10 23:50:45,556 [icarl.py] => Task 3, Epoch 96/200 => Loss 1.703, Train_accy 99.37, Test_accy 58.27
+2024-01-10 23:51:00,746 [icarl.py] => Task 3, Epoch 97/200 => Loss 1.785, Train_accy 99.05
+2024-01-10 23:51:16,184 [icarl.py] => Task 3, Epoch 98/200 => Loss 1.700, Train_accy 99.26
+2024-01-10 23:51:31,193 [icarl.py] => Task 3, Epoch 99/200 => Loss 1.716, Train_accy 98.99
+2024-01-10 23:51:46,871 [icarl.py] => Task 3, Epoch 100/200 => Loss 1.755, Train_accy 99.35
+2024-01-10 23:52:13,274 [icarl.py] => Task 3, Epoch 101/200 => Loss 1.682, Train_accy 99.18, Test_accy 57.65
+2024-01-10 23:52:28,950 [icarl.py] => Task 3, Epoch 102/200 => Loss 1.732, Train_accy 99.35
+2024-01-10 23:52:44,896 [icarl.py] => Task 3, Epoch 103/200 => Loss 1.696, Train_accy 99.39
+2024-01-10 23:53:00,763 [icarl.py] => Task 3, Epoch 104/200 => Loss 1.681, Train_accy 99.22
+2024-01-10 23:53:16,953 [icarl.py] => Task 3, Epoch 105/200 => Loss 1.673, Train_accy 99.26
+2024-01-10 23:53:45,719 [icarl.py] => Task 3, Epoch 106/200 => Loss 1.750, Train_accy 99.22, Test_accy 58.37
+2024-01-10 23:54:00,337 [icarl.py] => Task 3, Epoch 107/200 => Loss 1.690, Train_accy 99.43
+2024-01-10 23:54:16,694 [icarl.py] => Task 3, Epoch 108/200 => Loss 1.654, Train_accy 99.49
+2024-01-10 23:54:31,871 [icarl.py] => Task 3, Epoch 109/200 => Loss 1.762, Train_accy 99.35
+2024-01-10 23:54:47,342 [icarl.py] => Task 3, Epoch 110/200 => Loss 1.673, Train_accy 99.16
+2024-01-10 23:55:14,647 [icarl.py] => Task 3, Epoch 111/200 => Loss 1.704, Train_accy 99.35, Test_accy 56.47
+2024-01-10 23:55:30,576 [icarl.py] => Task 3, Epoch 112/200 => Loss 1.711, Train_accy 99.31
+2024-01-10 23:55:46,799 [icarl.py] => Task 3, Epoch 113/200 => Loss 1.726, Train_accy 99.05
+2024-01-10 23:56:01,950 [icarl.py] => Task 3, Epoch 114/200 => Loss 1.660, Train_accy 99.30
+2024-01-10 23:56:17,923 [icarl.py] => Task 3, Epoch 115/200 => Loss 1.665, Train_accy 99.41
+2024-01-10 23:56:44,720 [icarl.py] => Task 3, Epoch 116/200 => Loss 1.695, Train_accy 99.10, Test_accy 58.86
+2024-01-10 23:57:00,627 [icarl.py] => Task 3, Epoch 117/200 => Loss 1.772, Train_accy 99.39
+2024-01-10 23:57:15,512 [icarl.py] => Task 3, Epoch 118/200 => Loss 1.794, Train_accy 99.33
+2024-01-10 23:57:31,999 [icarl.py] => Task 3, Epoch 119/200 => Loss 1.694, Train_accy 98.95
+2024-01-10 23:57:47,496 [icarl.py] => Task 3, Epoch 120/200 => Loss 1.759, Train_accy 99.30
+2024-01-10 23:58:13,720 [icarl.py] => Task 3, Epoch 121/200 => Loss 1.705, Train_accy 99.50, Test_accy 57.32
+2024-01-10 23:58:29,169 [icarl.py] => Task 3, Epoch 122/200 => Loss 1.672, Train_accy 99.41
+2024-01-10 23:58:44,340 [icarl.py] => Task 3, Epoch 123/200 => Loss 1.696, Train_accy 99.35
+2024-01-10 23:58:59,279 [icarl.py] => Task 3, Epoch 124/200 => Loss 1.735, Train_accy 99.45
+2024-01-10 23:59:13,520 [icarl.py] => Task 3, Epoch 125/200 => Loss 1.625, Train_accy 99.66
+2024-01-10 23:59:39,454 [icarl.py] => Task 3, Epoch 126/200 => Loss 1.792, Train_accy 99.70, Test_accy 55.72
+2024-01-10 23:59:56,160 [icarl.py] => Task 3, Epoch 127/200 => Loss 1.689, Train_accy 99.47
+2024-01-11 00:00:12,396 [icarl.py] => Task 3, Epoch 128/200 => Loss 1.655, Train_accy 99.64
+2024-01-11 00:00:28,486 [icarl.py] => Task 3, Epoch 129/200 => Loss 1.655, Train_accy 99.47
+2024-01-11 00:00:44,151 [icarl.py] => Task 3, Epoch 130/200 => Loss 1.722, Train_accy 99.56
+2024-01-11 00:01:12,338 [icarl.py] => Task 3, Epoch 131/200 => Loss 1.651, Train_accy 99.56, Test_accy 57.94
+2024-01-11 00:01:19,582 [icarl.py] => Task 0, Epoch 200/200 => Loss 0.014, Train_accy 99.94
+2024-01-11 00:01:19,583 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 00:01:26,716 [icarl.py] => Task 3, Epoch 132/200 => Loss 1.685, Train_accy 99.62
+2024-01-11 00:01:39,123 [icarl.py] => Task 3, Epoch 133/200 => Loss 1.613, Train_accy 99.66
+2024-01-11 00:01:50,538 [icarl.py] => Exemplar size: 450
+2024-01-11 00:01:51,035 [trainer.py] => CNN: {'total': 90.41, '0': 98.33, '1': 95.0, '2': 96.11, '3': 87.22, '4': 95.0, '5': 83.33, '6': 81.11, '7': 92.22, '8': 92.78, '9': 64.44, '10': 97.78, '11': 100.0, '12': 91.11, '13': 88.89, 'old': 0, 'new': 90.41}
+2024-01-11 00:01:51,036 [trainer.py] => NME: {'total': 89.48, '0': 98.89, '1': 93.33, '2': 95.56, '3': 86.11, '4': 93.89, '5': 80.0, '6': 76.11, '7': 92.22, '8': 87.22, '9': 67.78, '10': 98.33, '11': 99.44, '12': 91.11, '13': 90.0, 'old': 0, 'new': 89.48}
+2024-01-11 00:01:51,036 [trainer.py] => CNN top1 curve: [90.41]
+2024-01-11 00:01:51,036 [trainer.py] => CNN top5 curve: [99.22]
+2024-01-11 00:01:51,036 [trainer.py] => NME top1 curve: [89.48]
+2024-01-11 00:01:51,036 [trainer.py] => NME top5 curve: [99.19]
+
+2024-01-11 00:01:51,037 [trainer.py] => All params: 21043547
+2024-01-11 00:01:51,038 [trainer.py] => Trainable params: 21043547
+2024-01-11 00:01:51,039 [icarl.py] => Learning on 15-25
+2024-01-11 00:01:51,988 [icarl.py] => Task 3, Epoch 134/200 => Loss 1.654, Train_accy 99.75
+2024-01-11 00:02:03,976 [icarl.py] => Task 3, Epoch 135/200 => Loss 1.652, Train_accy 99.62
+2024-01-11 00:02:27,301 [icarl.py] => Task 3, Epoch 136/200 => Loss 1.665, Train_accy 99.70, Test_accy 56.41
+2024-01-11 00:02:39,561 [icarl.py] => Task 3, Epoch 137/200 => Loss 1.703, Train_accy 99.62
+2024-01-11 00:02:52,520 [icarl.py] => Task 3, Epoch 138/200 => Loss 1.658, Train_accy 99.52
+2024-01-11 00:03:07,339 [icarl.py] => Task 3, Epoch 139/200 => Loss 1.645, Train_accy 99.66
+2024-01-11 00:03:12,665 [icarl.py] => Task 1, Epoch 1/200 => Loss 4.262, Train_accy 32.49, Test_accy 18.60
+2024-01-11 00:03:23,270 [icarl.py] => Task 3, Epoch 140/200 => Loss 1.646, Train_accy 99.50
+2024-01-11 00:03:26,887 [icarl.py] => Task 1, Epoch 2/200 => Loss 3.106, Train_accy 53.29
+2024-01-11 00:03:40,440 [icarl.py] => Task 1, Epoch 3/200 => Loss 2.768, Train_accy 64.34
+2024-01-11 00:03:50,284 [icarl.py] => Task 3, Epoch 141/200 => Loss 1.748, Train_accy 99.54, Test_accy 58.32
+2024-01-11 00:03:52,311 [icarl.py] => Task 1, Epoch 4/200 => Loss 2.541, Train_accy 71.16
+2024-01-11 00:04:05,283 [icarl.py] => Task 3, Epoch 142/200 => Loss 1.708, Train_accy 99.50
+2024-01-11 00:04:06,749 [icarl.py] => Task 1, Epoch 5/200 => Loss 2.405, Train_accy 76.00
+2024-01-11 00:04:21,053 [icarl.py] => Task 3, Epoch 143/200 => Loss 1.795, Train_accy 99.73
+2024-01-11 00:04:26,883 [icarl.py] => Task 1, Epoch 6/200 => Loss 2.282, Train_accy 78.62, Test_accy 40.69
+2024-01-11 00:04:35,917 [icarl.py] => Task 3, Epoch 144/200 => Loss 1.670, Train_accy 99.70
+2024-01-11 00:04:40,715 [icarl.py] => Task 1, Epoch 7/200 => Loss 2.138, Train_accy 83.16
+2024-01-11 00:04:51,169 [icarl.py] => Task 3, Epoch 145/200 => Loss 1.674, Train_accy 99.66
+2024-01-11 00:04:53,864 [icarl.py] => Task 1, Epoch 8/200 => Loss 2.098, Train_accy 83.87
+2024-01-11 00:05:07,379 [icarl.py] => Task 1, Epoch 9/200 => Loss 2.073, Train_accy 84.41
+2024-01-11 00:05:19,041 [icarl.py] => Task 3, Epoch 146/200 => Loss 1.627, Train_accy 99.66, Test_accy 58.60
+2024-01-11 00:05:19,985 [icarl.py] => Task 1, Epoch 10/200 => Loss 1.948, Train_accy 87.27
+2024-01-11 00:05:34,523 [icarl.py] => Task 3, Epoch 147/200 => Loss 1.711, Train_accy 99.52
+2024-01-11 00:05:41,168 [icarl.py] => Task 1, Epoch 11/200 => Loss 1.876, Train_accy 89.42, Test_accy 57.02
+2024-01-11 00:05:50,606 [icarl.py] => Task 3, Epoch 148/200 => Loss 1.640, Train_accy 99.41
+2024-01-11 00:05:55,693 [icarl.py] => Task 1, Epoch 12/200 => Loss 1.875, Train_accy 89.27
+2024-01-11 00:06:05,668 [icarl.py] => Task 3, Epoch 149/200 => Loss 1.685, Train_accy 99.73
+2024-01-11 00:06:09,770 [icarl.py] => Task 1, Epoch 13/200 => Loss 1.812, Train_accy 90.69
+2024-01-11 00:06:20,865 [icarl.py] => Task 3, Epoch 150/200 => Loss 1.686, Train_accy 99.56
+2024-01-11 00:06:24,854 [icarl.py] => Task 1, Epoch 14/200 => Loss 1.830, Train_accy 90.45
+2024-01-11 00:06:38,240 [icarl.py] => Task 1, Epoch 15/200 => Loss 1.818, Train_accy 91.76
+2024-01-11 00:06:47,504 [icarl.py] => Task 3, Epoch 151/200 => Loss 1.650, Train_accy 99.58, Test_accy 58.05
+2024-01-11 00:06:56,359 [icarl.py] => Task 1, Epoch 16/200 => Loss 1.753, Train_accy 92.75, Test_accy 59.87
+2024-01-11 00:07:01,258 [icarl.py] => Task 3, Epoch 152/200 => Loss 1.730, Train_accy 99.70
+2024-01-11 00:07:10,345 [icarl.py] => Task 1, Epoch 17/200 => Loss 1.692, Train_accy 93.66
+2024-01-11 00:07:17,771 [icarl.py] => Task 3, Epoch 153/200 => Loss 1.627, Train_accy 99.58
+2024-01-11 00:07:25,200 [icarl.py] => Task 1, Epoch 18/200 => Loss 1.732, Train_accy 93.05
+2024-01-11 00:07:33,707 [icarl.py] => Task 3, Epoch 154/200 => Loss 1.728, Train_accy 99.62
+2024-01-11 00:07:38,667 [icarl.py] => Task 1, Epoch 19/200 => Loss 1.710, Train_accy 93.46
+2024-01-11 00:07:49,357 [icarl.py] => Task 3, Epoch 155/200 => Loss 1.795, Train_accy 99.71
+2024-01-11 00:07:52,673 [icarl.py] => Task 1, Epoch 20/200 => Loss 1.666, Train_accy 95.01
+2024-01-11 00:08:12,426 [icarl.py] => Task 1, Epoch 21/200 => Loss 1.661, Train_accy 95.01, Test_accy 55.60
+2024-01-11 00:08:15,783 [icarl.py] => Task 3, Epoch 156/200 => Loss 1.651, Train_accy 99.73, Test_accy 58.79
+2024-01-11 00:08:26,395 [icarl.py] => Task 1, Epoch 22/200 => Loss 1.678, Train_accy 94.92
+2024-01-11 00:08:31,892 [icarl.py] => Task 3, Epoch 157/200 => Loss 1.692, Train_accy 99.75
+2024-01-11 00:08:40,288 [icarl.py] => Task 1, Epoch 23/200 => Loss 1.617, Train_accy 95.74
+2024-01-11 00:08:47,664 [icarl.py] => Task 3, Epoch 158/200 => Loss 1.764, Train_accy 99.64
+2024-01-11 00:08:54,405 [icarl.py] => Task 1, Epoch 24/200 => Loss 1.645, Train_accy 94.95
+2024-01-11 00:09:03,138 [icarl.py] => Task 3, Epoch 159/200 => Loss 1.752, Train_accy 99.70
+2024-01-11 00:09:08,098 [icarl.py] => Task 1, Epoch 25/200 => Loss 1.632, Train_accy 94.82
+2024-01-11 00:09:18,368 [icarl.py] => Task 3, Epoch 160/200 => Loss 1.664, Train_accy 99.70
+2024-01-11 00:09:28,521 [icarl.py] => Task 1, Epoch 26/200 => Loss 1.630, Train_accy 95.48, Test_accy 60.87
+2024-01-11 00:09:40,841 [icarl.py] => Task 1, Epoch 27/200 => Loss 1.598, Train_accy 96.15
+2024-01-11 00:09:44,583 [icarl.py] => Task 3, Epoch 161/200 => Loss 1.692, Train_accy 99.54, Test_accy 57.52
+2024-01-11 00:09:54,001 [icarl.py] => Task 1, Epoch 28/200 => Loss 1.611, Train_accy 95.81
+2024-01-11 00:09:59,897 [icarl.py] => Task 3, Epoch 162/200 => Loss 1.610, Train_accy 99.68
+2024-01-11 00:10:07,467 [icarl.py] => Task 1, Epoch 29/200 => Loss 1.645, Train_accy 94.73
+2024-01-11 00:10:15,104 [icarl.py] => Task 3, Epoch 163/200 => Loss 1.648, Train_accy 99.68
+2024-01-11 00:10:21,647 [icarl.py] => Task 1, Epoch 30/200 => Loss 1.637, Train_accy 95.48
+2024-01-11 00:10:29,681 [icarl.py] => Task 3, Epoch 164/200 => Loss 1.805, Train_accy 99.47
+2024-01-11 00:10:41,147 [icarl.py] => Task 1, Epoch 31/200 => Loss 1.600, Train_accy 96.15, Test_accy 63.42
+2024-01-11 00:10:44,898 [icarl.py] => Task 3, Epoch 165/200 => Loss 1.722, Train_accy 99.58
+2024-01-11 00:10:55,588 [icarl.py] => Task 1, Epoch 32/200 => Loss 1.615, Train_accy 95.87
+2024-01-11 00:11:07,887 [icarl.py] => Task 1, Epoch 33/200 => Loss 1.588, Train_accy 96.37
+2024-01-11 00:11:09,765 [icarl.py] => Task 3, Epoch 166/200 => Loss 1.754, Train_accy 99.64, Test_accy 58.40
+2024-01-11 00:11:20,777 [icarl.py] => Task 1, Epoch 34/200 => Loss 1.568, Train_accy 96.69
+2024-01-11 00:11:25,321 [icarl.py] => Task 3, Epoch 167/200 => Loss 1.686, Train_accy 99.66
+2024-01-11 00:11:35,013 [icarl.py] => Task 1, Epoch 35/200 => Loss 1.601, Train_accy 95.85
+2024-01-11 00:11:40,679 [icarl.py] => Task 3, Epoch 168/200 => Loss 1.608, Train_accy 99.68
+2024-01-11 00:11:54,140 [icarl.py] => Task 3, Epoch 169/200 => Loss 1.699, Train_accy 99.71
+2024-01-11 00:11:55,210 [icarl.py] => Task 1, Epoch 36/200 => Loss 1.589, Train_accy 96.45, Test_accy 64.38
+2024-01-11 00:12:09,825 [icarl.py] => Task 1, Epoch 37/200 => Loss 1.572, Train_accy 96.97
+2024-01-11 00:12:10,107 [icarl.py] => Task 3, Epoch 170/200 => Loss 1.672, Train_accy 99.58
+2024-01-11 00:12:24,257 [icarl.py] => Task 1, Epoch 38/200 => Loss 1.600, Train_accy 95.91
+2024-01-11 00:12:36,133 [icarl.py] => Task 1, Epoch 39/200 => Loss 1.574, Train_accy 96.65
+2024-01-11 00:12:36,508 [icarl.py] => Task 3, Epoch 171/200 => Loss 1.672, Train_accy 99.64, Test_accy 58.22
+2024-01-11 00:12:50,239 [icarl.py] => Task 1, Epoch 40/200 => Loss 1.547, Train_accy 97.48
+2024-01-11 00:12:51,283 [icarl.py] => Task 3, Epoch 172/200 => Loss 1.680, Train_accy 99.60
+2024-01-11 00:13:06,083 [icarl.py] => Task 3, Epoch 173/200 => Loss 1.681, Train_accy 99.71
+2024-01-11 00:13:09,296 [icarl.py] => Task 1, Epoch 41/200 => Loss 1.595, Train_accy 96.22, Test_accy 63.33
+2024-01-11 00:13:20,513 [icarl.py] => Task 3, Epoch 174/200 => Loss 1.639, Train_accy 99.66
+2024-01-11 00:13:23,198 [icarl.py] => Task 1, Epoch 42/200 => Loss 1.607, Train_accy 96.06
+2024-01-11 00:13:35,326 [icarl.py] => Task 3, Epoch 175/200 => Loss 1.739, Train_accy 99.75
+2024-01-11 00:13:37,358 [icarl.py] => Task 1, Epoch 43/200 => Loss 1.579, Train_accy 96.45
+2024-01-11 00:13:51,393 [icarl.py] => Task 1, Epoch 44/200 => Loss 1.504, Train_accy 98.26
+2024-01-11 00:14:00,476 [icarl.py] => Task 3, Epoch 176/200 => Loss 1.674, Train_accy 99.62, Test_accy 58.01
+2024-01-11 00:14:03,616 [icarl.py] => Task 1, Epoch 45/200 => Loss 1.515, Train_accy 97.91
+2024-01-11 00:14:16,137 [icarl.py] => Task 3, Epoch 177/200 => Loss 1.720, Train_accy 99.68
+2024-01-11 00:14:25,319 [icarl.py] => Task 1, Epoch 46/200 => Loss 1.511, Train_accy 98.02, Test_accy 64.31
+2024-01-11 00:14:30,962 [icarl.py] => Task 3, Epoch 178/200 => Loss 1.665, Train_accy 99.68
+2024-01-11 00:14:39,189 [icarl.py] => Task 1, Epoch 47/200 => Loss 1.545, Train_accy 97.29
+2024-01-11 00:14:46,561 [icarl.py] => Task 3, Epoch 179/200 => Loss 1.764, Train_accy 99.73
+2024-01-11 00:14:53,017 [icarl.py] => Task 1, Epoch 48/200 => Loss 1.587, Train_accy 96.28
+2024-01-11 00:15:02,076 [icarl.py] => Task 3, Epoch 180/200 => Loss 1.643, Train_accy 99.62
+2024-01-11 00:15:07,535 [icarl.py] => Task 1, Epoch 49/200 => Loss 1.628, Train_accy 95.61
+2024-01-11 00:15:21,105 [icarl.py] => Task 1, Epoch 50/200 => Loss 1.571, Train_accy 96.47
+2024-01-11 00:15:28,915 [icarl.py] => Task 3, Epoch 181/200 => Loss 1.664, Train_accy 99.58, Test_accy 58.73
+2024-01-11 00:15:39,571 [icarl.py] => Task 1, Epoch 51/200 => Loss 1.543, Train_accy 97.27, Test_accy 66.42
+2024-01-11 00:15:42,478 [icarl.py] => Task 3, Epoch 182/200 => Loss 1.646, Train_accy 99.77
+2024-01-11 00:15:52,936 [icarl.py] => Task 1, Epoch 52/200 => Loss 1.552, Train_accy 97.01
+2024-01-11 00:15:58,368 [icarl.py] => Task 3, Epoch 183/200 => Loss 1.710, Train_accy 99.66
+2024-01-11 00:16:06,729 [icarl.py] => Task 1, Epoch 53/200 => Loss 1.514, Train_accy 98.06
+2024-01-11 00:16:14,248 [icarl.py] => Task 3, Epoch 184/200 => Loss 1.684, Train_accy 99.77
+2024-01-11 00:16:20,690 [icarl.py] => Task 1, Epoch 54/200 => Loss 1.484, Train_accy 98.43
+2024-01-11 00:16:30,207 [icarl.py] => Task 3, Epoch 185/200 => Loss 1.639, Train_accy 99.66
+2024-01-11 00:16:34,732 [icarl.py] => Task 1, Epoch 55/200 => Loss 1.473, Train_accy 98.75
+2024-01-11 00:16:54,876 [icarl.py] => Task 1, Epoch 56/200 => Loss 1.459, Train_accy 98.77, Test_accy 66.04
+2024-01-11 00:16:57,518 [icarl.py] => Task 3, Epoch 186/200 => Loss 1.702, Train_accy 99.62, Test_accy 59.36
+2024-01-11 00:17:08,410 [icarl.py] => Task 1, Epoch 57/200 => Loss 1.484, Train_accy 98.41
+2024-01-11 00:17:12,678 [icarl.py] => Task 3, Epoch 187/200 => Loss 1.652, Train_accy 99.66
+2024-01-11 00:17:22,266 [icarl.py] => Task 1, Epoch 58/200 => Loss 1.490, Train_accy 98.17
+2024-01-11 00:17:27,913 [icarl.py] => Task 3, Epoch 188/200 => Loss 1.656, Train_accy 99.75
+2024-01-11 00:17:36,860 [icarl.py] => Task 1, Epoch 59/200 => Loss 1.571, Train_accy 96.37
+2024-01-11 00:17:43,225 [icarl.py] => Task 3, Epoch 189/200 => Loss 1.697, Train_accy 99.62
+2024-01-11 00:17:50,873 [icarl.py] => Task 1, Epoch 60/200 => Loss 1.644, Train_accy 94.41
+2024-01-11 00:17:58,881 [icarl.py] => Task 3, Epoch 190/200 => Loss 1.679, Train_accy 99.62
+2024-01-11 00:18:12,345 [icarl.py] => Task 1, Epoch 61/200 => Loss 1.515, Train_accy 97.87, Test_accy 70.80
+2024-01-11 00:18:24,442 [icarl.py] => Task 1, Epoch 62/200 => Loss 1.430, Train_accy 99.38
+2024-01-11 00:18:25,081 [icarl.py] => Task 3, Epoch 191/200 => Loss 1.675, Train_accy 99.75, Test_accy 59.04
+2024-01-11 00:18:38,260 [icarl.py] => Task 1, Epoch 63/200 => Loss 1.415, Train_accy 99.70
+2024-01-11 00:18:40,431 [icarl.py] => Task 3, Epoch 192/200 => Loss 1.633, Train_accy 99.75
+2024-01-11 00:18:52,393 [icarl.py] => Task 1, Epoch 64/200 => Loss 1.411, Train_accy 99.83
+2024-01-11 00:18:56,161 [icarl.py] => Task 3, Epoch 193/200 => Loss 1.647, Train_accy 99.64
+2024-01-11 00:19:06,433 [icarl.py] => Task 1, Epoch 65/200 => Loss 1.402, Train_accy 99.78
+2024-01-11 00:19:11,382 [icarl.py] => Task 3, Epoch 194/200 => Loss 1.659, Train_accy 99.60
+2024-01-11 00:19:25,921 [icarl.py] => Task 1, Epoch 66/200 => Loss 1.397, Train_accy 99.94, Test_accy 72.78
+2024-01-11 00:19:26,136 [icarl.py] => Task 3, Epoch 195/200 => Loss 1.748, Train_accy 99.54
+2024-01-11 00:19:40,154 [icarl.py] => Task 1, Epoch 67/200 => Loss 1.397, Train_accy 99.81
+2024-01-11 00:19:53,184 [icarl.py] => Task 1, Epoch 68/200 => Loss 1.390, Train_accy 99.91
+2024-01-11 00:19:53,872 [icarl.py] => Task 3, Epoch 196/200 => Loss 1.640, Train_accy 99.64, Test_accy 56.01
+2024-01-11 00:20:07,953 [icarl.py] => Task 1, Epoch 69/200 => Loss 1.392, Train_accy 99.91
+2024-01-11 00:20:09,757 [icarl.py] => Task 3, Epoch 197/200 => Loss 1.643, Train_accy 99.50
+2024-01-11 00:20:21,727 [icarl.py] => Task 1, Epoch 70/200 => Loss 1.392, Train_accy 99.89
+2024-01-11 00:20:26,128 [icarl.py] => Task 3, Epoch 198/200 => Loss 1.718, Train_accy 99.66
+2024-01-11 00:20:40,634 [icarl.py] => Task 3, Epoch 199/200 => Loss 1.681, Train_accy 99.66
+2024-01-11 00:20:42,460 [icarl.py] => Task 1, Epoch 71/200 => Loss 1.390, Train_accy 99.85, Test_accy 72.69
+2024-01-11 00:20:56,220 [icarl.py] => Task 3, Epoch 200/200 => Loss 1.690, Train_accy 99.70
+2024-01-11 00:20:56,221 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 00:20:56,857 [icarl.py] => Task 1, Epoch 72/200 => Loss 1.391, Train_accy 99.91
+2024-01-11 00:21:07,466 [icarl.py] => Task 1, Epoch 73/200 => Loss 1.385, Train_accy 99.91
+2024-01-11 00:21:19,020 [icarl.py] => Task 1, Epoch 74/200 => Loss 1.385, Train_accy 99.85
+2024-01-11 00:21:29,749 [icarl.py] => Task 1, Epoch 75/200 => Loss 1.383, Train_accy 99.91
+2024-01-11 00:21:48,593 [icarl.py] => Task 1, Epoch 76/200 => Loss 1.383, Train_accy 99.89, Test_accy 73.49
+2024-01-11 00:21:49,802 [icarl.py] => Exemplar size: 1350
+2024-01-11 00:21:49,992 [trainer.py] => CNN: {'total': 59.58, '0': 50.0, '1': 37.78, '2': 48.89, '3': 18.89, '4': 49.44, '5': 31.11, '6': 47.22, '7': 36.67, '8': 41.11, '9': 45.56, '10': 53.89, '11': 59.44, '12': 40.56, '13': 49.44, '14': 35.0, '15': 68.89, '16': 71.67, '17': 67.78, '18': 70.0, '19': 66.67, '20': 65.0, '21': 64.44, '22': 53.33, '23': 47.78, '24': 59.44, '25': 47.78, '26': 57.22, '27': 55.56, '28': 47.78, '29': 37.22, '30': 51.67, '31': 65.0, '32': 59.44, '33': 23.33, '34': 29.44, '35': 91.67, '36': 96.67, '37': 82.22, '38': 98.89, '39': 97.22, '40': 84.44, '41': 93.33, '42': 98.89, '43': 98.89, 'old': 50.13, 'new': 92.67}
+2024-01-11 00:21:49,993 [trainer.py] => NME: {'total': 58.69, '0': 65.56, '1': 41.67, '2': 51.11, '3': 24.44, '4': 50.0, '5': 38.89, '6': 37.22, '7': 42.22, '8': 43.89, '9': 44.44, '10': 58.89, '11': 68.89, '12': 45.56, '13': 53.33, '14': 42.22, '15': 63.89, '16': 73.33, '17': 72.78, '18': 70.56, '19': 66.67, '20': 63.33, '21': 70.56, '22': 57.78, '23': 48.89, '24': 53.89, '25': 45.0, '26': 55.0, '27': 38.89, '28': 45.0, '29': 39.44, '30': 46.67, '31': 58.33, '32': 66.67, '33': 45.0, '34': 52.22, '35': 88.89, '36': 81.67, '37': 53.33, '38': 92.22, '39': 79.44, '40': 70.0, '41': 83.33, '42': 95.56, '43': 93.89, 'old': 52.63, 'new': 79.89}
+2024-01-11 00:21:49,993 [trainer.py] => CNN top1 curve: [88.04, 72.76, 65.83, 59.58]
+2024-01-11 00:21:49,993 [trainer.py] => CNN top5 curve: [98.81, 96.51, 92.4, 88.01]
+2024-01-11 00:21:49,993 [trainer.py] => NME top1 curve: [86.19, 76.29, 66.89, 58.69]
+2024-01-11 00:21:49,993 [trainer.py] => NME top5 curve: [98.93, 97.47, 93.94, 90.19]
+
+2024-01-11 00:21:49,993 [trainer.py] => All params: 21047417
+2024-01-11 00:21:49,993 [trainer.py] => Trainable params: 21047417
+2024-01-11 00:21:49,994 [icarl.py] => Learning on 45-55
+2024-01-11 00:22:04,053 [icarl.py] => Task 1, Epoch 77/200 => Loss 1.378, Train_accy 100.00
+2024-01-11 00:22:15,649 [icarl.py] => Task 1, Epoch 78/200 => Loss 1.380, Train_accy 99.94
+2024-01-11 00:22:19,000 [icarl.py] => Task 4, Epoch 1/200 => Loss 5.142, Train_accy 24.27, Test_accy 34.92
+2024-01-11 00:22:30,264 [icarl.py] => Task 1, Epoch 79/200 => Loss 1.382, Train_accy 99.98
+2024-01-11 00:22:35,491 [icarl.py] => Task 4, Epoch 2/200 => Loss 3.440, Train_accy 46.14
+2024-01-11 00:22:44,458 [icarl.py] => Task 1, Epoch 80/200 => Loss 1.382, Train_accy 99.96
+2024-01-11 00:22:51,001 [icarl.py] => Task 4, Epoch 3/200 => Loss 3.040, Train_accy 60.32
+2024-01-11 00:23:05,269 [icarl.py] => Task 1, Epoch 81/200 => Loss 1.378, Train_accy 99.96, Test_accy 73.64
+2024-01-11 00:23:05,675 [icarl.py] => Task 4, Epoch 4/200 => Loss 2.778, Train_accy 69.24
+2024-01-11 00:23:19,450 [icarl.py] => Task 1, Epoch 82/200 => Loss 1.377, Train_accy 99.94
+2024-01-11 00:23:22,456 [icarl.py] => Task 4, Epoch 5/200 => Loss 2.612, Train_accy 73.73
+2024-01-11 00:23:33,174 [icarl.py] => Task 1, Epoch 83/200 => Loss 1.376, Train_accy 99.98
+2024-01-11 00:23:46,153 [icarl.py] => Task 1, Epoch 84/200 => Loss 1.379, Train_accy 99.96
+2024-01-11 00:23:51,842 [icarl.py] => Task 4, Epoch 6/200 => Loss 2.527, Train_accy 77.24, Test_accy 51.05
+2024-01-11 00:23:59,702 [icarl.py] => Task 1, Epoch 85/200 => Loss 1.377, Train_accy 99.96
+2024-01-11 00:24:07,443 [icarl.py] => Task 4, Epoch 7/200 => Loss 2.475, Train_accy 78.76
+2024-01-11 00:24:22,315 [icarl.py] => Task 4, Epoch 8/200 => Loss 2.330, Train_accy 82.85
+2024-01-11 00:24:22,384 [icarl.py] => Task 1, Epoch 86/200 => Loss 1.374, Train_accy 99.91, Test_accy 73.36
+2024-01-11 00:24:36,631 [icarl.py] => Task 1, Epoch 87/200 => Loss 1.377, Train_accy 99.94
+2024-01-11 00:24:38,293 [icarl.py] => Task 4, Epoch 9/200 => Loss 2.277, Train_accy 84.18
+2024-01-11 00:24:50,974 [icarl.py] => Task 1, Epoch 88/200 => Loss 1.372, Train_accy 99.96
+2024-01-11 00:24:54,627 [icarl.py] => Task 4, Epoch 10/200 => Loss 2.263, Train_accy 85.66
+2024-01-11 00:25:04,913 [icarl.py] => Task 1, Epoch 89/200 => Loss 1.371, Train_accy 99.98
+2024-01-11 00:25:17,623 [icarl.py] => Task 1, Epoch 90/200 => Loss 1.368, Train_accy 99.98
+2024-01-11 00:25:23,845 [icarl.py] => Task 4, Epoch 11/200 => Loss 2.237, Train_accy 85.96, Test_accy 42.65
+2024-01-11 00:25:36,788 [icarl.py] => Task 1, Epoch 91/200 => Loss 1.372, Train_accy 99.96, Test_accy 73.53
+2024-01-11 00:25:38,026 [icarl.py] => Task 4, Epoch 12/200 => Loss 2.204, Train_accy 86.70
+2024-01-11 00:25:51,014 [icarl.py] => Task 1, Epoch 92/200 => Loss 1.371, Train_accy 99.94
+2024-01-11 00:25:54,392 [icarl.py] => Task 4, Epoch 13/200 => Loss 2.121, Train_accy 89.12
+2024-01-11 00:26:05,277 [icarl.py] => Task 1, Epoch 93/200 => Loss 1.370, Train_accy 99.98
+2024-01-11 00:26:10,172 [icarl.py] => Task 4, Epoch 14/200 => Loss 2.105, Train_accy 89.26
+2024-01-11 00:26:18,574 [icarl.py] => Task 1, Epoch 94/200 => Loss 1.370, Train_accy 99.98
+2024-01-11 00:26:26,700 [icarl.py] => Task 4, Epoch 15/200 => Loss 2.064, Train_accy 91.39
+2024-01-11 00:26:32,981 [icarl.py] => Task 1, Epoch 95/200 => Loss 1.368, Train_accy 99.98
+2024-01-11 00:26:52,626 [icarl.py] => Task 1, Epoch 96/200 => Loss 1.368, Train_accy 99.98, Test_accy 73.93
+2024-01-11 00:26:57,271 [icarl.py] => Task 4, Epoch 16/200 => Loss 2.050, Train_accy 90.90, Test_accy 46.48
+2024-01-11 00:27:06,309 [icarl.py] => Task 1, Epoch 97/200 => Loss 1.367, Train_accy 100.00
+2024-01-11 00:27:12,672 [icarl.py] => Task 4, Epoch 17/200 => Loss 2.047, Train_accy 91.68
+2024-01-11 00:27:21,023 [icarl.py] => Task 1, Epoch 98/200 => Loss 1.368, Train_accy 99.98
+2024-01-11 00:27:29,231 [icarl.py] => Task 4, Epoch 18/200 => Loss 1.992, Train_accy 92.32
+2024-01-11 00:27:35,452 [icarl.py] => Task 1, Epoch 99/200 => Loss 1.366, Train_accy 100.00
+2024-01-11 00:27:45,851 [icarl.py] => Task 4, Epoch 19/200 => Loss 1.988, Train_accy 92.70
+2024-01-11 00:27:49,240 [icarl.py] => Task 1, Epoch 100/200 => Loss 1.367, Train_accy 99.98
+2024-01-11 00:28:02,816 [icarl.py] => Task 4, Epoch 20/200 => Loss 1.988, Train_accy 92.79
+2024-01-11 00:28:09,988 [icarl.py] => Task 1, Epoch 101/200 => Loss 1.363, Train_accy 99.96, Test_accy 74.18
+2024-01-11 00:28:22,862 [icarl.py] => Task 1, Epoch 102/200 => Loss 1.364, Train_accy 100.00
+2024-01-11 00:28:31,050 [icarl.py] => Task 4, Epoch 21/200 => Loss 1.989, Train_accy 92.92, Test_accy 52.83
+2024-01-11 00:28:35,981 [icarl.py] => Task 1, Epoch 103/200 => Loss 1.367, Train_accy 99.98
+2024-01-11 00:28:47,575 [icarl.py] => Task 4, Epoch 22/200 => Loss 2.017, Train_accy 92.27
+2024-01-11 00:28:49,782 [icarl.py] => Task 1, Epoch 104/200 => Loss 1.363, Train_accy 99.98
+2024-01-11 00:29:03,841 [icarl.py] => Task 4, Epoch 23/200 => Loss 1.996, Train_accy 92.86
+2024-01-11 00:29:04,190 [icarl.py] => Task 1, Epoch 105/200 => Loss 1.363, Train_accy 100.00
+2024-01-11 00:29:20,014 [icarl.py] => Task 4, Epoch 24/200 => Loss 1.925, Train_accy 94.95
+2024-01-11 00:29:26,592 [icarl.py] => Task 1, Epoch 106/200 => Loss 1.365, Train_accy 99.98, Test_accy 74.24
+2024-01-11 00:29:35,759 [icarl.py] => Task 4, Epoch 25/200 => Loss 1.893, Train_accy 96.05
+2024-01-11 00:29:41,139 [icarl.py] => Task 1, Epoch 107/200 => Loss 1.365, Train_accy 99.96
+2024-01-11 00:29:55,483 [icarl.py] => Task 1, Epoch 108/200 => Loss 1.361, Train_accy 99.98
+2024-01-11 00:30:03,368 [icarl.py] => Task 4, Epoch 26/200 => Loss 1.963, Train_accy 93.86, Test_accy 53.64
+2024-01-11 00:30:08,315 [icarl.py] => Task 1, Epoch 109/200 => Loss 1.363, Train_accy 99.98
+2024-01-11 00:30:19,981 [icarl.py] => Task 4, Epoch 27/200 => Loss 1.949, Train_accy 93.91
+2024-01-11 00:30:21,992 [icarl.py] => Task 1, Epoch 110/200 => Loss 1.363, Train_accy 100.00
+2024-01-11 00:30:36,971 [icarl.py] => Task 4, Epoch 28/200 => Loss 1.941, Train_accy 93.96
+2024-01-11 00:30:42,592 [icarl.py] => Task 1, Epoch 111/200 => Loss 1.363, Train_accy 99.98, Test_accy 73.53
+2024-01-11 00:30:53,416 [icarl.py] => Task 4, Epoch 29/200 => Loss 1.958, Train_accy 94.05
+2024-01-11 00:30:55,948 [icarl.py] => Task 1, Epoch 112/200 => Loss 1.360, Train_accy 99.96
+2024-01-11 00:31:10,129 [icarl.py] => Task 4, Epoch 30/200 => Loss 1.901, Train_accy 95.89
+2024-01-11 00:31:10,174 [icarl.py] => Task 1, Epoch 113/200 => Loss 1.362, Train_accy 99.96
+2024-01-11 00:31:24,923 [icarl.py] => Task 1, Epoch 114/200 => Loss 1.359, Train_accy 100.00
+2024-01-11 00:31:36,591 [icarl.py] => Task 1, Epoch 115/200 => Loss 1.360, Train_accy 99.96
+2024-01-11 00:31:38,800 [icarl.py] => Task 4, Epoch 31/200 => Loss 1.883, Train_accy 96.09, Test_accy 50.51
+2024-01-11 00:31:54,903 [icarl.py] => Task 4, Epoch 32/200 => Loss 1.874, Train_accy 96.13
+2024-01-11 00:31:54,974 [icarl.py] => Task 1, Epoch 116/200 => Loss 1.363, Train_accy 99.96, Test_accy 73.71
+2024-01-11 00:32:08,779 [icarl.py] => Task 1, Epoch 117/200 => Loss 1.359, Train_accy 99.96
+2024-01-11 00:32:10,932 [icarl.py] => Task 4, Epoch 33/200 => Loss 1.906, Train_accy 94.74
+2024-01-11 00:32:22,112 [icarl.py] => Task 1, Epoch 118/200 => Loss 1.360, Train_accy 99.98
+2024-01-11 00:32:27,297 [icarl.py] => Task 4, Epoch 34/200 => Loss 1.975, Train_accy 93.95
+2024-01-11 00:32:35,170 [icarl.py] => Task 1, Epoch 119/200 => Loss 1.360, Train_accy 99.96
+2024-01-11 00:32:43,497 [icarl.py] => Task 4, Epoch 35/200 => Loss 1.933, Train_accy 94.25
+2024-01-11 00:32:48,232 [icarl.py] => Task 1, Epoch 120/200 => Loss 1.360, Train_accy 100.00
+2024-01-11 00:33:07,189 [icarl.py] => Task 1, Epoch 121/200 => Loss 1.358, Train_accy 99.98, Test_accy 73.58
+2024-01-11 00:33:14,228 [icarl.py] => Task 4, Epoch 36/200 => Loss 1.881, Train_accy 96.20, Test_accy 53.32
+2024-01-11 00:33:20,218 [icarl.py] => Task 1, Epoch 122/200 => Loss 1.357, Train_accy 99.98
+2024-01-11 00:33:31,064 [icarl.py] => Task 4, Epoch 37/200 => Loss 1.844, Train_accy 96.97
+2024-01-11 00:33:34,216 [icarl.py] => Task 1, Epoch 123/200 => Loss 1.357, Train_accy 99.94
+2024-01-11 00:33:47,020 [icarl.py] => Task 4, Epoch 38/200 => Loss 1.886, Train_accy 95.91
+2024-01-11 00:33:47,589 [icarl.py] => Task 1, Epoch 124/200 => Loss 1.359, Train_accy 99.98
+2024-01-11 00:34:02,207 [icarl.py] => Task 1, Epoch 125/200 => Loss 1.360, Train_accy 99.98
+2024-01-11 00:34:03,462 [icarl.py] => Task 4, Epoch 39/200 => Loss 1.861, Train_accy 96.43
+2024-01-11 00:34:19,927 [icarl.py] => Task 4, Epoch 40/200 => Loss 1.867, Train_accy 96.23
+2024-01-11 00:34:20,905 [icarl.py] => Task 1, Epoch 126/200 => Loss 1.355, Train_accy 100.00, Test_accy 74.02
+2024-01-11 00:34:35,390 [icarl.py] => Task 1, Epoch 127/200 => Loss 1.358, Train_accy 99.96
+2024-01-11 00:34:46,755 [icarl.py] => Task 1, Epoch 128/200 => Loss 1.358, Train_accy 99.98
+2024-01-11 00:34:48,513 [icarl.py] => Task 4, Epoch 41/200 => Loss 1.863, Train_accy 96.38, Test_accy 52.37
+2024-01-11 00:35:00,428 [icarl.py] => Task 1, Epoch 129/200 => Loss 1.356, Train_accy 99.96
+2024-01-11 00:35:04,948 [icarl.py] => Task 4, Epoch 42/200 => Loss 1.970, Train_accy 93.46
+2024-01-11 00:35:13,253 [icarl.py] => Task 1, Epoch 130/200 => Loss 1.355, Train_accy 99.96
+2024-01-11 00:35:21,503 [icarl.py] => Task 4, Epoch 43/200 => Loss 1.981, Train_accy 93.95
+2024-01-11 00:35:32,105 [icarl.py] => Task 1, Epoch 131/200 => Loss 1.356, Train_accy 99.98, Test_accy 73.69
+2024-01-11 00:35:36,102 [icarl.py] => Task 4, Epoch 44/200 => Loss 1.944, Train_accy 94.45
+2024-01-11 00:35:45,569 [icarl.py] => Task 1, Epoch 132/200 => Loss 1.363, Train_accy 99.96
+2024-01-11 00:35:52,641 [icarl.py] => Task 4, Epoch 45/200 => Loss 1.948, Train_accy 94.40
+2024-01-11 00:35:59,094 [icarl.py] => Task 1, Epoch 133/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:36:12,219 [icarl.py] => Task 1, Epoch 134/200 => Loss 1.355, Train_accy 100.00
+2024-01-11 00:36:21,558 [icarl.py] => Task 4, Epoch 46/200 => Loss 1.878, Train_accy 95.82, Test_accy 54.78
+2024-01-11 00:36:24,270 [icarl.py] => Task 1, Epoch 135/200 => Loss 1.355, Train_accy 99.96
+2024-01-11 00:36:37,918 [icarl.py] => Task 4, Epoch 47/200 => Loss 1.829, Train_accy 97.30
+2024-01-11 00:36:44,159 [icarl.py] => Task 1, Epoch 136/200 => Loss 1.353, Train_accy 99.98, Test_accy 73.69
+2024-01-11 00:36:53,143 [icarl.py] => Task 4, Epoch 48/200 => Loss 1.796, Train_accy 97.71
+2024-01-11 00:36:57,586 [icarl.py] => Task 1, Epoch 137/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:37:09,210 [icarl.py] => Task 4, Epoch 49/200 => Loss 1.781, Train_accy 98.25
+2024-01-11 00:37:11,293 [icarl.py] => Task 1, Epoch 138/200 => Loss 1.353, Train_accy 99.98
+2024-01-11 00:37:25,665 [icarl.py] => Task 1, Epoch 139/200 => Loss 1.356, Train_accy 99.96
+2024-01-11 00:37:25,685 [icarl.py] => Task 4, Epoch 50/200 => Loss 1.852, Train_accy 96.38
+2024-01-11 00:37:39,066 [icarl.py] => Task 1, Epoch 140/200 => Loss 1.360, Train_accy 99.89
+2024-01-11 00:37:54,218 [icarl.py] => Task 4, Epoch 51/200 => Loss 1.830, Train_accy 97.08, Test_accy 51.34
+2024-01-11 00:37:56,041 [icarl.py] => Task 1, Epoch 141/200 => Loss 1.360, Train_accy 99.96, Test_accy 74.00
+2024-01-11 00:38:10,029 [icarl.py] => Task 1, Epoch 142/200 => Loss 1.356, Train_accy 100.00
+2024-01-11 00:38:10,085 [icarl.py] => Task 4, Epoch 52/200 => Loss 1.855, Train_accy 97.01
+2024-01-11 00:38:23,693 [icarl.py] => Task 1, Epoch 143/200 => Loss 1.359, Train_accy 99.96
+2024-01-11 00:38:26,139 [icarl.py] => Task 4, Epoch 53/200 => Loss 1.916, Train_accy 94.74
+2024-01-11 00:38:36,717 [icarl.py] => Task 1, Epoch 144/200 => Loss 1.356, Train_accy 99.98
+2024-01-11 00:38:42,678 [icarl.py] => Task 4, Epoch 54/200 => Loss 1.864, Train_accy 96.29
+2024-01-11 00:38:50,200 [icarl.py] => Task 1, Epoch 145/200 => Loss 1.357, Train_accy 99.98
+2024-01-11 00:38:58,417 [icarl.py] => Task 4, Epoch 55/200 => Loss 1.845, Train_accy 96.95
+2024-01-11 00:39:10,104 [icarl.py] => Task 1, Epoch 146/200 => Loss 1.357, Train_accy 99.96, Test_accy 74.13
+2024-01-11 00:39:21,759 [icarl.py] => Task 1, Epoch 147/200 => Loss 1.356, Train_accy 99.98
+2024-01-11 00:39:25,902 [icarl.py] => Task 4, Epoch 56/200 => Loss 1.836, Train_accy 96.47, Test_accy 55.26
+2024-01-11 00:39:34,503 [icarl.py] => Task 1, Epoch 148/200 => Loss 1.356, Train_accy 100.00
+2024-01-11 00:39:42,556 [icarl.py] => Task 4, Epoch 57/200 => Loss 1.823, Train_accy 97.21
+2024-01-11 00:39:48,043 [icarl.py] => Task 1, Epoch 149/200 => Loss 1.357, Train_accy 99.98
+2024-01-11 00:39:58,686 [icarl.py] => Task 4, Epoch 58/200 => Loss 1.877, Train_accy 95.96
+2024-01-11 00:40:01,420 [icarl.py] => Task 1, Epoch 150/200 => Loss 1.355, Train_accy 100.00
+2024-01-11 00:40:14,994 [icarl.py] => Task 4, Epoch 59/200 => Loss 1.855, Train_accy 96.18
+2024-01-11 00:40:20,773 [icarl.py] => Task 1, Epoch 151/200 => Loss 1.359, Train_accy 99.98, Test_accy 73.49
+2024-01-11 00:40:30,738 [icarl.py] => Task 4, Epoch 60/200 => Loss 1.848, Train_accy 96.85
+2024-01-11 00:40:34,530 [icarl.py] => Task 1, Epoch 152/200 => Loss 1.356, Train_accy 99.98
+2024-01-11 00:40:48,082 [icarl.py] => Task 1, Epoch 153/200 => Loss 1.358, Train_accy 99.98
+2024-01-11 00:40:59,148 [icarl.py] => Task 1, Epoch 154/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:40:59,588 [icarl.py] => Task 4, Epoch 61/200 => Loss 1.745, Train_accy 98.79, Test_accy 60.08
+2024-01-11 00:41:12,875 [icarl.py] => Task 1, Epoch 155/200 => Loss 1.356, Train_accy 99.98
+2024-01-11 00:41:16,177 [icarl.py] => Task 4, Epoch 62/200 => Loss 1.692, Train_accy 99.80
+2024-01-11 00:41:31,760 [icarl.py] => Task 4, Epoch 63/200 => Loss 1.685, Train_accy 99.91
+2024-01-11 00:41:32,481 [icarl.py] => Task 1, Epoch 156/200 => Loss 1.354, Train_accy 100.00, Test_accy 73.76
+2024-01-11 00:41:46,831 [icarl.py] => Task 1, Epoch 157/200 => Loss 1.356, Train_accy 99.98
+2024-01-11 00:41:47,852 [icarl.py] => Task 4, Epoch 64/200 => Loss 1.681, Train_accy 99.84
+2024-01-11 00:41:59,851 [icarl.py] => Task 1, Epoch 158/200 => Loss 1.353, Train_accy 99.98
+2024-01-11 00:42:04,813 [icarl.py] => Task 4, Epoch 65/200 => Loss 1.677, Train_accy 99.91
+2024-01-11 00:42:14,087 [icarl.py] => Task 1, Epoch 159/200 => Loss 1.358, Train_accy 99.96
+2024-01-11 00:42:26,352 [icarl.py] => Task 1, Epoch 160/200 => Loss 1.354, Train_accy 99.98
+2024-01-11 00:42:33,700 [icarl.py] => Task 4, Epoch 66/200 => Loss 1.672, Train_accy 99.95, Test_accy 60.73
+2024-01-11 00:42:44,188 [icarl.py] => Task 1, Epoch 161/200 => Loss 1.354, Train_accy 99.98, Test_accy 74.07
+2024-01-11 00:42:48,188 [icarl.py] => Task 4, Epoch 67/200 => Loss 1.670, Train_accy 99.93
+2024-01-11 00:42:57,769 [icarl.py] => Task 1, Epoch 162/200 => Loss 1.357, Train_accy 99.98
+2024-01-11 00:43:04,890 [icarl.py] => Task 4, Epoch 68/200 => Loss 1.673, Train_accy 99.96
+2024-01-11 00:43:10,911 [icarl.py] => Task 1, Epoch 163/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:43:20,671 [icarl.py] => Task 4, Epoch 69/200 => Loss 1.673, Train_accy 99.84
+2024-01-11 00:43:24,412 [icarl.py] => Task 1, Epoch 164/200 => Loss 1.355, Train_accy 100.00
+2024-01-11 00:43:36,735 [icarl.py] => Task 4, Epoch 70/200 => Loss 1.670, Train_accy 99.89
+2024-01-11 00:43:38,062 [icarl.py] => Task 1, Epoch 165/200 => Loss 1.352, Train_accy 100.00
+2024-01-11 00:43:58,042 [icarl.py] => Task 1, Epoch 166/200 => Loss 1.357, Train_accy 99.98, Test_accy 73.69
+2024-01-11 00:44:05,525 [icarl.py] => Task 4, Epoch 71/200 => Loss 1.670, Train_accy 99.96, Test_accy 61.34
+2024-01-11 00:44:09,758 [icarl.py] => Task 1, Epoch 167/200 => Loss 1.351, Train_accy 100.00
+2024-01-11 00:44:21,474 [icarl.py] => Task 4, Epoch 72/200 => Loss 1.662, Train_accy 99.96
+2024-01-11 00:44:22,775 [icarl.py] => Task 1, Epoch 168/200 => Loss 1.357, Train_accy 99.98
+2024-01-11 00:44:36,607 [icarl.py] => Task 1, Epoch 169/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:44:37,080 [icarl.py] => Task 4, Epoch 73/200 => Loss 1.671, Train_accy 99.91
+2024-01-11 00:44:49,944 [icarl.py] => Task 1, Epoch 170/200 => Loss 1.354, Train_accy 100.00
+2024-01-11 00:44:53,177 [icarl.py] => Task 4, Epoch 74/200 => Loss 1.668, Train_accy 99.89
+2024-01-11 00:45:08,827 [icarl.py] => Task 4, Epoch 75/200 => Loss 1.668, Train_accy 99.96
+2024-01-11 00:45:09,074 [icarl.py] => Task 1, Epoch 171/200 => Loss 1.355, Train_accy 100.00, Test_accy 73.73
+2024-01-11 00:45:23,463 [icarl.py] => Task 1, Epoch 172/200 => Loss 1.352, Train_accy 99.98
+2024-01-11 00:45:35,257 [icarl.py] => Task 1, Epoch 173/200 => Loss 1.358, Train_accy 99.98
+2024-01-11 00:45:37,039 [icarl.py] => Task 4, Epoch 76/200 => Loss 1.666, Train_accy 99.95, Test_accy 61.24
+2024-01-11 00:45:48,022 [icarl.py] => Task 1, Epoch 174/200 => Loss 1.354, Train_accy 100.00
+2024-01-11 00:45:53,429 [icarl.py] => Task 4, Epoch 77/200 => Loss 1.661, Train_accy 99.95
+2024-01-11 00:46:01,770 [icarl.py] => Task 1, Epoch 175/200 => Loss 1.357, Train_accy 99.94
+2024-01-11 00:46:09,547 [icarl.py] => Task 4, Epoch 78/200 => Loss 1.668, Train_accy 99.91
+2024-01-11 00:46:21,081 [icarl.py] => Task 1, Epoch 176/200 => Loss 1.354, Train_accy 100.00, Test_accy 73.93
+2024-01-11 00:46:25,034 [icarl.py] => Task 4, Epoch 79/200 => Loss 1.665, Train_accy 99.91
+2024-01-11 00:46:34,786 [icarl.py] => Task 1, Epoch 177/200 => Loss 1.354, Train_accy 100.00
+2024-01-11 00:46:41,131 [icarl.py] => Task 4, Epoch 80/200 => Loss 1.655, Train_accy 99.98
+2024-01-11 00:46:48,755 [icarl.py] => Task 1, Epoch 178/200 => Loss 1.358, Train_accy 99.98
+2024-01-11 00:47:01,561 [icarl.py] => Task 1, Epoch 179/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:47:09,986 [icarl.py] => Task 4, Epoch 81/200 => Loss 1.654, Train_accy 99.96, Test_accy 61.41
+2024-01-11 00:47:13,972 [icarl.py] => Task 1, Epoch 180/200 => Loss 1.352, Train_accy 100.00
+2024-01-11 00:47:26,233 [icarl.py] => Task 4, Epoch 82/200 => Loss 1.656, Train_accy 99.96
+2024-01-11 00:47:33,119 [icarl.py] => Task 1, Epoch 181/200 => Loss 1.358, Train_accy 100.00, Test_accy 74.47
+2024-01-11 00:47:40,876 [icarl.py] => Task 4, Epoch 83/200 => Loss 1.663, Train_accy 99.96
+2024-01-11 00:47:46,737 [icarl.py] => Task 1, Epoch 182/200 => Loss 1.355, Train_accy 99.96
+2024-01-11 00:47:56,869 [icarl.py] => Task 4, Epoch 84/200 => Loss 1.665, Train_accy 99.96
+2024-01-11 00:48:00,540 [icarl.py] => Task 1, Epoch 183/200 => Loss 1.357, Train_accy 99.98
+2024-01-11 00:48:13,765 [icarl.py] => Task 4, Epoch 85/200 => Loss 1.662, Train_accy 99.87
+2024-01-11 00:48:14,621 [icarl.py] => Task 1, Epoch 184/200 => Loss 1.359, Train_accy 99.98
+2024-01-11 00:48:28,448 [icarl.py] => Task 1, Epoch 185/200 => Loss 1.355, Train_accy 99.98
+2024-01-11 00:48:42,401 [icarl.py] => Task 4, Epoch 86/200 => Loss 1.663, Train_accy 99.93, Test_accy 61.52
+2024-01-11 00:48:44,539 [icarl.py] => Task 1, Epoch 186/200 => Loss 1.355, Train_accy 99.98, Test_accy 73.56
+2024-01-11 00:48:59,094 [icarl.py] => Task 1, Epoch 187/200 => Loss 1.353, Train_accy 100.00
+2024-01-11 00:48:59,333 [icarl.py] => Task 4, Epoch 87/200 => Loss 1.659, Train_accy 99.95
+2024-01-11 00:49:12,688 [icarl.py] => Task 1, Epoch 188/200 => Loss 1.354, Train_accy 100.00
+2024-01-11 00:49:16,226 [icarl.py] => Task 4, Epoch 88/200 => Loss 1.660, Train_accy 99.89
+2024-01-11 00:49:26,289 [icarl.py] => Task 1, Epoch 189/200 => Loss 1.354, Train_accy 100.00
+2024-01-11 00:49:32,470 [icarl.py] => Task 4, Epoch 89/200 => Loss 1.660, Train_accy 99.89
+2024-01-11 00:49:39,540 [icarl.py] => Task 1, Epoch 190/200 => Loss 1.355, Train_accy 99.96
+2024-01-11 00:49:48,629 [icarl.py] => Task 4, Epoch 90/200 => Loss 1.659, Train_accy 99.96
+2024-01-11 00:49:59,177 [icarl.py] => Task 1, Epoch 191/200 => Loss 1.353, Train_accy 99.98, Test_accy 74.38
+2024-01-11 00:50:10,705 [icarl.py] => Task 1, Epoch 192/200 => Loss 1.357, Train_accy 100.00
+2024-01-11 00:50:17,452 [icarl.py] => Task 4, Epoch 91/200 => Loss 1.654, Train_accy 99.95, Test_accy 61.48
+2024-01-11 00:50:23,177 [icarl.py] => Task 1, Epoch 193/200 => Loss 1.353, Train_accy 99.98
+2024-01-11 00:50:33,391 [icarl.py] => Task 4, Epoch 92/200 => Loss 1.655, Train_accy 99.96
+2024-01-11 00:50:35,864 [icarl.py] => Task 1, Epoch 194/200 => Loss 1.354, Train_accy 100.00
+2024-01-11 00:50:49,981 [icarl.py] => Task 4, Epoch 93/200 => Loss 1.658, Train_accy 99.91
+2024-01-11 00:50:50,366 [icarl.py] => Task 1, Epoch 195/200 => Loss 1.356, Train_accy 99.98
+2024-01-11 00:51:05,842 [icarl.py] => Task 4, Epoch 94/200 => Loss 1.662, Train_accy 99.87
+2024-01-11 00:51:09,730 [icarl.py] => Task 1, Epoch 196/200 => Loss 1.359, Train_accy 99.91, Test_accy 74.56
+2024-01-11 00:51:22,462 [icarl.py] => Task 4, Epoch 95/200 => Loss 1.656, Train_accy 99.93
+2024-01-11 00:51:22,871 [icarl.py] => Task 1, Epoch 197/200 => Loss 1.353, Train_accy 100.00
+2024-01-11 00:51:37,184 [icarl.py] => Task 1, Epoch 198/200 => Loss 1.357, Train_accy 100.00
+2024-01-11 00:51:48,393 [icarl.py] => Task 1, Epoch 199/200 => Loss 1.353, Train_accy 100.00
+2024-01-11 00:51:52,339 [icarl.py] => Task 4, Epoch 96/200 => Loss 1.655, Train_accy 99.96, Test_accy 61.45
+2024-01-11 00:52:00,784 [icarl.py] => Task 1, Epoch 200/200 => Loss 1.352, Train_accy 100.00
+2024-01-11 00:52:00,785 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 00:52:06,694 [icarl.py] => Task 4, Epoch 97/200 => Loss 1.653, Train_accy 99.93
+2024-01-11 00:52:18,389 [icarl.py] => Task 4, Epoch 98/200 => Loss 1.657, Train_accy 99.98
+2024-01-11 00:52:32,598 [icarl.py] => Task 4, Epoch 99/200 => Loss 1.652, Train_accy 99.98
+2024-01-11 00:52:33,103 [icarl.py] => Exemplar size: 750
+2024-01-11 00:52:33,684 [trainer.py] => CNN: {'total': 74.09, '0': 78.89, '1': 55.56, '2': 67.78, '3': 47.22, '4': 68.89, '5': 45.56, '6': 58.33, '7': 35.56, '8': 31.67, '9': 46.67, '10': 82.78, '11': 90.0, '12': 65.56, '13': 55.56, '14': 60.0, '15': 95.56, '16': 97.78, '17': 96.67, '18': 93.33, '19': 98.33, '20': 96.67, '21': 93.89, '22': 97.78, '23': 98.89, 'old': 59.33, 'new': 96.22}
+2024-01-11 00:52:33,685 [trainer.py] => NME: {'total': 77.29, '0': 94.44, '1': 65.56, '2': 61.11, '3': 49.44, '4': 73.33, '5': 63.33, '6': 53.33, '7': 51.11, '8': 53.33, '9': 55.0, '10': 81.67, '11': 91.67, '12': 66.67, '13': 67.22, '14': 76.11, '15': 91.67, '16': 97.22, '17': 91.67, '18': 92.22, '19': 93.33, '20': 95.0, '21': 92.22, '22': 93.33, '23': 93.33, 'old': 66.89, 'new': 92.89}
+2024-01-11 00:52:33,685 [trainer.py] => CNN top1 curve: [90.41, 74.09]
+2024-01-11 00:52:33,685 [trainer.py] => CNN top5 curve: [99.22, 96.73]
+2024-01-11 00:52:33,685 [trainer.py] => NME top1 curve: [89.48, 77.29]
+2024-01-11 00:52:33,685 [trainer.py] => NME top5 curve: [99.19, 97.36]
+
+2024-01-11 00:52:33,686 [trainer.py] => All params: 21044837
+2024-01-11 00:52:33,687 [trainer.py] => Trainable params: 21044837
+2024-01-11 00:52:33,689 [icarl.py] => Learning on 25-35
+2024-01-11 00:52:43,258 [icarl.py] => Task 4, Epoch 100/200 => Loss 1.652, Train_accy 99.98
+2024-01-11 00:53:04,630 [icarl.py] => Task 4, Epoch 101/200 => Loss 1.657, Train_accy 99.96, Test_accy 61.76
+2024-01-11 00:53:16,320 [icarl.py] => Task 4, Epoch 102/200 => Loss 1.655, Train_accy 99.93
+2024-01-11 00:53:27,382 [icarl.py] => Task 4, Epoch 103/200 => Loss 1.655, Train_accy 99.96
+2024-01-11 00:53:40,386 [icarl.py] => Task 4, Epoch 104/200 => Loss 1.657, Train_accy 99.89
+2024-01-11 00:53:54,411 [icarl.py] => Task 4, Epoch 105/200 => Loss 1.656, Train_accy 99.98
+2024-01-11 00:53:54,643 [icarl.py] => Task 2, Epoch 1/200 => Loss 4.590, Train_accy 34.32, Test_accy 23.89
+2024-01-11 00:54:09,318 [icarl.py] => Task 2, Epoch 2/200 => Loss 3.101, Train_accy 55.37
+2024-01-11 00:54:20,851 [icarl.py] => Task 2, Epoch 3/200 => Loss 2.791, Train_accy 63.70
+2024-01-11 00:54:23,984 [icarl.py] => Task 4, Epoch 106/200 => Loss 1.656, Train_accy 99.95, Test_accy 60.97
+2024-01-11 00:54:34,289 [icarl.py] => Task 2, Epoch 4/200 => Loss 2.597, Train_accy 69.62
+2024-01-11 00:54:40,837 [icarl.py] => Task 4, Epoch 107/200 => Loss 1.651, Train_accy 99.98
+2024-01-11 00:54:48,543 [icarl.py] => Task 2, Epoch 5/200 => Loss 2.388, Train_accy 74.95
+2024-01-11 00:54:57,229 [icarl.py] => Task 4, Epoch 108/200 => Loss 1.655, Train_accy 99.91
+2024-01-11 00:55:09,842 [icarl.py] => Task 2, Epoch 6/200 => Loss 2.341, Train_accy 75.96, Test_accy 44.02
+2024-01-11 00:55:12,961 [icarl.py] => Task 4, Epoch 109/200 => Loss 1.651, Train_accy 99.98
+2024-01-11 00:55:23,569 [icarl.py] => Task 2, Epoch 7/200 => Loss 2.209, Train_accy 79.58
+2024-01-11 00:55:28,984 [icarl.py] => Task 4, Epoch 110/200 => Loss 1.647, Train_accy 99.95
+2024-01-11 00:55:37,698 [icarl.py] => Task 2, Epoch 8/200 => Loss 2.123, Train_accy 81.76
+2024-01-11 00:55:50,663 [icarl.py] => Task 2, Epoch 9/200 => Loss 2.081, Train_accy 82.99
+2024-01-11 00:55:57,916 [icarl.py] => Task 4, Epoch 111/200 => Loss 1.651, Train_accy 99.95, Test_accy 61.60
+2024-01-11 00:56:03,644 [icarl.py] => Task 2, Epoch 10/200 => Loss 2.015, Train_accy 84.65
+2024-01-11 00:56:13,609 [icarl.py] => Task 4, Epoch 112/200 => Loss 1.648, Train_accy 99.98
+2024-01-11 00:56:26,361 [icarl.py] => Task 2, Epoch 11/200 => Loss 1.971, Train_accy 85.88, Test_accy 43.78
+2024-01-11 00:56:28,437 [icarl.py] => Task 4, Epoch 113/200 => Loss 1.645, Train_accy 99.98
+2024-01-11 00:56:40,903 [icarl.py] => Task 2, Epoch 12/200 => Loss 1.988, Train_accy 85.03
+2024-01-11 00:56:44,186 [icarl.py] => Task 4, Epoch 114/200 => Loss 1.651, Train_accy 100.00
+2024-01-11 00:56:55,047 [icarl.py] => Task 2, Epoch 13/200 => Loss 1.951, Train_accy 86.38
+2024-01-11 00:57:01,208 [icarl.py] => Task 4, Epoch 115/200 => Loss 1.653, Train_accy 99.98
+2024-01-11 00:57:09,373 [icarl.py] => Task 2, Epoch 14/200 => Loss 1.869, Train_accy 88.22
+2024-01-11 00:57:22,681 [icarl.py] => Task 2, Epoch 15/200 => Loss 1.856, Train_accy 89.05
+2024-01-11 00:57:29,145 [icarl.py] => Task 4, Epoch 116/200 => Loss 1.650, Train_accy 100.00, Test_accy 61.39
+2024-01-11 00:57:43,857 [icarl.py] => Task 2, Epoch 16/200 => Loss 1.873, Train_accy 88.00, Test_accy 35.81
+2024-01-11 00:57:44,401 [icarl.py] => Task 4, Epoch 117/200 => Loss 1.658, Train_accy 99.96
+2024-01-11 00:57:58,732 [icarl.py] => Task 2, Epoch 17/200 => Loss 1.809, Train_accy 90.51
+2024-01-11 00:58:00,897 [icarl.py] => Task 4, Epoch 118/200 => Loss 1.651, Train_accy 99.95
+2024-01-11 00:58:12,836 [icarl.py] => Task 2, Epoch 18/200 => Loss 1.802, Train_accy 90.22
+2024-01-11 00:58:17,227 [icarl.py] => Task 4, Epoch 119/200 => Loss 1.652, Train_accy 100.00
+2024-01-11 00:58:26,782 [icarl.py] => Task 2, Epoch 19/200 => Loss 1.810, Train_accy 89.96
+2024-01-11 00:58:33,208 [icarl.py] => Task 4, Epoch 120/200 => Loss 1.645, Train_accy 100.00
+2024-01-11 00:58:41,236 [icarl.py] => Task 2, Epoch 20/200 => Loss 1.769, Train_accy 91.01
+2024-01-11 00:59:01,900 [icarl.py] => Task 4, Epoch 121/200 => Loss 1.647, Train_accy 99.91, Test_accy 61.82
+2024-01-11 00:59:05,282 [icarl.py] => Task 2, Epoch 21/200 => Loss 1.741, Train_accy 91.54, Test_accy 52.14
+2024-01-11 00:59:17,824 [icarl.py] => Task 4, Epoch 122/200 => Loss 1.650, Train_accy 99.95
+2024-01-11 00:59:20,204 [icarl.py] => Task 2, Epoch 22/200 => Loss 1.695, Train_accy 92.69
+2024-01-11 00:59:33,695 [icarl.py] => Task 4, Epoch 123/200 => Loss 1.647, Train_accy 99.91
+2024-01-11 00:59:34,229 [icarl.py] => Task 2, Epoch 23/200 => Loss 1.795, Train_accy 89.96
+2024-01-11 00:59:48,379 [icarl.py] => Task 2, Epoch 24/200 => Loss 1.726, Train_accy 91.54
+2024-01-11 00:59:49,446 [icarl.py] => Task 4, Epoch 124/200 => Loss 1.650, Train_accy 99.89
+2024-01-11 01:00:02,650 [icarl.py] => Task 2, Epoch 25/200 => Loss 1.748, Train_accy 91.45
+2024-01-11 01:00:06,118 [icarl.py] => Task 4, Epoch 125/200 => Loss 1.645, Train_accy 99.95
+2024-01-11 01:00:23,410 [icarl.py] => Task 2, Epoch 26/200 => Loss 1.784, Train_accy 90.99, Test_accy 49.90
+2024-01-11 01:00:35,541 [icarl.py] => Task 2, Epoch 27/200 => Loss 1.769, Train_accy 91.11
+2024-01-11 01:00:35,994 [icarl.py] => Task 4, Epoch 126/200 => Loss 1.647, Train_accy 99.96, Test_accy 61.73
+2024-01-11 01:00:49,707 [icarl.py] => Task 2, Epoch 28/200 => Loss 1.702, Train_accy 92.46
+2024-01-11 01:00:51,681 [icarl.py] => Task 4, Epoch 127/200 => Loss 1.644, Train_accy 99.96
+2024-01-11 01:01:03,489 [icarl.py] => Task 2, Epoch 29/200 => Loss 1.673, Train_accy 93.66
+2024-01-11 01:01:08,286 [icarl.py] => Task 4, Epoch 128/200 => Loss 1.643, Train_accy 99.98
+2024-01-11 01:01:17,223 [icarl.py] => Task 2, Epoch 30/200 => Loss 1.736, Train_accy 92.18
+2024-01-11 01:01:25,155 [icarl.py] => Task 4, Epoch 129/200 => Loss 1.650, Train_accy 99.89
+2024-01-11 01:01:38,406 [icarl.py] => Task 2, Epoch 31/200 => Loss 1.720, Train_accy 92.42, Test_accy 55.38
+2024-01-11 01:01:40,262 [icarl.py] => Task 4, Epoch 130/200 => Loss 1.644, Train_accy 99.95
+2024-01-11 01:01:51,849 [icarl.py] => Task 2, Epoch 32/200 => Loss 1.683, Train_accy 92.89
+2024-01-11 01:02:04,129 [icarl.py] => Task 2, Epoch 33/200 => Loss 1.732, Train_accy 92.32
+2024-01-11 01:02:10,029 [icarl.py] => Task 4, Epoch 131/200 => Loss 1.644, Train_accy 99.96, Test_accy 61.59
+2024-01-11 01:02:16,331 [icarl.py] => Task 2, Epoch 34/200 => Loss 1.748, Train_accy 92.00
+2024-01-11 01:02:27,211 [icarl.py] => Task 4, Epoch 132/200 => Loss 1.648, Train_accy 99.96
+2024-01-11 01:02:30,281 [icarl.py] => Task 2, Epoch 35/200 => Loss 1.648, Train_accy 93.76
+2024-01-11 01:02:43,448 [icarl.py] => Task 4, Epoch 133/200 => Loss 1.649, Train_accy 99.98
+2024-01-11 01:02:52,055 [icarl.py] => Task 2, Epoch 36/200 => Loss 1.618, Train_accy 94.69, Test_accy 52.68
+2024-01-11 01:02:58,562 [icarl.py] => Task 4, Epoch 134/200 => Loss 1.646, Train_accy 99.96
+2024-01-11 01:03:05,797 [icarl.py] => Task 2, Epoch 37/200 => Loss 1.689, Train_accy 92.97
+2024-01-11 01:03:14,831 [icarl.py] => Task 4, Epoch 135/200 => Loss 1.648, Train_accy 99.93
+2024-01-11 01:03:19,039 [icarl.py] => Task 2, Epoch 38/200 => Loss 1.699, Train_accy 93.58
+2024-01-11 01:03:32,799 [icarl.py] => Task 2, Epoch 39/200 => Loss 1.622, Train_accy 94.63
+2024-01-11 01:03:44,529 [icarl.py] => Task 2, Epoch 40/200 => Loss 1.609, Train_accy 94.85
+2024-01-11 01:03:44,836 [icarl.py] => Task 4, Epoch 136/200 => Loss 1.649, Train_accy 99.91, Test_accy 61.37
+2024-01-11 01:04:01,721 [icarl.py] => Task 4, Epoch 137/200 => Loss 1.646, Train_accy 99.93
+2024-01-11 01:04:05,587 [icarl.py] => Task 2, Epoch 41/200 => Loss 1.624, Train_accy 94.89, Test_accy 56.94
+2024-01-11 01:04:18,412 [icarl.py] => Task 4, Epoch 138/200 => Loss 1.645, Train_accy 99.93
+2024-01-11 01:04:19,506 [icarl.py] => Task 2, Epoch 42/200 => Loss 1.628, Train_accy 94.08
+2024-01-11 01:04:34,068 [icarl.py] => Task 2, Epoch 43/200 => Loss 1.615, Train_accy 95.07
+2024-01-11 01:04:34,508 [icarl.py] => Task 4, Epoch 139/200 => Loss 1.644, Train_accy 99.95
+2024-01-11 01:04:47,795 [icarl.py] => Task 2, Epoch 44/200 => Loss 1.547, Train_accy 96.22
+2024-01-11 01:04:51,011 [icarl.py] => Task 4, Epoch 140/200 => Loss 1.645, Train_accy 99.96
+2024-01-11 01:05:01,388 [icarl.py] => Task 2, Epoch 45/200 => Loss 1.536, Train_accy 96.34
+2024-01-11 01:05:20,546 [icarl.py] => Task 2, Epoch 46/200 => Loss 1.623, Train_accy 94.30, Test_accy 51.86
+2024-01-11 01:05:21,388 [icarl.py] => Task 4, Epoch 141/200 => Loss 1.645, Train_accy 100.00, Test_accy 61.51
+2024-01-11 01:05:34,272 [icarl.py] => Task 2, Epoch 47/200 => Loss 1.740, Train_accy 91.94
+2024-01-11 01:05:37,890 [icarl.py] => Task 4, Epoch 142/200 => Loss 1.642, Train_accy 99.96
+2024-01-11 01:05:48,134 [icarl.py] => Task 2, Epoch 48/200 => Loss 1.675, Train_accy 93.29
+2024-01-11 01:05:53,970 [icarl.py] => Task 4, Epoch 143/200 => Loss 1.642, Train_accy 100.00
+2024-01-11 01:06:01,910 [icarl.py] => Task 2, Epoch 49/200 => Loss 1.685, Train_accy 93.37
+2024-01-11 01:06:10,479 [icarl.py] => Task 4, Epoch 144/200 => Loss 1.647, Train_accy 100.00
+2024-01-11 01:06:15,905 [icarl.py] => Task 2, Epoch 50/200 => Loss 1.640, Train_accy 94.10
+2024-01-11 01:06:26,440 [icarl.py] => Task 4, Epoch 145/200 => Loss 1.644, Train_accy 100.00
+2024-01-11 01:06:37,517 [icarl.py] => Task 2, Epoch 51/200 => Loss 1.654, Train_accy 93.64, Test_accy 54.29
+2024-01-11 01:06:49,088 [icarl.py] => Task 2, Epoch 52/200 => Loss 1.592, Train_accy 95.43
+2024-01-11 01:06:53,629 [icarl.py] => Task 4, Epoch 146/200 => Loss 1.649, Train_accy 99.91, Test_accy 62.09
+2024-01-11 01:07:01,534 [icarl.py] => Task 2, Epoch 53/200 => Loss 1.574, Train_accy 95.62
+2024-01-11 01:07:10,484 [icarl.py] => Task 4, Epoch 147/200 => Loss 1.643, Train_accy 99.98
+2024-01-11 01:07:16,065 [icarl.py] => Task 2, Epoch 54/200 => Loss 1.546, Train_accy 96.38
+2024-01-11 01:07:26,978 [icarl.py] => Task 4, Epoch 148/200 => Loss 1.649, Train_accy 100.00
+2024-01-11 01:07:31,463 [icarl.py] => Task 2, Epoch 55/200 => Loss 1.634, Train_accy 94.28
+2024-01-11 01:07:43,658 [icarl.py] => Task 4, Epoch 149/200 => Loss 1.647, Train_accy 99.98
+2024-01-11 01:07:54,257 [icarl.py] => Task 2, Epoch 56/200 => Loss 1.642, Train_accy 94.69, Test_accy 56.97
+2024-01-11 01:07:59,453 [icarl.py] => Task 4, Epoch 150/200 => Loss 1.646, Train_accy 99.98
+2024-01-11 01:08:07,831 [icarl.py] => Task 2, Epoch 57/200 => Loss 1.622, Train_accy 94.81
+2024-01-11 01:08:20,558 [icarl.py] => Task 2, Epoch 58/200 => Loss 1.653, Train_accy 93.90
+2024-01-11 01:08:29,707 [icarl.py] => Task 4, Epoch 151/200 => Loss 1.642, Train_accy 99.96, Test_accy 62.00
+2024-01-11 01:08:32,153 [icarl.py] => Task 2, Epoch 59/200 => Loss 1.716, Train_accy 92.57
+2024-01-11 01:08:46,016 [icarl.py] => Task 4, Epoch 152/200 => Loss 1.648, Train_accy 99.96
+2024-01-11 01:08:46,345 [icarl.py] => Task 2, Epoch 60/200 => Loss 1.632, Train_accy 94.14
+2024-01-11 01:09:02,855 [icarl.py] => Task 4, Epoch 153/200 => Loss 1.647, Train_accy 99.95
+2024-01-11 01:09:08,178 [icarl.py] => Task 2, Epoch 61/200 => Loss 1.483, Train_accy 97.70, Test_accy 63.84
+2024-01-11 01:09:19,124 [icarl.py] => Task 4, Epoch 154/200 => Loss 1.647, Train_accy 100.00
+2024-01-11 01:09:21,597 [icarl.py] => Task 2, Epoch 62/200 => Loss 1.415, Train_accy 99.21
+2024-01-11 01:09:35,593 [icarl.py] => Task 4, Epoch 155/200 => Loss 1.647, Train_accy 99.96
+2024-01-11 01:09:35,663 [icarl.py] => Task 2, Epoch 63/200 => Loss 1.400, Train_accy 99.43
+2024-01-11 01:09:50,013 [icarl.py] => Task 2, Epoch 64/200 => Loss 1.385, Train_accy 99.54
+2024-01-11 01:10:01,319 [icarl.py] => Task 2, Epoch 65/200 => Loss 1.371, Train_accy 99.80
+2024-01-11 01:10:05,365 [icarl.py] => Task 4, Epoch 156/200 => Loss 1.644, Train_accy 100.00, Test_accy 61.68
+2024-01-11 01:10:21,689 [icarl.py] => Task 4, Epoch 157/200 => Loss 1.643, Train_accy 100.00
+2024-01-11 01:10:21,788 [icarl.py] => Task 2, Epoch 66/200 => Loss 1.375, Train_accy 99.74, Test_accy 66.25
+2024-01-11 01:10:36,272 [icarl.py] => Task 2, Epoch 67/200 => Loss 1.363, Train_accy 99.74
+2024-01-11 01:10:38,950 [icarl.py] => Task 4, Epoch 158/200 => Loss 1.648, Train_accy 99.96
+2024-01-11 01:10:49,724 [icarl.py] => Task 2, Epoch 68/200 => Loss 1.360, Train_accy 99.90
+2024-01-11 01:10:56,178 [icarl.py] => Task 4, Epoch 159/200 => Loss 1.644, Train_accy 100.00
+2024-01-11 01:11:03,587 [icarl.py] => Task 2, Epoch 69/200 => Loss 1.363, Train_accy 99.84
+2024-01-11 01:11:12,666 [icarl.py] => Task 4, Epoch 160/200 => Loss 1.647, Train_accy 99.89
+2024-01-11 01:11:16,979 [icarl.py] => Task 2, Epoch 70/200 => Loss 1.367, Train_accy 99.68
+2024-01-11 01:11:38,363 [icarl.py] => Task 2, Epoch 71/200 => Loss 1.360, Train_accy 99.80, Test_accy 66.94
+2024-01-11 01:11:43,137 [icarl.py] => Task 4, Epoch 161/200 => Loss 1.646, Train_accy 100.00, Test_accy 61.43
+2024-01-11 01:11:51,414 [icarl.py] => Task 2, Epoch 72/200 => Loss 1.359, Train_accy 99.82
+2024-01-11 01:11:59,662 [icarl.py] => Task 4, Epoch 162/200 => Loss 1.643, Train_accy 100.00
+2024-01-11 01:12:04,927 [icarl.py] => Task 2, Epoch 73/200 => Loss 1.357, Train_accy 99.88
+2024-01-11 01:12:16,250 [icarl.py] => Task 4, Epoch 163/200 => Loss 1.644, Train_accy 99.98
+2024-01-11 01:12:18,654 [icarl.py] => Task 2, Epoch 74/200 => Loss 1.359, Train_accy 99.66
+2024-01-11 01:12:32,305 [icarl.py] => Task 4, Epoch 164/200 => Loss 1.644, Train_accy 99.96
+2024-01-11 01:12:32,576 [icarl.py] => Task 2, Epoch 75/200 => Loss 1.359, Train_accy 99.84
+2024-01-11 01:12:48,885 [icarl.py] => Task 4, Epoch 165/200 => Loss 1.646, Train_accy 99.96
+2024-01-11 01:12:53,494 [icarl.py] => Task 2, Epoch 76/200 => Loss 1.353, Train_accy 99.90, Test_accy 66.89
+2024-01-11 01:13:06,789 [icarl.py] => Task 2, Epoch 77/200 => Loss 1.351, Train_accy 99.86
+2024-01-11 01:13:19,290 [icarl.py] => Task 2, Epoch 78/200 => Loss 1.354, Train_accy 99.88
+2024-01-11 01:13:20,269 [icarl.py] => Task 4, Epoch 166/200 => Loss 1.647, Train_accy 99.98, Test_accy 61.70
+2024-01-11 01:13:34,273 [icarl.py] => Task 2, Epoch 79/200 => Loss 1.353, Train_accy 99.82
+2024-01-11 01:13:37,010 [icarl.py] => Task 4, Epoch 167/200 => Loss 1.643, Train_accy 99.98
+2024-01-11 01:13:48,271 [icarl.py] => Task 2, Epoch 80/200 => Loss 1.354, Train_accy 99.88
+2024-01-11 01:13:53,537 [icarl.py] => Task 4, Epoch 168/200 => Loss 1.645, Train_accy 100.00
+2024-01-11 01:14:09,565 [icarl.py] => Task 4, Epoch 169/200 => Loss 1.646, Train_accy 99.98
+2024-01-11 01:14:10,001 [icarl.py] => Task 2, Epoch 81/200 => Loss 1.347, Train_accy 99.88, Test_accy 66.86
+2024-01-11 01:14:24,456 [icarl.py] => Task 2, Epoch 82/200 => Loss 1.352, Train_accy 99.82
+2024-01-11 01:14:25,542 [icarl.py] => Task 4, Epoch 170/200 => Loss 1.648, Train_accy 99.91
+2024-01-11 01:14:37,770 [icarl.py] => Task 2, Epoch 83/200 => Loss 1.354, Train_accy 99.86
+2024-01-11 01:14:49,493 [icarl.py] => Task 2, Epoch 84/200 => Loss 1.345, Train_accy 99.88
+2024-01-11 01:14:54,667 [icarl.py] => Task 4, Epoch 171/200 => Loss 1.645, Train_accy 100.00, Test_accy 61.79
+2024-01-11 01:15:01,891 [icarl.py] => Task 2, Epoch 85/200 => Loss 1.349, Train_accy 99.88
+2024-01-11 01:15:11,236 [icarl.py] => Task 4, Epoch 172/200 => Loss 1.644, Train_accy 99.96
+2024-01-11 01:15:23,095 [icarl.py] => Task 2, Epoch 86/200 => Loss 1.349, Train_accy 99.80, Test_accy 66.76
+2024-01-11 01:15:26,614 [icarl.py] => Task 4, Epoch 173/200 => Loss 1.644, Train_accy 99.96
+2024-01-11 01:15:36,281 [icarl.py] => Task 2, Epoch 87/200 => Loss 1.347, Train_accy 99.90
+2024-01-11 01:15:43,172 [icarl.py] => Task 4, Epoch 174/200 => Loss 1.648, Train_accy 99.95
+2024-01-11 01:15:50,477 [icarl.py] => Task 2, Epoch 88/200 => Loss 1.352, Train_accy 99.84
+2024-01-11 01:15:59,838 [icarl.py] => Task 4, Epoch 175/200 => Loss 1.645, Train_accy 99.98
+2024-01-11 01:16:05,844 [icarl.py] => Task 2, Epoch 89/200 => Loss 1.346, Train_accy 99.84
+2024-01-11 01:16:19,764 [icarl.py] => Task 2, Epoch 90/200 => Loss 1.349, Train_accy 99.78
+2024-01-11 01:16:31,083 [icarl.py] => Task 4, Epoch 176/200 => Loss 1.645, Train_accy 99.95, Test_accy 61.45
+2024-01-11 01:16:38,652 [icarl.py] => Task 2, Epoch 91/200 => Loss 1.341, Train_accy 99.92, Test_accy 66.73
+2024-01-11 01:16:46,515 [icarl.py] => Task 4, Epoch 177/200 => Loss 1.644, Train_accy 99.96
+2024-01-11 01:16:51,965 [icarl.py] => Task 2, Epoch 92/200 => Loss 1.337, Train_accy 99.94
+2024-01-11 01:17:03,748 [icarl.py] => Task 4, Epoch 178/200 => Loss 1.646, Train_accy 99.95
+2024-01-11 01:17:05,694 [icarl.py] => Task 2, Epoch 93/200 => Loss 1.343, Train_accy 99.88
+2024-01-11 01:17:19,802 [icarl.py] => Task 2, Epoch 94/200 => Loss 1.339, Train_accy 99.78
+2024-01-11 01:17:19,864 [icarl.py] => Task 4, Epoch 179/200 => Loss 1.642, Train_accy 100.00
+2024-01-11 01:17:33,965 [icarl.py] => Task 2, Epoch 95/200 => Loss 1.337, Train_accy 99.86
+2024-01-11 01:17:36,699 [icarl.py] => Task 4, Epoch 180/200 => Loss 1.649, Train_accy 99.98
+2024-01-11 01:17:53,856 [icarl.py] => Task 2, Epoch 96/200 => Loss 1.338, Train_accy 99.98, Test_accy 66.90
+2024-01-11 01:18:05,460 [icarl.py] => Task 2, Epoch 97/200 => Loss 1.340, Train_accy 99.96
+2024-01-11 01:18:06,182 [icarl.py] => Task 4, Epoch 181/200 => Loss 1.645, Train_accy 99.98, Test_accy 61.80
+2024-01-11 01:18:18,945 [icarl.py] => Task 2, Epoch 98/200 => Loss 1.343, Train_accy 99.82
+2024-01-11 01:18:22,763 [icarl.py] => Task 4, Epoch 182/200 => Loss 1.641, Train_accy 100.00
+2024-01-11 01:18:32,915 [icarl.py] => Task 2, Epoch 99/200 => Loss 1.345, Train_accy 99.90
+2024-01-11 01:18:39,477 [icarl.py] => Task 4, Epoch 183/200 => Loss 1.646, Train_accy 99.89
+2024-01-11 01:18:46,288 [icarl.py] => Task 2, Epoch 100/200 => Loss 1.344, Train_accy 99.82
+2024-01-11 01:18:56,929 [icarl.py] => Task 4, Epoch 184/200 => Loss 1.643, Train_accy 100.00
+2024-01-11 01:19:07,145 [icarl.py] => Task 2, Epoch 101/200 => Loss 1.339, Train_accy 99.96, Test_accy 66.49
+2024-01-11 01:19:11,792 [icarl.py] => Task 4, Epoch 185/200 => Loss 1.647, Train_accy 99.96
+2024-01-11 01:19:20,946 [icarl.py] => Task 2, Epoch 102/200 => Loss 1.343, Train_accy 99.90
+2024-01-11 01:19:33,812 [icarl.py] => Task 2, Epoch 103/200 => Loss 1.339, Train_accy 99.92
+2024-01-11 01:19:42,690 [icarl.py] => Task 4, Epoch 186/200 => Loss 1.640, Train_accy 99.98, Test_accy 61.14
+2024-01-11 01:19:45,294 [icarl.py] => Task 2, Epoch 104/200 => Loss 1.339, Train_accy 99.90
+2024-01-11 01:19:59,139 [icarl.py] => Task 4, Epoch 187/200 => Loss 1.649, Train_accy 99.96
+2024-01-11 01:20:00,644 [icarl.py] => Task 2, Epoch 105/200 => Loss 1.335, Train_accy 99.90
+2024-01-11 01:20:15,704 [icarl.py] => Task 4, Epoch 188/200 => Loss 1.645, Train_accy 99.96
+2024-01-11 01:20:21,985 [icarl.py] => Task 2, Epoch 106/200 => Loss 1.331, Train_accy 99.96, Test_accy 66.86
+2024-01-11 01:20:33,308 [icarl.py] => Task 4, Epoch 189/200 => Loss 1.644, Train_accy 99.98
+2024-01-11 01:20:35,708 [icarl.py] => Task 2, Epoch 107/200 => Loss 1.339, Train_accy 99.86
+2024-01-11 01:20:49,815 [icarl.py] => Task 2, Epoch 108/200 => Loss 1.339, Train_accy 99.88
+2024-01-11 01:20:49,974 [icarl.py] => Task 4, Epoch 190/200 => Loss 1.651, Train_accy 99.93
+2024-01-11 01:21:03,654 [icarl.py] => Task 2, Epoch 109/200 => Loss 1.336, Train_accy 99.92
+2024-01-11 01:21:15,403 [icarl.py] => Task 2, Epoch 110/200 => Loss 1.334, Train_accy 99.90
+2024-01-11 01:21:20,993 [icarl.py] => Task 4, Epoch 191/200 => Loss 1.648, Train_accy 99.98, Test_accy 61.87
+2024-01-11 01:21:35,409 [icarl.py] => Task 2, Epoch 111/200 => Loss 1.337, Train_accy 99.88, Test_accy 66.89
+2024-01-11 01:21:36,552 [icarl.py] => Task 4, Epoch 192/200 => Loss 1.646, Train_accy 99.98
+2024-01-11 01:21:49,109 [icarl.py] => Task 2, Epoch 112/200 => Loss 1.335, Train_accy 99.90
+2024-01-11 01:21:53,730 [icarl.py] => Task 4, Epoch 193/200 => Loss 1.645, Train_accy 99.95
+2024-01-11 01:22:02,663 [icarl.py] => Task 2, Epoch 113/200 => Loss 1.337, Train_accy 99.88
+2024-01-11 01:22:09,852 [icarl.py] => Task 4, Epoch 194/200 => Loss 1.646, Train_accy 100.00
+2024-01-11 01:22:15,642 [icarl.py] => Task 2, Epoch 114/200 => Loss 1.337, Train_accy 99.84
+2024-01-11 01:22:26,845 [icarl.py] => Task 4, Epoch 195/200 => Loss 1.649, Train_accy 99.93
+2024-01-11 01:22:29,124 [icarl.py] => Task 2, Epoch 115/200 => Loss 1.333, Train_accy 99.92
+2024-01-11 01:22:50,153 [icarl.py] => Task 2, Epoch 116/200 => Loss 1.331, Train_accy 99.90, Test_accy 66.86
+2024-01-11 01:22:57,775 [icarl.py] => Task 4, Epoch 196/200 => Loss 1.645, Train_accy 99.98, Test_accy 61.56
+2024-01-11 01:23:02,968 [icarl.py] => Task 2, Epoch 117/200 => Loss 1.330, Train_accy 99.96
+2024-01-11 01:23:14,276 [icarl.py] => Task 4, Epoch 197/200 => Loss 1.649, Train_accy 99.96
+2024-01-11 01:23:17,244 [icarl.py] => Task 2, Epoch 118/200 => Loss 1.329, Train_accy 99.90
+2024-01-11 01:23:30,659 [icarl.py] => Task 4, Epoch 198/200 => Loss 1.642, Train_accy 99.98
+2024-01-11 01:23:31,884 [icarl.py] => Task 2, Epoch 119/200 => Loss 1.337, Train_accy 99.84
+2024-01-11 01:23:46,925 [icarl.py] => Task 2, Epoch 120/200 => Loss 1.333, Train_accy 99.84
+2024-01-11 01:23:47,727 [icarl.py] => Task 4, Epoch 199/200 => Loss 1.643, Train_accy 99.98
+2024-01-11 01:24:03,634 [icarl.py] => Task 4, Epoch 200/200 => Loss 1.642, Train_accy 99.98
+2024-01-11 01:24:03,635 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 01:24:07,060 [icarl.py] => Task 2, Epoch 121/200 => Loss 1.328, Train_accy 100.00, Test_accy 67.27
+2024-01-11 01:24:16,727 [icarl.py] => Task 2, Epoch 122/200 => Loss 1.330, Train_accy 99.96
+2024-01-11 01:24:26,666 [icarl.py] => Task 2, Epoch 123/200 => Loss 1.332, Train_accy 99.88
+2024-01-11 01:24:37,747 [icarl.py] => Task 2, Epoch 124/200 => Loss 1.322, Train_accy 99.94
+2024-01-11 01:24:48,920 [icarl.py] => Task 2, Epoch 125/200 => Loss 1.329, Train_accy 99.92
+2024-01-11 01:25:07,462 [icarl.py] => Task 2, Epoch 126/200 => Loss 1.330, Train_accy 99.92, Test_accy 67.43
+2024-01-11 01:25:08,830 [icarl.py] => Exemplar size: 1650
+2024-01-11 01:25:09,027 [trainer.py] => CNN: {'total': 61.69, '0': 63.33, '1': 42.22, '2': 47.78, '3': 13.33, '4': 32.78, '5': 36.11, '6': 40.56, '7': 38.33, '8': 48.89, '9': 37.78, '10': 54.44, '11': 66.67, '12': 40.56, '13': 46.67, '14': 44.44, '15': 70.56, '16': 69.44, '17': 70.0, '18': 68.33, '19': 70.56, '20': 61.67, '21': 66.67, '22': 65.0, '23': 50.56, '24': 55.0, '25': 42.22, '26': 53.33, '27': 56.67, '28': 50.0, '29': 38.89, '30': 50.56, '31': 60.56, '32': 74.44, '33': 34.44, '34': 36.67, '35': 73.89, '36': 82.78, '37': 53.89, '38': 95.56, '39': 92.22, '40': 41.67, '41': 82.78, '42': 84.44, '43': 80.0, '44': 39.44, '45': 90.0, '46': 87.78, '47': 90.0, '48': 90.0, '49': 83.89, '50': 85.0, '51': 82.78, '52': 87.22, '53': 84.44, 'old': 56.14, 'new': 86.67}
+2024-01-11 01:25:09,027 [trainer.py] => NME: {'total': 56.91, '0': 66.11, '1': 45.56, '2': 53.89, '3': 20.0, '4': 45.56, '5': 37.22, '6': 43.33, '7': 46.11, '8': 51.11, '9': 41.67, '10': 60.0, '11': 70.0, '12': 43.89, '13': 46.67, '14': 45.0, '15': 72.78, '16': 71.11, '17': 69.44, '18': 67.22, '19': 60.56, '20': 68.33, '21': 63.33, '22': 59.44, '23': 41.11, '24': 50.0, '25': 43.89, '26': 52.22, '27': 46.67, '28': 44.44, '29': 41.67, '30': 49.44, '31': 63.89, '32': 65.56, '33': 41.11, '34': 48.33, '35': 70.0, '36': 74.44, '37': 45.0, '38': 86.11, '39': 77.22, '40': 53.33, '41': 78.33, '42': 82.22, '43': 65.56, '44': 41.67, '45': 66.67, '46': 67.22, '47': 61.67, '48': 67.78, '49': 60.0, '50': 46.11, '51': 63.89, '52': 62.22, '53': 72.78, 'old': 55.79, 'new': 61.94}
+2024-01-11 01:25:09,027 [trainer.py] => CNN top1 curve: [88.04, 72.76, 65.83, 59.58, 61.69]
+2024-01-11 01:25:09,027 [trainer.py] => CNN top5 curve: [98.81, 96.51, 92.4, 88.01, 87.32]
+2024-01-11 01:25:09,028 [trainer.py] => NME top1 curve: [86.19, 76.29, 66.89, 58.69, 56.91]
+2024-01-11 01:25:09,028 [trainer.py] => NME top5 curve: [98.93, 97.47, 93.94, 90.19, 88.21]
+
+2024-01-11 01:25:17,055 [icarl.py] => Task 2, Epoch 127/200 => Loss 1.329, Train_accy 99.94
+2024-01-11 01:25:26,094 [icarl.py] => Task 2, Epoch 128/200 => Loss 1.326, Train_accy 99.96
+2024-01-11 01:25:35,551 [icarl.py] => Task 2, Epoch 129/200 => Loss 1.328, Train_accy 99.92
+2024-01-11 01:25:44,797 [icarl.py] => Task 2, Epoch 130/200 => Loss 1.327, Train_accy 99.88
+2024-01-11 01:25:59,590 [icarl.py] => Task 2, Epoch 131/200 => Loss 1.329, Train_accy 99.98, Test_accy 67.32
+2024-01-11 01:26:09,055 [icarl.py] => Task 2, Epoch 132/200 => Loss 1.325, Train_accy 100.00
+2024-01-11 01:26:18,603 [icarl.py] => Task 2, Epoch 133/200 => Loss 1.325, Train_accy 100.00
+2024-01-11 01:26:28,263 [icarl.py] => Task 2, Epoch 134/200 => Loss 1.327, Train_accy 99.94
+2024-01-11 01:26:38,077 [icarl.py] => Task 2, Epoch 135/200 => Loss 1.329, Train_accy 99.92
+2024-01-11 01:26:52,876 [icarl.py] => Task 2, Epoch 136/200 => Loss 1.325, Train_accy 99.94, Test_accy 67.22
+2024-01-11 01:27:02,262 [icarl.py] => Task 2, Epoch 137/200 => Loss 1.325, Train_accy 99.96
+2024-01-11 01:27:11,761 [icarl.py] => Task 2, Epoch 138/200 => Loss 1.334, Train_accy 99.88
+2024-01-11 01:27:21,066 [icarl.py] => Task 2, Epoch 139/200 => Loss 1.328, Train_accy 99.92
+2024-01-11 01:27:30,444 [icarl.py] => Task 2, Epoch 140/200 => Loss 1.328, Train_accy 99.96
+2024-01-11 01:27:45,262 [icarl.py] => Task 2, Epoch 141/200 => Loss 1.334, Train_accy 99.96, Test_accy 67.16
+2024-01-11 01:27:55,117 [icarl.py] => Task 2, Epoch 142/200 => Loss 1.328, Train_accy 99.92
+2024-01-11 01:28:04,800 [icarl.py] => Task 2, Epoch 143/200 => Loss 1.325, Train_accy 99.94
+2024-01-11 01:28:14,216 [icarl.py] => Task 2, Epoch 144/200 => Loss 1.327, Train_accy 99.96
+2024-01-11 01:28:23,726 [icarl.py] => Task 2, Epoch 145/200 => Loss 1.328, Train_accy 99.92
+2024-01-11 01:28:38,402 [icarl.py] => Task 2, Epoch 146/200 => Loss 1.331, Train_accy 99.92, Test_accy 66.94
+2024-01-11 01:28:47,813 [icarl.py] => Task 2, Epoch 147/200 => Loss 1.322, Train_accy 99.96
+2024-01-11 01:28:57,501 [icarl.py] => Task 2, Epoch 148/200 => Loss 1.332, Train_accy 99.90
+2024-01-11 01:29:07,032 [icarl.py] => Task 2, Epoch 149/200 => Loss 1.326, Train_accy 99.96
+2024-01-11 01:29:16,475 [icarl.py] => Task 2, Epoch 150/200 => Loss 1.329, Train_accy 99.82
+2024-01-11 01:29:31,360 [icarl.py] => Task 2, Epoch 151/200 => Loss 1.330, Train_accy 99.86, Test_accy 67.87
+2024-01-11 01:29:40,377 [icarl.py] => Task 2, Epoch 152/200 => Loss 1.323, Train_accy 99.94
+2024-01-11 01:29:50,331 [icarl.py] => Task 2, Epoch 153/200 => Loss 1.328, Train_accy 99.84
+2024-01-11 01:30:00,742 [icarl.py] => Task 2, Epoch 154/200 => Loss 1.327, Train_accy 99.88
+2024-01-11 01:30:10,881 [icarl.py] => Task 2, Epoch 155/200 => Loss 1.327, Train_accy 99.96
+2024-01-11 01:30:26,582 [icarl.py] => Task 2, Epoch 156/200 => Loss 1.329, Train_accy 99.98, Test_accy 67.38
+2024-01-11 01:30:36,271 [icarl.py] => Task 2, Epoch 157/200 => Loss 1.326, Train_accy 99.96
+2024-01-11 01:30:45,830 [icarl.py] => Task 2, Epoch 158/200 => Loss 1.325, Train_accy 99.96
+2024-01-11 01:30:55,392 [icarl.py] => Task 2, Epoch 159/200 => Loss 1.327, Train_accy 99.92
+2024-01-11 01:31:04,932 [icarl.py] => Task 2, Epoch 160/200 => Loss 1.321, Train_accy 99.96
+2024-01-11 01:31:20,878 [icarl.py] => Task 2, Epoch 161/200 => Loss 1.322, Train_accy 99.96, Test_accy 67.05
+2024-01-11 01:31:30,492 [icarl.py] => Task 2, Epoch 162/200 => Loss 1.323, Train_accy 99.94
+2024-01-11 01:31:39,879 [icarl.py] => Task 2, Epoch 163/200 => Loss 1.329, Train_accy 99.92
+2024-01-11 01:31:49,472 [icarl.py] => Task 2, Epoch 164/200 => Loss 1.330, Train_accy 99.90
+2024-01-11 01:31:58,955 [icarl.py] => Task 2, Epoch 165/200 => Loss 1.325, Train_accy 99.96
+2024-01-11 01:32:14,096 [icarl.py] => Task 2, Epoch 166/200 => Loss 1.335, Train_accy 99.86, Test_accy 67.02
+2024-01-11 01:32:22,997 [icarl.py] => Task 2, Epoch 167/200 => Loss 1.329, Train_accy 99.92
+2024-01-11 01:32:32,131 [icarl.py] => Task 2, Epoch 168/200 => Loss 1.325, Train_accy 99.94
+2024-01-11 01:32:41,694 [icarl.py] => Task 2, Epoch 169/200 => Loss 1.327, Train_accy 99.94
+2024-01-11 01:32:51,313 [icarl.py] => Task 2, Epoch 170/200 => Loss 1.327, Train_accy 99.92
+2024-01-11 01:33:09,350 [icarl.py] => Task 2, Epoch 171/200 => Loss 1.329, Train_accy 99.94, Test_accy 67.08
+2024-01-11 01:33:18,799 [icarl.py] => Task 2, Epoch 172/200 => Loss 1.328, Train_accy 99.96
+2024-01-11 01:33:28,229 [icarl.py] => Task 2, Epoch 173/200 => Loss 1.329, Train_accy 99.94
+2024-01-11 01:33:37,769 [icarl.py] => Task 2, Epoch 174/200 => Loss 1.325, Train_accy 99.98
+2024-01-11 01:33:46,987 [icarl.py] => Task 2, Epoch 175/200 => Loss 1.326, Train_accy 99.98
+2024-01-11 01:34:03,538 [icarl.py] => Task 2, Epoch 176/200 => Loss 1.325, Train_accy 99.94, Test_accy 67.56
+2024-01-11 01:34:12,872 [icarl.py] => Task 2, Epoch 177/200 => Loss 1.327, Train_accy 99.94
+2024-01-11 01:34:22,018 [icarl.py] => Task 2, Epoch 178/200 => Loss 1.326, Train_accy 99.98
+2024-01-11 01:34:31,268 [icarl.py] => Task 2, Epoch 179/200 => Loss 1.326, Train_accy 99.94
+2024-01-11 01:34:40,785 [icarl.py] => Task 2, Epoch 180/200 => Loss 1.328, Train_accy 99.92
+2024-01-11 01:34:56,194 [icarl.py] => Task 2, Epoch 181/200 => Loss 1.332, Train_accy 99.90, Test_accy 67.08
+2024-01-11 01:35:05,418 [icarl.py] => Task 2, Epoch 182/200 => Loss 1.332, Train_accy 99.92
+2024-01-11 01:35:14,597 [icarl.py] => Task 2, Epoch 183/200 => Loss 1.325, Train_accy 99.94
+2024-01-11 01:35:24,270 [icarl.py] => Task 2, Epoch 184/200 => Loss 1.324, Train_accy 99.92
+2024-01-11 01:35:34,700 [icarl.py] => Task 2, Epoch 185/200 => Loss 1.326, Train_accy 99.90
+2024-01-11 01:35:50,688 [icarl.py] => Task 2, Epoch 186/200 => Loss 1.331, Train_accy 99.88, Test_accy 67.46
+2024-01-11 01:35:59,803 [icarl.py] => Task 2, Epoch 187/200 => Loss 1.326, Train_accy 99.90
+2024-01-11 01:36:08,878 [icarl.py] => Task 2, Epoch 188/200 => Loss 1.327, Train_accy 99.94
+2024-01-11 01:36:19,053 [icarl.py] => Task 2, Epoch 189/200 => Loss 1.325, Train_accy 99.98
+2024-01-11 01:36:28,819 [icarl.py] => Task 2, Epoch 190/200 => Loss 1.324, Train_accy 99.92
+2024-01-11 01:36:44,954 [icarl.py] => Task 2, Epoch 191/200 => Loss 1.331, Train_accy 99.98, Test_accy 67.71
+2024-01-11 01:36:54,598 [icarl.py] => Task 2, Epoch 192/200 => Loss 1.323, Train_accy 100.00
+2024-01-11 01:37:03,735 [icarl.py] => Task 2, Epoch 193/200 => Loss 1.327, Train_accy 99.90
+2024-01-11 01:37:12,964 [icarl.py] => Task 2, Epoch 194/200 => Loss 1.326, Train_accy 99.86
+2024-01-11 01:37:22,453 [icarl.py] => Task 2, Epoch 195/200 => Loss 1.322, Train_accy 99.96
+2024-01-11 01:37:37,192 [icarl.py] => Task 2, Epoch 196/200 => Loss 1.327, Train_accy 99.90, Test_accy 67.11
+2024-01-11 01:37:46,607 [icarl.py] => Task 2, Epoch 197/200 => Loss 1.324, Train_accy 100.00
+2024-01-11 01:37:55,770 [icarl.py] => Task 2, Epoch 198/200 => Loss 1.327, Train_accy 99.88
+2024-01-11 01:38:05,067 [icarl.py] => Task 2, Epoch 199/200 => Loss 1.326, Train_accy 99.96
+2024-01-11 01:38:14,783 [icarl.py] => Task 2, Epoch 200/200 => Loss 1.329, Train_accy 99.92
+2024-01-11 01:38:14,784 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 01:38:51,847 [icarl.py] => Exemplar size: 1050
+2024-01-11 01:38:52,385 [trainer.py] => CNN: {'total': 66.9, '0': 63.89, '1': 43.89, '2': 58.33, '3': 28.89, '4': 61.11, '5': 22.22, '6': 55.56, '7': 36.67, '8': 37.22, '9': 38.89, '10': 62.78, '11': 80.0, '12': 60.0, '13': 46.67, '14': 30.56, '15': 80.56, '16': 77.78, '17': 82.78, '18': 71.11, '19': 80.0, '20': 81.67, '21': 77.78, '22': 62.78, '23': 52.22, '24': 45.56, '25': 88.89, '26': 92.78, '27': 94.44, '28': 82.78, '29': 85.0, '30': 91.11, '31': 94.44, '32': 99.44, '33': 82.78, 'old': 57.56, 'new': 90.28}
+2024-01-11 01:38:52,385 [trainer.py] => NME: {'total': 65.92, '0': 84.44, '1': 56.67, '2': 51.67, '3': 35.0, '4': 61.11, '5': 39.44, '6': 50.0, '7': 46.67, '8': 57.22, '9': 40.56, '10': 76.67, '11': 86.67, '12': 53.33, '13': 62.22, '14': 42.78, '15': 77.78, '16': 81.67, '17': 79.44, '18': 58.33, '19': 75.0, '20': 80.0, '21': 79.44, '22': 59.44, '23': 54.44, '24': 58.33, '25': 66.67, '26': 81.11, '27': 83.89, '28': 67.78, '29': 62.22, '30': 77.78, '31': 78.89, '32': 88.89, '33': 65.0, 'old': 61.93, 'new': 75.89}
+2024-01-11 01:38:52,385 [trainer.py] => CNN top1 curve: [90.41, 74.09, 66.9]
+2024-01-11 01:38:52,385 [trainer.py] => CNN top5 curve: [99.22, 96.73, 92.27]
+2024-01-11 01:38:52,385 [trainer.py] => NME top1 curve: [89.48, 77.29, 65.92]
+2024-01-11 01:38:52,385 [trainer.py] => NME top5 curve: [99.19, 97.36, 93.37]
+
+2024-01-11 01:38:52,386 [trainer.py] => All params: 21046127
+2024-01-11 01:38:52,387 [trainer.py] => Trainable params: 21046127
+2024-01-11 01:38:52,388 [icarl.py] => Learning on 35-45
+2024-01-11 01:39:10,824 [icarl.py] => Task 3, Epoch 1/200 => Loss 4.517, Train_accy 41.26, Test_accy 35.59
+2024-01-11 01:39:20,647 [icarl.py] => Task 3, Epoch 2/200 => Loss 3.068, Train_accy 63.24
+2024-01-11 01:39:30,249 [icarl.py] => Task 3, Epoch 3/200 => Loss 2.941, Train_accy 67.68
+2024-01-11 01:39:40,095 [icarl.py] => Task 3, Epoch 4/200 => Loss 2.720, Train_accy 74.19
+2024-01-11 01:39:49,832 [icarl.py] => Task 3, Epoch 5/200 => Loss 2.598, Train_accy 76.53
+2024-01-11 01:40:06,844 [icarl.py] => Task 3, Epoch 6/200 => Loss 2.653, Train_accy 76.63, Test_accy 40.91
+2024-01-11 01:40:16,621 [icarl.py] => Task 3, Epoch 7/200 => Loss 2.449, Train_accy 80.93
+2024-01-11 01:40:26,343 [icarl.py] => Task 3, Epoch 8/200 => Loss 2.469, Train_accy 81.43
+2024-01-11 01:40:36,643 [icarl.py] => Task 3, Epoch 9/200 => Loss 2.577, Train_accy 78.70
+2024-01-11 01:40:46,487 [icarl.py] => Task 3, Epoch 10/200 => Loss 2.382, Train_accy 82.57
+2024-01-11 01:41:04,815 [icarl.py] => Task 3, Epoch 11/200 => Loss 2.321, Train_accy 83.64, Test_accy 47.83
+2024-01-11 01:41:14,582 [icarl.py] => Task 3, Epoch 12/200 => Loss 2.259, Train_accy 85.94
+2024-01-11 01:41:25,021 [icarl.py] => Task 3, Epoch 13/200 => Loss 2.312, Train_accy 84.93
+2024-01-11 01:41:35,137 [icarl.py] => Task 3, Epoch 14/200 => Loss 2.256, Train_accy 85.71
+2024-01-11 01:41:45,034 [icarl.py] => Task 3, Epoch 15/200 => Loss 2.456, Train_accy 81.96
+2024-01-11 01:42:01,980 [icarl.py] => Task 3, Epoch 16/200 => Loss 2.654, Train_accy 78.08, Test_accy 44.17
+2024-01-11 01:42:11,624 [icarl.py] => Task 3, Epoch 17/200 => Loss 2.304, Train_accy 84.70
+2024-01-11 01:42:21,973 [icarl.py] => Task 3, Epoch 18/200 => Loss 2.267, Train_accy 86.63
+2024-01-11 01:42:31,603 [icarl.py] => Task 3, Epoch 19/200 => Loss 2.396, Train_accy 83.64
+2024-01-11 01:42:41,652 [icarl.py] => Task 3, Epoch 20/200 => Loss 2.165, Train_accy 88.82
+2024-01-11 01:43:00,236 [icarl.py] => Task 3, Epoch 21/200 => Loss 2.474, Train_accy 82.04, Test_accy 45.74
+2024-01-11 01:43:10,016 [icarl.py] => Task 3, Epoch 22/200 => Loss 2.501, Train_accy 81.71
+2024-01-11 01:43:20,396 [icarl.py] => Task 3, Epoch 23/200 => Loss 2.326, Train_accy 86.46
+2024-01-11 01:43:30,432 [icarl.py] => Task 3, Epoch 24/200 => Loss 2.546, Train_accy 81.52
+2024-01-11 01:43:40,525 [icarl.py] => Task 3, Epoch 25/200 => Loss 2.341, Train_accy 85.33
+2024-01-11 01:43:57,244 [icarl.py] => Task 3, Epoch 26/200 => Loss 2.176, Train_accy 88.46, Test_accy 48.19
+2024-01-11 01:44:07,220 [icarl.py] => Task 3, Epoch 27/200 => Loss 2.114, Train_accy 89.52
+2024-01-11 01:44:17,908 [icarl.py] => Task 3, Epoch 28/200 => Loss 2.301, Train_accy 87.41
+2024-01-11 01:44:27,647 [icarl.py] => Task 3, Epoch 29/200 => Loss 2.279, Train_accy 86.93
+2024-01-11 01:44:37,577 [icarl.py] => Task 3, Epoch 30/200 => Loss 2.234, Train_accy 89.33
+2024-01-11 01:44:54,480 [icarl.py] => Task 3, Epoch 31/200 => Loss 2.183, Train_accy 89.01, Test_accy 51.23
+2024-01-11 01:45:04,670 [icarl.py] => Task 3, Epoch 32/200 => Loss 2.077, Train_accy 90.42
+2024-01-11 01:45:14,961 [icarl.py] => Task 3, Epoch 33/200 => Loss 2.329, Train_accy 86.00
+2024-01-11 01:45:25,385 [icarl.py] => Task 3, Epoch 34/200 => Loss 2.217, Train_accy 87.90
+2024-01-11 01:45:35,215 [icarl.py] => Task 3, Epoch 35/200 => Loss 2.198, Train_accy 87.58
+2024-01-11 01:45:52,124 [icarl.py] => Task 3, Epoch 36/200 => Loss 2.242, Train_accy 90.74, Test_accy 47.59
+2024-01-11 01:46:02,105 [icarl.py] => Task 3, Epoch 37/200 => Loss 2.105, Train_accy 90.51
+2024-01-11 01:46:11,639 [icarl.py] => Task 3, Epoch 38/200 => Loss 2.206, Train_accy 90.00
+2024-01-11 01:46:21,154 [icarl.py] => Task 3, Epoch 39/200 => Loss 2.184, Train_accy 90.84
+2024-01-11 01:46:30,924 [icarl.py] => Task 3, Epoch 40/200 => Loss 2.111, Train_accy 90.95
+2024-01-11 01:46:48,385 [icarl.py] => Task 3, Epoch 41/200 => Loss 2.041, Train_accy 91.94, Test_accy 47.04
+2024-01-11 01:46:58,747 [icarl.py] => Task 3, Epoch 42/200 => Loss 2.004, Train_accy 92.34
+2024-01-11 01:47:08,697 [icarl.py] => Task 3, Epoch 43/200 => Loss 2.049, Train_accy 90.84
+2024-01-11 01:47:18,502 [icarl.py] => Task 3, Epoch 44/200 => Loss 2.246, Train_accy 87.73
+2024-01-11 01:47:29,114 [icarl.py] => Task 3, Epoch 45/200 => Loss 2.124, Train_accy 89.41
+2024-01-11 01:47:46,718 [icarl.py] => Task 3, Epoch 46/200 => Loss 2.053, Train_accy 91.43, Test_accy 49.54
+2024-01-11 01:47:56,552 [icarl.py] => Task 3, Epoch 47/200 => Loss 2.151, Train_accy 89.94
+2024-01-11 01:48:06,199 [icarl.py] => Task 3, Epoch 48/200 => Loss 2.162, Train_accy 89.20
+2024-01-11 01:48:16,123 [icarl.py] => Task 3, Epoch 49/200 => Loss 2.022, Train_accy 91.71
+2024-01-11 01:48:25,816 [icarl.py] => Task 3, Epoch 50/200 => Loss 2.149, Train_accy 89.64
+2024-01-11 01:48:43,362 [icarl.py] => Task 3, Epoch 51/200 => Loss 2.185, Train_accy 89.10, Test_accy 50.51
+2024-01-11 01:48:53,301 [icarl.py] => Task 3, Epoch 52/200 => Loss 2.169, Train_accy 89.18
+2024-01-11 01:49:03,039 [icarl.py] => Task 3, Epoch 53/200 => Loss 2.245, Train_accy 87.73
+2024-01-11 01:49:13,222 [icarl.py] => Task 3, Epoch 54/200 => Loss 2.257, Train_accy 86.61
+2024-01-11 01:49:22,954 [icarl.py] => Task 3, Epoch 55/200 => Loss 2.221, Train_accy 88.08
+2024-01-11 01:49:40,074 [icarl.py] => Task 3, Epoch 56/200 => Loss 2.135, Train_accy 89.77, Test_accy 51.67
+2024-01-11 01:49:49,868 [icarl.py] => Task 3, Epoch 57/200 => Loss 2.174, Train_accy 88.53
+2024-01-11 01:49:59,670 [icarl.py] => Task 3, Epoch 58/200 => Loss 1.996, Train_accy 92.11
+2024-01-11 01:50:09,713 [icarl.py] => Task 3, Epoch 59/200 => Loss 1.880, Train_accy 94.21
+2024-01-11 01:50:19,301 [icarl.py] => Task 3, Epoch 60/200 => Loss 2.009, Train_accy 92.23
+2024-01-11 01:50:36,379 [icarl.py] => Task 3, Epoch 61/200 => Loss 1.776, Train_accy 96.74, Test_accy 58.26
+2024-01-11 01:50:46,108 [icarl.py] => Task 3, Epoch 62/200 => Loss 1.700, Train_accy 98.55
+2024-01-11 01:50:55,994 [icarl.py] => Task 3, Epoch 63/200 => Loss 1.679, Train_accy 98.76
+2024-01-11 01:51:05,956 [icarl.py] => Task 3, Epoch 64/200 => Loss 1.665, Train_accy 98.86
+2024-01-11 01:51:15,579 [icarl.py] => Task 3, Epoch 65/200 => Loss 1.698, Train_accy 98.80
+2024-01-11 01:51:32,637 [icarl.py] => Task 3, Epoch 66/200 => Loss 1.673, Train_accy 99.01, Test_accy 61.25
+2024-01-11 01:51:42,496 [icarl.py] => Task 3, Epoch 67/200 => Loss 1.705, Train_accy 98.78
+2024-01-11 01:51:52,332 [icarl.py] => Task 3, Epoch 68/200 => Loss 1.691, Train_accy 98.72
+2024-01-11 01:52:02,449 [icarl.py] => Task 3, Epoch 69/200 => Loss 1.681, Train_accy 98.84
+2024-01-11 01:52:12,115 [icarl.py] => Task 3, Epoch 70/200 => Loss 1.668, Train_accy 99.12
+2024-01-11 01:52:29,040 [icarl.py] => Task 3, Epoch 71/200 => Loss 1.645, Train_accy 99.09, Test_accy 62.86
+2024-01-11 01:52:38,764 [icarl.py] => Task 3, Epoch 72/200 => Loss 1.663, Train_accy 99.30
+2024-01-11 01:52:48,978 [icarl.py] => Task 3, Epoch 73/200 => Loss 1.706, Train_accy 99.20
+2024-01-11 01:52:59,396 [icarl.py] => Task 3, Epoch 74/200 => Loss 1.684, Train_accy 98.99
+2024-01-11 01:53:09,360 [icarl.py] => Task 3, Epoch 75/200 => Loss 1.680, Train_accy 99.07
+2024-01-11 01:53:26,425 [icarl.py] => Task 3, Epoch 76/200 => Loss 1.685, Train_accy 99.16, Test_accy 60.75
+2024-01-11 01:53:36,242 [icarl.py] => Task 3, Epoch 77/200 => Loss 1.641, Train_accy 99.37
+2024-01-11 01:53:46,002 [icarl.py] => Task 3, Epoch 78/200 => Loss 1.650, Train_accy 99.45
+2024-01-11 01:53:56,167 [icarl.py] => Task 3, Epoch 79/200 => Loss 1.763, Train_accy 99.20
+2024-01-11 01:54:05,676 [icarl.py] => Task 3, Epoch 80/200 => Loss 1.658, Train_accy 99.10
+2024-01-11 01:54:22,482 [icarl.py] => Task 3, Epoch 81/200 => Loss 1.643, Train_accy 99.33, Test_accy 62.37
+2024-01-11 01:54:32,130 [icarl.py] => Task 3, Epoch 82/200 => Loss 1.660, Train_accy 99.47
+2024-01-11 01:54:42,755 [icarl.py] => Task 3, Epoch 83/200 => Loss 1.663, Train_accy 99.14
+2024-01-11 01:54:52,765 [icarl.py] => Task 3, Epoch 84/200 => Loss 1.662, Train_accy 99.20
+2024-01-11 01:55:02,602 [icarl.py] => Task 3, Epoch 85/200 => Loss 1.692, Train_accy 99.31
+2024-01-11 01:55:19,711 [icarl.py] => Task 3, Epoch 86/200 => Loss 1.658, Train_accy 99.24, Test_accy 61.60
+2024-01-11 01:55:29,721 [icarl.py] => Task 3, Epoch 87/200 => Loss 1.690, Train_accy 99.28
+2024-01-11 01:55:39,960 [icarl.py] => Task 3, Epoch 88/200 => Loss 1.638, Train_accy 99.24
+2024-01-11 01:55:49,911 [icarl.py] => Task 3, Epoch 89/200 => Loss 1.635, Train_accy 99.18
+2024-01-11 01:55:59,790 [icarl.py] => Task 3, Epoch 90/200 => Loss 1.670, Train_accy 99.18
+2024-01-11 01:56:16,547 [icarl.py] => Task 3, Epoch 91/200 => Loss 1.667, Train_accy 99.35, Test_accy 63.25
+2024-01-11 01:56:26,244 [icarl.py] => Task 3, Epoch 92/200 => Loss 1.642, Train_accy 99.16
+2024-01-11 01:56:36,247 [icarl.py] => Task 3, Epoch 93/200 => Loss 1.638, Train_accy 99.35
+2024-01-11 01:56:45,887 [icarl.py] => Task 3, Epoch 94/200 => Loss 1.719, Train_accy 99.35
+2024-01-11 01:56:55,894 [icarl.py] => Task 3, Epoch 95/200 => Loss 1.711, Train_accy 98.74
+2024-01-11 01:57:13,530 [icarl.py] => Task 3, Epoch 96/200 => Loss 1.647, Train_accy 99.49, Test_accy 61.84
+2024-01-11 01:57:23,962 [icarl.py] => Task 3, Epoch 97/200 => Loss 1.708, Train_accy 99.39
+2024-01-11 01:57:34,468 [icarl.py] => Task 3, Epoch 98/200 => Loss 1.641, Train_accy 99.50
+2024-01-11 01:57:44,216 [icarl.py] => Task 3, Epoch 99/200 => Loss 1.640, Train_accy 99.33
+2024-01-11 01:57:53,974 [icarl.py] => Task 3, Epoch 100/200 => Loss 1.657, Train_accy 99.33
+2024-01-11 01:58:10,776 [icarl.py] => Task 3, Epoch 101/200 => Loss 1.623, Train_accy 99.41, Test_accy 62.58
+2024-01-11 01:58:20,767 [icarl.py] => Task 3, Epoch 102/200 => Loss 1.684, Train_accy 99.45
+2024-01-11 01:58:31,139 [icarl.py] => Task 3, Epoch 103/200 => Loss 1.669, Train_accy 99.31
+2024-01-11 01:58:40,693 [icarl.py] => Task 3, Epoch 104/200 => Loss 1.653, Train_accy 99.47
+2024-01-11 01:58:50,988 [icarl.py] => Task 3, Epoch 105/200 => Loss 1.639, Train_accy 99.37
+2024-01-11 01:59:08,334 [icarl.py] => Task 3, Epoch 106/200 => Loss 1.683, Train_accy 99.54, Test_accy 63.85
+2024-01-11 01:59:18,553 [icarl.py] => Task 3, Epoch 107/200 => Loss 1.668, Train_accy 99.37
+2024-01-11 01:59:28,248 [icarl.py] => Task 3, Epoch 108/200 => Loss 1.640, Train_accy 99.31
+2024-01-11 01:59:38,433 [icarl.py] => Task 3, Epoch 109/200 => Loss 1.701, Train_accy 99.30
+2024-01-11 01:59:48,749 [icarl.py] => Task 3, Epoch 110/200 => Loss 1.661, Train_accy 99.18
+2024-01-11 02:00:05,772 [icarl.py] => Task 3, Epoch 111/200 => Loss 1.645, Train_accy 99.37, Test_accy 62.22
+2024-01-11 02:00:15,937 [icarl.py] => Task 3, Epoch 112/200 => Loss 1.672, Train_accy 99.22
+2024-01-11 02:00:25,552 [icarl.py] => Task 3, Epoch 113/200 => Loss 1.670, Train_accy 99.52
+2024-01-11 02:00:35,325 [icarl.py] => Task 3, Epoch 114/200 => Loss 1.630, Train_accy 99.62
+2024-01-11 02:00:45,421 [icarl.py] => Task 3, Epoch 115/200 => Loss 1.623, Train_accy 99.26
+2024-01-11 02:01:02,649 [icarl.py] => Task 3, Epoch 116/200 => Loss 1.625, Train_accy 99.20, Test_accy 61.90
+2024-01-11 02:01:12,494 [icarl.py] => Task 3, Epoch 117/200 => Loss 1.674, Train_accy 99.47
+2024-01-11 02:01:22,043 [icarl.py] => Task 3, Epoch 118/200 => Loss 1.655, Train_accy 99.31
+2024-01-11 02:01:32,228 [icarl.py] => Task 3, Epoch 119/200 => Loss 1.643, Train_accy 99.05
+2024-01-11 02:01:41,977 [icarl.py] => Task 3, Epoch 120/200 => Loss 1.647, Train_accy 99.56
+2024-01-11 02:01:59,489 [icarl.py] => Task 3, Epoch 121/200 => Loss 1.617, Train_accy 99.50, Test_accy 62.81
+2024-01-11 02:02:09,173 [icarl.py] => Task 3, Epoch 122/200 => Loss 1.632, Train_accy 99.64
+2024-01-11 02:02:19,268 [icarl.py] => Task 3, Epoch 123/200 => Loss 1.621, Train_accy 99.58
+2024-01-11 02:02:29,527 [icarl.py] => Task 3, Epoch 124/200 => Loss 1.662, Train_accy 99.70
+2024-01-11 02:02:39,288 [icarl.py] => Task 3, Epoch 125/200 => Loss 1.614, Train_accy 99.62
+2024-01-11 02:02:56,527 [icarl.py] => Task 3, Epoch 126/200 => Loss 1.689, Train_accy 99.64, Test_accy 61.11
+2024-01-11 02:03:06,468 [icarl.py] => Task 3, Epoch 127/200 => Loss 1.616, Train_accy 99.52
+2024-01-11 02:03:16,107 [icarl.py] => Task 3, Epoch 128/200 => Loss 1.610, Train_accy 99.64
+2024-01-11 02:03:26,200 [icarl.py] => Task 3, Epoch 129/200 => Loss 1.623, Train_accy 99.73
+2024-01-11 02:03:35,651 [icarl.py] => Task 3, Epoch 130/200 => Loss 1.623, Train_accy 99.52
+2024-01-11 02:03:52,858 [icarl.py] => Task 3, Epoch 131/200 => Loss 1.639, Train_accy 99.77, Test_accy 62.27
+2024-01-11 02:04:02,260 [icarl.py] => Task 3, Epoch 132/200 => Loss 1.666, Train_accy 99.64
+2024-01-11 02:04:12,326 [icarl.py] => Task 3, Epoch 133/200 => Loss 1.587, Train_accy 99.68
+2024-01-11 02:04:22,130 [icarl.py] => Task 3, Epoch 134/200 => Loss 1.628, Train_accy 99.64
+2024-01-11 02:04:31,879 [icarl.py] => Task 3, Epoch 135/200 => Loss 1.608, Train_accy 99.62
+2024-01-11 02:04:50,041 [icarl.py] => Task 3, Epoch 136/200 => Loss 1.615, Train_accy 99.68, Test_accy 60.49
+2024-01-11 02:05:00,765 [icarl.py] => Task 3, Epoch 137/200 => Loss 1.635, Train_accy 99.52
+2024-01-11 02:05:10,899 [icarl.py] => Task 3, Epoch 138/200 => Loss 1.616, Train_accy 99.64
+2024-01-11 02:05:20,872 [icarl.py] => Task 3, Epoch 139/200 => Loss 1.606, Train_accy 99.64
+2024-01-11 02:05:30,874 [icarl.py] => Task 3, Epoch 140/200 => Loss 1.621, Train_accy 99.50
+2024-01-11 02:05:48,084 [icarl.py] => Task 3, Epoch 141/200 => Loss 1.668, Train_accy 99.75, Test_accy 62.79
+2024-01-11 02:05:57,827 [icarl.py] => Task 3, Epoch 142/200 => Loss 1.648, Train_accy 99.75
+2024-01-11 02:06:08,035 [icarl.py] => Task 3, Epoch 143/200 => Loss 1.653, Train_accy 99.58
+2024-01-11 02:06:17,550 [icarl.py] => Task 3, Epoch 144/200 => Loss 1.608, Train_accy 99.71
+2024-01-11 02:06:27,620 [icarl.py] => Task 3, Epoch 145/200 => Loss 1.597, Train_accy 99.62
+2024-01-11 02:06:44,334 [icarl.py] => Task 3, Epoch 146/200 => Loss 1.617, Train_accy 99.79, Test_accy 63.43
+2024-01-11 02:06:54,172 [icarl.py] => Task 3, Epoch 147/200 => Loss 1.634, Train_accy 99.60
+2024-01-11 02:07:04,253 [icarl.py] => Task 3, Epoch 148/200 => Loss 1.602, Train_accy 99.58
+2024-01-11 02:07:13,865 [icarl.py] => Task 3, Epoch 149/200 => Loss 1.618, Train_accy 99.58
+2024-01-11 02:07:23,853 [icarl.py] => Task 3, Epoch 150/200 => Loss 1.629, Train_accy 99.54
+2024-01-11 02:07:42,008 [icarl.py] => Task 3, Epoch 151/200 => Loss 1.616, Train_accy 99.58, Test_accy 61.42
+2024-01-11 02:07:52,603 [icarl.py] => Task 3, Epoch 152/200 => Loss 1.662, Train_accy 99.60
+2024-01-11 02:08:02,382 [icarl.py] => Task 3, Epoch 153/200 => Loss 1.590, Train_accy 99.66
+2024-01-11 02:08:12,192 [icarl.py] => Task 3, Epoch 154/200 => Loss 1.672, Train_accy 99.71
+2024-01-11 02:08:22,318 [icarl.py] => Task 3, Epoch 155/200 => Loss 1.685, Train_accy 99.66
+2024-01-11 02:08:39,933 [icarl.py] => Task 3, Epoch 156/200 => Loss 1.605, Train_accy 99.75, Test_accy 62.27
+2024-01-11 02:08:49,911 [icarl.py] => Task 3, Epoch 157/200 => Loss 1.635, Train_accy 99.56
+2024-01-11 02:08:59,709 [icarl.py] => Task 3, Epoch 158/200 => Loss 1.678, Train_accy 99.64
+2024-01-11 02:09:09,837 [icarl.py] => Task 3, Epoch 159/200 => Loss 1.664, Train_accy 99.73
+2024-01-11 02:09:19,831 [icarl.py] => Task 3, Epoch 160/200 => Loss 1.610, Train_accy 99.70
+2024-01-11 02:09:36,797 [icarl.py] => Task 3, Epoch 161/200 => Loss 1.651, Train_accy 99.52, Test_accy 59.68
+2024-01-11 02:09:46,792 [icarl.py] => Task 3, Epoch 162/200 => Loss 1.610, Train_accy 99.50
+2024-01-11 02:09:56,430 [icarl.py] => Task 3, Epoch 163/200 => Loss 1.599, Train_accy 99.68
+2024-01-11 02:10:06,657 [icarl.py] => Task 3, Epoch 164/200 => Loss 1.675, Train_accy 99.58
+2024-01-11 02:10:16,510 [icarl.py] => Task 3, Epoch 165/200 => Loss 1.648, Train_accy 99.75
+2024-01-11 02:10:33,428 [icarl.py] => Task 3, Epoch 166/200 => Loss 1.654, Train_accy 99.60, Test_accy 62.84
+2024-01-11 02:10:43,280 [icarl.py] => Task 3, Epoch 167/200 => Loss 1.638, Train_accy 99.68
+2024-01-11 02:10:53,372 [icarl.py] => Task 3, Epoch 168/200 => Loss 1.591, Train_accy 99.60
+2024-01-11 02:11:03,241 [icarl.py] => Task 3, Epoch 169/200 => Loss 1.610, Train_accy 99.77
+2024-01-11 02:11:12,887 [icarl.py] => Task 3, Epoch 170/200 => Loss 1.609, Train_accy 99.87
+2024-01-11 02:11:31,056 [icarl.py] => Task 3, Epoch 171/200 => Loss 1.613, Train_accy 99.66, Test_accy 62.48
+2024-01-11 02:11:41,263 [icarl.py] => Task 3, Epoch 172/200 => Loss 1.618, Train_accy 99.68
+2024-01-11 02:11:51,215 [icarl.py] => Task 3, Epoch 173/200 => Loss 1.613, Train_accy 99.66
+2024-01-11 02:12:01,231 [icarl.py] => Task 3, Epoch 174/200 => Loss 1.587, Train_accy 99.71
+2024-01-11 02:12:10,716 [icarl.py] => Task 3, Epoch 175/200 => Loss 1.683, Train_accy 99.66
+2024-01-11 02:12:27,729 [icarl.py] => Task 3, Epoch 176/200 => Loss 1.616, Train_accy 99.75, Test_accy 61.95
+2024-01-11 02:12:37,547 [icarl.py] => Task 3, Epoch 177/200 => Loss 1.645, Train_accy 99.75
+2024-01-11 02:12:48,019 [icarl.py] => Task 3, Epoch 178/200 => Loss 1.614, Train_accy 99.62
+2024-01-11 02:12:57,777 [icarl.py] => Task 3, Epoch 179/200 => Loss 1.674, Train_accy 99.66
+2024-01-11 02:13:07,528 [icarl.py] => Task 3, Epoch 180/200 => Loss 1.599, Train_accy 99.60
+2024-01-11 02:13:24,612 [icarl.py] => Task 3, Epoch 181/200 => Loss 1.595, Train_accy 99.64, Test_accy 63.41
+2024-01-11 02:13:34,534 [icarl.py] => Task 3, Epoch 182/200 => Loss 1.597, Train_accy 99.71
+2024-01-11 02:13:44,875 [icarl.py] => Task 3, Epoch 183/200 => Loss 1.645, Train_accy 99.62
+2024-01-11 02:13:54,494 [icarl.py] => Task 3, Epoch 184/200 => Loss 1.646, Train_accy 99.58
+2024-01-11 02:14:04,250 [icarl.py] => Task 3, Epoch 185/200 => Loss 1.625, Train_accy 99.79
+2024-01-11 02:14:20,499 [icarl.py] => Task 3, Epoch 186/200 => Loss 1.608, Train_accy 99.54, Test_accy 62.70
+2024-01-11 02:14:30,314 [icarl.py] => Task 3, Epoch 187/200 => Loss 1.616, Train_accy 99.66
+2024-01-11 02:14:40,425 [icarl.py] => Task 3, Epoch 188/200 => Loss 1.618, Train_accy 99.64
+2024-01-11 02:14:50,261 [icarl.py] => Task 3, Epoch 189/200 => Loss 1.628, Train_accy 99.62
+2024-01-11 02:15:00,029 [icarl.py] => Task 3, Epoch 190/200 => Loss 1.623, Train_accy 99.79
+2024-01-11 02:15:17,350 [icarl.py] => Task 3, Epoch 191/200 => Loss 1.639, Train_accy 99.47, Test_accy 62.75
+2024-01-11 02:15:27,334 [icarl.py] => Task 3, Epoch 192/200 => Loss 1.603, Train_accy 99.70
+2024-01-11 02:15:37,319 [icarl.py] => Task 3, Epoch 193/200 => Loss 1.600, Train_accy 99.77
+2024-01-11 02:15:46,796 [icarl.py] => Task 3, Epoch 194/200 => Loss 1.627, Train_accy 99.58
+2024-01-11 02:15:56,448 [icarl.py] => Task 3, Epoch 195/200 => Loss 1.640, Train_accy 99.71
+2024-01-11 02:16:13,581 [icarl.py] => Task 3, Epoch 196/200 => Loss 1.598, Train_accy 99.64, Test_accy 59.49
+2024-01-11 02:16:23,537 [icarl.py] => Task 3, Epoch 197/200 => Loss 1.608, Train_accy 99.75
+2024-01-11 02:16:33,072 [icarl.py] => Task 3, Epoch 198/200 => Loss 1.653, Train_accy 99.70
+2024-01-11 02:16:42,972 [icarl.py] => Task 3, Epoch 199/200 => Loss 1.637, Train_accy 99.77
+2024-01-11 02:16:53,136 [icarl.py] => Task 3, Epoch 200/200 => Loss 1.629, Train_accy 99.62
+2024-01-11 02:16:53,137 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 02:17:35,342 [icarl.py] => Exemplar size: 1350
+2024-01-11 02:17:35,990 [trainer.py] => CNN: {'total': 63.68, '0': 46.67, '1': 45.0, '2': 52.22, '3': 18.33, '4': 50.56, '5': 24.44, '6': 48.33, '7': 35.0, '8': 53.89, '9': 30.56, '10': 63.33, '11': 68.89, '12': 46.11, '13': 56.11, '14': 41.67, '15': 84.44, '16': 76.67, '17': 78.33, '18': 68.89, '19': 68.89, '20': 78.33, '21': 70.56, '22': 53.33, '23': 42.22, '24': 54.44, '25': 48.89, '26': 69.44, '27': 71.67, '28': 53.33, '29': 51.67, '30': 65.56, '31': 61.11, '32': 65.56, '33': 22.78, '34': 45.0, '35': 93.89, '36': 97.78, '37': 83.89, '38': 99.44, '39': 99.44, '40': 95.0, '41': 99.44, '42': 97.78, '43': 100.0, 'old': 54.63, 'new': 95.33}
+2024-01-11 02:17:35,990 [trainer.py] => NME: {'total': 61.64, '0': 73.89, '1': 46.67, '2': 45.56, '3': 26.11, '4': 58.33, '5': 28.89, '6': 41.11, '7': 51.67, '8': 56.67, '9': 35.56, '10': 68.89, '11': 85.56, '12': 44.44, '13': 56.67, '14': 37.22, '15': 76.11, '16': 75.56, '17': 75.0, '18': 56.11, '19': 64.44, '20': 67.78, '21': 73.89, '22': 47.78, '23': 41.11, '24': 47.78, '25': 52.78, '26': 63.33, '27': 54.44, '28': 46.11, '29': 50.56, '30': 52.78, '31': 62.22, '32': 76.11, '33': 37.22, '34': 66.11, '35': 91.67, '36': 89.44, '37': 61.67, '38': 88.33, '39': 80.0, '40': 69.44, '41': 90.56, '42': 94.44, '43': 98.33, 'old': 55.56, 'new': 82.94}
+2024-01-11 02:17:35,990 [trainer.py] => CNN top1 curve: [90.41, 74.09, 66.9, 63.68]
+2024-01-11 02:17:35,990 [trainer.py] => CNN top5 curve: [99.22, 96.73, 92.27, 89.9]
+2024-01-11 02:17:35,990 [trainer.py] => NME top1 curve: [89.48, 77.29, 65.92, 61.64]
+2024-01-11 02:17:35,990 [trainer.py] => NME top5 curve: [99.19, 97.36, 93.37, 91.48]
+
+2024-01-11 02:17:35,991 [trainer.py] => All params: 21047417
+2024-01-11 02:17:35,991 [trainer.py] => Trainable params: 21047417
+2024-01-11 02:17:35,992 [icarl.py] => Learning on 45-55
+2024-01-11 02:17:56,080 [icarl.py] => Task 4, Epoch 1/200 => Loss 4.597, Train_accy 29.77, Test_accy 31.82
+2024-01-11 02:18:06,368 [icarl.py] => Task 4, Epoch 2/200 => Loss 3.388, Train_accy 48.00
+2024-01-11 02:18:16,819 [icarl.py] => Task 4, Epoch 3/200 => Loss 3.149, Train_accy 58.56
+2024-01-11 02:18:26,936 [icarl.py] => Task 4, Epoch 4/200 => Loss 2.949, Train_accy 64.32
+2024-01-11 02:18:37,525 [icarl.py] => Task 4, Epoch 5/200 => Loss 2.779, Train_accy 69.37
+2024-01-11 02:18:55,738 [icarl.py] => Task 4, Epoch 6/200 => Loss 2.745, Train_accy 70.81, Test_accy 44.11
+2024-01-11 02:19:06,493 [icarl.py] => Task 4, Epoch 7/200 => Loss 2.632, Train_accy 73.91
+2024-01-11 02:19:16,693 [icarl.py] => Task 4, Epoch 8/200 => Loss 2.582, Train_accy 75.39
+2024-01-11 02:19:27,113 [icarl.py] => Task 4, Epoch 9/200 => Loss 2.478, Train_accy 78.25
+2024-01-11 02:19:37,514 [icarl.py] => Task 4, Epoch 10/200 => Loss 2.428, Train_accy 79.39
+2024-01-11 02:19:56,548 [icarl.py] => Task 4, Epoch 11/200 => Loss 2.392, Train_accy 81.03, Test_accy 42.45
+2024-01-11 02:20:06,703 [icarl.py] => Task 4, Epoch 12/200 => Loss 2.323, Train_accy 82.29
+2024-01-11 02:20:17,041 [icarl.py] => Task 4, Epoch 13/200 => Loss 2.341, Train_accy 82.77
+2024-01-11 02:20:27,805 [icarl.py] => Task 4, Epoch 14/200 => Loss 2.403, Train_accy 80.90
+2024-01-11 02:20:38,489 [icarl.py] => Task 4, Epoch 15/200 => Loss 2.274, Train_accy 83.62
+2024-01-11 02:20:57,943 [icarl.py] => Task 4, Epoch 16/200 => Loss 2.255, Train_accy 83.95, Test_accy 49.43
+2024-01-11 02:21:08,132 [icarl.py] => Task 4, Epoch 17/200 => Loss 2.240, Train_accy 85.12
+2024-01-11 02:21:18,532 [icarl.py] => Task 4, Epoch 18/200 => Loss 2.212, Train_accy 86.27
+2024-01-11 02:21:29,347 [icarl.py] => Task 4, Epoch 19/200 => Loss 2.156, Train_accy 87.14
+2024-01-11 02:21:39,826 [icarl.py] => Task 4, Epoch 20/200 => Loss 2.212, Train_accy 85.89
+2024-01-11 02:21:59,170 [icarl.py] => Task 4, Epoch 21/200 => Loss 2.240, Train_accy 85.71, Test_accy 43.97
+2024-01-11 02:22:09,476 [icarl.py] => Task 4, Epoch 22/200 => Loss 2.194, Train_accy 86.22
+2024-01-11 02:22:20,012 [icarl.py] => Task 4, Epoch 23/200 => Loss 2.218, Train_accy 86.22
+2024-01-11 02:22:30,059 [icarl.py] => Task 4, Epoch 24/200 => Loss 2.251, Train_accy 85.71
+2024-01-11 02:22:41,068 [icarl.py] => Task 4, Epoch 25/200 => Loss 2.088, Train_accy 89.41
+2024-01-11 02:23:00,984 [icarl.py] => Task 4, Epoch 26/200 => Loss 2.086, Train_accy 89.06, Test_accy 44.61
+2024-01-11 02:23:11,822 [icarl.py] => Task 4, Epoch 27/200 => Loss 2.086, Train_accy 89.50
+2024-01-11 02:23:22,088 [icarl.py] => Task 4, Epoch 28/200 => Loss 2.072, Train_accy 89.86
+2024-01-11 02:23:32,569 [icarl.py] => Task 4, Epoch 29/200 => Loss 2.087, Train_accy 88.86
+2024-01-11 02:23:42,493 [icarl.py] => Task 4, Epoch 30/200 => Loss 2.123, Train_accy 88.16
+2024-01-11 02:24:01,499 [icarl.py] => Task 4, Epoch 31/200 => Loss 2.105, Train_accy 89.10, Test_accy 38.71
+2024-01-11 02:24:11,460 [icarl.py] => Task 4, Epoch 32/200 => Loss 2.194, Train_accy 86.81
+2024-01-11 02:24:21,811 [icarl.py] => Task 4, Epoch 33/200 => Loss 2.091, Train_accy 89.05
+2024-01-11 02:24:32,371 [icarl.py] => Task 4, Epoch 34/200 => Loss 2.017, Train_accy 90.94
+2024-01-11 02:24:42,518 [icarl.py] => Task 4, Epoch 35/200 => Loss 2.031, Train_accy 90.38
+2024-01-11 02:25:01,063 [icarl.py] => Task 4, Epoch 36/200 => Loss 2.057, Train_accy 89.95, Test_accy 49.35
+2024-01-11 02:25:11,198 [icarl.py] => Task 4, Epoch 37/200 => Loss 2.070, Train_accy 89.73
+2024-01-11 02:25:21,797 [icarl.py] => Task 4, Epoch 38/200 => Loss 2.051, Train_accy 90.00
+2024-01-11 02:25:31,882 [icarl.py] => Task 4, Epoch 39/200 => Loss 2.019, Train_accy 90.74
+2024-01-11 02:25:43,531 [icarl.py] => Task 4, Epoch 40/200 => Loss 2.032, Train_accy 90.88
+2024-01-11 02:26:03,402 [icarl.py] => Task 4, Epoch 41/200 => Loss 2.088, Train_accy 89.80, Test_accy 44.17
+2024-01-11 02:26:13,970 [icarl.py] => Task 4, Epoch 42/200 => Loss 2.118, Train_accy 88.41
+2024-01-11 02:26:24,124 [icarl.py] => Task 4, Epoch 43/200 => Loss 2.095, Train_accy 89.33
+2024-01-11 02:26:34,743 [icarl.py] => Task 4, Epoch 44/200 => Loss 2.027, Train_accy 90.97
+2024-01-11 02:26:45,033 [icarl.py] => Task 4, Epoch 45/200 => Loss 2.054, Train_accy 90.02
+2024-01-11 02:27:03,973 [icarl.py] => Task 4, Epoch 46/200 => Loss 2.047, Train_accy 90.52, Test_accy 48.26
+2024-01-11 02:27:14,029 [icarl.py] => Task 4, Epoch 47/200 => Loss 1.982, Train_accy 91.86
+2024-01-11 02:27:24,388 [icarl.py] => Task 4, Epoch 48/200 => Loss 1.977, Train_accy 91.87
+2024-01-11 02:27:34,732 [icarl.py] => Task 4, Epoch 49/200 => Loss 1.946, Train_accy 92.47
+2024-01-11 02:27:45,220 [icarl.py] => Task 4, Epoch 50/200 => Loss 2.036, Train_accy 90.97
+2024-01-11 02:28:04,725 [icarl.py] => Task 4, Epoch 51/200 => Loss 2.091, Train_accy 89.35, Test_accy 44.96
+2024-01-11 02:28:15,306 [icarl.py] => Task 4, Epoch 52/200 => Loss 2.093, Train_accy 89.03
+2024-01-11 02:28:26,068 [icarl.py] => Task 4, Epoch 53/200 => Loss 2.044, Train_accy 90.68
+2024-01-11 02:28:37,581 [icarl.py] => Task 4, Epoch 54/200 => Loss 2.008, Train_accy 92.00
+2024-01-11 02:28:48,789 [icarl.py] => Task 4, Epoch 55/200 => Loss 1.955, Train_accy 92.81
+2024-01-11 02:29:08,249 [icarl.py] => Task 4, Epoch 56/200 => Loss 2.124, Train_accy 88.65, Test_accy 41.16
+2024-01-11 02:29:18,833 [icarl.py] => Task 4, Epoch 57/200 => Loss 2.121, Train_accy 88.74
+2024-01-11 02:29:29,048 [icarl.py] => Task 4, Epoch 58/200 => Loss 2.059, Train_accy 90.56
+2024-01-11 02:29:39,582 [icarl.py] => Task 4, Epoch 59/200 => Loss 2.018, Train_accy 91.05
+2024-01-11 02:29:50,545 [icarl.py] => Task 4, Epoch 60/200 => Loss 2.014, Train_accy 91.37
+2024-01-11 02:30:09,925 [icarl.py] => Task 4, Epoch 61/200 => Loss 1.771, Train_accy 97.48, Test_accy 61.18
+2024-01-11 02:30:20,420 [icarl.py] => Task 4, Epoch 62/200 => Loss 1.702, Train_accy 98.85
+2024-01-11 02:30:30,671 [icarl.py] => Task 4, Epoch 63/200 => Loss 1.671, Train_accy 99.24
+2024-01-11 02:30:41,522 [icarl.py] => Task 4, Epoch 64/200 => Loss 1.662, Train_accy 99.48
+2024-01-11 02:30:52,493 [icarl.py] => Task 4, Epoch 65/200 => Loss 1.661, Train_accy 99.32
+2024-01-11 02:31:12,825 [icarl.py] => Task 4, Epoch 66/200 => Loss 1.643, Train_accy 99.59, Test_accy 62.53
+2024-01-11 02:31:23,907 [icarl.py] => Task 4, Epoch 67/200 => Loss 1.644, Train_accy 99.51
+2024-01-11 02:31:34,606 [icarl.py] => Task 4, Epoch 68/200 => Loss 1.648, Train_accy 99.53
+2024-01-11 02:31:44,963 [icarl.py] => Task 4, Epoch 69/200 => Loss 1.635, Train_accy 99.64
+2024-01-11 02:31:55,536 [icarl.py] => Task 4, Epoch 70/200 => Loss 1.634, Train_accy 99.62
+2024-01-11 02:32:15,088 [icarl.py] => Task 4, Epoch 71/200 => Loss 1.637, Train_accy 99.60, Test_accy 62.63
+2024-01-11 02:32:25,686 [icarl.py] => Task 4, Epoch 72/200 => Loss 1.635, Train_accy 99.55
+2024-01-11 02:32:36,055 [icarl.py] => Task 4, Epoch 73/200 => Loss 1.627, Train_accy 99.66
+2024-01-11 02:32:46,629 [icarl.py] => Task 4, Epoch 74/200 => Loss 1.631, Train_accy 99.62
+2024-01-11 02:32:57,382 [icarl.py] => Task 4, Epoch 75/200 => Loss 1.626, Train_accy 99.66
+2024-01-11 02:33:18,577 [icarl.py] => Task 4, Epoch 76/200 => Loss 1.627, Train_accy 99.53, Test_accy 62.87
+2024-01-11 02:33:29,514 [icarl.py] => Task 4, Epoch 77/200 => Loss 1.623, Train_accy 99.77
+2024-01-11 02:33:39,954 [icarl.py] => Task 4, Epoch 78/200 => Loss 1.629, Train_accy 99.69
+2024-01-11 02:33:50,704 [icarl.py] => Task 4, Epoch 79/200 => Loss 1.618, Train_accy 99.84
+2024-01-11 02:34:01,567 [icarl.py] => Task 4, Epoch 80/200 => Loss 1.619, Train_accy 99.78
+2024-01-11 02:34:21,100 [icarl.py] => Task 4, Epoch 81/200 => Loss 1.617, Train_accy 99.80, Test_accy 62.80
+2024-01-11 02:34:31,515 [icarl.py] => Task 4, Epoch 82/200 => Loss 1.618, Train_accy 99.82
+2024-01-11 02:34:42,159 [icarl.py] => Task 4, Epoch 83/200 => Loss 1.619, Train_accy 99.69
+2024-01-11 02:34:52,940 [icarl.py] => Task 4, Epoch 84/200 => Loss 1.620, Train_accy 99.69
+2024-01-11 02:35:03,251 [icarl.py] => Task 4, Epoch 85/200 => Loss 1.615, Train_accy 99.78
+2024-01-11 02:35:22,666 [icarl.py] => Task 4, Epoch 86/200 => Loss 1.611, Train_accy 99.78, Test_accy 63.31
+2024-01-11 02:35:33,511 [icarl.py] => Task 4, Epoch 87/200 => Loss 1.610, Train_accy 99.75
+2024-01-11 02:35:44,249 [icarl.py] => Task 4, Epoch 88/200 => Loss 1.612, Train_accy 99.75
+2024-01-11 02:35:54,742 [icarl.py] => Task 4, Epoch 89/200 => Loss 1.617, Train_accy 99.75
+2024-01-11 02:36:05,505 [icarl.py] => Task 4, Epoch 90/200 => Loss 1.609, Train_accy 99.82
+2024-01-11 02:36:25,198 [icarl.py] => Task 4, Epoch 91/200 => Loss 1.609, Train_accy 99.84, Test_accy 63.04
+2024-01-11 02:36:35,744 [icarl.py] => Task 4, Epoch 92/200 => Loss 1.617, Train_accy 99.68
+2024-01-11 02:36:46,653 [icarl.py] => Task 4, Epoch 93/200 => Loss 1.607, Train_accy 99.78
+2024-01-11 02:36:57,724 [icarl.py] => Task 4, Epoch 94/200 => Loss 1.615, Train_accy 99.69
+2024-01-11 02:37:08,349 [icarl.py] => Task 4, Epoch 95/200 => Loss 1.608, Train_accy 99.86
+2024-01-11 02:37:28,104 [icarl.py] => Task 4, Epoch 96/200 => Loss 1.608, Train_accy 99.80, Test_accy 63.72
+2024-01-11 02:37:38,486 [icarl.py] => Task 4, Epoch 97/200 => Loss 1.606, Train_accy 99.73
+2024-01-11 02:37:49,645 [icarl.py] => Task 4, Epoch 98/200 => Loss 1.605, Train_accy 99.84
+2024-01-11 02:38:00,715 [icarl.py] => Task 4, Epoch 99/200 => Loss 1.605, Train_accy 99.78
+2024-01-11 02:38:11,325 [icarl.py] => Task 4, Epoch 100/200 => Loss 1.603, Train_accy 99.75
+2024-01-11 02:38:31,052 [icarl.py] => Task 4, Epoch 101/200 => Loss 1.607, Train_accy 99.78, Test_accy 63.62
+2024-01-11 02:38:42,157 [icarl.py] => Task 4, Epoch 102/200 => Loss 1.605, Train_accy 99.73
+2024-01-11 02:38:53,143 [icarl.py] => Task 4, Epoch 103/200 => Loss 1.605, Train_accy 99.73
+2024-01-11 02:39:03,677 [icarl.py] => Task 4, Epoch 104/200 => Loss 1.603, Train_accy 99.69
+2024-01-11 02:39:14,406 [icarl.py] => Task 4, Epoch 105/200 => Loss 1.604, Train_accy 99.78
+2024-01-11 02:39:35,726 [icarl.py] => Task 4, Epoch 106/200 => Loss 1.603, Train_accy 99.82, Test_accy 63.15
+2024-01-11 02:39:46,641 [icarl.py] => Task 4, Epoch 107/200 => Loss 1.600, Train_accy 99.80
+2024-01-11 02:39:57,543 [icarl.py] => Task 4, Epoch 108/200 => Loss 1.604, Train_accy 99.73
+2024-01-11 02:40:07,933 [icarl.py] => Task 4, Epoch 109/200 => Loss 1.598, Train_accy 99.91
+2024-01-11 02:40:18,905 [icarl.py] => Task 4, Epoch 110/200 => Loss 1.595, Train_accy 99.89
+2024-01-11 02:40:38,646 [icarl.py] => Task 4, Epoch 111/200 => Loss 1.603, Train_accy 99.69, Test_accy 63.82
+2024-01-11 02:40:49,158 [icarl.py] => Task 4, Epoch 112/200 => Loss 1.596, Train_accy 99.84
+2024-01-11 02:41:00,048 [icarl.py] => Task 4, Epoch 113/200 => Loss 1.599, Train_accy 99.80
+2024-01-11 02:41:10,368 [icarl.py] => Task 4, Epoch 114/200 => Loss 1.598, Train_accy 99.87
+2024-01-11 02:41:21,026 [icarl.py] => Task 4, Epoch 115/200 => Loss 1.600, Train_accy 99.80
+2024-01-11 02:41:40,469 [icarl.py] => Task 4, Epoch 116/200 => Loss 1.597, Train_accy 99.86, Test_accy 63.38
+2024-01-11 02:41:51,162 [icarl.py] => Task 4, Epoch 117/200 => Loss 1.597, Train_accy 99.82
+2024-01-11 02:42:01,969 [icarl.py] => Task 4, Epoch 118/200 => Loss 1.596, Train_accy 99.87
+2024-01-11 02:42:12,696 [icarl.py] => Task 4, Epoch 119/200 => Loss 1.597, Train_accy 99.78
+2024-01-11 02:42:23,290 [icarl.py] => Task 4, Epoch 120/200 => Loss 1.595, Train_accy 99.91
+2024-01-11 02:42:43,852 [icarl.py] => Task 4, Epoch 121/200 => Loss 1.595, Train_accy 99.82, Test_accy 63.82
+2024-01-11 02:42:54,584 [icarl.py] => Task 4, Epoch 122/200 => Loss 1.591, Train_accy 99.86
+2024-01-11 02:43:05,265 [icarl.py] => Task 4, Epoch 123/200 => Loss 1.595, Train_accy 99.84
+2024-01-11 02:43:15,730 [icarl.py] => Task 4, Epoch 124/200 => Loss 1.591, Train_accy 99.93
+2024-01-11 02:43:26,327 [icarl.py] => Task 4, Epoch 125/200 => Loss 1.593, Train_accy 99.91
+2024-01-11 02:43:45,893 [icarl.py] => Task 4, Epoch 126/200 => Loss 1.590, Train_accy 99.86, Test_accy 63.43
+2024-01-11 02:43:56,813 [icarl.py] => Task 4, Epoch 127/200 => Loss 1.587, Train_accy 99.93
+2024-01-11 02:44:07,632 [icarl.py] => Task 4, Epoch 128/200 => Loss 1.586, Train_accy 99.91
+2024-01-11 02:44:17,990 [icarl.py] => Task 4, Epoch 129/200 => Loss 1.595, Train_accy 99.77
+2024-01-11 02:44:28,625 [icarl.py] => Task 4, Epoch 130/200 => Loss 1.590, Train_accy 99.82
+2024-01-11 02:44:48,426 [icarl.py] => Task 4, Epoch 131/200 => Loss 1.588, Train_accy 99.89, Test_accy 63.26
+2024-01-11 02:44:58,957 [icarl.py] => Task 4, Epoch 132/200 => Loss 1.589, Train_accy 99.86
+2024-01-11 02:45:09,775 [icarl.py] => Task 4, Epoch 133/200 => Loss 1.590, Train_accy 99.95
+2024-01-11 02:45:20,590 [icarl.py] => Task 4, Epoch 134/200 => Loss 1.592, Train_accy 99.93
+2024-01-11 02:45:31,435 [icarl.py] => Task 4, Epoch 135/200 => Loss 1.587, Train_accy 99.89
+2024-01-11 02:45:51,196 [icarl.py] => Task 4, Epoch 136/200 => Loss 1.593, Train_accy 99.77, Test_accy 63.26
+2024-01-11 02:46:01,726 [icarl.py] => Task 4, Epoch 137/200 => Loss 1.592, Train_accy 99.89
+2024-01-11 02:46:12,385 [icarl.py] => Task 4, Epoch 138/200 => Loss 1.588, Train_accy 99.89
+2024-01-11 02:46:23,193 [icarl.py] => Task 4, Epoch 139/200 => Loss 1.591, Train_accy 99.84
+2024-01-11 02:46:34,198 [icarl.py] => Task 4, Epoch 140/200 => Loss 1.586, Train_accy 99.96
+2024-01-11 02:46:54,333 [icarl.py] => Task 4, Epoch 141/200 => Loss 1.588, Train_accy 99.91, Test_accy 63.55
+2024-01-11 02:47:04,892 [icarl.py] => Task 4, Epoch 142/200 => Loss 1.589, Train_accy 99.91
+2024-01-11 02:47:15,511 [icarl.py] => Task 4, Epoch 143/200 => Loss 1.592, Train_accy 99.82
+2024-01-11 02:47:26,571 [icarl.py] => Task 4, Epoch 144/200 => Loss 1.586, Train_accy 99.89
+2024-01-11 02:47:37,758 [icarl.py] => Task 4, Epoch 145/200 => Loss 1.586, Train_accy 99.95
+2024-01-11 02:47:57,405 [icarl.py] => Task 4, Epoch 146/200 => Loss 1.591, Train_accy 99.86, Test_accy 63.92
+2024-01-11 02:48:08,052 [icarl.py] => Task 4, Epoch 147/200 => Loss 1.590, Train_accy 99.82
+2024-01-11 02:48:18,607 [icarl.py] => Task 4, Epoch 148/200 => Loss 1.591, Train_accy 99.86
+2024-01-11 02:48:29,053 [icarl.py] => Task 4, Epoch 149/200 => Loss 1.587, Train_accy 99.89
+2024-01-11 02:48:39,632 [icarl.py] => Task 4, Epoch 150/200 => Loss 1.591, Train_accy 99.80
+2024-01-11 02:48:59,162 [icarl.py] => Task 4, Epoch 151/200 => Loss 1.588, Train_accy 99.86, Test_accy 63.48
+2024-01-11 02:49:09,521 [icarl.py] => Task 4, Epoch 152/200 => Loss 1.591, Train_accy 99.73
+2024-01-11 02:49:19,815 [icarl.py] => Task 4, Epoch 153/200 => Loss 1.594, Train_accy 99.84
+2024-01-11 02:49:30,271 [icarl.py] => Task 4, Epoch 154/200 => Loss 1.589, Train_accy 99.87
+2024-01-11 02:49:40,575 [icarl.py] => Task 4, Epoch 155/200 => Loss 1.590, Train_accy 99.86
+2024-01-11 02:50:02,327 [icarl.py] => Task 4, Epoch 156/200 => Loss 1.591, Train_accy 99.80, Test_accy 63.58
+2024-01-11 02:50:13,532 [icarl.py] => Task 4, Epoch 157/200 => Loss 1.589, Train_accy 99.82
+2024-01-11 02:50:24,373 [icarl.py] => Task 4, Epoch 158/200 => Loss 1.592, Train_accy 99.86
+2024-01-11 02:50:35,117 [icarl.py] => Task 4, Epoch 159/200 => Loss 1.587, Train_accy 99.87
+2024-01-11 02:50:45,586 [icarl.py] => Task 4, Epoch 160/200 => Loss 1.587, Train_accy 99.86
+2024-01-11 02:51:04,999 [icarl.py] => Task 4, Epoch 161/200 => Loss 1.589, Train_accy 99.91, Test_accy 63.18
+2024-01-11 02:51:15,537 [icarl.py] => Task 4, Epoch 162/200 => Loss 1.586, Train_accy 99.86
+2024-01-11 02:51:25,648 [icarl.py] => Task 4, Epoch 163/200 => Loss 1.593, Train_accy 99.86
+2024-01-11 02:51:36,457 [icarl.py] => Task 4, Epoch 164/200 => Loss 1.590, Train_accy 99.89
+2024-01-11 02:51:46,840 [icarl.py] => Task 4, Epoch 165/200 => Loss 1.586, Train_accy 99.95
+2024-01-11 02:52:06,422 [icarl.py] => Task 4, Epoch 166/200 => Loss 1.587, Train_accy 99.91, Test_accy 63.51
+2024-01-11 02:52:16,770 [icarl.py] => Task 4, Epoch 167/200 => Loss 1.589, Train_accy 99.95
+2024-01-11 02:52:27,476 [icarl.py] => Task 4, Epoch 168/200 => Loss 1.586, Train_accy 99.93
+2024-01-11 02:52:38,442 [icarl.py] => Task 4, Epoch 169/200 => Loss 1.589, Train_accy 99.84
+2024-01-11 02:52:49,370 [icarl.py] => Task 4, Epoch 170/200 => Loss 1.593, Train_accy 99.82
+2024-01-11 02:53:09,889 [icarl.py] => Task 4, Epoch 171/200 => Loss 1.592, Train_accy 99.86, Test_accy 63.39
+2024-01-11 02:53:20,452 [icarl.py] => Task 4, Epoch 172/200 => Loss 1.586, Train_accy 99.93
+2024-01-11 02:53:31,149 [icarl.py] => Task 4, Epoch 173/200 => Loss 1.588, Train_accy 99.82
+2024-01-11 02:53:41,576 [icarl.py] => Task 4, Epoch 174/200 => Loss 1.588, Train_accy 99.89
+2024-01-11 02:53:52,531 [icarl.py] => Task 4, Epoch 175/200 => Loss 1.588, Train_accy 99.89
+2024-01-11 02:54:12,358 [icarl.py] => Task 4, Epoch 176/200 => Loss 1.588, Train_accy 99.91, Test_accy 63.03
+2024-01-11 02:54:23,182 [icarl.py] => Task 4, Epoch 177/200 => Loss 1.587, Train_accy 99.91
+2024-01-11 02:54:33,759 [icarl.py] => Task 4, Epoch 178/200 => Loss 1.590, Train_accy 99.89
+2024-01-11 02:54:44,817 [icarl.py] => Task 4, Epoch 179/200 => Loss 1.587, Train_accy 99.86
+2024-01-11 02:54:56,157 [icarl.py] => Task 4, Epoch 180/200 => Loss 1.588, Train_accy 99.95
+2024-01-11 02:55:16,918 [icarl.py] => Task 4, Epoch 181/200 => Loss 1.587, Train_accy 99.84, Test_accy 63.45
+2024-01-11 02:55:27,767 [icarl.py] => Task 4, Epoch 182/200 => Loss 1.588, Train_accy 99.84
+2024-01-11 02:55:38,696 [icarl.py] => Task 4, Epoch 183/200 => Loss 1.593, Train_accy 99.82
+2024-01-11 02:55:49,505 [icarl.py] => Task 4, Epoch 184/200 => Loss 1.586, Train_accy 99.95
+2024-01-11 02:56:00,609 [icarl.py] => Task 4, Epoch 185/200 => Loss 1.591, Train_accy 99.95
+2024-01-11 02:56:20,117 [icarl.py] => Task 4, Epoch 186/200 => Loss 1.587, Train_accy 99.95, Test_accy 63.08
+2024-01-11 02:56:30,671 [icarl.py] => Task 4, Epoch 187/200 => Loss 1.590, Train_accy 99.87
+2024-01-11 02:56:41,215 [icarl.py] => Task 4, Epoch 188/200 => Loss 1.592, Train_accy 99.82
+2024-01-11 02:56:51,775 [icarl.py] => Task 4, Epoch 189/200 => Loss 1.589, Train_accy 99.86
+2024-01-11 02:57:02,211 [icarl.py] => Task 4, Epoch 190/200 => Loss 1.591, Train_accy 99.87
+2024-01-11 02:57:22,273 [icarl.py] => Task 4, Epoch 191/200 => Loss 1.592, Train_accy 99.82, Test_accy 63.54
+2024-01-11 02:57:32,651 [icarl.py] => Task 4, Epoch 192/200 => Loss 1.591, Train_accy 99.82
+2024-01-11 02:57:43,705 [icarl.py] => Task 4, Epoch 193/200 => Loss 1.586, Train_accy 99.96
+2024-01-11 02:57:54,345 [icarl.py] => Task 4, Epoch 194/200 => Loss 1.587, Train_accy 99.80
+2024-01-11 02:58:05,178 [icarl.py] => Task 4, Epoch 195/200 => Loss 1.590, Train_accy 99.86
+2024-01-11 02:58:25,389 [icarl.py] => Task 4, Epoch 196/200 => Loss 1.588, Train_accy 99.86, Test_accy 63.27
+2024-01-11 02:58:36,113 [icarl.py] => Task 4, Epoch 197/200 => Loss 1.590, Train_accy 99.91
+2024-01-11 02:58:46,810 [icarl.py] => Task 4, Epoch 198/200 => Loss 1.590, Train_accy 99.89
+2024-01-11 02:58:57,926 [icarl.py] => Task 4, Epoch 199/200 => Loss 1.585, Train_accy 99.89
+2024-01-11 02:59:08,932 [icarl.py] => Task 4, Epoch 200/200 => Loss 1.588, Train_accy 99.95
+2024-01-11 02:59:08,933 [base.py] => Constructing exemplars for new classes...(30 per classes)
+2024-01-11 03:00:01,946 [icarl.py] => Exemplar size: 1650
+2024-01-11 03:00:02,442 [trainer.py] => CNN: {'total': 63.49, '0': 66.67, '1': 52.78, '2': 52.78, '3': 11.11, '4': 50.0, '5': 32.22, '6': 43.89, '7': 28.89, '8': 58.33, '9': 33.33, '10': 50.0, '11': 73.33, '12': 42.78, '13': 45.0, '14': 45.56, '15': 80.56, '16': 76.67, '17': 78.89, '18': 59.44, '19': 65.0, '20': 67.78, '21': 72.78, '22': 53.89, '23': 43.89, '24': 53.33, '25': 47.78, '26': 57.22, '27': 65.56, '28': 52.78, '29': 50.0, '30': 62.22, '31': 55.0, '32': 73.33, '33': 36.67, '34': 52.78, '35': 81.11, '36': 78.89, '37': 57.22, '38': 92.22, '39': 90.56, '40': 48.89, '41': 81.67, '42': 86.67, '43': 83.89, '44': 33.89, '45': 90.56, '46': 87.78, '47': 86.67, '48': 90.0, '49': 86.11, '50': 82.22, '51': 86.67, '52': 88.33, '53': 82.78, 'old': 58.38, 'new': 86.5}
+2024-01-11 03:00:02,443 [trainer.py] => NME: {'total': 58.01, '0': 73.89, '1': 51.11, '2': 41.11, '3': 16.67, '4': 58.89, '5': 37.22, '6': 38.89, '7': 51.11, '8': 62.22, '9': 37.78, '10': 55.0, '11': 78.89, '12': 43.89, '13': 47.22, '14': 42.22, '15': 71.11, '16': 81.11, '17': 72.22, '18': 51.67, '19': 61.67, '20': 68.33, '21': 73.33, '22': 48.89, '23': 40.0, '24': 49.44, '25': 49.44, '26': 64.44, '27': 51.67, '28': 51.11, '29': 46.67, '30': 57.22, '31': 53.33, '32': 74.44, '33': 36.11, '34': 60.0, '35': 72.22, '36': 68.33, '37': 54.44, '38': 87.22, '39': 66.11, '40': 55.56, '41': 71.67, '42': 80.0, '43': 78.33, '44': 30.56, '45': 66.11, '46': 64.44, '47': 66.11, '48': 70.56, '49': 57.78, '50': 55.0, '51': 66.11, '52': 58.89, '53': 62.78, 'old': 56.95, 'new': 62.78}
+2024-01-11 03:00:02,443 [trainer.py] => CNN top1 curve: [90.41, 74.09, 66.9, 63.68, 63.49]
+2024-01-11 03:00:02,443 [trainer.py] => CNN top5 curve: [99.22, 96.73, 92.27, 89.9, 88.25]
+2024-01-11 03:00:02,443 [trainer.py] => NME top1 curve: [89.48, 77.29, 65.92, 61.64, 58.01]
+2024-01-11 03:00:02,443 [trainer.py] => NME top5 curve: [99.19, 97.36, 93.37, 91.48, 89.42]
+

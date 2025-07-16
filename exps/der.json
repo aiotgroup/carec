@@ -1,0 +1,19 @@
+{
+    "prefix": "reproduce",
+    "dataset": "xrfdataset",
+    "memory_size": 1650,
+    "memory_per_class": 30,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 15,
+    "increment": 10,
+    "model_name": "der",
+    "compression_epochs" : 130,
+    "compression_lr" : 0.1,
+    "is_student_wa" : false,
+    "wa_value":1,
+    "T" : 2,
+    "convnet_type": "resnet18",
+    "device": ["2","3"],
+    "seed": [1993]
+}

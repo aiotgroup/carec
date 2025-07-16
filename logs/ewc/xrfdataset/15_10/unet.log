@@ -1,0 +1,1097 @@
+2024-01-11 10:47:17,724 [trainer.py] => 实验名称:WiFi 测试类交换
+2024-01-11 10:47:17,743 [trainer.py] => config: ./exps/ewc.json
+2024-01-11 10:47:17,743 [trainer.py] => experiment_name: 实验名称:WiFi 测试类交换
+2024-01-11 10:47:17,744 [trainer.py] => prefix: reproduce
+2024-01-11 10:47:17,744 [trainer.py] => dataset: xrfdataset
+2024-01-11 10:47:17,744 [trainer.py] => memory_size: 1650
+2024-01-11 10:47:17,744 [trainer.py] => memory_per_class: 30
+2024-01-11 10:47:17,744 [trainer.py] => fixed_memory: True
+2024-01-11 10:47:17,744 [trainer.py] => shuffle: True
+2024-01-11 10:47:17,744 [trainer.py] => init_cls: 15
+2024-01-11 10:47:17,744 [trainer.py] => increment: 10
+2024-01-11 10:47:17,744 [trainer.py] => model_name: ewc
+2024-01-11 10:47:17,744 [trainer.py] => convnet_type: unet
+2024-01-11 10:47:17,744 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-01-11 10:47:17,744 [trainer.py] => seed: 1993
+2024-01-11 10:47:17,766 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 10:47:17,772 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 10:47:17,938 [trainer.py] => All params: 21041612
+2024-01-11 10:47:17,939 [trainer.py] => Trainable params: 21041612
+2024-01-11 10:47:17,939 [ewc.py] => Learning on 0-15
+2024-01-11 10:47:54,547 [ewc.py] => Task 0, Epoch 1/2 => Loss 2.471, Train_accy 15.81, Test_accy 16.52
+2024-01-11 10:48:03,654 [ewc.py] => Task 0, Epoch 2/2 => Loss 2.089, Train_accy 25.33
+2024-01-11 10:48:14,868 [trainer.py] => No NME accuracy.
+2024-01-11 10:48:14,868 [trainer.py] => CNN: {'total': 30.11, '0': 51.11, '1': 16.11, '2': 52.22, '3': 3.33, '4': 18.89, '5': 51.67, '6': 16.11, '7': 20.56, '8': 19.44, '9': 2.22, '10': 29.44, '11': 61.11, '12': 42.22, '13': 26.67, 'old': 0, 'new': 30.11}
+2024-01-11 10:48:14,868 [trainer.py] => CNN top1 curve: [30.11]
+2024-01-11 10:48:14,868 [trainer.py] => CNN top5 curve: [80.85]
+
+2024-01-11 10:48:14,869 [trainer.py] => All params: 21043547
+2024-01-11 10:48:14,869 [trainer.py] => Trainable params: 21043547
+2024-01-11 10:48:14,870 [ewc.py] => Learning on 15-25
+2024-01-11 10:48:26,837 [ewc.py] => Task 1, Epoch 1/2 => Loss 4.470, Loss_clf 2.017, Loss_ewc 0.027, Loss_kd 2.426, Train_accy 6.57, Test_accy 12.00
+2024-01-11 10:48:34,580 [ewc.py] => Task 1, Epoch 2/2 => Loss 4.066,  Loss_clf 1.574, Loss_ewc 0.060, Loss_kd 2.432, Train_accy 25.07
+2024-01-11 10:48:44,674 [trainer.py] => No NME accuracy.
+2024-01-11 10:48:44,674 [trainer.py] => CNN: {'total': 17.2, '0': 17.22, '1': 0.56, '2': 3.33, '3': 0.0, '4': 1.11, '5': 17.22, '6': 0.0, '7': 0.0, '8': 1.67, '9': 1.11, '10': 0.0, '11': 35.0, '12': 7.22, '13': 3.89, '14': 20.0, '15': 27.22, '16': 25.56, '17': 58.33, '18': 22.22, '19': 7.22, '20': 4.44, '21': 1.67, '22': 78.33, '23': 79.44, 'old': 7.22, 'new': 32.17}
+2024-01-11 10:48:44,674 [trainer.py] => CNN top1 curve: [30.11, 17.2]
+2024-01-11 10:48:44,674 [trainer.py] => CNN top5 curve: [80.85, 56.07]
+
+2024-01-11 10:48:44,674 [trainer.py] => All params: 21044837
+2024-01-11 10:48:44,675 [trainer.py] => Trainable params: 21044837
+2024-01-11 10:48:44,675 [ewc.py] => Learning on 25-35
+2024-01-11 10:49:03,041 [trainer.py] => 实验名称:WiFi 测试类交换
+2024-01-11 10:49:03,042 [trainer.py] => config: ./exps/ewc.json
+2024-01-11 10:49:03,042 [trainer.py] => experiment_name: 实验名称:WiFi 测试类交换
+2024-01-11 10:49:03,042 [trainer.py] => prefix: reproduce
+2024-01-11 10:49:03,042 [trainer.py] => dataset: xrfdataset
+2024-01-11 10:49:03,042 [trainer.py] => memory_size: 1650
+2024-01-11 10:49:03,042 [trainer.py] => memory_per_class: 30
+2024-01-11 10:49:03,042 [trainer.py] => fixed_memory: True
+2024-01-11 10:49:03,042 [trainer.py] => shuffle: True
+2024-01-11 10:49:03,042 [trainer.py] => init_cls: 15
+2024-01-11 10:49:03,042 [trainer.py] => increment: 10
+2024-01-11 10:49:03,042 [trainer.py] => model_name: ewc
+2024-01-11 10:49:03,042 [trainer.py] => convnet_type: unet
+2024-01-11 10:49:03,042 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-01-11 10:49:03,042 [trainer.py] => seed: 1993
+2024-01-11 10:49:03,054 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 10:49:03,060 [data.py] => 加载完毕XRF原始数据集
+2024-01-11 10:49:03,238 [trainer.py] => All params: 21041612
+2024-01-11 10:49:03,238 [trainer.py] => Trainable params: 21041612
+2024-01-11 10:49:03,239 [ewc.py] => Learning on 0-15
+2024-01-11 10:49:17,019 [ewc.py] => Task 0, Epoch 1/200 => Loss 2.471, Train_accy 15.81, Test_accy 16.52
+2024-01-11 10:49:26,245 [ewc.py] => Task 0, Epoch 2/200 => Loss 2.089, Train_accy 25.33
+2024-01-11 10:49:35,213 [ewc.py] => Task 0, Epoch 3/200 => Loss 1.832, Train_accy 31.21
+2024-01-11 10:49:44,246 [ewc.py] => Task 0, Epoch 4/200 => Loss 1.671, Train_accy 37.68
+2024-01-11 10:49:53,375 [ewc.py] => Task 0, Epoch 5/200 => Loss 1.560, Train_accy 41.63
+2024-01-11 10:50:05,099 [ewc.py] => Task 0, Epoch 6/200 => Loss 1.327, Train_accy 50.03, Test_accy 42.85
+2024-01-11 10:50:14,029 [ewc.py] => Task 0, Epoch 7/200 => Loss 1.202, Train_accy 55.19
+2024-01-11 10:50:23,248 [ewc.py] => Task 0, Epoch 8/200 => Loss 1.109, Train_accy 59.19
+2024-01-11 10:50:32,184 [ewc.py] => Task 0, Epoch 9/200 => Loss 1.007, Train_accy 61.78
+2024-01-11 10:50:41,269 [ewc.py] => Task 0, Epoch 10/200 => Loss 0.904, Train_accy 66.32
+2024-01-11 10:50:53,013 [ewc.py] => Task 0, Epoch 11/200 => Loss 0.871, Train_accy 67.95, Test_accy 39.22
+2024-01-11 10:51:02,194 [ewc.py] => Task 0, Epoch 12/200 => Loss 0.843, Train_accy 69.70
+2024-01-11 10:51:11,063 [ewc.py] => Task 0, Epoch 13/200 => Loss 0.852, Train_accy 68.41
+2024-01-11 10:51:20,151 [ewc.py] => Task 0, Epoch 14/200 => Loss 0.687, Train_accy 73.03
+2024-01-11 10:51:29,060 [ewc.py] => Task 0, Epoch 15/200 => Loss 0.622, Train_accy 76.00
+2024-01-11 10:51:40,914 [ewc.py] => Task 0, Epoch 16/200 => Loss 0.674, Train_accy 73.70, Test_accy 53.33
+2024-01-11 10:51:50,072 [ewc.py] => Task 0, Epoch 17/200 => Loss 0.646, Train_accy 75.35
+2024-01-11 10:51:59,112 [ewc.py] => Task 0, Epoch 18/200 => Loss 0.523, Train_accy 79.32
+2024-01-11 10:52:08,059 [ewc.py] => Task 0, Epoch 19/200 => Loss 0.579, Train_accy 77.63
+2024-01-11 10:52:17,040 [ewc.py] => Task 0, Epoch 20/200 => Loss 0.530, Train_accy 80.02
+2024-01-11 10:52:28,775 [ewc.py] => Task 0, Epoch 21/200 => Loss 0.536, Train_accy 78.48, Test_accy 60.70
+2024-01-11 10:52:37,723 [ewc.py] => Task 0, Epoch 22/200 => Loss 0.524, Train_accy 80.17
+2024-01-11 10:52:46,788 [ewc.py] => Task 0, Epoch 23/200 => Loss 0.422, Train_accy 83.05
+2024-01-11 10:52:55,787 [ewc.py] => Task 0, Epoch 24/200 => Loss 0.410, Train_accy 83.86
+2024-01-11 10:53:04,989 [ewc.py] => Task 0, Epoch 25/200 => Loss 0.509, Train_accy 80.84
+2024-01-11 10:53:16,621 [ewc.py] => Task 0, Epoch 26/200 => Loss 0.483, Train_accy 81.40, Test_accy 56.67
+2024-01-11 10:53:25,706 [ewc.py] => Task 0, Epoch 27/200 => Loss 0.455, Train_accy 82.00
+2024-01-11 10:53:34,811 [ewc.py] => Task 0, Epoch 28/200 => Loss 0.462, Train_accy 82.78
+2024-01-11 10:53:43,916 [ewc.py] => Task 0, Epoch 29/200 => Loss 0.406, Train_accy 84.17
+2024-01-11 10:53:52,897 [ewc.py] => Task 0, Epoch 30/200 => Loss 0.404, Train_accy 84.11
+2024-01-11 10:54:04,671 [ewc.py] => Task 0, Epoch 31/200 => Loss 0.333, Train_accy 86.46, Test_accy 63.67
+2024-01-11 10:54:13,675 [ewc.py] => Task 0, Epoch 32/200 => Loss 0.342, Train_accy 86.44
+2024-01-11 10:54:22,825 [ewc.py] => Task 0, Epoch 33/200 => Loss 0.375, Train_accy 85.21
+2024-01-11 10:54:31,871 [ewc.py] => Task 0, Epoch 34/200 => Loss 0.332, Train_accy 86.83
+2024-01-11 10:54:40,944 [ewc.py] => Task 0, Epoch 35/200 => Loss 0.330, Train_accy 87.03
+2024-01-11 10:54:52,666 [ewc.py] => Task 0, Epoch 36/200 => Loss 0.344, Train_accy 86.86, Test_accy 64.52
+2024-01-11 10:55:01,821 [ewc.py] => Task 0, Epoch 37/200 => Loss 0.337, Train_accy 86.78
+2024-01-11 10:55:10,839 [ewc.py] => Task 0, Epoch 38/200 => Loss 0.375, Train_accy 86.56
+2024-01-11 10:55:19,989 [ewc.py] => Task 0, Epoch 39/200 => Loss 0.369, Train_accy 86.00
+2024-01-11 10:55:29,114 [ewc.py] => Task 0, Epoch 40/200 => Loss 0.310, Train_accy 87.75
+2024-01-11 10:55:40,883 [ewc.py] => Task 0, Epoch 41/200 => Loss 0.280, Train_accy 88.97, Test_accy 69.33
+2024-01-11 10:55:49,926 [ewc.py] => Task 0, Epoch 42/200 => Loss 0.326, Train_accy 87.54
+2024-01-11 10:55:59,090 [ewc.py] => Task 0, Epoch 43/200 => Loss 0.305, Train_accy 88.43
+2024-01-11 10:56:08,021 [ewc.py] => Task 0, Epoch 44/200 => Loss 0.355, Train_accy 87.00
+2024-01-11 10:56:17,106 [ewc.py] => Task 0, Epoch 45/200 => Loss 0.247, Train_accy 90.75
+2024-01-11 10:56:28,832 [ewc.py] => Task 0, Epoch 46/200 => Loss 0.247, Train_accy 91.10, Test_accy 70.26
+2024-01-11 10:56:37,991 [ewc.py] => Task 0, Epoch 47/200 => Loss 0.273, Train_accy 89.92
+2024-01-11 10:56:47,143 [ewc.py] => Task 0, Epoch 48/200 => Loss 0.244, Train_accy 91.02
+2024-01-11 10:56:56,170 [ewc.py] => Task 0, Epoch 49/200 => Loss 0.310, Train_accy 88.94
+2024-01-11 10:57:05,376 [ewc.py] => Task 0, Epoch 50/200 => Loss 0.277, Train_accy 89.62
+2024-01-11 10:57:17,152 [ewc.py] => Task 0, Epoch 51/200 => Loss 0.285, Train_accy 89.46, Test_accy 69.22
+2024-01-11 10:57:26,195 [ewc.py] => Task 0, Epoch 52/200 => Loss 0.244, Train_accy 90.87
+2024-01-11 10:57:35,183 [ewc.py] => Task 0, Epoch 53/200 => Loss 0.308, Train_accy 88.46
+2024-01-11 10:57:44,287 [ewc.py] => Task 0, Epoch 54/200 => Loss 0.325, Train_accy 88.02
+2024-01-11 10:57:53,283 [ewc.py] => Task 0, Epoch 55/200 => Loss 0.268, Train_accy 90.25
+2024-01-11 10:58:05,158 [ewc.py] => Task 0, Epoch 56/200 => Loss 0.273, Train_accy 89.68, Test_accy 70.96
+2024-01-11 10:58:14,105 [ewc.py] => Task 0, Epoch 57/200 => Loss 0.314, Train_accy 89.02
+2024-01-11 10:58:23,208 [ewc.py] => Task 0, Epoch 58/200 => Loss 0.298, Train_accy 89.00
+2024-01-11 10:58:32,160 [ewc.py] => Task 0, Epoch 59/200 => Loss 0.250, Train_accy 90.73
+2024-01-11 10:58:41,359 [ewc.py] => Task 0, Epoch 60/200 => Loss 0.202, Train_accy 92.48
+2024-01-11 10:58:53,009 [ewc.py] => Task 0, Epoch 61/200 => Loss 0.123, Train_accy 95.90, Test_accy 85.59
+2024-01-11 10:59:02,130 [ewc.py] => Task 0, Epoch 62/200 => Loss 0.086, Train_accy 97.67
+2024-01-11 10:59:11,218 [ewc.py] => Task 0, Epoch 63/200 => Loss 0.080, Train_accy 97.63
+2024-01-11 10:59:20,231 [ewc.py] => Task 0, Epoch 64/200 => Loss 0.072, Train_accy 98.03
+2024-01-11 10:59:29,235 [ewc.py] => Task 0, Epoch 65/200 => Loss 0.074, Train_accy 97.94
+2024-01-11 10:59:40,981 [ewc.py] => Task 0, Epoch 66/200 => Loss 0.068, Train_accy 98.21, Test_accy 86.93
+2024-01-11 10:59:49,975 [ewc.py] => Task 0, Epoch 67/200 => Loss 0.064, Train_accy 98.25
+2024-01-11 10:59:58,979 [ewc.py] => Task 0, Epoch 68/200 => Loss 0.064, Train_accy 98.40
+2024-01-11 11:00:08,083 [ewc.py] => Task 0, Epoch 69/200 => Loss 0.062, Train_accy 98.44
+2024-01-11 11:00:17,073 [ewc.py] => Task 0, Epoch 70/200 => Loss 0.057, Train_accy 98.57
+2024-01-11 11:00:28,807 [ewc.py] => Task 0, Epoch 71/200 => Loss 0.059, Train_accy 98.44, Test_accy 87.26
+2024-01-11 11:00:37,737 [ewc.py] => Task 0, Epoch 72/200 => Loss 0.061, Train_accy 98.35
+2024-01-11 11:00:46,828 [ewc.py] => Task 0, Epoch 73/200 => Loss 0.061, Train_accy 98.44
+2024-01-11 11:00:55,993 [ewc.py] => Task 0, Epoch 74/200 => Loss 0.054, Train_accy 98.48
+2024-01-11 11:01:05,106 [ewc.py] => Task 0, Epoch 75/200 => Loss 0.053, Train_accy 98.67
+2024-01-11 11:01:16,795 [ewc.py] => Task 0, Epoch 76/200 => Loss 0.049, Train_accy 98.83, Test_accy 87.44
+2024-01-11 11:01:25,949 [ewc.py] => Task 0, Epoch 77/200 => Loss 0.052, Train_accy 98.68
+2024-01-11 11:01:34,941 [ewc.py] => Task 0, Epoch 78/200 => Loss 0.052, Train_accy 98.90
+2024-01-11 11:01:44,047 [ewc.py] => Task 0, Epoch 79/200 => Loss 0.047, Train_accy 98.86
+2024-01-11 11:01:52,986 [ewc.py] => Task 0, Epoch 80/200 => Loss 0.045, Train_accy 98.89
+2024-01-11 11:02:04,730 [ewc.py] => Task 0, Epoch 81/200 => Loss 0.044, Train_accy 99.10, Test_accy 87.22
+2024-01-11 11:02:13,740 [ewc.py] => Task 0, Epoch 82/200 => Loss 0.048, Train_accy 98.87
+2024-01-11 11:02:22,889 [ewc.py] => Task 0, Epoch 83/200 => Loss 0.050, Train_accy 98.83
+2024-01-11 11:02:31,948 [ewc.py] => Task 0, Epoch 84/200 => Loss 0.046, Train_accy 98.81
+2024-01-11 11:02:41,071 [ewc.py] => Task 0, Epoch 85/200 => Loss 0.037, Train_accy 99.19
+2024-01-11 11:02:52,920 [ewc.py] => Task 0, Epoch 86/200 => Loss 0.036, Train_accy 99.37, Test_accy 87.26
+2024-01-11 11:03:01,901 [ewc.py] => Task 0, Epoch 87/200 => Loss 0.035, Train_accy 99.17
+2024-01-11 11:03:11,074 [ewc.py] => Task 0, Epoch 88/200 => Loss 0.036, Train_accy 99.30
+2024-01-11 11:03:20,081 [ewc.py] => Task 0, Epoch 89/200 => Loss 0.035, Train_accy 99.21
+2024-01-11 11:03:29,312 [ewc.py] => Task 0, Epoch 90/200 => Loss 0.035, Train_accy 99.40
+2024-01-11 11:03:41,042 [ewc.py] => Task 0, Epoch 91/200 => Loss 0.044, Train_accy 99.27, Test_accy 87.33
+2024-01-11 11:03:50,252 [ewc.py] => Task 0, Epoch 92/200 => Loss 0.039, Train_accy 99.17
+2024-01-11 11:03:59,290 [ewc.py] => Task 0, Epoch 93/200 => Loss 0.038, Train_accy 99.10
+2024-01-11 11:04:08,433 [ewc.py] => Task 0, Epoch 94/200 => Loss 0.032, Train_accy 99.41
+2024-01-11 11:04:17,413 [ewc.py] => Task 0, Epoch 95/200 => Loss 0.031, Train_accy 99.38
+2024-01-11 11:04:29,330 [ewc.py] => Task 0, Epoch 96/200 => Loss 0.034, Train_accy 99.40, Test_accy 87.74
+2024-01-11 11:04:38,426 [ewc.py] => Task 0, Epoch 97/200 => Loss 0.034, Train_accy 99.44
+2024-01-11 11:04:47,561 [ewc.py] => Task 0, Epoch 98/200 => Loss 0.030, Train_accy 99.54
+2024-01-11 11:04:56,542 [ewc.py] => Task 0, Epoch 99/200 => Loss 0.029, Train_accy 99.56
+2024-01-11 11:05:05,710 [ewc.py] => Task 0, Epoch 100/200 => Loss 0.030, Train_accy 99.49
+2024-01-11 11:05:17,408 [ewc.py] => Task 0, Epoch 101/200 => Loss 0.031, Train_accy 99.43, Test_accy 86.74
+2024-01-11 11:05:26,572 [ewc.py] => Task 0, Epoch 102/200 => Loss 0.029, Train_accy 99.29
+2024-01-11 11:05:35,595 [ewc.py] => Task 0, Epoch 103/200 => Loss 0.029, Train_accy 99.43
+2024-01-11 11:05:44,719 [ewc.py] => Task 0, Epoch 104/200 => Loss 0.029, Train_accy 99.52
+2024-01-11 11:05:53,835 [ewc.py] => Task 0, Epoch 105/200 => Loss 0.025, Train_accy 99.46
+2024-01-11 11:06:05,760 [ewc.py] => Task 0, Epoch 106/200 => Loss 0.024, Train_accy 99.54, Test_accy 87.59
+2024-01-11 11:06:14,940 [ewc.py] => Task 0, Epoch 107/200 => Loss 0.023, Train_accy 99.57
+2024-01-11 11:06:23,932 [ewc.py] => Task 0, Epoch 108/200 => Loss 0.024, Train_accy 99.49
+2024-01-11 11:06:33,142 [ewc.py] => Task 0, Epoch 109/200 => Loss 0.022, Train_accy 99.70
+2024-01-11 11:06:42,178 [ewc.py] => Task 0, Epoch 110/200 => Loss 0.025, Train_accy 99.60
+2024-01-11 11:06:53,884 [ewc.py] => Task 0, Epoch 111/200 => Loss 0.024, Train_accy 99.56, Test_accy 87.30
+2024-01-11 11:07:02,900 [ewc.py] => Task 0, Epoch 112/200 => Loss 0.023, Train_accy 99.65
+2024-01-11 11:07:12,045 [ewc.py] => Task 0, Epoch 113/200 => Loss 0.024, Train_accy 99.59
+2024-01-11 11:07:20,996 [ewc.py] => Task 0, Epoch 114/200 => Loss 0.028, Train_accy 99.49
+2024-01-11 11:07:30,195 [ewc.py] => Task 0, Epoch 115/200 => Loss 0.025, Train_accy 99.57
+2024-01-11 11:07:41,864 [ewc.py] => Task 0, Epoch 116/200 => Loss 0.028, Train_accy 99.43, Test_accy 86.96
+2024-01-11 11:07:51,009 [ewc.py] => Task 0, Epoch 117/200 => Loss 0.024, Train_accy 99.52
+2024-01-11 11:08:00,069 [ewc.py] => Task 0, Epoch 118/200 => Loss 0.019, Train_accy 99.78
+2024-01-11 11:08:09,150 [ewc.py] => Task 0, Epoch 119/200 => Loss 0.019, Train_accy 99.70
+2024-01-11 11:08:18,383 [ewc.py] => Task 0, Epoch 120/200 => Loss 0.019, Train_accy 99.75
+2024-01-11 11:08:30,340 [ewc.py] => Task 0, Epoch 121/200 => Loss 0.016, Train_accy 99.86, Test_accy 87.63
+2024-01-11 11:08:39,293 [ewc.py] => Task 0, Epoch 122/200 => Loss 0.023, Train_accy 99.79
+2024-01-11 11:08:48,433 [ewc.py] => Task 0, Epoch 123/200 => Loss 0.018, Train_accy 99.84
+2024-01-11 11:08:57,572 [ewc.py] => Task 0, Epoch 124/200 => Loss 0.016, Train_accy 99.86
+2024-01-11 11:09:06,827 [ewc.py] => Task 0, Epoch 125/200 => Loss 0.020, Train_accy 99.73
+2024-01-11 11:09:18,594 [ewc.py] => Task 0, Epoch 126/200 => Loss 0.016, Train_accy 99.92, Test_accy 87.59
+2024-01-11 11:09:27,700 [ewc.py] => Task 0, Epoch 127/200 => Loss 0.016, Train_accy 99.90
+2024-01-11 11:09:36,749 [ewc.py] => Task 0, Epoch 128/200 => Loss 0.018, Train_accy 99.81
+2024-01-11 11:09:45,911 [ewc.py] => Task 0, Epoch 129/200 => Loss 0.016, Train_accy 99.79
+2024-01-11 11:09:54,986 [ewc.py] => Task 0, Epoch 130/200 => Loss 0.017, Train_accy 99.86
+2024-01-11 11:10:07,153 [ewc.py] => Task 0, Epoch 131/200 => Loss 0.018, Train_accy 99.86, Test_accy 87.30
+2024-01-11 11:10:16,417 [ewc.py] => Task 0, Epoch 132/200 => Loss 0.017, Train_accy 99.81
+2024-01-11 11:10:25,620 [ewc.py] => Task 0, Epoch 133/200 => Loss 0.019, Train_accy 99.83
+2024-01-11 11:10:34,704 [ewc.py] => Task 0, Epoch 134/200 => Loss 0.015, Train_accy 99.87
+2024-01-11 11:10:43,935 [ewc.py] => Task 0, Epoch 135/200 => Loss 0.017, Train_accy 99.86
+2024-01-11 11:10:55,911 [ewc.py] => Task 0, Epoch 136/200 => Loss 0.015, Train_accy 99.87, Test_accy 87.26
+2024-01-11 11:11:05,200 [ewc.py] => Task 0, Epoch 137/200 => Loss 0.016, Train_accy 99.86
+2024-01-11 11:11:14,434 [ewc.py] => Task 0, Epoch 138/200 => Loss 0.016, Train_accy 99.83
+2024-01-11 11:11:23,413 [ewc.py] => Task 0, Epoch 139/200 => Loss 0.017, Train_accy 99.87
+2024-01-11 11:11:32,257 [ewc.py] => Task 0, Epoch 140/200 => Loss 0.016, Train_accy 99.79
+2024-01-11 11:11:44,063 [ewc.py] => Task 0, Epoch 141/200 => Loss 0.017, Train_accy 99.78, Test_accy 87.26
+2024-01-11 11:11:52,923 [ewc.py] => Task 0, Epoch 142/200 => Loss 0.019, Train_accy 99.83
+2024-01-11 11:12:01,964 [ewc.py] => Task 0, Epoch 143/200 => Loss 0.019, Train_accy 99.83
+2024-01-11 11:12:11,013 [ewc.py] => Task 0, Epoch 144/200 => Loss 0.018, Train_accy 99.81
+2024-01-11 11:12:19,940 [ewc.py] => Task 0, Epoch 145/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 11:12:31,389 [ewc.py] => Task 0, Epoch 146/200 => Loss 0.019, Train_accy 99.84, Test_accy 87.37
+2024-01-11 11:12:40,427 [ewc.py] => Task 0, Epoch 147/200 => Loss 0.018, Train_accy 99.86
+2024-01-11 11:12:49,284 [ewc.py] => Task 0, Epoch 148/200 => Loss 0.016, Train_accy 99.87
+2024-01-11 11:12:58,232 [ewc.py] => Task 0, Epoch 149/200 => Loss 0.015, Train_accy 99.90
+2024-01-11 11:13:07,098 [ewc.py] => Task 0, Epoch 150/200 => Loss 0.016, Train_accy 99.86
+2024-01-11 11:13:18,737 [ewc.py] => Task 0, Epoch 151/200 => Loss 0.015, Train_accy 99.92, Test_accy 87.15
+2024-01-11 11:13:27,600 [ewc.py] => Task 0, Epoch 152/200 => Loss 0.020, Train_accy 99.81
+2024-01-11 11:13:36,579 [ewc.py] => Task 0, Epoch 153/200 => Loss 0.016, Train_accy 99.84
+2024-01-11 11:13:45,444 [ewc.py] => Task 0, Epoch 154/200 => Loss 0.019, Train_accy 99.84
+2024-01-11 11:13:54,500 [ewc.py] => Task 0, Epoch 155/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 11:14:06,249 [ewc.py] => Task 0, Epoch 156/200 => Loss 0.014, Train_accy 99.87, Test_accy 87.30
+2024-01-11 11:14:15,219 [ewc.py] => Task 0, Epoch 157/200 => Loss 0.016, Train_accy 99.81
+2024-01-11 11:14:24,064 [ewc.py] => Task 0, Epoch 158/200 => Loss 0.016, Train_accy 99.86
+2024-01-11 11:14:33,047 [ewc.py] => Task 0, Epoch 159/200 => Loss 0.014, Train_accy 99.92
+2024-01-11 11:14:41,905 [ewc.py] => Task 0, Epoch 160/200 => Loss 0.014, Train_accy 99.94
+2024-01-11 11:14:53,443 [ewc.py] => Task 0, Epoch 161/200 => Loss 0.014, Train_accy 99.92, Test_accy 87.59
+2024-01-11 11:15:02,288 [ewc.py] => Task 0, Epoch 162/200 => Loss 0.016, Train_accy 99.78
+2024-01-11 11:15:11,134 [ewc.py] => Task 0, Epoch 163/200 => Loss 0.016, Train_accy 99.83
+2024-01-11 11:15:20,004 [ewc.py] => Task 0, Epoch 164/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 11:15:28,894 [ewc.py] => Task 0, Epoch 165/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 11:15:40,507 [ewc.py] => Task 0, Epoch 166/200 => Loss 0.014, Train_accy 99.92, Test_accy 87.37
+2024-01-11 11:15:49,363 [ewc.py] => Task 0, Epoch 167/200 => Loss 0.016, Train_accy 99.87
+2024-01-11 11:15:58,391 [ewc.py] => Task 0, Epoch 168/200 => Loss 0.018, Train_accy 99.89
+2024-01-11 11:16:07,375 [ewc.py] => Task 0, Epoch 169/200 => Loss 0.015, Train_accy 99.86
+2024-01-11 11:16:16,308 [ewc.py] => Task 0, Epoch 170/200 => Loss 0.015, Train_accy 99.89
+2024-01-11 11:16:27,846 [ewc.py] => Task 0, Epoch 171/200 => Loss 0.014, Train_accy 99.89, Test_accy 87.63
+2024-01-11 11:16:36,873 [ewc.py] => Task 0, Epoch 172/200 => Loss 0.016, Train_accy 99.87
+2024-01-11 11:16:45,695 [ewc.py] => Task 0, Epoch 173/200 => Loss 0.015, Train_accy 99.84
+2024-01-11 11:16:54,680 [ewc.py] => Task 0, Epoch 174/200 => Loss 0.016, Train_accy 99.86
+2024-01-11 11:17:03,497 [ewc.py] => Task 0, Epoch 175/200 => Loss 0.018, Train_accy 99.86
+2024-01-11 11:17:15,155 [ewc.py] => Task 0, Epoch 176/200 => Loss 0.013, Train_accy 99.92, Test_accy 87.48
+2024-01-11 11:17:24,034 [ewc.py] => Task 0, Epoch 177/200 => Loss 0.013, Train_accy 99.89
+2024-01-11 11:17:32,974 [ewc.py] => Task 0, Epoch 178/200 => Loss 0.016, Train_accy 99.94
+2024-01-11 11:17:41,782 [ewc.py] => Task 0, Epoch 179/200 => Loss 0.013, Train_accy 99.92
+2024-01-11 11:17:50,787 [ewc.py] => Task 0, Epoch 180/200 => Loss 0.013, Train_accy 99.94
+2024-01-11 11:18:02,325 [ewc.py] => Task 0, Epoch 181/200 => Loss 0.017, Train_accy 99.87, Test_accy 87.63
+2024-01-11 11:18:11,296 [ewc.py] => Task 0, Epoch 182/200 => Loss 0.016, Train_accy 99.87
+2024-01-11 11:18:20,130 [ewc.py] => Task 0, Epoch 183/200 => Loss 0.018, Train_accy 99.89
+2024-01-11 11:18:29,010 [ewc.py] => Task 0, Epoch 184/200 => Loss 0.015, Train_accy 99.87
+2024-01-11 11:18:37,886 [ewc.py] => Task 0, Epoch 185/200 => Loss 0.016, Train_accy 99.90
+2024-01-11 11:18:49,421 [ewc.py] => Task 0, Epoch 186/200 => Loss 0.014, Train_accy 99.89, Test_accy 87.56
+2024-01-11 11:18:58,269 [ewc.py] => Task 0, Epoch 187/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 11:19:07,110 [ewc.py] => Task 0, Epoch 188/200 => Loss 0.014, Train_accy 99.94
+2024-01-11 11:19:16,040 [ewc.py] => Task 0, Epoch 189/200 => Loss 0.014, Train_accy 99.86
+2024-01-11 11:19:24,821 [ewc.py] => Task 0, Epoch 190/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 11:19:36,471 [ewc.py] => Task 0, Epoch 191/200 => Loss 0.014, Train_accy 99.94, Test_accy 87.33
+2024-01-11 11:19:45,306 [ewc.py] => Task 0, Epoch 192/200 => Loss 0.014, Train_accy 99.90
+2024-01-11 11:19:54,228 [ewc.py] => Task 0, Epoch 193/200 => Loss 0.014, Train_accy 99.89
+2024-01-11 11:20:03,176 [ewc.py] => Task 0, Epoch 194/200 => Loss 0.015, Train_accy 99.84
+2024-01-11 11:20:12,117 [ewc.py] => Task 0, Epoch 195/200 => Loss 0.016, Train_accy 99.90
+2024-01-11 11:20:23,490 [ewc.py] => Task 0, Epoch 196/200 => Loss 0.019, Train_accy 99.83, Test_accy 87.52
+2024-01-11 11:20:32,605 [ewc.py] => Task 0, Epoch 197/200 => Loss 0.014, Train_accy 99.92
+2024-01-11 11:20:41,480 [ewc.py] => Task 0, Epoch 198/200 => Loss 0.014, Train_accy 99.87
+2024-01-11 11:20:50,494 [ewc.py] => Task 0, Epoch 199/200 => Loss 0.015, Train_accy 99.87
+2024-01-11 11:20:59,413 [ewc.py] => Task 0, Epoch 200/200 => Loss 0.014, Train_accy 99.94
+2024-01-11 11:21:10,796 [trainer.py] => No NME accuracy.
+2024-01-11 11:21:10,797 [trainer.py] => CNN: {'total': 87.41, '0': 100.0, '1': 92.22, '2': 96.11, '3': 82.78, '4': 88.89, '5': 74.44, '6': 72.78, '7': 92.78, '8': 87.22, '9': 57.22, '10': 95.56, '11': 99.44, '12': 90.0, '13': 90.56, 'old': 0, 'new': 87.41}
+2024-01-11 11:21:10,797 [trainer.py] => CNN top1 curve: [87.41]
+2024-01-11 11:21:10,797 [trainer.py] => CNN top5 curve: [98.7]
+
+2024-01-11 11:21:10,798 [trainer.py] => All params: 21043547
+2024-01-11 11:21:10,799 [trainer.py] => Trainable params: 21043547
+2024-01-11 11:21:10,800 [ewc.py] => Learning on 15-25
+2024-01-11 11:21:22,320 [ewc.py] => Task 1, Epoch 1/200 => Loss 3.289, Loss_clf 1.601, Loss_ewc 0.018, Loss_kd 1.671, Train_accy 0.83, Test_accy 39.69
+2024-01-11 11:21:30,035 [ewc.py] => Task 1, Epoch 2/200 => Loss 2.481,  Loss_clf 0.788, Loss_ewc 0.038, Loss_kd 1.654, Train_accy 13.52
+2024-01-11 11:21:37,492 [ewc.py] => Task 1, Epoch 3/200 => Loss 2.266,  Loss_clf 0.563, Loss_ewc 0.049, Loss_kd 1.655, Train_accy 34.52
+2024-01-11 11:21:45,004 [ewc.py] => Task 1, Epoch 4/200 => Loss 2.105,  Loss_clf 0.409, Loss_ewc 0.056, Loss_kd 1.640, Train_accy 47.93
+2024-01-11 11:21:52,645 [ewc.py] => Task 1, Epoch 5/200 => Loss 1.981,  Loss_clf 0.309, Loss_ewc 0.058, Loss_kd 1.614, Train_accy 59.40
+2024-01-11 11:22:04,173 [ewc.py] => Task 1, Epoch 6/200 => Loss 1.864, Loss_clf 0.215, Loss_ewc 0.054, Loss_kd 1.595, Train_accy 68.55, Test_accy 31.73
+2024-01-11 11:22:11,798 [ewc.py] => Task 1, Epoch 7/200 => Loss 1.839,  Loss_clf 0.197, Loss_ewc 0.056, Loss_kd 1.586, Train_accy 73.64
+2024-01-11 11:22:19,292 [ewc.py] => Task 1, Epoch 8/200 => Loss 1.856,  Loss_clf 0.200, Loss_ewc 0.059, Loss_kd 1.597, Train_accy 74.69
+2024-01-11 11:22:26,967 [ewc.py] => Task 1, Epoch 9/200 => Loss 1.839,  Loss_clf 0.182, Loss_ewc 0.062, Loss_kd 1.595, Train_accy 76.57
+2024-01-11 11:22:34,531 [ewc.py] => Task 1, Epoch 10/200 => Loss 1.843,  Loss_clf 0.181, Loss_ewc 0.065, Loss_kd 1.596, Train_accy 78.17
+2024-01-11 11:22:45,920 [ewc.py] => Task 1, Epoch 11/200 => Loss 1.798, Loss_clf 0.157, Loss_ewc 0.064, Loss_kd 1.577, Train_accy 80.21, Test_accy 34.13
+2024-01-11 11:22:53,453 [ewc.py] => Task 1, Epoch 12/200 => Loss 1.757,  Loss_clf 0.129, Loss_ewc 0.060, Loss_kd 1.568, Train_accy 81.29
+2024-01-11 11:23:00,975 [ewc.py] => Task 1, Epoch 13/200 => Loss 1.740,  Loss_clf 0.110, Loss_ewc 0.060, Loss_kd 1.570, Train_accy 84.33
+2024-01-11 11:23:08,634 [ewc.py] => Task 1, Epoch 14/200 => Loss 1.714,  Loss_clf 0.092, Loss_ewc 0.058, Loss_kd 1.565, Train_accy 86.43
+2024-01-11 11:23:16,161 [ewc.py] => Task 1, Epoch 15/200 => Loss 1.726,  Loss_clf 0.101, Loss_ewc 0.059, Loss_kd 1.567, Train_accy 84.40
+2024-01-11 11:23:28,028 [ewc.py] => Task 1, Epoch 16/200 => Loss 1.701, Loss_clf 0.088, Loss_ewc 0.057, Loss_kd 1.557, Train_accy 86.57, Test_accy 35.62
+2024-01-11 11:23:35,616 [ewc.py] => Task 1, Epoch 17/200 => Loss 1.696,  Loss_clf 0.085, Loss_ewc 0.059, Loss_kd 1.553, Train_accy 86.90
+2024-01-11 11:23:43,163 [ewc.py] => Task 1, Epoch 18/200 => Loss 1.660,  Loss_clf 0.062, Loss_ewc 0.055, Loss_kd 1.543, Train_accy 87.21
+2024-01-11 11:23:50,894 [ewc.py] => Task 1, Epoch 19/200 => Loss 1.644,  Loss_clf 0.057, Loss_ewc 0.052, Loss_kd 1.535, Train_accy 88.88
+2024-01-11 11:23:58,526 [ewc.py] => Task 1, Epoch 20/200 => Loss 1.644,  Loss_clf 0.061, Loss_ewc 0.050, Loss_kd 1.532, Train_accy 88.43
+2024-01-11 11:24:10,166 [ewc.py] => Task 1, Epoch 21/200 => Loss 1.681, Loss_clf 0.085, Loss_ewc 0.052, Loss_kd 1.544, Train_accy 86.40, Test_accy 37.78
+2024-01-11 11:24:17,667 [ewc.py] => Task 1, Epoch 22/200 => Loss 1.678,  Loss_clf 0.076, Loss_ewc 0.055, Loss_kd 1.547, Train_accy 87.24
+2024-01-11 11:24:25,244 [ewc.py] => Task 1, Epoch 23/200 => Loss 1.665,  Loss_clf 0.072, Loss_ewc 0.054, Loss_kd 1.539, Train_accy 88.69
+2024-01-11 11:24:32,817 [ewc.py] => Task 1, Epoch 24/200 => Loss 1.649,  Loss_clf 0.063, Loss_ewc 0.052, Loss_kd 1.534, Train_accy 88.14
+2024-01-11 11:24:40,338 [ewc.py] => Task 1, Epoch 25/200 => Loss 1.658,  Loss_clf 0.066, Loss_ewc 0.053, Loss_kd 1.538, Train_accy 88.48
+2024-01-11 11:24:51,855 [ewc.py] => Task 1, Epoch 26/200 => Loss 1.673, Loss_clf 0.077, Loss_ewc 0.054, Loss_kd 1.541, Train_accy 86.67, Test_accy 37.69
+2024-01-11 11:24:59,367 [ewc.py] => Task 1, Epoch 27/200 => Loss 1.645,  Loss_clf 0.057, Loss_ewc 0.053, Loss_kd 1.536, Train_accy 89.62
+2024-01-11 11:25:07,012 [ewc.py] => Task 1, Epoch 28/200 => Loss 1.623,  Loss_clf 0.043, Loss_ewc 0.050, Loss_kd 1.529, Train_accy 89.64
+2024-01-11 11:25:14,498 [ewc.py] => Task 1, Epoch 29/200 => Loss 1.628,  Loss_clf 0.055, Loss_ewc 0.048, Loss_kd 1.525, Train_accy 90.12
+2024-01-11 11:25:21,981 [ewc.py] => Task 1, Epoch 30/200 => Loss 1.631,  Loss_clf 0.052, Loss_ewc 0.050, Loss_kd 1.529, Train_accy 88.48
+2024-01-11 11:25:33,657 [ewc.py] => Task 1, Epoch 31/200 => Loss 1.635, Loss_clf 0.055, Loss_ewc 0.049, Loss_kd 1.532, Train_accy 89.48, Test_accy 38.49
+2024-01-11 11:25:41,148 [ewc.py] => Task 1, Epoch 32/200 => Loss 1.618,  Loss_clf 0.042, Loss_ewc 0.049, Loss_kd 1.527, Train_accy 89.31
+2024-01-11 11:25:48,776 [ewc.py] => Task 1, Epoch 33/200 => Loss 1.582,  Loss_clf 0.025, Loss_ewc 0.045, Loss_kd 1.512, Train_accy 90.60
+2024-01-11 11:25:56,423 [ewc.py] => Task 1, Epoch 34/200 => Loss 1.560,  Loss_clf 0.018, Loss_ewc 0.041, Loss_kd 1.501, Train_accy 91.55
+2024-01-11 11:26:03,985 [ewc.py] => Task 1, Epoch 35/200 => Loss 1.558,  Loss_clf 0.016, Loss_ewc 0.039, Loss_kd 1.504, Train_accy 91.19
+2024-01-11 11:26:15,348 [ewc.py] => Task 1, Epoch 36/200 => Loss 1.558, Loss_clf 0.020, Loss_ewc 0.038, Loss_kd 1.499, Train_accy 90.71, Test_accy 42.53
+2024-01-11 11:26:22,812 [ewc.py] => Task 1, Epoch 37/200 => Loss 1.549,  Loss_clf 0.016, Loss_ewc 0.037, Loss_kd 1.496, Train_accy 90.86
+2024-01-11 11:26:30,495 [ewc.py] => Task 1, Epoch 38/200 => Loss 1.548,  Loss_clf 0.019, Loss_ewc 0.036, Loss_kd 1.493, Train_accy 89.74
+2024-01-11 11:26:38,021 [ewc.py] => Task 1, Epoch 39/200 => Loss 1.541,  Loss_clf 0.017, Loss_ewc 0.035, Loss_kd 1.488, Train_accy 90.79
+2024-01-11 11:26:45,801 [ewc.py] => Task 1, Epoch 40/200 => Loss 1.545,  Loss_clf 0.018, Loss_ewc 0.035, Loss_kd 1.492, Train_accy 90.07
+2024-01-11 11:26:57,291 [ewc.py] => Task 1, Epoch 41/200 => Loss 1.540, Loss_clf 0.016, Loss_ewc 0.034, Loss_kd 1.491, Train_accy 90.07, Test_accy 42.98
+2024-01-11 11:27:04,993 [ewc.py] => Task 1, Epoch 42/200 => Loss 1.527,  Loss_clf 0.012, Loss_ewc 0.032, Loss_kd 1.483, Train_accy 90.52
+2024-01-11 11:27:12,493 [ewc.py] => Task 1, Epoch 43/200 => Loss 1.541,  Loss_clf 0.018, Loss_ewc 0.032, Loss_kd 1.491, Train_accy 89.12
+2024-01-11 11:27:19,932 [ewc.py] => Task 1, Epoch 44/200 => Loss 1.549,  Loss_clf 0.024, Loss_ewc 0.033, Loss_kd 1.492, Train_accy 89.07
+2024-01-11 11:27:27,619 [ewc.py] => Task 1, Epoch 45/200 => Loss 1.575,  Loss_clf 0.038, Loss_ewc 0.036, Loss_kd 1.502, Train_accy 87.48
+2024-01-11 11:27:39,042 [ewc.py] => Task 1, Epoch 46/200 => Loss 1.603, Loss_clf 0.044, Loss_ewc 0.039, Loss_kd 1.520, Train_accy 88.19, Test_accy 38.29
+2024-01-11 11:27:46,719 [ewc.py] => Task 1, Epoch 47/200 => Loss 1.604,  Loss_clf 0.050, Loss_ewc 0.040, Loss_kd 1.514, Train_accy 87.98
+2024-01-11 11:27:54,258 [ewc.py] => Task 1, Epoch 48/200 => Loss 1.747,  Loss_clf 0.147, Loss_ewc 0.051, Loss_kd 1.550, Train_accy 83.38
+2024-01-11 11:28:01,955 [ewc.py] => Task 1, Epoch 49/200 => Loss 1.894,  Loss_clf 0.222, Loss_ewc 0.074, Loss_kd 1.598, Train_accy 79.43
+2024-01-11 11:28:09,695 [ewc.py] => Task 1, Epoch 50/200 => Loss 1.951,  Loss_clf 0.250, Loss_ewc 0.092, Loss_kd 1.609, Train_accy 78.67
+2024-01-11 11:28:21,075 [ewc.py] => Task 1, Epoch 51/200 => Loss 1.810, Loss_clf 0.135, Loss_ewc 0.088, Loss_kd 1.587, Train_accy 83.14, Test_accy 32.49
+2024-01-11 11:28:28,666 [ewc.py] => Task 1, Epoch 52/200 => Loss 1.721,  Loss_clf 0.086, Loss_ewc 0.075, Loss_kd 1.561, Train_accy 86.14
+2024-01-11 11:28:36,185 [ewc.py] => Task 1, Epoch 53/200 => Loss 1.673,  Loss_clf 0.066, Loss_ewc 0.067, Loss_kd 1.541, Train_accy 88.45
+2024-01-11 11:28:43,704 [ewc.py] => Task 1, Epoch 54/200 => Loss 1.620,  Loss_clf 0.035, Loss_ewc 0.060, Loss_kd 1.525, Train_accy 89.98
+2024-01-11 11:28:51,361 [ewc.py] => Task 1, Epoch 55/200 => Loss 1.582,  Loss_clf 0.014, Loss_ewc 0.053, Loss_kd 1.514, Train_accy 90.83
+2024-01-11 11:29:02,811 [ewc.py] => Task 1, Epoch 56/200 => Loss 1.559, Loss_clf 0.011, Loss_ewc 0.048, Loss_kd 1.500, Train_accy 91.43, Test_accy 41.44
+2024-01-11 11:29:10,582 [ewc.py] => Task 1, Epoch 57/200 => Loss 1.550,  Loss_clf 0.013, Loss_ewc 0.045, Loss_kd 1.492, Train_accy 91.88
+2024-01-11 11:29:18,066 [ewc.py] => Task 1, Epoch 58/200 => Loss 1.541,  Loss_clf 0.010, Loss_ewc 0.042, Loss_kd 1.489, Train_accy 91.17
+2024-01-11 11:29:25,729 [ewc.py] => Task 1, Epoch 59/200 => Loss 1.534,  Loss_clf 0.009, Loss_ewc 0.040, Loss_kd 1.485, Train_accy 90.88
+2024-01-11 11:29:33,261 [ewc.py] => Task 1, Epoch 60/200 => Loss 1.530,  Loss_clf 0.011, Loss_ewc 0.038, Loss_kd 1.481, Train_accy 89.79
+2024-01-11 11:29:44,753 [ewc.py] => Task 1, Epoch 61/200 => Loss 1.518, Loss_clf 0.008, Loss_ewc 0.037, Loss_kd 1.472, Train_accy 91.00, Test_accy 43.60
+2024-01-11 11:29:52,269 [ewc.py] => Task 1, Epoch 62/200 => Loss 1.508,  Loss_clf 0.006, Loss_ewc 0.036, Loss_kd 1.466, Train_accy 91.26
+2024-01-11 11:29:59,933 [ewc.py] => Task 1, Epoch 63/200 => Loss 1.508,  Loss_clf 0.006, Loss_ewc 0.036, Loss_kd 1.466, Train_accy 90.62
+2024-01-11 11:30:07,573 [ewc.py] => Task 1, Epoch 64/200 => Loss 1.505,  Loss_clf 0.005, Loss_ewc 0.036, Loss_kd 1.465, Train_accy 90.64
+2024-01-11 11:30:15,285 [ewc.py] => Task 1, Epoch 65/200 => Loss 1.506,  Loss_clf 0.005, Loss_ewc 0.036, Loss_kd 1.465, Train_accy 90.12
+2024-01-11 11:30:27,057 [ewc.py] => Task 1, Epoch 66/200 => Loss 1.504, Loss_clf 0.005, Loss_ewc 0.035, Loss_kd 1.464, Train_accy 90.14, Test_accy 44.16
+2024-01-11 11:30:34,613 [ewc.py] => Task 1, Epoch 67/200 => Loss 1.502,  Loss_clf 0.004, Loss_ewc 0.035, Loss_kd 1.462, Train_accy 90.48
+2024-01-11 11:30:42,168 [ewc.py] => Task 1, Epoch 68/200 => Loss 1.502,  Loss_clf 0.005, Loss_ewc 0.035, Loss_kd 1.463, Train_accy 90.21
+2024-01-11 11:30:49,799 [ewc.py] => Task 1, Epoch 69/200 => Loss 1.503,  Loss_clf 0.005, Loss_ewc 0.035, Loss_kd 1.463, Train_accy 90.45
+2024-01-11 11:30:57,316 [ewc.py] => Task 1, Epoch 70/200 => Loss 1.501,  Loss_clf 0.005, Loss_ewc 0.035, Loss_kd 1.462, Train_accy 90.10
+2024-01-11 11:31:08,989 [ewc.py] => Task 1, Epoch 71/200 => Loss 1.501, Loss_clf 0.005, Loss_ewc 0.035, Loss_kd 1.461, Train_accy 90.36, Test_accy 44.02
+2024-01-11 11:31:16,554 [ewc.py] => Task 1, Epoch 72/200 => Loss 1.502,  Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.462, Train_accy 89.98
+2024-01-11 11:31:24,230 [ewc.py] => Task 1, Epoch 73/200 => Loss 1.501,  Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.462, Train_accy 90.17
+2024-01-11 11:31:31,814 [ewc.py] => Task 1, Epoch 74/200 => Loss 1.502,  Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.463, Train_accy 89.90
+2024-01-11 11:31:39,437 [ewc.py] => Task 1, Epoch 75/200 => Loss 1.500,  Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.461, Train_accy 89.52
+2024-01-11 11:31:51,499 [ewc.py] => Task 1, Epoch 76/200 => Loss 1.501, Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.462, Train_accy 89.71, Test_accy 44.40
+2024-01-11 11:31:59,225 [ewc.py] => Task 1, Epoch 77/200 => Loss 1.500,  Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.461, Train_accy 90.00
+2024-01-11 11:32:06,891 [ewc.py] => Task 1, Epoch 78/200 => Loss 1.499,  Loss_clf 0.005, Loss_ewc 0.034, Loss_kd 1.460, Train_accy 89.60
+2024-01-11 11:32:14,669 [ewc.py] => Task 1, Epoch 79/200 => Loss 1.499,  Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.460, Train_accy 89.76
+2024-01-11 11:32:22,247 [ewc.py] => Task 1, Epoch 80/200 => Loss 1.498,  Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.460, Train_accy 89.12
+2024-01-11 11:32:33,836 [ewc.py] => Task 1, Epoch 81/200 => Loss 1.496, Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.458, Train_accy 89.48, Test_accy 44.51
+2024-01-11 11:32:41,375 [ewc.py] => Task 1, Epoch 82/200 => Loss 1.496,  Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.459, Train_accy 89.02
+2024-01-11 11:32:49,079 [ewc.py] => Task 1, Epoch 83/200 => Loss 1.501,  Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.463, Train_accy 89.14
+2024-01-11 11:32:56,701 [ewc.py] => Task 1, Epoch 84/200 => Loss 1.497,  Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.460, Train_accy 89.00
+2024-01-11 11:33:04,237 [ewc.py] => Task 1, Epoch 85/200 => Loss 1.496,  Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.458, Train_accy 89.31
+2024-01-11 11:33:15,880 [ewc.py] => Task 1, Epoch 86/200 => Loss 1.498, Loss_clf 0.005, Loss_ewc 0.033, Loss_kd 1.460, Train_accy 89.45, Test_accy 44.69
+2024-01-11 11:33:23,468 [ewc.py] => Task 1, Epoch 87/200 => Loss 1.494,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.457, Train_accy 89.79
+2024-01-11 11:33:31,356 [ewc.py] => Task 1, Epoch 88/200 => Loss 1.496,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.459, Train_accy 89.38
+2024-01-11 11:33:38,927 [ewc.py] => Task 1, Epoch 89/200 => Loss 1.495,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.458, Train_accy 89.19
+2024-01-11 11:33:46,510 [ewc.py] => Task 1, Epoch 90/200 => Loss 1.497,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.459, Train_accy 88.79
+2024-01-11 11:33:58,081 [ewc.py] => Task 1, Epoch 91/200 => Loss 1.494, Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.457, Train_accy 88.45, Test_accy 44.49
+2024-01-11 11:34:05,777 [ewc.py] => Task 1, Epoch 92/200 => Loss 1.495,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.458, Train_accy 88.98
+2024-01-11 11:34:13,376 [ewc.py] => Task 1, Epoch 93/200 => Loss 1.493,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.456, Train_accy 89.40
+2024-01-11 11:34:20,929 [ewc.py] => Task 1, Epoch 94/200 => Loss 1.493,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.457, Train_accy 89.19
+2024-01-11 11:34:28,629 [ewc.py] => Task 1, Epoch 95/200 => Loss 1.495,  Loss_clf 0.005, Loss_ewc 0.032, Loss_kd 1.459, Train_accy 89.00
+2024-01-11 11:34:40,495 [ewc.py] => Task 1, Epoch 96/200 => Loss 1.495, Loss_clf 0.005, Loss_ewc 0.031, Loss_kd 1.458, Train_accy 88.55, Test_accy 45.18
+2024-01-11 11:34:48,642 [ewc.py] => Task 1, Epoch 97/200 => Loss 1.493,  Loss_clf 0.005, Loss_ewc 0.031, Loss_kd 1.457, Train_accy 88.71
+2024-01-11 11:34:56,277 [ewc.py] => Task 1, Epoch 98/200 => Loss 1.492,  Loss_clf 0.005, Loss_ewc 0.031, Loss_kd 1.456, Train_accy 89.31
+2024-01-11 11:35:04,040 [ewc.py] => Task 1, Epoch 99/200 => Loss 1.492,  Loss_clf 0.005, Loss_ewc 0.031, Loss_kd 1.456, Train_accy 88.88
+2024-01-11 11:35:12,589 [ewc.py] => Task 1, Epoch 100/200 => Loss 1.493,  Loss_clf 0.004, Loss_ewc 0.031, Loss_kd 1.457, Train_accy 88.57
+2024-01-11 11:35:24,711 [ewc.py] => Task 1, Epoch 101/200 => Loss 1.493, Loss_clf 0.006, Loss_ewc 0.031, Loss_kd 1.457, Train_accy 88.55, Test_accy 45.22
+2024-01-11 11:35:32,512 [ewc.py] => Task 1, Epoch 102/200 => Loss 1.492,  Loss_clf 0.005, Loss_ewc 0.031, Loss_kd 1.455, Train_accy 88.24
+2024-01-11 11:35:40,142 [ewc.py] => Task 1, Epoch 103/200 => Loss 1.491,  Loss_clf 0.005, Loss_ewc 0.031, Loss_kd 1.456, Train_accy 88.00
+2024-01-11 11:35:47,798 [ewc.py] => Task 1, Epoch 104/200 => Loss 1.493,  Loss_clf 0.006, Loss_ewc 0.031, Loss_kd 1.457, Train_accy 88.00
+2024-01-11 11:35:55,450 [ewc.py] => Task 1, Epoch 105/200 => Loss 1.492,  Loss_clf 0.006, Loss_ewc 0.031, Loss_kd 1.456, Train_accy 87.88
+2024-01-11 11:36:07,523 [ewc.py] => Task 1, Epoch 106/200 => Loss 1.492, Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.456, Train_accy 88.67, Test_accy 45.07
+2024-01-11 11:36:15,197 [ewc.py] => Task 1, Epoch 107/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.454, Train_accy 87.98
+2024-01-11 11:36:22,828 [ewc.py] => Task 1, Epoch 108/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.455, Train_accy 88.43
+2024-01-11 11:36:30,575 [ewc.py] => Task 1, Epoch 109/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.455, Train_accy 88.98
+2024-01-11 11:36:38,190 [ewc.py] => Task 1, Epoch 110/200 => Loss 1.489,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.454, Train_accy 87.81
+2024-01-11 11:36:49,960 [ewc.py] => Task 1, Epoch 111/200 => Loss 1.492, Loss_clf 0.006, Loss_ewc 0.030, Loss_kd 1.456, Train_accy 87.64, Test_accy 45.49
+2024-01-11 11:36:57,604 [ewc.py] => Task 1, Epoch 112/200 => Loss 1.491,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.456, Train_accy 88.29
+2024-01-11 11:37:05,270 [ewc.py] => Task 1, Epoch 113/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.453, Train_accy 88.36
+2024-01-11 11:37:13,091 [ewc.py] => Task 1, Epoch 114/200 => Loss 1.489,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.455, Train_accy 88.05
+2024-01-11 11:37:20,715 [ewc.py] => Task 1, Epoch 115/200 => Loss 1.494,  Loss_clf 0.006, Loss_ewc 0.030, Loss_kd 1.458, Train_accy 88.02
+2024-01-11 11:37:32,585 [ewc.py] => Task 1, Epoch 116/200 => Loss 1.489, Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.455, Train_accy 87.88, Test_accy 45.64
+2024-01-11 11:37:40,220 [ewc.py] => Task 1, Epoch 117/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.030, Loss_kd 1.453, Train_accy 87.90
+2024-01-11 11:37:47,979 [ewc.py] => Task 1, Epoch 118/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.456, Train_accy 88.10
+2024-01-11 11:37:55,529 [ewc.py] => Task 1, Epoch 119/200 => Loss 1.486,  Loss_clf 0.004, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.33
+2024-01-11 11:38:03,263 [ewc.py] => Task 1, Epoch 120/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.455, Train_accy 87.86
+2024-01-11 11:38:15,550 [ewc.py] => Task 1, Epoch 121/200 => Loss 1.486, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 88.36, Test_accy 45.76
+2024-01-11 11:38:23,130 [ewc.py] => Task 1, Epoch 122/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.43
+2024-01-11 11:38:30,953 [ewc.py] => Task 1, Epoch 123/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 87.79
+2024-01-11 11:38:38,594 [ewc.py] => Task 1, Epoch 124/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 88.21
+2024-01-11 11:38:46,225 [ewc.py] => Task 1, Epoch 125/200 => Loss 1.489,  Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 88.07
+2024-01-11 11:38:58,166 [ewc.py] => Task 1, Epoch 126/200 => Loss 1.488, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.21, Test_accy 45.82
+2024-01-11 11:39:05,775 [ewc.py] => Task 1, Epoch 127/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.45
+2024-01-11 11:39:13,747 [ewc.py] => Task 1, Epoch 128/200 => Loss 1.484,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.450, Train_accy 87.74
+2024-01-11 11:39:21,590 [ewc.py] => Task 1, Epoch 129/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.43
+2024-01-11 11:39:29,367 [ewc.py] => Task 1, Epoch 130/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 87.86
+2024-01-11 11:39:41,334 [ewc.py] => Task 1, Epoch 131/200 => Loss 1.486, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.14, Test_accy 45.49
+2024-01-11 11:39:48,977 [ewc.py] => Task 1, Epoch 132/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.57
+2024-01-11 11:39:56,823 [ewc.py] => Task 1, Epoch 133/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.456, Train_accy 87.74
+2024-01-11 11:40:04,489 [ewc.py] => Task 1, Epoch 134/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.64
+2024-01-11 11:40:12,226 [ewc.py] => Task 1, Epoch 135/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.69
+2024-01-11 11:40:24,074 [ewc.py] => Task 1, Epoch 136/200 => Loss 1.486, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.12, Test_accy 45.53
+2024-01-11 11:40:31,776 [ewc.py] => Task 1, Epoch 137/200 => Loss 1.490,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.455, Train_accy 87.88
+2024-01-11 11:40:39,770 [ewc.py] => Task 1, Epoch 138/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.74
+2024-01-11 11:40:47,561 [ewc.py] => Task 1, Epoch 139/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 88.02
+2024-01-11 11:40:55,209 [ewc.py] => Task 1, Epoch 140/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.90
+2024-01-11 11:41:07,063 [ewc.py] => Task 1, Epoch 141/200 => Loss 1.488, Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 87.88, Test_accy 45.80
+2024-01-11 11:41:14,709 [ewc.py] => Task 1, Epoch 142/200 => Loss 1.489,  Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 87.62
+2024-01-11 11:41:22,565 [ewc.py] => Task 1, Epoch 143/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 88.14
+2024-01-11 11:41:30,245 [ewc.py] => Task 1, Epoch 144/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.17
+2024-01-11 11:41:38,084 [ewc.py] => Task 1, Epoch 145/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 88.05
+2024-01-11 11:41:49,797 [ewc.py] => Task 1, Epoch 146/200 => Loss 1.487, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.14, Test_accy 45.58
+2024-01-11 11:41:57,671 [ewc.py] => Task 1, Epoch 147/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.69
+2024-01-11 11:42:05,359 [ewc.py] => Task 1, Epoch 148/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.69
+2024-01-11 11:42:13,299 [ewc.py] => Task 1, Epoch 149/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.10
+2024-01-11 11:42:21,075 [ewc.py] => Task 1, Epoch 150/200 => Loss 1.487,  Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.40
+2024-01-11 11:42:32,985 [ewc.py] => Task 1, Epoch 151/200 => Loss 1.488, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.88, Test_accy 45.96
+2024-01-11 11:42:40,817 [ewc.py] => Task 1, Epoch 152/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.50
+2024-01-11 11:42:48,686 [ewc.py] => Task 1, Epoch 153/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.00
+2024-01-11 11:42:56,547 [ewc.py] => Task 1, Epoch 154/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.29
+2024-01-11 11:43:04,254 [ewc.py] => Task 1, Epoch 155/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 88.24
+2024-01-11 11:43:16,124 [ewc.py] => Task 1, Epoch 156/200 => Loss 1.488, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.10, Test_accy 45.56
+2024-01-11 11:43:23,804 [ewc.py] => Task 1, Epoch 157/200 => Loss 1.484,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.450, Train_accy 88.33
+2024-01-11 11:43:31,463 [ewc.py] => Task 1, Epoch 158/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.74
+2024-01-11 11:43:39,265 [ewc.py] => Task 1, Epoch 159/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.86
+2024-01-11 11:43:46,978 [ewc.py] => Task 1, Epoch 160/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 87.86
+2024-01-11 11:43:58,852 [ewc.py] => Task 1, Epoch 161/200 => Loss 1.487, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.14, Test_accy 45.98
+2024-01-11 11:44:06,770 [ewc.py] => Task 1, Epoch 162/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 88.40
+2024-01-11 11:44:14,604 [ewc.py] => Task 1, Epoch 163/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.55
+2024-01-11 11:44:22,327 [ewc.py] => Task 1, Epoch 164/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.02
+2024-01-11 11:44:30,017 [ewc.py] => Task 1, Epoch 165/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.26
+2024-01-11 11:44:41,945 [ewc.py] => Task 1, Epoch 166/200 => Loss 1.486, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.88, Test_accy 45.91
+2024-01-11 11:44:49,663 [ewc.py] => Task 1, Epoch 167/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.31
+2024-01-11 11:44:57,496 [ewc.py] => Task 1, Epoch 168/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.93
+2024-01-11 11:45:05,208 [ewc.py] => Task 1, Epoch 169/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 88.21
+2024-01-11 11:45:13,038 [ewc.py] => Task 1, Epoch 170/200 => Loss 1.489,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 87.43
+2024-01-11 11:45:24,812 [ewc.py] => Task 1, Epoch 171/200 => Loss 1.488, Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 87.10, Test_accy 45.67
+2024-01-11 11:45:32,689 [ewc.py] => Task 1, Epoch 172/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.00
+2024-01-11 11:45:40,359 [ewc.py] => Task 1, Epoch 173/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.55
+2024-01-11 11:45:48,012 [ewc.py] => Task 1, Epoch 174/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.19
+2024-01-11 11:45:55,826 [ewc.py] => Task 1, Epoch 175/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 88.24
+2024-01-11 11:46:07,719 [ewc.py] => Task 1, Epoch 176/200 => Loss 1.486, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.83, Test_accy 45.49
+2024-01-11 11:46:15,344 [ewc.py] => Task 1, Epoch 177/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 87.81
+2024-01-11 11:46:23,001 [ewc.py] => Task 1, Epoch 178/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.36
+2024-01-11 11:46:30,864 [ewc.py] => Task 1, Epoch 179/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.24
+2024-01-11 11:46:38,943 [ewc.py] => Task 1, Epoch 180/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 87.81
+2024-01-11 11:46:50,947 [ewc.py] => Task 1, Epoch 181/200 => Loss 1.490, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.455, Train_accy 87.90, Test_accy 46.20
+2024-01-11 11:46:58,876 [ewc.py] => Task 1, Epoch 182/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.60
+2024-01-11 11:47:06,653 [ewc.py] => Task 1, Epoch 183/200 => Loss 1.488,  Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.60
+2024-01-11 11:47:14,688 [ewc.py] => Task 1, Epoch 184/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 88.48
+2024-01-11 11:47:22,519 [ewc.py] => Task 1, Epoch 185/200 => Loss 1.484,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.450, Train_accy 87.88
+2024-01-11 11:47:34,729 [ewc.py] => Task 1, Epoch 186/200 => Loss 1.486, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.55, Test_accy 45.93
+2024-01-11 11:47:42,520 [ewc.py] => Task 1, Epoch 187/200 => Loss 1.484,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.450, Train_accy 88.14
+2024-01-11 11:47:50,461 [ewc.py] => Task 1, Epoch 188/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.81
+2024-01-11 11:47:58,452 [ewc.py] => Task 1, Epoch 189/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.05
+2024-01-11 11:48:06,416 [ewc.py] => Task 1, Epoch 190/200 => Loss 1.485,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.10
+2024-01-11 11:48:18,723 [ewc.py] => Task 1, Epoch 191/200 => Loss 1.489, Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 87.74, Test_accy 45.78
+2024-01-11 11:48:26,585 [ewc.py] => Task 1, Epoch 192/200 => Loss 1.484,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.450, Train_accy 88.10
+2024-01-11 11:48:35,035 [ewc.py] => Task 1, Epoch 193/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.79
+2024-01-11 11:48:43,203 [ewc.py] => Task 1, Epoch 194/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.00
+2024-01-11 11:48:51,083 [ewc.py] => Task 1, Epoch 195/200 => Loss 1.491,  Loss_clf 0.006, Loss_ewc 0.029, Loss_kd 1.456, Train_accy 87.45
+2024-01-11 11:49:03,375 [ewc.py] => Task 1, Epoch 196/200 => Loss 1.485, Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.451, Train_accy 87.83, Test_accy 45.73
+2024-01-11 11:49:11,216 [ewc.py] => Task 1, Epoch 197/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 87.71
+2024-01-11 11:49:19,242 [ewc.py] => Task 1, Epoch 198/200 => Loss 1.488,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.454, Train_accy 88.48
+2024-01-11 11:49:27,205 [ewc.py] => Task 1, Epoch 199/200 => Loss 1.486,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.452, Train_accy 88.50
+2024-01-11 11:49:35,277 [ewc.py] => Task 1, Epoch 200/200 => Loss 1.487,  Loss_clf 0.005, Loss_ewc 0.029, Loss_kd 1.453, Train_accy 88.14
+2024-01-11 11:49:45,950 [trainer.py] => No NME accuracy.
+2024-01-11 11:49:45,950 [trainer.py] => CNN: {'total': 45.93, '0': 65.0, '1': 59.44, '2': 10.56, '3': 21.11, '4': 8.33, '5': 36.11, '6': 2.78, '7': 5.56, '8': 38.33, '9': 2.78, '10': 14.44, '11': 10.0, '12': 17.22, '13': 10.56, '14': 43.33, '15': 82.78, '16': 79.44, '17': 88.33, '18': 71.11, '19': 75.56, '20': 71.67, '21': 70.56, '22': 85.0, '23': 94.44, 'old': 23.04, 'new': 80.28}
+2024-01-11 11:49:45,950 [trainer.py] => CNN top1 curve: [87.41, 45.93]
+2024-01-11 11:49:45,950 [trainer.py] => CNN top5 curve: [98.7, 90.56]
+
+2024-01-11 11:49:45,951 [trainer.py] => All params: 21044837
+2024-01-11 11:49:45,952 [trainer.py] => Trainable params: 21044837
+2024-01-11 11:49:45,953 [ewc.py] => Learning on 25-35
+2024-01-11 11:50:20,107 [ewc.py] => Task 2, Epoch 1/200 => Loss 3.466, Loss_clf 1.520, Loss_ewc 0.075, Loss_kd 1.872, Train_accy 0.10, Test_accy 22.29
+2024-01-11 11:50:28,155 [ewc.py] => Task 2, Epoch 2/200 => Loss 2.874,  Loss_clf 0.891, Loss_ewc 0.156, Loss_kd 1.827, Train_accy 2.86
+2024-01-11 11:50:36,266 [ewc.py] => Task 2, Epoch 3/200 => Loss 2.666,  Loss_clf 0.648, Loss_ewc 0.193, Loss_kd 1.825, Train_accy 8.98
+2024-01-11 11:50:44,251 [ewc.py] => Task 2, Epoch 4/200 => Loss 2.546,  Loss_clf 0.533, Loss_ewc 0.217, Loss_kd 1.796, Train_accy 17.33
+2024-01-11 11:50:52,426 [ewc.py] => Task 2, Epoch 5/200 => Loss 2.553,  Loss_clf 0.520, Loss_ewc 0.238, Loss_kd 1.795, Train_accy 23.07
+2024-01-11 11:51:06,234 [ewc.py] => Task 2, Epoch 6/200 => Loss 2.505, Loss_clf 0.470, Loss_ewc 0.259, Loss_kd 1.777, Train_accy 28.38, Test_accy 22.19
+2024-01-11 11:51:14,204 [ewc.py] => Task 2, Epoch 7/200 => Loss 2.416,  Loss_clf 0.392, Loss_ewc 0.254, Loss_kd 1.770, Train_accy 31.81
+2024-01-11 11:51:22,348 [ewc.py] => Task 2, Epoch 8/200 => Loss 2.428,  Loss_clf 0.407, Loss_ewc 0.259, Loss_kd 1.762, Train_accy 36.86
+2024-01-11 11:51:30,293 [ewc.py] => Task 2, Epoch 9/200 => Loss 2.336,  Loss_clf 0.328, Loss_ewc 0.258, Loss_kd 1.750, Train_accy 39.71
+2024-01-11 11:51:38,153 [ewc.py] => Task 2, Epoch 10/200 => Loss 2.333,  Loss_clf 0.336, Loss_ewc 0.252, Loss_kd 1.746, Train_accy 42.60
+2024-01-11 11:51:51,484 [ewc.py] => Task 2, Epoch 11/200 => Loss 2.372, Loss_clf 0.344, Loss_ewc 0.266, Loss_kd 1.761, Train_accy 42.50, Test_accy 22.38
+2024-01-11 11:51:59,507 [ewc.py] => Task 2, Epoch 12/200 => Loss 2.367,  Loss_clf 0.335, Loss_ewc 0.275, Loss_kd 1.756, Train_accy 45.62
+2024-01-11 11:52:07,321 [ewc.py] => Task 2, Epoch 13/200 => Loss 2.307,  Loss_clf 0.278, Loss_ewc 0.273, Loss_kd 1.756, Train_accy 48.31
+2024-01-11 11:52:15,318 [ewc.py] => Task 2, Epoch 14/200 => Loss 2.256,  Loss_clf 0.264, Loss_ewc 0.262, Loss_kd 1.730, Train_accy 51.38
+2024-01-11 11:52:23,579 [ewc.py] => Task 2, Epoch 15/200 => Loss 2.290,  Loss_clf 0.285, Loss_ewc 0.266, Loss_kd 1.739, Train_accy 51.98
+2024-01-11 11:52:36,599 [ewc.py] => Task 2, Epoch 16/200 => Loss 2.289, Loss_clf 0.276, Loss_ewc 0.273, Loss_kd 1.740, Train_accy 51.95, Test_accy 24.46
+2024-01-11 11:52:44,692 [ewc.py] => Task 2, Epoch 17/200 => Loss 2.269,  Loss_clf 0.266, Loss_ewc 0.271, Loss_kd 1.732, Train_accy 55.45
+2024-01-11 11:52:52,906 [ewc.py] => Task 2, Epoch 18/200 => Loss 2.217,  Loss_clf 0.224, Loss_ewc 0.264, Loss_kd 1.730, Train_accy 55.14
+2024-01-11 11:53:00,794 [ewc.py] => Task 2, Epoch 19/200 => Loss 2.253,  Loss_clf 0.251, Loss_ewc 0.264, Loss_kd 1.738, Train_accy 55.69
+2024-01-11 11:53:09,023 [ewc.py] => Task 2, Epoch 20/200 => Loss 2.289,  Loss_clf 0.271, Loss_ewc 0.273, Loss_kd 1.745, Train_accy 56.29
+2024-01-11 11:53:22,979 [ewc.py] => Task 2, Epoch 21/200 => Loss 2.226, Loss_clf 0.224, Loss_ewc 0.275, Loss_kd 1.727, Train_accy 58.69, Test_accy 23.19
+2024-01-11 11:53:30,887 [ewc.py] => Task 2, Epoch 22/200 => Loss 2.307,  Loss_clf 0.283, Loss_ewc 0.279, Loss_kd 1.745, Train_accy 54.93
+2024-01-11 11:53:38,688 [ewc.py] => Task 2, Epoch 23/200 => Loss 2.361,  Loss_clf 0.311, Loss_ewc 0.299, Loss_kd 1.752, Train_accy 55.74
+2024-01-11 11:53:46,695 [ewc.py] => Task 2, Epoch 24/200 => Loss 2.376,  Loss_clf 0.308, Loss_ewc 0.314, Loss_kd 1.754, Train_accy 54.45
+2024-01-11 11:53:54,564 [ewc.py] => Task 2, Epoch 25/200 => Loss 2.313,  Loss_clf 0.262, Loss_ewc 0.308, Loss_kd 1.743, Train_accy 58.14
+2024-01-11 11:54:08,145 [ewc.py] => Task 2, Epoch 26/200 => Loss 2.244, Loss_clf 0.217, Loss_ewc 0.294, Loss_kd 1.733, Train_accy 60.00, Test_accy 21.98
+2024-01-11 11:54:16,000 [ewc.py] => Task 2, Epoch 27/200 => Loss 2.158,  Loss_clf 0.177, Loss_ewc 0.271, Loss_kd 1.710, Train_accy 61.29
+2024-01-11 11:54:23,932 [ewc.py] => Task 2, Epoch 28/200 => Loss 2.180,  Loss_clf 0.195, Loss_ewc 0.261, Loss_kd 1.724, Train_accy 62.29
+2024-01-11 11:54:31,951 [ewc.py] => Task 2, Epoch 29/200 => Loss 2.218,  Loss_clf 0.218, Loss_ewc 0.270, Loss_kd 1.730, Train_accy 60.50
+2024-01-11 11:54:39,683 [ewc.py] => Task 2, Epoch 30/200 => Loss 2.295,  Loss_clf 0.267, Loss_ewc 0.285, Loss_kd 1.743, Train_accy 58.55
+2024-01-11 11:54:53,198 [ewc.py] => Task 2, Epoch 31/200 => Loss 2.306, Loss_clf 0.261, Loss_ewc 0.302, Loss_kd 1.743, Train_accy 59.95, Test_accy 23.41
+2024-01-11 11:55:01,026 [ewc.py] => Task 2, Epoch 32/200 => Loss 2.236,  Loss_clf 0.211, Loss_ewc 0.295, Loss_kd 1.730, Train_accy 64.48
+2024-01-11 11:55:09,133 [ewc.py] => Task 2, Epoch 33/200 => Loss 2.211,  Loss_clf 0.201, Loss_ewc 0.281, Loss_kd 1.729, Train_accy 65.50
+2024-01-11 11:55:17,013 [ewc.py] => Task 2, Epoch 34/200 => Loss 2.212,  Loss_clf 0.214, Loss_ewc 0.276, Loss_kd 1.722, Train_accy 63.24
+2024-01-11 11:55:25,084 [ewc.py] => Task 2, Epoch 35/200 => Loss 2.245,  Loss_clf 0.228, Loss_ewc 0.279, Loss_kd 1.737, Train_accy 63.86
+2024-01-11 11:55:39,451 [ewc.py] => Task 2, Epoch 36/200 => Loss 2.217, Loss_clf 0.205, Loss_ewc 0.285, Loss_kd 1.727, Train_accy 64.07, Test_accy 22.33
+2024-01-11 11:55:47,507 [ewc.py] => Task 2, Epoch 37/200 => Loss 2.172,  Loss_clf 0.180, Loss_ewc 0.271, Loss_kd 1.721, Train_accy 66.79
+2024-01-11 11:55:55,513 [ewc.py] => Task 2, Epoch 38/200 => Loss 2.187,  Loss_clf 0.204, Loss_ewc 0.263, Loss_kd 1.720, Train_accy 66.10
+2024-01-11 11:56:03,506 [ewc.py] => Task 2, Epoch 39/200 => Loss 2.265,  Loss_clf 0.249, Loss_ewc 0.279, Loss_kd 1.737, Train_accy 63.76
+2024-01-11 11:56:11,705 [ewc.py] => Task 2, Epoch 40/200 => Loss 2.333,  Loss_clf 0.282, Loss_ewc 0.302, Loss_kd 1.749, Train_accy 62.71
+2024-01-11 11:56:25,830 [ewc.py] => Task 2, Epoch 41/200 => Loss 2.277, Loss_clf 0.227, Loss_ewc 0.309, Loss_kd 1.741, Train_accy 63.07, Test_accy 23.95
+2024-01-11 11:56:33,915 [ewc.py] => Task 2, Epoch 42/200 => Loss 2.166,  Loss_clf 0.168, Loss_ewc 0.283, Loss_kd 1.715, Train_accy 66.36
+2024-01-11 11:56:41,930 [ewc.py] => Task 2, Epoch 43/200 => Loss 2.167,  Loss_clf 0.187, Loss_ewc 0.266, Loss_kd 1.714, Train_accy 67.17
+2024-01-11 11:56:50,121 [ewc.py] => Task 2, Epoch 44/200 => Loss 2.273,  Loss_clf 0.248, Loss_ewc 0.285, Loss_kd 1.740, Train_accy 63.17
+2024-01-11 11:56:58,562 [ewc.py] => Task 2, Epoch 45/200 => Loss 2.265,  Loss_clf 0.212, Loss_ewc 0.303, Loss_kd 1.750, Train_accy 66.50
+2024-01-11 11:57:12,800 [ewc.py] => Task 2, Epoch 46/200 => Loss 2.204, Loss_clf 0.194, Loss_ewc 0.290, Loss_kd 1.720, Train_accy 68.17, Test_accy 21.95
+2024-01-11 11:57:20,856 [ewc.py] => Task 2, Epoch 47/200 => Loss 2.185,  Loss_clf 0.185, Loss_ewc 0.279, Loss_kd 1.720, Train_accy 67.07
+2024-01-11 11:57:29,061 [ewc.py] => Task 2, Epoch 48/200 => Loss 2.167,  Loss_clf 0.173, Loss_ewc 0.276, Loss_kd 1.718, Train_accy 66.00
+2024-01-11 11:57:37,004 [ewc.py] => Task 2, Epoch 49/200 => Loss 2.183,  Loss_clf 0.189, Loss_ewc 0.271, Loss_kd 1.723, Train_accy 67.67
+2024-01-11 11:57:44,937 [ewc.py] => Task 2, Epoch 50/200 => Loss 2.226,  Loss_clf 0.222, Loss_ewc 0.277, Loss_kd 1.727, Train_accy 66.07
+2024-01-11 11:57:59,443 [ewc.py] => Task 2, Epoch 51/200 => Loss 2.344, Loss_clf 0.288, Loss_ewc 0.306, Loss_kd 1.750, Train_accy 62.95, Test_accy 21.68
+2024-01-11 11:58:07,642 [ewc.py] => Task 2, Epoch 52/200 => Loss 2.329,  Loss_clf 0.260, Loss_ewc 0.326, Loss_kd 1.743, Train_accy 64.81
+2024-01-11 11:58:15,785 [ewc.py] => Task 2, Epoch 53/200 => Loss 2.264,  Loss_clf 0.216, Loss_ewc 0.317, Loss_kd 1.731, Train_accy 67.76
+2024-01-11 11:58:23,915 [ewc.py] => Task 2, Epoch 54/200 => Loss 2.272,  Loss_clf 0.226, Loss_ewc 0.313, Loss_kd 1.733, Train_accy 68.17
+2024-01-11 11:58:31,940 [ewc.py] => Task 2, Epoch 55/200 => Loss 2.233,  Loss_clf 0.191, Loss_ewc 0.305, Loss_kd 1.737, Train_accy 68.69
+2024-01-11 11:58:45,375 [ewc.py] => Task 2, Epoch 56/200 => Loss 2.153, Loss_clf 0.162, Loss_ewc 0.284, Loss_kd 1.707, Train_accy 69.29, Test_accy 24.25
+2024-01-11 11:58:53,403 [ewc.py] => Task 2, Epoch 57/200 => Loss 2.221,  Loss_clf 0.209, Loss_ewc 0.283, Loss_kd 1.729, Train_accy 66.81
+2024-01-11 11:59:01,200 [ewc.py] => Task 2, Epoch 58/200 => Loss 2.214,  Loss_clf 0.200, Loss_ewc 0.289, Loss_kd 1.726, Train_accy 68.83
+2024-01-11 11:59:08,986 [ewc.py] => Task 2, Epoch 59/200 => Loss 2.198,  Loss_clf 0.190, Loss_ewc 0.284, Loss_kd 1.723, Train_accy 67.10
+2024-01-11 11:59:16,920 [ewc.py] => Task 2, Epoch 60/200 => Loss 2.183,  Loss_clf 0.182, Loss_ewc 0.285, Loss_kd 1.715, Train_accy 68.50
+2024-01-11 11:59:30,189 [ewc.py] => Task 2, Epoch 61/200 => Loss 2.029, Loss_clf 0.078, Loss_ewc 0.273, Loss_kd 1.678, Train_accy 73.95, Test_accy 29.83
+2024-01-11 11:59:38,441 [ewc.py] => Task 2, Epoch 62/200 => Loss 1.933,  Loss_clf 0.032, Loss_ewc 0.255, Loss_kd 1.646, Train_accy 78.33
+2024-01-11 11:59:46,277 [ewc.py] => Task 2, Epoch 63/200 => Loss 1.911,  Loss_clf 0.027, Loss_ewc 0.245, Loss_kd 1.639, Train_accy 77.40
+2024-01-11 11:59:54,232 [ewc.py] => Task 2, Epoch 64/200 => Loss 1.897,  Loss_clf 0.024, Loss_ewc 0.236, Loss_kd 1.636, Train_accy 78.17
+2024-01-11 12:00:02,132 [ewc.py] => Task 2, Epoch 65/200 => Loss 1.886,  Loss_clf 0.025, Loss_ewc 0.229, Loss_kd 1.632, Train_accy 77.14
+2024-01-11 12:00:16,371 [ewc.py] => Task 2, Epoch 66/200 => Loss 1.875, Loss_clf 0.021, Loss_ewc 0.223, Loss_kd 1.632, Train_accy 77.69, Test_accy 31.29
+2024-01-11 12:00:24,290 [ewc.py] => Task 2, Epoch 67/200 => Loss 1.869,  Loss_clf 0.022, Loss_ewc 0.218, Loss_kd 1.630, Train_accy 77.52
+2024-01-11 12:00:32,276 [ewc.py] => Task 2, Epoch 68/200 => Loss 1.859,  Loss_clf 0.019, Loss_ewc 0.212, Loss_kd 1.627, Train_accy 77.95
+2024-01-11 12:00:40,983 [ewc.py] => Task 2, Epoch 69/200 => Loss 1.853,  Loss_clf 0.020, Loss_ewc 0.208, Loss_kd 1.625, Train_accy 77.62
+2024-01-11 12:00:52,542 [ewc.py] => Task 2, Epoch 70/200 => Loss 1.845,  Loss_clf 0.020, Loss_ewc 0.204, Loss_kd 1.621, Train_accy 77.48
+2024-01-11 12:01:07,151 [ewc.py] => Task 2, Epoch 71/200 => Loss 1.839, Loss_clf 0.018, Loss_ewc 0.200, Loss_kd 1.621, Train_accy 77.33, Test_accy 32.25
+2024-01-11 12:01:14,907 [ewc.py] => Task 2, Epoch 72/200 => Loss 1.836,  Loss_clf 0.019, Loss_ewc 0.196, Loss_kd 1.620, Train_accy 76.69
+2024-01-11 12:01:22,719 [ewc.py] => Task 2, Epoch 73/200 => Loss 1.827,  Loss_clf 0.017, Loss_ewc 0.193, Loss_kd 1.617, Train_accy 76.52
+2024-01-11 12:01:30,774 [ewc.py] => Task 2, Epoch 74/200 => Loss 1.821,  Loss_clf 0.016, Loss_ewc 0.189, Loss_kd 1.615, Train_accy 76.21
+2024-01-11 12:01:38,525 [ewc.py] => Task 2, Epoch 75/200 => Loss 1.825,  Loss_clf 0.019, Loss_ewc 0.186, Loss_kd 1.620, Train_accy 76.00
+2024-01-11 12:01:51,859 [ewc.py] => Task 2, Epoch 76/200 => Loss 1.818, Loss_clf 0.018, Loss_ewc 0.183, Loss_kd 1.617, Train_accy 76.31, Test_accy 32.76
+2024-01-11 12:01:59,635 [ewc.py] => Task 2, Epoch 77/200 => Loss 1.818,  Loss_clf 0.019, Loss_ewc 0.180, Loss_kd 1.619, Train_accy 76.02
+2024-01-11 12:02:07,439 [ewc.py] => Task 2, Epoch 78/200 => Loss 1.809,  Loss_clf 0.018, Loss_ewc 0.178, Loss_kd 1.613, Train_accy 75.24
+2024-01-11 12:02:15,354 [ewc.py] => Task 2, Epoch 79/200 => Loss 1.809,  Loss_clf 0.017, Loss_ewc 0.175, Loss_kd 1.617, Train_accy 75.52
+2024-01-11 12:02:23,190 [ewc.py] => Task 2, Epoch 80/200 => Loss 1.805,  Loss_clf 0.019, Loss_ewc 0.173, Loss_kd 1.614, Train_accy 74.81
+2024-01-11 12:02:36,679 [ewc.py] => Task 2, Epoch 81/200 => Loss 1.801, Loss_clf 0.017, Loss_ewc 0.170, Loss_kd 1.614, Train_accy 75.17, Test_accy 33.17
+2024-01-11 12:02:44,532 [ewc.py] => Task 2, Epoch 82/200 => Loss 1.801,  Loss_clf 0.018, Loss_ewc 0.168, Loss_kd 1.615, Train_accy 74.64
+2024-01-11 12:02:52,395 [ewc.py] => Task 2, Epoch 83/200 => Loss 1.796,  Loss_clf 0.019, Loss_ewc 0.166, Loss_kd 1.612, Train_accy 75.19
+2024-01-11 12:03:00,206 [ewc.py] => Task 2, Epoch 84/200 => Loss 1.792,  Loss_clf 0.017, Loss_ewc 0.163, Loss_kd 1.612, Train_accy 75.55
+2024-01-11 12:03:07,866 [ewc.py] => Task 2, Epoch 85/200 => Loss 1.792,  Loss_clf 0.019, Loss_ewc 0.161, Loss_kd 1.612, Train_accy 73.71
+2024-01-11 12:03:21,574 [ewc.py] => Task 2, Epoch 86/200 => Loss 1.787, Loss_clf 0.017, Loss_ewc 0.160, Loss_kd 1.610, Train_accy 74.14, Test_accy 33.19
+2024-01-11 12:03:29,361 [ewc.py] => Task 2, Epoch 87/200 => Loss 1.788,  Loss_clf 0.018, Loss_ewc 0.158, Loss_kd 1.612, Train_accy 74.19
+2024-01-11 12:03:37,318 [ewc.py] => Task 2, Epoch 88/200 => Loss 1.786,  Loss_clf 0.017, Loss_ewc 0.156, Loss_kd 1.614, Train_accy 74.02
+2024-01-11 12:03:45,054 [ewc.py] => Task 2, Epoch 89/200 => Loss 1.784,  Loss_clf 0.018, Loss_ewc 0.154, Loss_kd 1.613, Train_accy 73.83
+2024-01-11 12:03:52,818 [ewc.py] => Task 2, Epoch 90/200 => Loss 1.781,  Loss_clf 0.017, Loss_ewc 0.152, Loss_kd 1.611, Train_accy 73.33
+2024-01-11 12:04:06,188 [ewc.py] => Task 2, Epoch 91/200 => Loss 1.783, Loss_clf 0.019, Loss_ewc 0.150, Loss_kd 1.613, Train_accy 73.48, Test_accy 33.06
+2024-01-11 12:04:14,238 [ewc.py] => Task 2, Epoch 92/200 => Loss 1.774,  Loss_clf 0.017, Loss_ewc 0.149, Loss_kd 1.608, Train_accy 74.02
+2024-01-11 12:04:22,195 [ewc.py] => Task 2, Epoch 93/200 => Loss 1.775,  Loss_clf 0.018, Loss_ewc 0.147, Loss_kd 1.610, Train_accy 74.14
+2024-01-11 12:04:29,995 [ewc.py] => Task 2, Epoch 94/200 => Loss 1.776,  Loss_clf 0.018, Loss_ewc 0.146, Loss_kd 1.613, Train_accy 73.55
+2024-01-11 12:04:38,087 [ewc.py] => Task 2, Epoch 95/200 => Loss 1.773,  Loss_clf 0.018, Loss_ewc 0.144, Loss_kd 1.611, Train_accy 73.48
+2024-01-11 12:04:51,731 [ewc.py] => Task 2, Epoch 96/200 => Loss 1.764, Loss_clf 0.017, Loss_ewc 0.143, Loss_kd 1.604, Train_accy 73.45, Test_accy 33.02
+2024-01-11 12:04:59,808 [ewc.py] => Task 2, Epoch 97/200 => Loss 1.770,  Loss_clf 0.018, Loss_ewc 0.141, Loss_kd 1.611, Train_accy 73.43
+2024-01-11 12:05:07,661 [ewc.py] => Task 2, Epoch 98/200 => Loss 1.766,  Loss_clf 0.017, Loss_ewc 0.140, Loss_kd 1.610, Train_accy 73.17
+2024-01-11 12:05:15,394 [ewc.py] => Task 2, Epoch 99/200 => Loss 1.760,  Loss_clf 0.016, Loss_ewc 0.139, Loss_kd 1.606, Train_accy 73.62
+2024-01-11 12:05:23,143 [ewc.py] => Task 2, Epoch 100/200 => Loss 1.765,  Loss_clf 0.018, Loss_ewc 0.137, Loss_kd 1.610, Train_accy 73.10
+2024-01-11 12:05:36,242 [ewc.py] => Task 2, Epoch 101/200 => Loss 1.760, Loss_clf 0.017, Loss_ewc 0.136, Loss_kd 1.608, Train_accy 72.83, Test_accy 33.52
+2024-01-11 12:05:43,998 [ewc.py] => Task 2, Epoch 102/200 => Loss 1.764,  Loss_clf 0.017, Loss_ewc 0.135, Loss_kd 1.612, Train_accy 72.81
+2024-01-11 12:05:51,794 [ewc.py] => Task 2, Epoch 103/200 => Loss 1.754,  Loss_clf 0.015, Loss_ewc 0.133, Loss_kd 1.605, Train_accy 73.07
+2024-01-11 12:05:59,460 [ewc.py] => Task 2, Epoch 104/200 => Loss 1.755,  Loss_clf 0.017, Loss_ewc 0.132, Loss_kd 1.606, Train_accy 72.50
+2024-01-11 12:06:07,427 [ewc.py] => Task 2, Epoch 105/200 => Loss 1.753,  Loss_clf 0.018, Loss_ewc 0.131, Loss_kd 1.604, Train_accy 72.55
+2024-01-11 12:06:20,774 [ewc.py] => Task 2, Epoch 106/200 => Loss 1.755, Loss_clf 0.017, Loss_ewc 0.130, Loss_kd 1.608, Train_accy 72.02, Test_accy 33.59
+2024-01-11 12:06:28,681 [ewc.py] => Task 2, Epoch 107/200 => Loss 1.756,  Loss_clf 0.019, Loss_ewc 0.129, Loss_kd 1.608, Train_accy 73.14
+2024-01-11 12:06:36,407 [ewc.py] => Task 2, Epoch 108/200 => Loss 1.752,  Loss_clf 0.016, Loss_ewc 0.128, Loss_kd 1.607, Train_accy 73.00
+2024-01-11 12:06:44,132 [ewc.py] => Task 2, Epoch 109/200 => Loss 1.753,  Loss_clf 0.016, Loss_ewc 0.127, Loss_kd 1.610, Train_accy 72.45
+2024-01-11 12:06:52,388 [ewc.py] => Task 2, Epoch 110/200 => Loss 1.751,  Loss_clf 0.018, Loss_ewc 0.126, Loss_kd 1.607, Train_accy 71.93
+2024-01-11 12:07:06,192 [ewc.py] => Task 2, Epoch 111/200 => Loss 1.743, Loss_clf 0.015, Loss_ewc 0.125, Loss_kd 1.603, Train_accy 72.33, Test_accy 33.59
+2024-01-11 12:07:14,271 [ewc.py] => Task 2, Epoch 112/200 => Loss 1.743,  Loss_clf 0.015, Loss_ewc 0.124, Loss_kd 1.604, Train_accy 72.40
+2024-01-11 12:07:22,071 [ewc.py] => Task 2, Epoch 113/200 => Loss 1.746,  Loss_clf 0.017, Loss_ewc 0.123, Loss_kd 1.606, Train_accy 72.00
+2024-01-11 12:07:30,014 [ewc.py] => Task 2, Epoch 114/200 => Loss 1.742,  Loss_clf 0.017, Loss_ewc 0.122, Loss_kd 1.604, Train_accy 72.79
+2024-01-11 12:07:37,942 [ewc.py] => Task 2, Epoch 115/200 => Loss 1.745,  Loss_clf 0.017, Loss_ewc 0.121, Loss_kd 1.607, Train_accy 72.00
+2024-01-11 12:07:51,351 [ewc.py] => Task 2, Epoch 116/200 => Loss 1.744, Loss_clf 0.018, Loss_ewc 0.120, Loss_kd 1.606, Train_accy 71.62, Test_accy 33.78
+2024-01-11 12:07:59,438 [ewc.py] => Task 2, Epoch 117/200 => Loss 1.741,  Loss_clf 0.017, Loss_ewc 0.119, Loss_kd 1.605, Train_accy 72.69
+2024-01-11 12:08:07,287 [ewc.py] => Task 2, Epoch 118/200 => Loss 1.742,  Loss_clf 0.018, Loss_ewc 0.118, Loss_kd 1.605, Train_accy 71.90
+2024-01-11 12:08:15,197 [ewc.py] => Task 2, Epoch 119/200 => Loss 1.739,  Loss_clf 0.016, Loss_ewc 0.118, Loss_kd 1.605, Train_accy 72.38
+2024-01-11 12:08:22,933 [ewc.py] => Task 2, Epoch 120/200 => Loss 1.737,  Loss_clf 0.016, Loss_ewc 0.117, Loss_kd 1.605, Train_accy 72.88
+2024-01-11 12:08:36,476 [ewc.py] => Task 2, Epoch 121/200 => Loss 1.732, Loss_clf 0.015, Loss_ewc 0.117, Loss_kd 1.600, Train_accy 72.76, Test_accy 33.89
+2024-01-11 12:08:44,292 [ewc.py] => Task 2, Epoch 122/200 => Loss 1.732,  Loss_clf 0.015, Loss_ewc 0.116, Loss_kd 1.601, Train_accy 72.45
+2024-01-11 12:08:52,375 [ewc.py] => Task 2, Epoch 123/200 => Loss 1.730,  Loss_clf 0.015, Loss_ewc 0.116, Loss_kd 1.599, Train_accy 72.40
+2024-01-11 12:09:00,364 [ewc.py] => Task 2, Epoch 124/200 => Loss 1.733,  Loss_clf 0.015, Loss_ewc 0.116, Loss_kd 1.602, Train_accy 72.57
+2024-01-11 12:09:08,590 [ewc.py] => Task 2, Epoch 125/200 => Loss 1.730,  Loss_clf 0.015, Loss_ewc 0.116, Loss_kd 1.599, Train_accy 72.67
+2024-01-11 12:09:22,150 [ewc.py] => Task 2, Epoch 126/200 => Loss 1.736, Loss_clf 0.017, Loss_ewc 0.116, Loss_kd 1.604, Train_accy 71.17, Test_accy 33.86
+2024-01-11 12:09:30,085 [ewc.py] => Task 2, Epoch 127/200 => Loss 1.728,  Loss_clf 0.013, Loss_ewc 0.116, Loss_kd 1.599, Train_accy 72.48
+2024-01-11 12:09:38,075 [ewc.py] => Task 2, Epoch 128/200 => Loss 1.733,  Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.602, Train_accy 72.55
+2024-01-11 12:09:46,131 [ewc.py] => Task 2, Epoch 129/200 => Loss 1.734,  Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.604, Train_accy 71.69
+2024-01-11 12:09:53,933 [ewc.py] => Task 2, Epoch 130/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.115, Loss_kd 1.599, Train_accy 72.36
+2024-01-11 12:10:07,275 [ewc.py] => Task 2, Epoch 131/200 => Loss 1.729, Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.599, Train_accy 71.95, Test_accy 33.97
+2024-01-11 12:10:15,031 [ewc.py] => Task 2, Epoch 132/200 => Loss 1.729,  Loss_clf 0.014, Loss_ewc 0.115, Loss_kd 1.600, Train_accy 72.69
+2024-01-11 12:10:22,758 [ewc.py] => Task 2, Epoch 133/200 => Loss 1.729,  Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.599, Train_accy 71.81
+2024-01-11 12:10:30,709 [ewc.py] => Task 2, Epoch 134/200 => Loss 1.730,  Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.600, Train_accy 72.55
+2024-01-11 12:10:38,409 [ewc.py] => Task 2, Epoch 135/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.115, Loss_kd 1.600, Train_accy 71.71
+2024-01-11 12:10:51,926 [ewc.py] => Task 2, Epoch 136/200 => Loss 1.732, Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.603, Train_accy 71.98, Test_accy 34.08
+2024-01-11 12:10:59,656 [ewc.py] => Task 2, Epoch 137/200 => Loss 1.730,  Loss_clf 0.015, Loss_ewc 0.115, Loss_kd 1.600, Train_accy 71.50
+2024-01-11 12:11:07,584 [ewc.py] => Task 2, Epoch 138/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.115, Loss_kd 1.600, Train_accy 72.52
+2024-01-11 12:11:15,562 [ewc.py] => Task 2, Epoch 139/200 => Loss 1.734,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.603, Train_accy 72.31
+2024-01-11 12:11:23,693 [ewc.py] => Task 2, Epoch 140/200 => Loss 1.734,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.603, Train_accy 72.26
+2024-01-11 12:11:36,928 [ewc.py] => Task 2, Epoch 141/200 => Loss 1.733, Loss_clf 0.017, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 71.71, Test_accy 33.98
+2024-01-11 12:11:44,734 [ewc.py] => Task 2, Epoch 142/200 => Loss 1.728,  Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 73.05
+2024-01-11 12:11:52,445 [ewc.py] => Task 2, Epoch 143/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 71.88
+2024-01-11 12:12:00,345 [ewc.py] => Task 2, Epoch 144/200 => Loss 1.729,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 72.55
+2024-01-11 12:12:08,116 [ewc.py] => Task 2, Epoch 145/200 => Loss 1.728,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 71.79
+2024-01-11 12:12:21,567 [ewc.py] => Task 2, Epoch 146/200 => Loss 1.726, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 72.21, Test_accy 33.87
+2024-01-11 12:12:29,178 [ewc.py] => Task 2, Epoch 147/200 => Loss 1.731,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.43
+2024-01-11 12:12:36,978 [ewc.py] => Task 2, Epoch 148/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.36
+2024-01-11 12:12:44,828 [ewc.py] => Task 2, Epoch 149/200 => Loss 1.731,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.26
+2024-01-11 12:12:52,557 [ewc.py] => Task 2, Epoch 150/200 => Loss 1.732,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 71.76
+2024-01-11 12:13:05,861 [ewc.py] => Task 2, Epoch 151/200 => Loss 1.726, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.597, Train_accy 72.02, Test_accy 34.00
+2024-01-11 12:13:13,650 [ewc.py] => Task 2, Epoch 152/200 => Loss 1.729,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 71.24
+2024-01-11 12:13:21,594 [ewc.py] => Task 2, Epoch 153/200 => Loss 1.732,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.19
+2024-01-11 12:13:29,276 [ewc.py] => Task 2, Epoch 154/200 => Loss 1.736,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.606, Train_accy 72.67
+2024-01-11 12:13:37,270 [ewc.py] => Task 2, Epoch 155/200 => Loss 1.731,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.45
+2024-01-11 12:13:50,893 [ewc.py] => Task 2, Epoch 156/200 => Loss 1.730, Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.52, Test_accy 33.89
+2024-01-11 12:13:58,736 [ewc.py] => Task 2, Epoch 157/200 => Loss 1.733,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.604, Train_accy 71.57
+2024-01-11 12:14:06,599 [ewc.py] => Task 2, Epoch 158/200 => Loss 1.728,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 72.50
+2024-01-11 12:14:14,903 [ewc.py] => Task 2, Epoch 159/200 => Loss 1.730,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 71.93
+2024-01-11 12:14:22,712 [ewc.py] => Task 2, Epoch 160/200 => Loss 1.734,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.604, Train_accy 72.48
+2024-01-11 12:14:35,774 [ewc.py] => Task 2, Epoch 161/200 => Loss 1.730, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.60, Test_accy 33.92
+2024-01-11 12:14:43,741 [ewc.py] => Task 2, Epoch 162/200 => Loss 1.731,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.45
+2024-01-11 12:14:51,653 [ewc.py] => Task 2, Epoch 163/200 => Loss 1.730,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.40
+2024-01-11 12:14:59,637 [ewc.py] => Task 2, Epoch 164/200 => Loss 1.733,  Loss_clf 0.017, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.33
+2024-01-11 12:15:07,547 [ewc.py] => Task 2, Epoch 165/200 => Loss 1.729,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 71.60
+2024-01-11 12:15:21,328 [ewc.py] => Task 2, Epoch 166/200 => Loss 1.728, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 72.52, Test_accy 34.02
+2024-01-11 12:15:29,234 [ewc.py] => Task 2, Epoch 167/200 => Loss 1.728,  Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 72.48
+2024-01-11 12:15:36,930 [ewc.py] => Task 2, Epoch 168/200 => Loss 1.728,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 72.90
+2024-01-11 12:15:44,849 [ewc.py] => Task 2, Epoch 169/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.38
+2024-01-11 12:15:52,732 [ewc.py] => Task 2, Epoch 170/200 => Loss 1.730,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.57
+2024-01-11 12:16:06,463 [ewc.py] => Task 2, Epoch 171/200 => Loss 1.730, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.33, Test_accy 34.02
+2024-01-11 12:16:14,429 [ewc.py] => Task 2, Epoch 172/200 => Loss 1.729,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.31
+2024-01-11 12:16:22,557 [ewc.py] => Task 2, Epoch 173/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.12
+2024-01-11 12:16:30,285 [ewc.py] => Task 2, Epoch 174/200 => Loss 1.732,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 71.38
+2024-01-11 12:16:38,140 [ewc.py] => Task 2, Epoch 175/200 => Loss 1.725,  Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.597, Train_accy 72.31
+2024-01-11 12:16:51,859 [ewc.py] => Task 2, Epoch 176/200 => Loss 1.732, Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.10, Test_accy 33.92
+2024-01-11 12:16:59,768 [ewc.py] => Task 2, Epoch 177/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.43
+2024-01-11 12:17:07,338 [ewc.py] => Task 2, Epoch 178/200 => Loss 1.730,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 71.88
+2024-01-11 12:17:15,231 [ewc.py] => Task 2, Epoch 179/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 71.45
+2024-01-11 12:17:23,311 [ewc.py] => Task 2, Epoch 180/200 => Loss 1.727,  Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 71.31
+2024-01-11 12:17:36,691 [ewc.py] => Task 2, Epoch 181/200 => Loss 1.728, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.599, Train_accy 71.62, Test_accy 33.87
+2024-01-11 12:17:44,568 [ewc.py] => Task 2, Epoch 182/200 => Loss 1.732,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.602, Train_accy 72.10
+2024-01-11 12:17:52,628 [ewc.py] => Task 2, Epoch 183/200 => Loss 1.733,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.604, Train_accy 72.31
+2024-01-11 12:18:00,690 [ewc.py] => Task 2, Epoch 184/200 => Loss 1.728,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 71.74
+2024-01-11 12:18:08,572 [ewc.py] => Task 2, Epoch 185/200 => Loss 1.728,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 72.10
+2024-01-11 12:18:22,092 [ewc.py] => Task 2, Epoch 186/200 => Loss 1.726, Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 72.24, Test_accy 33.87
+2024-01-11 12:18:29,920 [ewc.py] => Task 2, Epoch 187/200 => Loss 1.729,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.26
+2024-01-11 12:18:37,834 [ewc.py] => Task 2, Epoch 188/200 => Loss 1.730,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 71.40
+2024-01-11 12:18:45,716 [ewc.py] => Task 2, Epoch 189/200 => Loss 1.727,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 71.60
+2024-01-11 12:18:53,724 [ewc.py] => Task 2, Epoch 190/200 => Loss 1.727,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 71.79
+2024-01-11 12:19:07,425 [ewc.py] => Task 2, Epoch 191/200 => Loss 1.731, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.17, Test_accy 34.05
+2024-01-11 12:19:15,510 [ewc.py] => Task 2, Epoch 192/200 => Loss 1.726,  Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 72.93
+2024-01-11 12:19:23,541 [ewc.py] => Task 2, Epoch 193/200 => Loss 1.734,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.603, Train_accy 72.00
+2024-01-11 12:19:31,416 [ewc.py] => Task 2, Epoch 194/200 => Loss 1.735,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.605, Train_accy 72.21
+2024-01-11 12:19:39,545 [ewc.py] => Task 2, Epoch 195/200 => Loss 1.730,  Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 71.69
+2024-01-11 12:19:53,225 [ewc.py] => Task 2, Epoch 196/200 => Loss 1.730, Loss_clf 0.015, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 71.88, Test_accy 33.87
+2024-01-11 12:20:01,207 [ewc.py] => Task 2, Epoch 197/200 => Loss 1.726,  Loss_clf 0.013, Loss_ewc 0.114, Loss_kd 1.598, Train_accy 71.83
+2024-01-11 12:20:09,329 [ewc.py] => Task 2, Epoch 198/200 => Loss 1.725,  Loss_clf 0.014, Loss_ewc 0.114, Loss_kd 1.597, Train_accy 71.81
+2024-01-11 12:20:17,396 [ewc.py] => Task 2, Epoch 199/200 => Loss 1.731,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.601, Train_accy 72.33
+2024-01-11 12:20:25,396 [ewc.py] => Task 2, Epoch 200/200 => Loss 1.730,  Loss_clf 0.016, Loss_ewc 0.114, Loss_kd 1.600, Train_accy 72.17
+2024-01-11 12:20:37,599 [trainer.py] => No NME accuracy.
+2024-01-11 12:20:37,599 [trainer.py] => CNN: {'total': 33.57, '0': 30.56, '1': 38.33, '2': 1.67, '3': 4.44, '4': 1.11, '5': 16.67, '6': 0.0, '7': 2.22, '8': 25.0, '9': 0.0, '10': 1.11, '11': 1.11, '12': 5.0, '13': 2.78, '14': 17.22, '15': 56.11, '16': 21.11, '17': 42.22, '18': 24.44, '19': 34.44, '20': 45.56, '21': 7.22, '22': 70.56, '23': 79.44, '24': 70.56, '25': 68.33, '26': 61.67, '27': 58.33, '28': 50.0, '29': 38.33, '30': 45.56, '31': 54.44, '32': 73.33, '33': 57.78, 'old': 23.96, 'new': 57.61}
+2024-01-11 12:20:37,599 [trainer.py] => CNN top1 curve: [87.41, 45.93, 33.57]
+2024-01-11 12:20:37,599 [trainer.py] => CNN top5 curve: [98.7, 90.56, 78.98]
+
+2024-01-11 12:20:37,600 [trainer.py] => All params: 21046127
+2024-01-11 12:20:37,600 [trainer.py] => Trainable params: 21046127
+2024-01-11 12:20:37,600 [ewc.py] => Learning on 35-45
+2024-01-11 12:21:30,066 [ewc.py] => Task 3, Epoch 1/200 => Loss 3.792, Loss_clf 1.366, Loss_ewc 0.106, Loss_kd 2.320, Train_accy 2.00, Test_accy 15.83
+2024-01-11 12:21:37,780 [ewc.py] => Task 3, Epoch 2/200 => Loss 3.198,  Loss_clf 0.700, Loss_ewc 0.202, Loss_kd 2.296, Train_accy 11.83
+2024-01-11 12:21:45,259 [ewc.py] => Task 3, Epoch 3/200 => Loss 3.010,  Loss_clf 0.500, Loss_ewc 0.237, Loss_kd 2.273, Train_accy 20.00
+2024-01-11 12:21:52,711 [ewc.py] => Task 3, Epoch 4/200 => Loss 2.996,  Loss_clf 0.455, Loss_ewc 0.261, Loss_kd 2.280, Train_accy 26.52
+2024-01-11 12:22:00,180 [ewc.py] => Task 3, Epoch 5/200 => Loss 2.953,  Loss_clf 0.403, Loss_ewc 0.276, Loss_kd 2.275, Train_accy 33.17
+2024-01-11 12:22:14,248 [ewc.py] => Task 3, Epoch 6/200 => Loss 2.911, Loss_clf 0.370, Loss_ewc 0.274, Loss_kd 2.267, Train_accy 34.36, Test_accy 19.01
+2024-01-11 12:22:21,763 [ewc.py] => Task 3, Epoch 7/200 => Loss 2.892,  Loss_clf 0.349, Loss_ewc 0.288, Loss_kd 2.255, Train_accy 40.43
+2024-01-11 12:22:29,289 [ewc.py] => Task 3, Epoch 8/200 => Loss 2.889,  Loss_clf 0.336, Loss_ewc 0.290, Loss_kd 2.263, Train_accy 43.19
+2024-01-11 12:22:36,795 [ewc.py] => Task 3, Epoch 9/200 => Loss 2.909,  Loss_clf 0.344, Loss_ewc 0.300, Loss_kd 2.265, Train_accy 46.07
+2024-01-11 12:22:44,573 [ewc.py] => Task 3, Epoch 10/200 => Loss 2.841,  Loss_clf 0.291, Loss_ewc 0.302, Loss_kd 2.249, Train_accy 48.10
+2024-01-11 12:22:59,186 [ewc.py] => Task 3, Epoch 11/200 => Loss 2.868, Loss_clf 0.290, Loss_ewc 0.303, Loss_kd 2.274, Train_accy 52.02, Test_accy 16.67
+2024-01-11 12:23:06,758 [ewc.py] => Task 3, Epoch 12/200 => Loss 2.852,  Loss_clf 0.279, Loss_ewc 0.315, Loss_kd 2.259, Train_accy 53.60
+2024-01-11 12:23:14,332 [ewc.py] => Task 3, Epoch 13/200 => Loss 2.828,  Loss_clf 0.277, Loss_ewc 0.301, Loss_kd 2.250, Train_accy 54.57
+2024-01-11 12:23:21,891 [ewc.py] => Task 3, Epoch 14/200 => Loss 2.911,  Loss_clf 0.302, Loss_ewc 0.328, Loss_kd 2.281, Train_accy 52.26
+2024-01-11 12:23:29,526 [ewc.py] => Task 3, Epoch 15/200 => Loss 2.913,  Loss_clf 0.304, Loss_ewc 0.341, Loss_kd 2.268, Train_accy 56.71
+2024-01-11 12:23:43,897 [ewc.py] => Task 3, Epoch 16/200 => Loss 2.926, Loss_clf 0.291, Loss_ewc 0.365, Loss_kd 2.270, Train_accy 55.38, Test_accy 19.52
+2024-01-11 12:23:51,624 [ewc.py] => Task 3, Epoch 17/200 => Loss 2.834,  Loss_clf 0.243, Loss_ewc 0.336, Loss_kd 2.255, Train_accy 59.95
+2024-01-11 12:23:59,246 [ewc.py] => Task 3, Epoch 18/200 => Loss 2.856,  Loss_clf 0.267, Loss_ewc 0.332, Loss_kd 2.257, Train_accy 58.86
+2024-01-11 12:24:06,991 [ewc.py] => Task 3, Epoch 19/200 => Loss 2.803,  Loss_clf 0.239, Loss_ewc 0.322, Loss_kd 2.243, Train_accy 60.10
+2024-01-11 12:24:14,654 [ewc.py] => Task 3, Epoch 20/200 => Loss 2.743,  Loss_clf 0.204, Loss_ewc 0.300, Loss_kd 2.239, Train_accy 63.12
+2024-01-11 12:24:29,111 [ewc.py] => Task 3, Epoch 21/200 => Loss 2.819, Loss_clf 0.259, Loss_ewc 0.309, Loss_kd 2.251, Train_accy 61.52, Test_accy 17.26
+2024-01-11 12:24:37,063 [ewc.py] => Task 3, Epoch 22/200 => Loss 2.849,  Loss_clf 0.239, Loss_ewc 0.336, Loss_kd 2.275, Train_accy 63.07
+2024-01-11 12:24:44,787 [ewc.py] => Task 3, Epoch 23/200 => Loss 2.822,  Loss_clf 0.229, Loss_ewc 0.344, Loss_kd 2.249, Train_accy 62.86
+2024-01-11 12:24:52,506 [ewc.py] => Task 3, Epoch 24/200 => Loss 2.780,  Loss_clf 0.208, Loss_ewc 0.323, Loss_kd 2.249, Train_accy 65.81
+2024-01-11 12:25:00,127 [ewc.py] => Task 3, Epoch 25/200 => Loss 2.845,  Loss_clf 0.249, Loss_ewc 0.327, Loss_kd 2.269, Train_accy 64.57
+2024-01-11 12:25:14,560 [ewc.py] => Task 3, Epoch 26/200 => Loss 2.833, Loss_clf 0.232, Loss_ewc 0.344, Loss_kd 2.257, Train_accy 64.76, Test_accy 17.21
+2024-01-11 12:25:22,328 [ewc.py] => Task 3, Epoch 27/200 => Loss 2.845,  Loss_clf 0.242, Loss_ewc 0.349, Loss_kd 2.254, Train_accy 64.55
+2024-01-11 12:25:30,127 [ewc.py] => Task 3, Epoch 28/200 => Loss 2.795,  Loss_clf 0.210, Loss_ewc 0.338, Loss_kd 2.247, Train_accy 66.00
+2024-01-11 12:25:37,867 [ewc.py] => Task 3, Epoch 29/200 => Loss 2.777,  Loss_clf 0.208, Loss_ewc 0.323, Loss_kd 2.246, Train_accy 67.76
+2024-01-11 12:25:45,712 [ewc.py] => Task 3, Epoch 30/200 => Loss 2.793,  Loss_clf 0.230, Loss_ewc 0.321, Loss_kd 2.242, Train_accy 67.69
+2024-01-11 12:26:00,044 [ewc.py] => Task 3, Epoch 31/200 => Loss 2.812, Loss_clf 0.228, Loss_ewc 0.335, Loss_kd 2.249, Train_accy 66.40, Test_accy 16.90
+2024-01-11 12:26:07,639 [ewc.py] => Task 3, Epoch 32/200 => Loss 2.733,  Loss_clf 0.171, Loss_ewc 0.323, Loss_kd 2.239, Train_accy 69.31
+2024-01-11 12:26:15,452 [ewc.py] => Task 3, Epoch 33/200 => Loss 2.664,  Loss_clf 0.146, Loss_ewc 0.294, Loss_kd 2.224, Train_accy 71.36
+2024-01-11 12:26:23,379 [ewc.py] => Task 3, Epoch 34/200 => Loss 2.763,  Loss_clf 0.229, Loss_ewc 0.292, Loss_kd 2.242, Train_accy 66.33
+2024-01-11 12:26:31,181 [ewc.py] => Task 3, Epoch 35/200 => Loss 2.826,  Loss_clf 0.234, Loss_ewc 0.338, Loss_kd 2.253, Train_accy 65.83
+2024-01-11 12:26:46,090 [ewc.py] => Task 3, Epoch 36/200 => Loss 2.762, Loss_clf 0.192, Loss_ewc 0.327, Loss_kd 2.243, Train_accy 69.98, Test_accy 20.62
+2024-01-11 12:26:54,014 [ewc.py] => Task 3, Epoch 37/200 => Loss 2.804,  Loss_clf 0.215, Loss_ewc 0.328, Loss_kd 2.261, Train_accy 69.10
+2024-01-11 12:27:01,865 [ewc.py] => Task 3, Epoch 38/200 => Loss 2.844,  Loss_clf 0.243, Loss_ewc 0.343, Loss_kd 2.258, Train_accy 67.26
+2024-01-11 12:27:09,703 [ewc.py] => Task 3, Epoch 39/200 => Loss 2.897,  Loss_clf 0.248, Loss_ewc 0.375, Loss_kd 2.274, Train_accy 66.57
+2024-01-11 12:27:17,687 [ewc.py] => Task 3, Epoch 40/200 => Loss 2.937,  Loss_clf 0.268, Loss_ewc 0.387, Loss_kd 2.282, Train_accy 68.19
+2024-01-11 12:27:32,855 [ewc.py] => Task 3, Epoch 41/200 => Loss 2.806, Loss_clf 0.185, Loss_ewc 0.367, Loss_kd 2.255, Train_accy 71.12, Test_accy 19.95
+2024-01-11 12:27:40,681 [ewc.py] => Task 3, Epoch 42/200 => Loss 2.708,  Loss_clf 0.162, Loss_ewc 0.320, Loss_kd 2.225, Train_accy 71.36
+2024-01-11 12:27:48,527 [ewc.py] => Task 3, Epoch 43/200 => Loss 2.705,  Loss_clf 0.170, Loss_ewc 0.300, Loss_kd 2.235, Train_accy 69.12
+2024-01-11 12:27:56,462 [ewc.py] => Task 3, Epoch 44/200 => Loss 2.790,  Loss_clf 0.221, Loss_ewc 0.316, Loss_kd 2.253, Train_accy 68.79
+2024-01-11 12:28:04,393 [ewc.py] => Task 3, Epoch 45/200 => Loss 2.770,  Loss_clf 0.195, Loss_ewc 0.337, Loss_kd 2.237, Train_accy 69.45
+2024-01-11 12:28:19,487 [ewc.py] => Task 3, Epoch 46/200 => Loss 2.872, Loss_clf 0.252, Loss_ewc 0.341, Loss_kd 2.279, Train_accy 67.74, Test_accy 16.88
+2024-01-11 12:28:27,320 [ewc.py] => Task 3, Epoch 47/200 => Loss 2.857,  Loss_clf 0.224, Loss_ewc 0.366, Loss_kd 2.267, Train_accy 68.57
+2024-01-11 12:28:35,137 [ewc.py] => Task 3, Epoch 48/200 => Loss 2.832,  Loss_clf 0.219, Loss_ewc 0.356, Loss_kd 2.257, Train_accy 69.60
+2024-01-11 12:28:43,017 [ewc.py] => Task 3, Epoch 49/200 => Loss 2.763,  Loss_clf 0.190, Loss_ewc 0.336, Loss_kd 2.237, Train_accy 70.76
+2024-01-11 12:28:50,971 [ewc.py] => Task 3, Epoch 50/200 => Loss 2.707,  Loss_clf 0.157, Loss_ewc 0.312, Loss_kd 2.237, Train_accy 72.71
+2024-01-11 12:29:06,415 [ewc.py] => Task 3, Epoch 51/200 => Loss 2.669, Loss_clf 0.150, Loss_ewc 0.299, Loss_kd 2.220, Train_accy 72.00, Test_accy 20.17
+2024-01-11 12:29:14,514 [ewc.py] => Task 3, Epoch 52/200 => Loss 2.748,  Loss_clf 0.204, Loss_ewc 0.297, Loss_kd 2.248, Train_accy 70.71
+2024-01-11 12:29:22,484 [ewc.py] => Task 3, Epoch 53/200 => Loss 2.825,  Loss_clf 0.212, Loss_ewc 0.350, Loss_kd 2.264, Train_accy 71.69
+2024-01-11 12:29:30,608 [ewc.py] => Task 3, Epoch 54/200 => Loss 2.803,  Loss_clf 0.210, Loss_ewc 0.337, Loss_kd 2.256, Train_accy 69.69
+2024-01-11 12:29:38,746 [ewc.py] => Task 3, Epoch 55/200 => Loss 2.739,  Loss_clf 0.178, Loss_ewc 0.327, Loss_kd 2.235, Train_accy 72.05
+2024-01-11 12:29:53,728 [ewc.py] => Task 3, Epoch 56/200 => Loss 2.660, Loss_clf 0.136, Loss_ewc 0.302, Loss_kd 2.223, Train_accy 75.17, Test_accy 20.80
+2024-01-11 12:30:01,455 [ewc.py] => Task 3, Epoch 57/200 => Loss 2.634,  Loss_clf 0.145, Loss_ewc 0.274, Loss_kd 2.214, Train_accy 75.36
+2024-01-11 12:30:09,424 [ewc.py] => Task 3, Epoch 58/200 => Loss 2.758,  Loss_clf 0.214, Loss_ewc 0.297, Loss_kd 2.247, Train_accy 71.62
+2024-01-11 12:30:17,376 [ewc.py] => Task 3, Epoch 59/200 => Loss 2.846,  Loss_clf 0.229, Loss_ewc 0.352, Loss_kd 2.265, Train_accy 70.02
+2024-01-11 12:30:25,144 [ewc.py] => Task 3, Epoch 60/200 => Loss 2.959,  Loss_clf 0.283, Loss_ewc 0.391, Loss_kd 2.284, Train_accy 68.52
+2024-01-11 12:30:40,565 [ewc.py] => Task 3, Epoch 61/200 => Loss 2.722, Loss_clf 0.117, Loss_ewc 0.389, Loss_kd 2.216, Train_accy 72.45, Test_accy 22.64
+2024-01-11 12:30:48,434 [ewc.py] => Task 3, Epoch 62/200 => Loss 2.564,  Loss_clf 0.049, Loss_ewc 0.348, Loss_kd 2.167, Train_accy 78.26
+2024-01-11 12:30:56,502 [ewc.py] => Task 3, Epoch 63/200 => Loss 2.509,  Loss_clf 0.037, Loss_ewc 0.318, Loss_kd 2.154, Train_accy 79.60
+2024-01-11 12:31:04,194 [ewc.py] => Task 3, Epoch 64/200 => Loss 2.471,  Loss_clf 0.033, Loss_ewc 0.296, Loss_kd 2.142, Train_accy 78.86
+2024-01-11 12:31:11,902 [ewc.py] => Task 3, Epoch 65/200 => Loss 2.444,  Loss_clf 0.030, Loss_ewc 0.278, Loss_kd 2.136, Train_accy 79.38
+2024-01-11 12:31:26,666 [ewc.py] => Task 3, Epoch 66/200 => Loss 2.421, Loss_clf 0.027, Loss_ewc 0.263, Loss_kd 2.131, Train_accy 79.93, Test_accy 24.68
+2024-01-11 12:31:34,687 [ewc.py] => Task 3, Epoch 67/200 => Loss 2.405,  Loss_clf 0.025, Loss_ewc 0.250, Loss_kd 2.129, Train_accy 79.71
+2024-01-11 12:31:42,695 [ewc.py] => Task 3, Epoch 68/200 => Loss 2.391,  Loss_clf 0.025, Loss_ewc 0.239, Loss_kd 2.126, Train_accy 79.38
+2024-01-11 12:31:50,667 [ewc.py] => Task 3, Epoch 69/200 => Loss 2.378,  Loss_clf 0.025, Loss_ewc 0.230, Loss_kd 2.124, Train_accy 79.45
+2024-01-11 12:31:58,438 [ewc.py] => Task 3, Epoch 70/200 => Loss 2.366,  Loss_clf 0.023, Loss_ewc 0.221, Loss_kd 2.122, Train_accy 79.43
+2024-01-11 12:32:14,163 [ewc.py] => Task 3, Epoch 71/200 => Loss 2.353, Loss_clf 0.023, Loss_ewc 0.213, Loss_kd 2.117, Train_accy 79.19, Test_accy 25.48
+2024-01-11 12:32:22,348 [ewc.py] => Task 3, Epoch 72/200 => Loss 2.350,  Loss_clf 0.025, Loss_ewc 0.206, Loss_kd 2.118, Train_accy 77.43
+2024-01-11 12:32:30,215 [ewc.py] => Task 3, Epoch 73/200 => Loss 2.340,  Loss_clf 0.023, Loss_ewc 0.200, Loss_kd 2.117, Train_accy 79.38
+2024-01-11 12:32:37,978 [ewc.py] => Task 3, Epoch 74/200 => Loss 2.336,  Loss_clf 0.025, Loss_ewc 0.194, Loss_kd 2.116, Train_accy 78.14
+2024-01-11 12:32:45,792 [ewc.py] => Task 3, Epoch 75/200 => Loss 2.330,  Loss_clf 0.023, Loss_ewc 0.189, Loss_kd 2.118, Train_accy 78.26
+2024-01-11 12:33:00,039 [ewc.py] => Task 3, Epoch 76/200 => Loss 2.319, Loss_clf 0.022, Loss_ewc 0.184, Loss_kd 2.112, Train_accy 77.95, Test_accy 25.48
+2024-01-11 12:33:07,628 [ewc.py] => Task 3, Epoch 77/200 => Loss 2.305,  Loss_clf 0.020, Loss_ewc 0.179, Loss_kd 2.106, Train_accy 78.31
+2024-01-11 12:33:15,544 [ewc.py] => Task 3, Epoch 78/200 => Loss 2.307,  Loss_clf 0.022, Loss_ewc 0.175, Loss_kd 2.110, Train_accy 78.07
+2024-01-11 12:33:23,441 [ewc.py] => Task 3, Epoch 79/200 => Loss 2.302,  Loss_clf 0.020, Loss_ewc 0.171, Loss_kd 2.111, Train_accy 77.86
+2024-01-11 12:33:31,200 [ewc.py] => Task 3, Epoch 80/200 => Loss 2.298,  Loss_clf 0.023, Loss_ewc 0.168, Loss_kd 2.108, Train_accy 77.55
+2024-01-11 12:33:45,718 [ewc.py] => Task 3, Epoch 81/200 => Loss 2.289, Loss_clf 0.021, Loss_ewc 0.164, Loss_kd 2.104, Train_accy 77.19, Test_accy 25.83
+2024-01-11 12:33:53,995 [ewc.py] => Task 3, Epoch 82/200 => Loss 2.286,  Loss_clf 0.020, Loss_ewc 0.161, Loss_kd 2.104, Train_accy 77.17
+2024-01-11 12:34:01,945 [ewc.py] => Task 3, Epoch 83/200 => Loss 2.286,  Loss_clf 0.020, Loss_ewc 0.157, Loss_kd 2.109, Train_accy 76.81
+2024-01-11 12:34:09,552 [ewc.py] => Task 3, Epoch 84/200 => Loss 2.283,  Loss_clf 0.021, Loss_ewc 0.155, Loss_kd 2.106, Train_accy 77.43
+2024-01-11 12:34:17,210 [ewc.py] => Task 3, Epoch 85/200 => Loss 2.280,  Loss_clf 0.022, Loss_ewc 0.152, Loss_kd 2.106, Train_accy 76.88
+2024-01-11 12:34:31,843 [ewc.py] => Task 3, Epoch 86/200 => Loss 2.274, Loss_clf 0.019, Loss_ewc 0.149, Loss_kd 2.106, Train_accy 76.71, Test_accy 25.93
+2024-01-11 12:34:39,636 [ewc.py] => Task 3, Epoch 87/200 => Loss 2.271,  Loss_clf 0.021, Loss_ewc 0.147, Loss_kd 2.103, Train_accy 76.55
+2024-01-11 12:34:47,419 [ewc.py] => Task 3, Epoch 88/200 => Loss 2.271,  Loss_clf 0.020, Loss_ewc 0.145, Loss_kd 2.106, Train_accy 76.86
+2024-01-11 12:34:55,041 [ewc.py] => Task 3, Epoch 89/200 => Loss 2.269,  Loss_clf 0.021, Loss_ewc 0.142, Loss_kd 2.105, Train_accy 76.17
+2024-01-11 12:35:03,013 [ewc.py] => Task 3, Epoch 90/200 => Loss 2.261,  Loss_clf 0.019, Loss_ewc 0.141, Loss_kd 2.101, Train_accy 76.60
+2024-01-11 12:35:17,564 [ewc.py] => Task 3, Epoch 91/200 => Loss 2.263, Loss_clf 0.019, Loss_ewc 0.138, Loss_kd 2.105, Train_accy 76.43, Test_accy 25.72
+2024-01-11 12:35:25,398 [ewc.py] => Task 3, Epoch 92/200 => Loss 2.262,  Loss_clf 0.020, Loss_ewc 0.136, Loss_kd 2.106, Train_accy 76.57
+2024-01-11 12:35:33,176 [ewc.py] => Task 3, Epoch 93/200 => Loss 2.261,  Loss_clf 0.023, Loss_ewc 0.134, Loss_kd 2.104, Train_accy 76.31
+2024-01-11 12:35:41,205 [ewc.py] => Task 3, Epoch 94/200 => Loss 2.256,  Loss_clf 0.020, Loss_ewc 0.133, Loss_kd 2.103, Train_accy 75.86
+2024-01-11 12:35:49,305 [ewc.py] => Task 3, Epoch 95/200 => Loss 2.253,  Loss_clf 0.019, Loss_ewc 0.131, Loss_kd 2.103, Train_accy 75.88
+2024-01-11 12:36:04,407 [ewc.py] => Task 3, Epoch 96/200 => Loss 2.253, Loss_clf 0.020, Loss_ewc 0.129, Loss_kd 2.104, Train_accy 75.67, Test_accy 26.14
+2024-01-11 12:36:12,500 [ewc.py] => Task 3, Epoch 97/200 => Loss 2.255,  Loss_clf 0.020, Loss_ewc 0.128, Loss_kd 2.107, Train_accy 76.29
+2024-01-11 12:36:20,402 [ewc.py] => Task 3, Epoch 98/200 => Loss 2.251,  Loss_clf 0.020, Loss_ewc 0.127, Loss_kd 2.105, Train_accy 76.36
+2024-01-11 12:36:28,236 [ewc.py] => Task 3, Epoch 99/200 => Loss 2.244,  Loss_clf 0.018, Loss_ewc 0.125, Loss_kd 2.100, Train_accy 76.31
+2024-01-11 12:36:36,260 [ewc.py] => Task 3, Epoch 100/200 => Loss 2.246,  Loss_clf 0.019, Loss_ewc 0.124, Loss_kd 2.103, Train_accy 76.14
+2024-01-11 12:36:51,634 [ewc.py] => Task 3, Epoch 101/200 => Loss 2.242, Loss_clf 0.018, Loss_ewc 0.122, Loss_kd 2.101, Train_accy 75.98, Test_accy 26.32
+2024-01-11 12:36:59,532 [ewc.py] => Task 3, Epoch 102/200 => Loss 2.243,  Loss_clf 0.019, Loss_ewc 0.121, Loss_kd 2.103, Train_accy 75.17
+2024-01-11 12:37:07,372 [ewc.py] => Task 3, Epoch 103/200 => Loss 2.236,  Loss_clf 0.018, Loss_ewc 0.120, Loss_kd 2.098, Train_accy 75.64
+2024-01-11 12:37:15,373 [ewc.py] => Task 3, Epoch 104/200 => Loss 2.236,  Loss_clf 0.019, Loss_ewc 0.118, Loss_kd 2.099, Train_accy 75.31
+2024-01-11 12:37:23,438 [ewc.py] => Task 3, Epoch 105/200 => Loss 2.236,  Loss_clf 0.018, Loss_ewc 0.117, Loss_kd 2.100, Train_accy 76.33
+2024-01-11 12:37:37,999 [ewc.py] => Task 3, Epoch 106/200 => Loss 2.233, Loss_clf 0.019, Loss_ewc 0.116, Loss_kd 2.098, Train_accy 76.05, Test_accy 26.33
+2024-01-11 12:37:45,691 [ewc.py] => Task 3, Epoch 107/200 => Loss 2.233,  Loss_clf 0.019, Loss_ewc 0.115, Loss_kd 2.099, Train_accy 75.71
+2024-01-11 12:37:53,546 [ewc.py] => Task 3, Epoch 108/200 => Loss 2.229,  Loss_clf 0.018, Loss_ewc 0.114, Loss_kd 2.098, Train_accy 76.52
+2024-01-11 12:38:01,408 [ewc.py] => Task 3, Epoch 109/200 => Loss 2.232,  Loss_clf 0.019, Loss_ewc 0.113, Loss_kd 2.101, Train_accy 75.86
+2024-01-11 12:38:09,186 [ewc.py] => Task 3, Epoch 110/200 => Loss 2.229,  Loss_clf 0.019, Loss_ewc 0.112, Loss_kd 2.099, Train_accy 75.83
+2024-01-11 12:38:24,081 [ewc.py] => Task 3, Epoch 111/200 => Loss 2.227, Loss_clf 0.018, Loss_ewc 0.111, Loss_kd 2.098, Train_accy 76.36, Test_accy 26.57
+2024-01-11 12:38:31,866 [ewc.py] => Task 3, Epoch 112/200 => Loss 2.232,  Loss_clf 0.020, Loss_ewc 0.110, Loss_kd 2.102, Train_accy 75.17
+2024-01-11 12:38:39,542 [ewc.py] => Task 3, Epoch 113/200 => Loss 2.225,  Loss_clf 0.018, Loss_ewc 0.109, Loss_kd 2.098, Train_accy 76.31
+2024-01-11 12:38:47,355 [ewc.py] => Task 3, Epoch 114/200 => Loss 2.225,  Loss_clf 0.018, Loss_ewc 0.108, Loss_kd 2.099, Train_accy 75.52
+2024-01-11 12:38:55,384 [ewc.py] => Task 3, Epoch 115/200 => Loss 2.225,  Loss_clf 0.018, Loss_ewc 0.107, Loss_kd 2.100, Train_accy 76.29
+2024-01-11 12:39:10,099 [ewc.py] => Task 3, Epoch 116/200 => Loss 2.226, Loss_clf 0.018, Loss_ewc 0.106, Loss_kd 2.102, Train_accy 74.57, Test_accy 26.57
+2024-01-11 12:39:18,531 [ewc.py] => Task 3, Epoch 117/200 => Loss 2.223,  Loss_clf 0.019, Loss_ewc 0.106, Loss_kd 2.099, Train_accy 75.88
+2024-01-11 12:39:27,091 [ewc.py] => Task 3, Epoch 118/200 => Loss 2.228,  Loss_clf 0.021, Loss_ewc 0.105, Loss_kd 2.102, Train_accy 75.38
+2024-01-11 12:39:34,802 [ewc.py] => Task 3, Epoch 119/200 => Loss 2.224,  Loss_clf 0.019, Loss_ewc 0.104, Loss_kd 2.102, Train_accy 75.31
+2024-01-11 12:39:42,469 [ewc.py] => Task 3, Epoch 120/200 => Loss 2.228,  Loss_clf 0.022, Loss_ewc 0.104, Loss_kd 2.103, Train_accy 75.40
+2024-01-11 12:39:57,245 [ewc.py] => Task 3, Epoch 121/200 => Loss 2.218, Loss_clf 0.017, Loss_ewc 0.103, Loss_kd 2.098, Train_accy 75.88, Test_accy 26.94
+2024-01-11 12:40:04,801 [ewc.py] => Task 3, Epoch 122/200 => Loss 2.220,  Loss_clf 0.017, Loss_ewc 0.103, Loss_kd 2.099, Train_accy 76.26
+2024-01-11 12:40:12,553 [ewc.py] => Task 3, Epoch 123/200 => Loss 2.214,  Loss_clf 0.017, Loss_ewc 0.103, Loss_kd 2.094, Train_accy 75.81
+2024-01-11 12:40:20,339 [ewc.py] => Task 3, Epoch 124/200 => Loss 2.212,  Loss_clf 0.016, Loss_ewc 0.103, Loss_kd 2.093, Train_accy 76.07
+2024-01-11 12:40:28,438 [ewc.py] => Task 3, Epoch 125/200 => Loss 2.213,  Loss_clf 0.016, Loss_ewc 0.103, Loss_kd 2.094, Train_accy 76.64
+2024-01-11 12:40:43,067 [ewc.py] => Task 3, Epoch 126/200 => Loss 2.219, Loss_clf 0.017, Loss_ewc 0.103, Loss_kd 2.100, Train_accy 75.74, Test_accy 26.91
+2024-01-11 12:40:50,640 [ewc.py] => Task 3, Epoch 127/200 => Loss 2.215,  Loss_clf 0.016, Loss_ewc 0.103, Loss_kd 2.097, Train_accy 75.79
+2024-01-11 12:40:58,430 [ewc.py] => Task 3, Epoch 128/200 => Loss 2.215,  Loss_clf 0.018, Loss_ewc 0.102, Loss_kd 2.095, Train_accy 75.71
+2024-01-11 12:41:06,513 [ewc.py] => Task 3, Epoch 129/200 => Loss 2.212,  Loss_clf 0.016, Loss_ewc 0.102, Loss_kd 2.093, Train_accy 75.50
+2024-01-11 12:41:14,518 [ewc.py] => Task 3, Epoch 130/200 => Loss 2.217,  Loss_clf 0.018, Loss_ewc 0.102, Loss_kd 2.097, Train_accy 75.36
+2024-01-11 12:41:29,185 [ewc.py] => Task 3, Epoch 131/200 => Loss 2.214, Loss_clf 0.018, Loss_ewc 0.102, Loss_kd 2.095, Train_accy 75.62, Test_accy 26.79
+2024-01-11 12:41:37,025 [ewc.py] => Task 3, Epoch 132/200 => Loss 2.215,  Loss_clf 0.016, Loss_ewc 0.102, Loss_kd 2.096, Train_accy 75.93
+2024-01-11 12:41:44,654 [ewc.py] => Task 3, Epoch 133/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.102, Loss_kd 2.093, Train_accy 74.93
+2024-01-11 12:41:52,580 [ewc.py] => Task 3, Epoch 134/200 => Loss 2.222,  Loss_clf 0.020, Loss_ewc 0.102, Loss_kd 2.101, Train_accy 75.50
+2024-01-11 12:42:00,781 [ewc.py] => Task 3, Epoch 135/200 => Loss 2.216,  Loss_clf 0.016, Loss_ewc 0.102, Loss_kd 2.098, Train_accy 75.29
+2024-01-11 12:42:15,691 [ewc.py] => Task 3, Epoch 136/200 => Loss 2.211, Loss_clf 0.014, Loss_ewc 0.102, Loss_kd 2.095, Train_accy 76.31, Test_accy 26.60
+2024-01-11 12:42:23,346 [ewc.py] => Task 3, Epoch 137/200 => Loss 2.214,  Loss_clf 0.017, Loss_ewc 0.102, Loss_kd 2.095, Train_accy 75.64
+2024-01-11 12:42:31,058 [ewc.py] => Task 3, Epoch 138/200 => Loss 2.209,  Loss_clf 0.015, Loss_ewc 0.102, Loss_kd 2.092, Train_accy 76.57
+2024-01-11 12:42:39,026 [ewc.py] => Task 3, Epoch 139/200 => Loss 2.208,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.092, Train_accy 76.33
+2024-01-11 12:42:46,850 [ewc.py] => Task 3, Epoch 140/200 => Loss 2.213,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.096, Train_accy 75.60
+2024-01-11 12:43:01,996 [ewc.py] => Task 3, Epoch 141/200 => Loss 2.211, Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.64, Test_accy 26.84
+2024-01-11 12:43:10,035 [ewc.py] => Task 3, Epoch 142/200 => Loss 2.216,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.099, Train_accy 75.52
+2024-01-11 12:43:18,014 [ewc.py] => Task 3, Epoch 143/200 => Loss 2.212,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.095, Train_accy 75.98
+2024-01-11 12:43:26,041 [ewc.py] => Task 3, Epoch 144/200 => Loss 2.213,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.096, Train_accy 75.45
+2024-01-11 12:43:33,936 [ewc.py] => Task 3, Epoch 145/200 => Loss 2.211,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 76.43
+2024-01-11 12:43:49,018 [ewc.py] => Task 3, Epoch 146/200 => Loss 2.212, Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.67, Test_accy 27.00
+2024-01-11 12:43:57,081 [ewc.py] => Task 3, Epoch 147/200 => Loss 2.206,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.090, Train_accy 76.10
+2024-01-11 12:44:05,076 [ewc.py] => Task 3, Epoch 148/200 => Loss 2.207,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.090, Train_accy 75.40
+2024-01-11 12:44:13,007 [ewc.py] => Task 3, Epoch 149/200 => Loss 2.213,  Loss_clf 0.018, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.74
+2024-01-11 12:44:20,856 [ewc.py] => Task 3, Epoch 150/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 76.31
+2024-01-11 12:44:36,422 [ewc.py] => Task 3, Epoch 151/200 => Loss 2.211, Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.57, Test_accy 26.80
+2024-01-11 12:44:44,288 [ewc.py] => Task 3, Epoch 152/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 75.40
+2024-01-11 12:44:52,018 [ewc.py] => Task 3, Epoch 153/200 => Loss 2.206,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.090, Train_accy 75.40
+2024-01-11 12:44:59,676 [ewc.py] => Task 3, Epoch 154/200 => Loss 2.208,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.091, Train_accy 75.69
+2024-01-11 12:45:07,328 [ewc.py] => Task 3, Epoch 155/200 => Loss 2.214,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.097, Train_accy 75.38
+2024-01-11 12:45:21,885 [ewc.py] => Task 3, Epoch 156/200 => Loss 2.206, Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.090, Train_accy 75.86, Test_accy 26.78
+2024-01-11 12:45:29,604 [ewc.py] => Task 3, Epoch 157/200 => Loss 2.217,  Loss_clf 0.018, Loss_ewc 0.101, Loss_kd 2.097, Train_accy 75.67
+2024-01-11 12:45:37,267 [ewc.py] => Task 3, Epoch 158/200 => Loss 2.210,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.092, Train_accy 75.50
+2024-01-11 12:45:44,847 [ewc.py] => Task 3, Epoch 159/200 => Loss 2.208,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.091, Train_accy 76.12
+2024-01-11 12:45:52,473 [ewc.py] => Task 3, Epoch 160/200 => Loss 2.213,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.095, Train_accy 75.48
+2024-01-11 12:46:06,836 [ewc.py] => Task 3, Epoch 161/200 => Loss 2.216, Loss_clf 0.018, Loss_ewc 0.101, Loss_kd 2.097, Train_accy 75.52, Test_accy 26.58
+2024-01-11 12:46:14,441 [ewc.py] => Task 3, Epoch 162/200 => Loss 2.215,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.096, Train_accy 75.62
+2024-01-11 12:46:22,112 [ewc.py] => Task 3, Epoch 163/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.93
+2024-01-11 12:46:29,789 [ewc.py] => Task 3, Epoch 164/200 => Loss 2.209,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 76.07
+2024-01-11 12:46:37,623 [ewc.py] => Task 3, Epoch 165/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.31
+2024-01-11 12:46:51,851 [ewc.py] => Task 3, Epoch 166/200 => Loss 2.212, Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 74.98, Test_accy 26.84
+2024-01-11 12:46:59,516 [ewc.py] => Task 3, Epoch 167/200 => Loss 2.212,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.86
+2024-01-11 12:47:07,049 [ewc.py] => Task 3, Epoch 168/200 => Loss 2.211,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 75.45
+2024-01-11 12:47:14,749 [ewc.py] => Task 3, Epoch 169/200 => Loss 2.210,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 75.52
+2024-01-11 12:47:22,428 [ewc.py] => Task 3, Epoch 170/200 => Loss 2.210,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 75.88
+2024-01-11 12:47:37,034 [ewc.py] => Task 3, Epoch 171/200 => Loss 2.215, Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.097, Train_accy 75.21, Test_accy 27.09
+2024-01-11 12:47:44,805 [ewc.py] => Task 3, Epoch 172/200 => Loss 2.215,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.097, Train_accy 76.17
+2024-01-11 12:47:53,229 [ewc.py] => Task 3, Epoch 173/200 => Loss 2.209,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.092, Train_accy 75.67
+2024-01-11 12:48:01,031 [ewc.py] => Task 3, Epoch 174/200 => Loss 2.208,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.091, Train_accy 75.52
+2024-01-11 12:48:08,610 [ewc.py] => Task 3, Epoch 175/200 => Loss 2.212,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.86
+2024-01-11 12:48:23,224 [ewc.py] => Task 3, Epoch 176/200 => Loss 2.212, Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.45, Test_accy 26.93
+2024-01-11 12:48:31,032 [ewc.py] => Task 3, Epoch 177/200 => Loss 2.214,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.096, Train_accy 76.02
+2024-01-11 12:48:38,963 [ewc.py] => Task 3, Epoch 178/200 => Loss 2.214,  Loss_clf 0.018, Loss_ewc 0.101, Loss_kd 2.095, Train_accy 75.57
+2024-01-11 12:48:47,057 [ewc.py] => Task 3, Epoch 179/200 => Loss 2.207,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.092, Train_accy 75.90
+2024-01-11 12:48:54,891 [ewc.py] => Task 3, Epoch 180/200 => Loss 2.210,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 75.29
+2024-01-11 12:49:10,185 [ewc.py] => Task 3, Epoch 181/200 => Loss 2.212, Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.095, Train_accy 75.38, Test_accy 26.79
+2024-01-11 12:49:18,134 [ewc.py] => Task 3, Epoch 182/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 74.98
+2024-01-11 12:49:26,163 [ewc.py] => Task 3, Epoch 183/200 => Loss 2.210,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 76.02
+2024-01-11 12:49:33,972 [ewc.py] => Task 3, Epoch 184/200 => Loss 2.217,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.100, Train_accy 75.67
+2024-01-11 12:49:41,776 [ewc.py] => Task 3, Epoch 185/200 => Loss 2.207,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.091, Train_accy 76.24
+2024-01-11 12:49:56,451 [ewc.py] => Task 3, Epoch 186/200 => Loss 2.220, Loss_clf 0.019, Loss_ewc 0.101, Loss_kd 2.100, Train_accy 75.31, Test_accy 26.93
+2024-01-11 12:50:04,231 [ewc.py] => Task 3, Epoch 187/200 => Loss 2.209,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 76.45
+2024-01-11 12:50:12,130 [ewc.py] => Task 3, Epoch 188/200 => Loss 2.207,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.091, Train_accy 75.48
+2024-01-11 12:50:20,121 [ewc.py] => Task 3, Epoch 189/200 => Loss 2.210,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.45
+2024-01-11 12:50:28,191 [ewc.py] => Task 3, Epoch 190/200 => Loss 2.208,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.091, Train_accy 75.86
+2024-01-11 12:50:43,277 [ewc.py] => Task 3, Epoch 191/200 => Loss 2.205, Loss_clf 0.014, Loss_ewc 0.101, Loss_kd 2.090, Train_accy 75.86, Test_accy 27.07
+2024-01-11 12:50:51,116 [ewc.py] => Task 3, Epoch 192/200 => Loss 2.209,  Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.093, Train_accy 75.52
+2024-01-11 12:50:58,823 [ewc.py] => Task 3, Epoch 193/200 => Loss 2.212,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.095, Train_accy 76.62
+2024-01-11 12:51:06,527 [ewc.py] => Task 3, Epoch 194/200 => Loss 2.218,  Loss_clf 0.019, Loss_ewc 0.101, Loss_kd 2.099, Train_accy 74.95
+2024-01-11 12:51:14,453 [ewc.py] => Task 3, Epoch 195/200 => Loss 2.211,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.62
+2024-01-11 12:51:29,015 [ewc.py] => Task 3, Epoch 196/200 => Loss 2.208, Loss_clf 0.015, Loss_ewc 0.101, Loss_kd 2.092, Train_accy 76.02, Test_accy 26.68
+2024-01-11 12:51:36,885 [ewc.py] => Task 3, Epoch 197/200 => Loss 2.214,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.097, Train_accy 76.12
+2024-01-11 12:51:44,691 [ewc.py] => Task 3, Epoch 198/200 => Loss 2.208,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.092, Train_accy 75.29
+2024-01-11 12:51:52,502 [ewc.py] => Task 3, Epoch 199/200 => Loss 2.211,  Loss_clf 0.017, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.62
+2024-01-11 12:52:00,377 [ewc.py] => Task 3, Epoch 200/200 => Loss 2.210,  Loss_clf 0.016, Loss_ewc 0.101, Loss_kd 2.094, Train_accy 75.50
+2024-01-11 12:52:13,366 [trainer.py] => No NME accuracy.
+2024-01-11 12:52:13,367 [trainer.py] => CNN: {'total': 26.8, '0': 3.89, '1': 17.78, '2': 1.67, '3': 0.56, '4': 0.0, '5': 16.11, '6': 0.56, '7': 1.11, '8': 13.33, '9': 0.0, '10': 0.0, '11': 0.0, '12': 1.11, '13': 0.56, '14': 11.67, '15': 41.11, '16': 0.56, '17': 23.89, '18': 11.11, '19': 15.0, '20': 16.67, '21': 0.0, '22': 50.56, '23': 45.0, '24': 50.0, '25': 36.11, '26': 17.22, '27': 10.0, '28': 2.22, '29': 7.78, '30': 20.56, '31': 25.0, '32': 46.11, '33': 17.22, '34': 28.33, '35': 52.78, '36': 62.22, '37': 57.22, '38': 97.78, '39': 61.11, '40': 75.0, '41': 66.11, '42': 75.56, '43': 61.67, 'old': 15.22, 'new': 67.33}
+2024-01-11 12:52:13,367 [trainer.py] => CNN top1 curve: [87.41, 45.93, 33.57, 26.8]
+2024-01-11 12:52:13,367 [trainer.py] => CNN top5 curve: [98.7, 90.56, 78.98, 68.52]
+
+2024-01-11 12:52:13,367 [trainer.py] => All params: 21047417
+2024-01-11 12:52:13,367 [trainer.py] => Trainable params: 21047417
+2024-01-11 12:52:13,368 [ewc.py] => Learning on 45-55
+2024-01-11 12:53:02,516 [ewc.py] => Task 4, Epoch 1/200 => Loss 4.791, Loss_clf 2.043, Loss_ewc 0.131, Loss_kd 2.617, Train_accy 0.00, Test_accy 14.25
+2024-01-11 12:53:10,714 [ewc.py] => Task 4, Epoch 2/200 => Loss 4.214,  Loss_clf 1.390, Loss_ewc 0.256, Loss_kd 2.568, Train_accy 0.02
+2024-01-11 12:53:18,488 [ewc.py] => Task 4, Epoch 3/200 => Loss 4.130,  Loss_clf 1.157, Loss_ewc 0.375, Loss_kd 2.598, Train_accy 0.81
+2024-01-11 12:53:26,086 [ewc.py] => Task 4, Epoch 4/200 => Loss 4.144,  Loss_clf 1.076, Loss_ewc 0.473, Loss_kd 2.595, Train_accy 1.83
+2024-01-11 12:53:33,783 [ewc.py] => Task 4, Epoch 5/200 => Loss 4.061,  Loss_clf 0.955, Loss_ewc 0.513, Loss_kd 2.593, Train_accy 3.12
+2024-01-11 12:53:49,971 [ewc.py] => Task 4, Epoch 6/200 => Loss 4.088, Loss_clf 0.930, Loss_ewc 0.550, Loss_kd 2.607, Train_accy 4.50, Test_accy 8.51
+2024-01-11 12:53:57,720 [ewc.py] => Task 4, Epoch 7/200 => Loss 4.077,  Loss_clf 0.909, Loss_ewc 0.572, Loss_kd 2.596, Train_accy 5.21
+2024-01-11 12:54:05,402 [ewc.py] => Task 4, Epoch 8/200 => Loss 4.040,  Loss_clf 0.862, Loss_ewc 0.585, Loss_kd 2.593, Train_accy 7.60
+2024-01-11 12:54:13,041 [ewc.py] => Task 4, Epoch 9/200 => Loss 3.995,  Loss_clf 0.804, Loss_ewc 0.596, Loss_kd 2.596, Train_accy 7.33
+2024-01-11 12:54:20,685 [ewc.py] => Task 4, Epoch 10/200 => Loss 4.072,  Loss_clf 0.863, Loss_ewc 0.611, Loss_kd 2.597, Train_accy 9.38
+2024-01-11 12:54:36,636 [ewc.py] => Task 4, Epoch 11/200 => Loss 4.065, Loss_clf 0.807, Loss_ewc 0.654, Loss_kd 2.604, Train_accy 9.29, Test_accy 9.89
+2024-01-11 12:54:44,158 [ewc.py] => Task 4, Epoch 12/200 => Loss 4.011,  Loss_clf 0.764, Loss_ewc 0.644, Loss_kd 2.602, Train_accy 11.83
+2024-01-11 12:54:51,834 [ewc.py] => Task 4, Epoch 13/200 => Loss 4.061,  Loss_clf 0.801, Loss_ewc 0.661, Loss_kd 2.599, Train_accy 12.17
+2024-01-11 12:54:59,543 [ewc.py] => Task 4, Epoch 14/200 => Loss 4.112,  Loss_clf 0.840, Loss_ewc 0.675, Loss_kd 2.598, Train_accy 12.02
+2024-01-11 12:55:07,280 [ewc.py] => Task 4, Epoch 15/200 => Loss 4.058,  Loss_clf 0.747, Loss_ewc 0.704, Loss_kd 2.608, Train_accy 12.02
+2024-01-11 12:55:23,229 [ewc.py] => Task 4, Epoch 16/200 => Loss 3.943, Loss_clf 0.699, Loss_ewc 0.660, Loss_kd 2.584, Train_accy 15.07, Test_accy 8.62
+2024-01-11 12:55:30,848 [ewc.py] => Task 4, Epoch 17/200 => Loss 3.945,  Loss_clf 0.699, Loss_ewc 0.652, Loss_kd 2.594, Train_accy 15.74
+2024-01-11 12:55:38,553 [ewc.py] => Task 4, Epoch 18/200 => Loss 4.052,  Loss_clf 0.767, Loss_ewc 0.681, Loss_kd 2.603, Train_accy 14.83
+2024-01-11 12:55:46,290 [ewc.py] => Task 4, Epoch 19/200 => Loss 4.058,  Loss_clf 0.755, Loss_ewc 0.702, Loss_kd 2.601, Train_accy 16.07
+2024-01-11 12:55:54,015 [ewc.py] => Task 4, Epoch 20/200 => Loss 4.066,  Loss_clf 0.747, Loss_ewc 0.715, Loss_kd 2.604, Train_accy 16.38
+2024-01-11 12:56:09,620 [ewc.py] => Task 4, Epoch 21/200 => Loss 4.050, Loss_clf 0.741, Loss_ewc 0.713, Loss_kd 2.596, Train_accy 16.38, Test_accy 7.34
+2024-01-11 12:56:17,238 [ewc.py] => Task 4, Epoch 22/200 => Loss 4.144,  Loss_clf 0.802, Loss_ewc 0.743, Loss_kd 2.599, Train_accy 14.98
+2024-01-11 12:56:24,821 [ewc.py] => Task 4, Epoch 23/200 => Loss 3.986,  Loss_clf 0.675, Loss_ewc 0.714, Loss_kd 2.597, Train_accy 17.38
+2024-01-11 12:56:32,451 [ewc.py] => Task 4, Epoch 24/200 => Loss 3.981,  Loss_clf 0.690, Loss_ewc 0.699, Loss_kd 2.592, Train_accy 18.19
+2024-01-11 12:56:40,060 [ewc.py] => Task 4, Epoch 25/200 => Loss 4.005,  Loss_clf 0.710, Loss_ewc 0.700, Loss_kd 2.595, Train_accy 19.38
+2024-01-11 12:56:55,701 [ewc.py] => Task 4, Epoch 26/200 => Loss 4.013, Loss_clf 0.695, Loss_ewc 0.725, Loss_kd 2.592, Train_accy 17.55, Test_accy 8.72
+2024-01-11 12:57:03,251 [ewc.py] => Task 4, Epoch 27/200 => Loss 4.004,  Loss_clf 0.693, Loss_ewc 0.712, Loss_kd 2.599, Train_accy 20.05
+2024-01-11 12:57:11,002 [ewc.py] => Task 4, Epoch 28/200 => Loss 4.098,  Loss_clf 0.760, Loss_ewc 0.733, Loss_kd 2.605, Train_accy 18.62
+2024-01-11 12:57:18,777 [ewc.py] => Task 4, Epoch 29/200 => Loss 4.089,  Loss_clf 0.742, Loss_ewc 0.754, Loss_kd 2.593, Train_accy 18.29
+2024-01-11 12:57:26,467 [ewc.py] => Task 4, Epoch 30/200 => Loss 4.058,  Loss_clf 0.717, Loss_ewc 0.744, Loss_kd 2.597, Train_accy 20.45
+2024-01-11 12:57:42,391 [ewc.py] => Task 4, Epoch 31/200 => Loss 4.160, Loss_clf 0.797, Loss_ewc 0.759, Loss_kd 2.604, Train_accy 19.17, Test_accy 7.35
+2024-01-11 12:57:50,213 [ewc.py] => Task 4, Epoch 32/200 => Loss 4.073,  Loss_clf 0.715, Loss_ewc 0.766, Loss_kd 2.592, Train_accy 18.10
+2024-01-11 12:57:57,843 [ewc.py] => Task 4, Epoch 33/200 => Loss 3.981,  Loss_clf 0.682, Loss_ewc 0.710, Loss_kd 2.590, Train_accy 18.95
+2024-01-11 12:58:05,664 [ewc.py] => Task 4, Epoch 34/200 => Loss 4.062,  Loss_clf 0.733, Loss_ewc 0.733, Loss_kd 2.596, Train_accy 19.57
+2024-01-11 12:58:13,536 [ewc.py] => Task 4, Epoch 35/200 => Loss 3.995,  Loss_clf 0.655, Loss_ewc 0.742, Loss_kd 2.598, Train_accy 20.64
+2024-01-11 12:58:29,812 [ewc.py] => Task 4, Epoch 36/200 => Loss 3.940, Loss_clf 0.638, Loss_ewc 0.718, Loss_kd 2.584, Train_accy 23.50, Test_accy 7.93
+2024-01-11 12:58:37,684 [ewc.py] => Task 4, Epoch 37/200 => Loss 3.956,  Loss_clf 0.638, Loss_ewc 0.723, Loss_kd 2.595, Train_accy 23.38
+2024-01-11 12:58:45,320 [ewc.py] => Task 4, Epoch 38/200 => Loss 3.911,  Loss_clf 0.632, Loss_ewc 0.701, Loss_kd 2.577, Train_accy 23.86
+2024-01-11 12:58:53,084 [ewc.py] => Task 4, Epoch 39/200 => Loss 4.014,  Loss_clf 0.696, Loss_ewc 0.724, Loss_kd 2.593, Train_accy 21.05
+2024-01-11 12:59:00,837 [ewc.py] => Task 4, Epoch 40/200 => Loss 4.016,  Loss_clf 0.674, Loss_ewc 0.745, Loss_kd 2.596, Train_accy 21.21
+2024-01-11 12:59:16,833 [ewc.py] => Task 4, Epoch 41/200 => Loss 3.983, Loss_clf 0.667, Loss_ewc 0.727, Loss_kd 2.589, Train_accy 24.05, Test_accy 7.96
+2024-01-11 12:59:24,515 [ewc.py] => Task 4, Epoch 42/200 => Loss 4.046,  Loss_clf 0.695, Loss_ewc 0.749, Loss_kd 2.601, Train_accy 25.50
+2024-01-11 12:59:32,368 [ewc.py] => Task 4, Epoch 43/200 => Loss 3.995,  Loss_clf 0.642, Loss_ewc 0.755, Loss_kd 2.598, Train_accy 23.60
+2024-01-11 12:59:40,066 [ewc.py] => Task 4, Epoch 44/200 => Loss 4.041,  Loss_clf 0.688, Loss_ewc 0.759, Loss_kd 2.594, Train_accy 23.83
+2024-01-11 12:59:47,852 [ewc.py] => Task 4, Epoch 45/200 => Loss 3.979,  Loss_clf 0.638, Loss_ewc 0.751, Loss_kd 2.590, Train_accy 24.19
+2024-01-11 13:00:04,256 [ewc.py] => Task 4, Epoch 46/200 => Loss 3.924, Loss_clf 0.612, Loss_ewc 0.728, Loss_kd 2.584, Train_accy 24.79, Test_accy 7.66
+2024-01-11 13:00:12,086 [ewc.py] => Task 4, Epoch 47/200 => Loss 4.016,  Loss_clf 0.678, Loss_ewc 0.747, Loss_kd 2.592, Train_accy 24.81
+2024-01-11 13:00:19,846 [ewc.py] => Task 4, Epoch 48/200 => Loss 4.036,  Loss_clf 0.663, Loss_ewc 0.781, Loss_kd 2.592, Train_accy 24.12
+2024-01-11 13:00:27,437 [ewc.py] => Task 4, Epoch 49/200 => Loss 3.936,  Loss_clf 0.593, Loss_ewc 0.759, Loss_kd 2.584, Train_accy 24.76
+2024-01-11 13:00:35,098 [ewc.py] => Task 4, Epoch 50/200 => Loss 3.972,  Loss_clf 0.660, Loss_ewc 0.723, Loss_kd 2.589, Train_accy 26.55
+2024-01-11 13:00:50,827 [ewc.py] => Task 4, Epoch 51/200 => Loss 4.059, Loss_clf 0.678, Loss_ewc 0.787, Loss_kd 2.594, Train_accy 23.71, Test_accy 7.33
+2024-01-11 13:00:58,791 [ewc.py] => Task 4, Epoch 52/200 => Loss 3.967,  Loss_clf 0.615, Loss_ewc 0.762, Loss_kd 2.590, Train_accy 26.40
+2024-01-11 13:01:06,850 [ewc.py] => Task 4, Epoch 53/200 => Loss 4.013,  Loss_clf 0.654, Loss_ewc 0.766, Loss_kd 2.594, Train_accy 26.69
+2024-01-11 13:01:14,467 [ewc.py] => Task 4, Epoch 54/200 => Loss 4.081,  Loss_clf 0.682, Loss_ewc 0.800, Loss_kd 2.599, Train_accy 24.50
+2024-01-11 13:01:22,187 [ewc.py] => Task 4, Epoch 55/200 => Loss 3.948,  Loss_clf 0.601, Loss_ewc 0.761, Loss_kd 2.586, Train_accy 26.50
+2024-01-11 13:01:38,304 [ewc.py] => Task 4, Epoch 56/200 => Loss 3.902, Loss_clf 0.581, Loss_ewc 0.731, Loss_kd 2.590, Train_accy 27.81, Test_accy 6.14
+2024-01-11 13:01:46,086 [ewc.py] => Task 4, Epoch 57/200 => Loss 3.966,  Loss_clf 0.606, Loss_ewc 0.760, Loss_kd 2.600, Train_accy 26.38
+2024-01-11 13:01:53,982 [ewc.py] => Task 4, Epoch 58/200 => Loss 3.995,  Loss_clf 0.638, Loss_ewc 0.760, Loss_kd 2.597, Train_accy 26.57
+2024-01-11 13:02:01,637 [ewc.py] => Task 4, Epoch 59/200 => Loss 3.976,  Loss_clf 0.623, Loss_ewc 0.761, Loss_kd 2.592, Train_accy 26.64
+2024-01-11 13:02:09,365 [ewc.py] => Task 4, Epoch 60/200 => Loss 3.942,  Loss_clf 0.607, Loss_ewc 0.752, Loss_kd 2.583, Train_accy 27.64
+2024-01-11 13:02:25,210 [ewc.py] => Task 4, Epoch 61/200 => Loss 3.610, Loss_clf 0.351, Loss_ewc 0.714, Loss_kd 2.545, Train_accy 30.40, Test_accy 10.87
+2024-01-11 13:02:33,218 [ewc.py] => Task 4, Epoch 62/200 => Loss 3.302,  Loss_clf 0.163, Loss_ewc 0.645, Loss_kd 2.494, Train_accy 36.19
+2024-01-11 13:02:41,060 [ewc.py] => Task 4, Epoch 63/200 => Loss 3.201,  Loss_clf 0.126, Loss_ewc 0.593, Loss_kd 2.482, Train_accy 39.64
+2024-01-11 13:02:48,756 [ewc.py] => Task 4, Epoch 64/200 => Loss 3.133,  Loss_clf 0.108, Loss_ewc 0.554, Loss_kd 2.471, Train_accy 40.19
+2024-01-11 13:02:56,498 [ewc.py] => Task 4, Epoch 65/200 => Loss 3.092,  Loss_clf 0.105, Loss_ewc 0.522, Loss_kd 2.465, Train_accy 40.93
+2024-01-11 13:03:12,161 [ewc.py] => Task 4, Epoch 66/200 => Loss 3.055, Loss_clf 0.098, Loss_ewc 0.496, Loss_kd 2.460, Train_accy 40.86, Test_accy 13.40
+2024-01-11 13:03:19,872 [ewc.py] => Task 4, Epoch 67/200 => Loss 3.023,  Loss_clf 0.093, Loss_ewc 0.474, Loss_kd 2.456, Train_accy 41.36
+2024-01-11 13:03:27,866 [ewc.py] => Task 4, Epoch 68/200 => Loss 2.996,  Loss_clf 0.088, Loss_ewc 0.454, Loss_kd 2.454, Train_accy 41.88
+2024-01-11 13:03:35,754 [ewc.py] => Task 4, Epoch 69/200 => Loss 2.964,  Loss_clf 0.081, Loss_ewc 0.437, Loss_kd 2.446, Train_accy 41.83
+2024-01-11 13:03:43,599 [ewc.py] => Task 4, Epoch 70/200 => Loss 2.950,  Loss_clf 0.081, Loss_ewc 0.422, Loss_kd 2.447, Train_accy 41.90
+2024-01-11 13:03:59,406 [ewc.py] => Task 4, Epoch 71/200 => Loss 2.941, Loss_clf 0.084, Loss_ewc 0.409, Loss_kd 2.448, Train_accy 41.81, Test_accy 13.73
+2024-01-11 13:04:07,296 [ewc.py] => Task 4, Epoch 72/200 => Loss 2.919,  Loss_clf 0.079, Loss_ewc 0.397, Loss_kd 2.443, Train_accy 41.74
+2024-01-11 13:04:15,056 [ewc.py] => Task 4, Epoch 73/200 => Loss 2.907,  Loss_clf 0.080, Loss_ewc 0.385, Loss_kd 2.443, Train_accy 41.45
+2024-01-11 13:04:22,661 [ewc.py] => Task 4, Epoch 74/200 => Loss 2.892,  Loss_clf 0.074, Loss_ewc 0.374, Loss_kd 2.444, Train_accy 41.40
+2024-01-11 13:04:30,578 [ewc.py] => Task 4, Epoch 75/200 => Loss 2.879,  Loss_clf 0.075, Loss_ewc 0.366, Loss_kd 2.438, Train_accy 40.83
+2024-01-11 13:04:46,305 [ewc.py] => Task 4, Epoch 76/200 => Loss 2.872, Loss_clf 0.075, Loss_ewc 0.357, Loss_kd 2.441, Train_accy 41.55, Test_accy 14.13
+2024-01-11 13:04:53,981 [ewc.py] => Task 4, Epoch 77/200 => Loss 2.857,  Loss_clf 0.070, Loss_ewc 0.349, Loss_kd 2.438, Train_accy 41.45
+2024-01-11 13:05:01,656 [ewc.py] => Task 4, Epoch 78/200 => Loss 2.841,  Loss_clf 0.065, Loss_ewc 0.341, Loss_kd 2.435, Train_accy 42.00
+2024-01-11 13:05:09,501 [ewc.py] => Task 4, Epoch 79/200 => Loss 2.831,  Loss_clf 0.065, Loss_ewc 0.333, Loss_kd 2.433, Train_accy 41.81
+2024-01-11 13:05:17,438 [ewc.py] => Task 4, Epoch 80/200 => Loss 2.827,  Loss_clf 0.067, Loss_ewc 0.327, Loss_kd 2.433, Train_accy 41.33
+2024-01-11 13:05:33,246 [ewc.py] => Task 4, Epoch 81/200 => Loss 2.817, Loss_clf 0.064, Loss_ewc 0.321, Loss_kd 2.431, Train_accy 41.60, Test_accy 14.59
+2024-01-11 13:05:40,830 [ewc.py] => Task 4, Epoch 82/200 => Loss 2.813,  Loss_clf 0.065, Loss_ewc 0.315, Loss_kd 2.433, Train_accy 42.07
+2024-01-11 13:05:48,580 [ewc.py] => Task 4, Epoch 83/200 => Loss 2.804,  Loss_clf 0.064, Loss_ewc 0.310, Loss_kd 2.431, Train_accy 42.14
+2024-01-11 13:05:56,785 [ewc.py] => Task 4, Epoch 84/200 => Loss 2.799,  Loss_clf 0.064, Loss_ewc 0.304, Loss_kd 2.431, Train_accy 42.33
+2024-01-11 13:06:04,542 [ewc.py] => Task 4, Epoch 85/200 => Loss 2.788,  Loss_clf 0.060, Loss_ewc 0.300, Loss_kd 2.428, Train_accy 41.48
+2024-01-11 13:06:19,921 [ewc.py] => Task 4, Epoch 86/200 => Loss 2.791, Loss_clf 0.065, Loss_ewc 0.294, Loss_kd 2.432, Train_accy 41.24, Test_accy 14.94
+2024-01-11 13:06:27,728 [ewc.py] => Task 4, Epoch 87/200 => Loss 2.783,  Loss_clf 0.064, Loss_ewc 0.290, Loss_kd 2.429, Train_accy 42.45
+2024-01-11 13:06:35,307 [ewc.py] => Task 4, Epoch 88/200 => Loss 2.777,  Loss_clf 0.062, Loss_ewc 0.286, Loss_kd 2.429, Train_accy 42.67
+2024-01-11 13:06:43,014 [ewc.py] => Task 4, Epoch 89/200 => Loss 2.777,  Loss_clf 0.064, Loss_ewc 0.282, Loss_kd 2.431, Train_accy 41.14
+2024-01-11 13:06:50,617 [ewc.py] => Task 4, Epoch 90/200 => Loss 2.767,  Loss_clf 0.061, Loss_ewc 0.278, Loss_kd 2.428, Train_accy 42.31
+2024-01-11 13:07:05,906 [ewc.py] => Task 4, Epoch 91/200 => Loss 2.758, Loss_clf 0.059, Loss_ewc 0.275, Loss_kd 2.424, Train_accy 42.33, Test_accy 15.13
+2024-01-11 13:07:13,589 [ewc.py] => Task 4, Epoch 92/200 => Loss 2.762,  Loss_clf 0.061, Loss_ewc 0.271, Loss_kd 2.429, Train_accy 42.10
+2024-01-11 13:07:21,146 [ewc.py] => Task 4, Epoch 93/200 => Loss 2.747,  Loss_clf 0.055, Loss_ewc 0.268, Loss_kd 2.424, Train_accy 43.50
+2024-01-11 13:07:28,712 [ewc.py] => Task 4, Epoch 94/200 => Loss 2.749,  Loss_clf 0.058, Loss_ewc 0.265, Loss_kd 2.426, Train_accy 41.26
+2024-01-11 13:07:36,216 [ewc.py] => Task 4, Epoch 95/200 => Loss 2.738,  Loss_clf 0.054, Loss_ewc 0.262, Loss_kd 2.423, Train_accy 43.14
+2024-01-11 13:07:51,835 [ewc.py] => Task 4, Epoch 96/200 => Loss 2.734, Loss_clf 0.053, Loss_ewc 0.258, Loss_kd 2.424, Train_accy 43.62, Test_accy 14.79
+2024-01-11 13:07:59,394 [ewc.py] => Task 4, Epoch 97/200 => Loss 2.730,  Loss_clf 0.055, Loss_ewc 0.255, Loss_kd 2.421, Train_accy 42.67
+2024-01-11 13:08:07,087 [ewc.py] => Task 4, Epoch 98/200 => Loss 2.725,  Loss_clf 0.051, Loss_ewc 0.253, Loss_kd 2.422, Train_accy 43.71
+2024-01-11 13:08:14,885 [ewc.py] => Task 4, Epoch 99/200 => Loss 2.722,  Loss_clf 0.051, Loss_ewc 0.249, Loss_kd 2.421, Train_accy 43.40
+2024-01-11 13:08:22,411 [ewc.py] => Task 4, Epoch 100/200 => Loss 2.713,  Loss_clf 0.048, Loss_ewc 0.246, Loss_kd 2.419, Train_accy 43.62
+2024-01-11 13:08:38,554 [ewc.py] => Task 4, Epoch 101/200 => Loss 2.711, Loss_clf 0.050, Loss_ewc 0.244, Loss_kd 2.417, Train_accy 42.52, Test_accy 15.11
+2024-01-11 13:08:46,476 [ewc.py] => Task 4, Epoch 102/200 => Loss 2.713,  Loss_clf 0.052, Loss_ewc 0.241, Loss_kd 2.420, Train_accy 43.33
+2024-01-11 13:08:54,206 [ewc.py] => Task 4, Epoch 103/200 => Loss 2.708,  Loss_clf 0.049, Loss_ewc 0.239, Loss_kd 2.420, Train_accy 43.52
+2024-01-11 13:09:02,381 [ewc.py] => Task 4, Epoch 104/200 => Loss 2.702,  Loss_clf 0.049, Loss_ewc 0.236, Loss_kd 2.417, Train_accy 42.79
+2024-01-11 13:09:10,171 [ewc.py] => Task 4, Epoch 105/200 => Loss 2.700,  Loss_clf 0.049, Loss_ewc 0.234, Loss_kd 2.417, Train_accy 43.55
+2024-01-11 13:09:26,215 [ewc.py] => Task 4, Epoch 106/200 => Loss 2.695, Loss_clf 0.048, Loss_ewc 0.232, Loss_kd 2.415, Train_accy 43.02, Test_accy 15.12
+2024-01-11 13:09:34,113 [ewc.py] => Task 4, Epoch 107/200 => Loss 2.696,  Loss_clf 0.049, Loss_ewc 0.230, Loss_kd 2.417, Train_accy 42.86
+2024-01-11 13:09:41,639 [ewc.py] => Task 4, Epoch 108/200 => Loss 2.690,  Loss_clf 0.048, Loss_ewc 0.228, Loss_kd 2.415, Train_accy 43.64
+2024-01-11 13:09:49,245 [ewc.py] => Task 4, Epoch 109/200 => Loss 2.692,  Loss_clf 0.048, Loss_ewc 0.225, Loss_kd 2.419, Train_accy 44.05
+2024-01-11 13:09:56,736 [ewc.py] => Task 4, Epoch 110/200 => Loss 2.686,  Loss_clf 0.047, Loss_ewc 0.224, Loss_kd 2.415, Train_accy 42.88
+2024-01-11 13:10:12,132 [ewc.py] => Task 4, Epoch 111/200 => Loss 2.689, Loss_clf 0.049, Loss_ewc 0.221, Loss_kd 2.418, Train_accy 44.31, Test_accy 15.24
+2024-01-11 13:10:19,587 [ewc.py] => Task 4, Epoch 112/200 => Loss 2.690,  Loss_clf 0.052, Loss_ewc 0.221, Loss_kd 2.418, Train_accy 43.93
+2024-01-11 13:10:27,242 [ewc.py] => Task 4, Epoch 113/200 => Loss 2.684,  Loss_clf 0.047, Loss_ewc 0.219, Loss_kd 2.418, Train_accy 45.48
+2024-01-11 13:10:34,848 [ewc.py] => Task 4, Epoch 114/200 => Loss 2.681,  Loss_clf 0.048, Loss_ewc 0.217, Loss_kd 2.416, Train_accy 44.64
+2024-01-11 13:10:42,396 [ewc.py] => Task 4, Epoch 115/200 => Loss 2.680,  Loss_clf 0.051, Loss_ewc 0.216, Loss_kd 2.413, Train_accy 44.10
+2024-01-11 13:10:57,904 [ewc.py] => Task 4, Epoch 116/200 => Loss 2.677, Loss_clf 0.047, Loss_ewc 0.214, Loss_kd 2.416, Train_accy 45.29, Test_accy 15.46
+2024-01-11 13:11:05,435 [ewc.py] => Task 4, Epoch 117/200 => Loss 2.672,  Loss_clf 0.043, Loss_ewc 0.212, Loss_kd 2.416, Train_accy 45.36
+2024-01-11 13:11:13,014 [ewc.py] => Task 4, Epoch 118/200 => Loss 2.670,  Loss_clf 0.045, Loss_ewc 0.211, Loss_kd 2.415, Train_accy 44.88
+2024-01-11 13:11:20,799 [ewc.py] => Task 4, Epoch 119/200 => Loss 2.669,  Loss_clf 0.046, Loss_ewc 0.210, Loss_kd 2.413, Train_accy 44.74
+2024-01-11 13:11:28,443 [ewc.py] => Task 4, Epoch 120/200 => Loss 2.668,  Loss_clf 0.047, Loss_ewc 0.208, Loss_kd 2.414, Train_accy 44.95
+2024-01-11 13:11:43,732 [ewc.py] => Task 4, Epoch 121/200 => Loss 2.656, Loss_clf 0.041, Loss_ewc 0.207, Loss_kd 2.408, Train_accy 44.98, Test_accy 15.38
+2024-01-11 13:11:51,388 [ewc.py] => Task 4, Epoch 122/200 => Loss 2.651,  Loss_clf 0.035, Loss_ewc 0.207, Loss_kd 2.409, Train_accy 45.12
+2024-01-11 13:11:58,872 [ewc.py] => Task 4, Epoch 123/200 => Loss 2.650,  Loss_clf 0.036, Loss_ewc 0.206, Loss_kd 2.408, Train_accy 44.81
+2024-01-11 13:12:06,490 [ewc.py] => Task 4, Epoch 124/200 => Loss 2.654,  Loss_clf 0.039, Loss_ewc 0.206, Loss_kd 2.409, Train_accy 45.62
+2024-01-11 13:12:13,998 [ewc.py] => Task 4, Epoch 125/200 => Loss 2.648,  Loss_clf 0.035, Loss_ewc 0.206, Loss_kd 2.407, Train_accy 45.50
+2024-01-11 13:12:29,309 [ewc.py] => Task 4, Epoch 126/200 => Loss 2.649, Loss_clf 0.035, Loss_ewc 0.206, Loss_kd 2.408, Train_accy 45.95, Test_accy 15.27
+2024-01-11 13:12:36,807 [ewc.py] => Task 4, Epoch 127/200 => Loss 2.645,  Loss_clf 0.035, Loss_ewc 0.205, Loss_kd 2.405, Train_accy 45.57
+2024-01-11 13:12:44,528 [ewc.py] => Task 4, Epoch 128/200 => Loss 2.649,  Loss_clf 0.036, Loss_ewc 0.205, Loss_kd 2.408, Train_accy 44.69
+2024-01-11 13:12:52,073 [ewc.py] => Task 4, Epoch 129/200 => Loss 2.646,  Loss_clf 0.036, Loss_ewc 0.205, Loss_kd 2.406, Train_accy 44.74
+2024-01-11 13:12:59,647 [ewc.py] => Task 4, Epoch 130/200 => Loss 2.646,  Loss_clf 0.036, Loss_ewc 0.205, Loss_kd 2.405, Train_accy 45.05
+2024-01-11 13:13:15,311 [ewc.py] => Task 4, Epoch 131/200 => Loss 2.646, Loss_clf 0.035, Loss_ewc 0.204, Loss_kd 2.406, Train_accy 45.00, Test_accy 15.31
+2024-01-11 13:13:23,034 [ewc.py] => Task 4, Epoch 132/200 => Loss 2.645,  Loss_clf 0.035, Loss_ewc 0.204, Loss_kd 2.405, Train_accy 45.64
+2024-01-11 13:13:30,662 [ewc.py] => Task 4, Epoch 133/200 => Loss 2.646,  Loss_clf 0.035, Loss_ewc 0.204, Loss_kd 2.406, Train_accy 44.74
+2024-01-11 13:13:38,164 [ewc.py] => Task 4, Epoch 134/200 => Loss 2.644,  Loss_clf 0.036, Loss_ewc 0.204, Loss_kd 2.404, Train_accy 44.86
+2024-01-11 13:13:45,641 [ewc.py] => Task 4, Epoch 135/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.203, Loss_kd 2.404, Train_accy 45.43
+2024-01-11 13:14:01,124 [ewc.py] => Task 4, Epoch 136/200 => Loss 2.644, Loss_clf 0.035, Loss_ewc 0.203, Loss_kd 2.405, Train_accy 44.71, Test_accy 15.42
+2024-01-11 13:14:08,599 [ewc.py] => Task 4, Epoch 137/200 => Loss 2.645,  Loss_clf 0.036, Loss_ewc 0.203, Loss_kd 2.406, Train_accy 45.12
+2024-01-11 13:14:16,172 [ewc.py] => Task 4, Epoch 138/200 => Loss 2.647,  Loss_clf 0.037, Loss_ewc 0.203, Loss_kd 2.408, Train_accy 44.50
+2024-01-11 13:14:23,994 [ewc.py] => Task 4, Epoch 139/200 => Loss 2.643,  Loss_clf 0.035, Loss_ewc 0.203, Loss_kd 2.406, Train_accy 45.21
+2024-01-11 13:14:31,621 [ewc.py] => Task 4, Epoch 140/200 => Loss 2.645,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.408, Train_accy 46.05
+2024-01-11 13:14:47,062 [ewc.py] => Task 4, Epoch 141/200 => Loss 2.641, Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.404, Train_accy 45.00, Test_accy 15.13
+2024-01-11 13:14:54,682 [ewc.py] => Task 4, Epoch 142/200 => Loss 2.644,  Loss_clf 0.037, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.74
+2024-01-11 13:15:02,239 [ewc.py] => Task 4, Epoch 143/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.57
+2024-01-11 13:15:09,957 [ewc.py] => Task 4, Epoch 144/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 45.14
+2024-01-11 13:15:17,465 [ewc.py] => Task 4, Epoch 145/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.31
+2024-01-11 13:15:32,769 [ewc.py] => Task 4, Epoch 146/200 => Loss 2.641, Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.404, Train_accy 44.38, Test_accy 15.19
+2024-01-11 13:15:40,269 [ewc.py] => Task 4, Epoch 147/200 => Loss 2.639,  Loss_clf 0.034, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 44.33
+2024-01-11 13:15:47,987 [ewc.py] => Task 4, Epoch 148/200 => Loss 2.641,  Loss_clf 0.034, Loss_ewc 0.202, Loss_kd 2.404, Train_accy 44.90
+2024-01-11 13:15:55,788 [ewc.py] => Task 4, Epoch 149/200 => Loss 2.638,  Loss_clf 0.033, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 44.50
+2024-01-11 13:16:03,351 [ewc.py] => Task 4, Epoch 150/200 => Loss 2.644,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.407, Train_accy 45.55
+2024-01-11 13:16:18,663 [ewc.py] => Task 4, Epoch 151/200 => Loss 2.648, Loss_clf 0.039, Loss_ewc 0.202, Loss_kd 2.407, Train_accy 43.24, Test_accy 15.30
+2024-01-11 13:16:26,253 [ewc.py] => Task 4, Epoch 152/200 => Loss 2.643,  Loss_clf 0.036, Loss_ewc 0.202, Loss_kd 2.406, Train_accy 45.05
+2024-01-11 13:16:33,774 [ewc.py] => Task 4, Epoch 153/200 => Loss 2.643,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.406, Train_accy 44.38
+2024-01-11 13:16:41,556 [ewc.py] => Task 4, Epoch 154/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.406, Train_accy 44.52
+2024-01-11 13:16:49,064 [ewc.py] => Task 4, Epoch 155/200 => Loss 2.639,  Loss_clf 0.032, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 45.26
+2024-01-11 13:17:04,361 [ewc.py] => Task 4, Epoch 156/200 => Loss 2.641, Loss_clf 0.036, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 44.93, Test_accy 15.22
+2024-01-11 13:17:12,207 [ewc.py] => Task 4, Epoch 157/200 => Loss 2.643,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.406, Train_accy 44.95
+2024-01-11 13:17:20,086 [ewc.py] => Task 4, Epoch 158/200 => Loss 2.648,  Loss_clf 0.037, Loss_ewc 0.202, Loss_kd 2.409, Train_accy 44.62
+2024-01-11 13:17:27,924 [ewc.py] => Task 4, Epoch 159/200 => Loss 2.643,  Loss_clf 0.036, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 45.21
+2024-01-11 13:17:35,485 [ewc.py] => Task 4, Epoch 160/200 => Loss 2.647,  Loss_clf 0.038, Loss_ewc 0.202, Loss_kd 2.407, Train_accy 43.93
+2024-01-11 13:17:50,958 [ewc.py] => Task 4, Epoch 161/200 => Loss 2.641, Loss_clf 0.036, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 45.00, Test_accy 15.54
+2024-01-11 13:17:58,818 [ewc.py] => Task 4, Epoch 162/200 => Loss 2.640,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 44.57
+2024-01-11 13:18:06,629 [ewc.py] => Task 4, Epoch 163/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 43.64
+2024-01-11 13:18:14,222 [ewc.py] => Task 4, Epoch 164/200 => Loss 2.643,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.64
+2024-01-11 13:18:21,730 [ewc.py] => Task 4, Epoch 165/200 => Loss 2.639,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 45.31
+2024-01-11 13:18:37,139 [ewc.py] => Task 4, Epoch 166/200 => Loss 2.639, Loss_clf 0.034, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 44.17, Test_accy 15.33
+2024-01-11 13:18:44,686 [ewc.py] => Task 4, Epoch 167/200 => Loss 2.641,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 45.64
+2024-01-11 13:18:52,189 [ewc.py] => Task 4, Epoch 168/200 => Loss 2.642,  Loss_clf 0.037, Loss_ewc 0.202, Loss_kd 2.403, Train_accy 43.45
+2024-01-11 13:18:59,945 [ewc.py] => Task 4, Epoch 169/200 => Loss 2.644,  Loss_clf 0.038, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.74
+2024-01-11 13:19:07,515 [ewc.py] => Task 4, Epoch 170/200 => Loss 2.642,  Loss_clf 0.036, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.10
+2024-01-11 13:19:22,884 [ewc.py] => Task 4, Epoch 171/200 => Loss 2.643, Loss_clf 0.036, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 45.98, Test_accy 15.17
+2024-01-11 13:19:30,447 [ewc.py] => Task 4, Epoch 172/200 => Loss 2.641,  Loss_clf 0.035, Loss_ewc 0.202, Loss_kd 2.405, Train_accy 44.69
+2024-01-11 13:19:38,070 [ewc.py] => Task 4, Epoch 173/200 => Loss 2.646,  Loss_clf 0.037, Loss_ewc 0.201, Loss_kd 2.408, Train_accy 44.55
+2024-01-11 13:19:45,920 [ewc.py] => Task 4, Epoch 174/200 => Loss 2.642,  Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 44.21
+2024-01-11 13:19:53,509 [ewc.py] => Task 4, Epoch 175/200 => Loss 2.640,  Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 46.00
+2024-01-11 13:20:08,817 [ewc.py] => Task 4, Epoch 176/200 => Loss 2.640, Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 45.14, Test_accy 15.32
+2024-01-11 13:20:16,878 [ewc.py] => Task 4, Epoch 177/200 => Loss 2.644,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.407, Train_accy 45.52
+2024-01-11 13:20:24,371 [ewc.py] => Task 4, Epoch 178/200 => Loss 2.639,  Loss_clf 0.034, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 44.95
+2024-01-11 13:20:32,115 [ewc.py] => Task 4, Epoch 179/200 => Loss 2.640,  Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 44.31
+2024-01-11 13:20:39,635 [ewc.py] => Task 4, Epoch 180/200 => Loss 2.641,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 44.00
+2024-01-11 13:20:54,831 [ewc.py] => Task 4, Epoch 181/200 => Loss 2.640, Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 45.10, Test_accy 15.33
+2024-01-11 13:21:02,371 [ewc.py] => Task 4, Epoch 182/200 => Loss 2.640,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.403, Train_accy 44.12
+2024-01-11 13:21:09,867 [ewc.py] => Task 4, Epoch 183/200 => Loss 2.638,  Loss_clf 0.033, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 45.17
+2024-01-11 13:21:17,640 [ewc.py] => Task 4, Epoch 184/200 => Loss 2.643,  Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 44.19
+2024-01-11 13:21:25,222 [ewc.py] => Task 4, Epoch 185/200 => Loss 2.638,  Loss_clf 0.033, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 45.36
+2024-01-11 13:21:40,582 [ewc.py] => Task 4, Epoch 186/200 => Loss 2.644, Loss_clf 0.037, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 45.14, Test_accy 15.28
+2024-01-11 13:21:48,124 [ewc.py] => Task 4, Epoch 187/200 => Loss 2.646,  Loss_clf 0.038, Loss_ewc 0.201, Loss_kd 2.407, Train_accy 43.67
+2024-01-11 13:21:55,675 [ewc.py] => Task 4, Epoch 188/200 => Loss 2.643,  Loss_clf 0.037, Loss_ewc 0.201, Loss_kd 2.405, Train_accy 43.60
+2024-01-11 13:22:03,518 [ewc.py] => Task 4, Epoch 189/200 => Loss 2.639,  Loss_clf 0.035, Loss_ewc 0.201, Loss_kd 2.403, Train_accy 44.40
+2024-01-11 13:22:11,156 [ewc.py] => Task 4, Epoch 190/200 => Loss 2.643,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 45.21
+2024-01-11 13:22:26,441 [ewc.py] => Task 4, Epoch 191/200 => Loss 2.643, Loss_clf 0.037, Loss_ewc 0.201, Loss_kd 2.405, Train_accy 44.50, Test_accy 15.32
+2024-01-11 13:22:34,159 [ewc.py] => Task 4, Epoch 192/200 => Loss 2.641,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 44.95
+2024-01-11 13:22:41,796 [ewc.py] => Task 4, Epoch 193/200 => Loss 2.645,  Loss_clf 0.037, Loss_ewc 0.201, Loss_kd 2.407, Train_accy 44.29
+2024-01-11 13:22:49,603 [ewc.py] => Task 4, Epoch 194/200 => Loss 2.637,  Loss_clf 0.033, Loss_ewc 0.201, Loss_kd 2.403, Train_accy 45.10
+2024-01-11 13:22:57,344 [ewc.py] => Task 4, Epoch 195/200 => Loss 2.640,  Loss_clf 0.034, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 44.17
+2024-01-11 13:23:13,125 [ewc.py] => Task 4, Epoch 196/200 => Loss 2.644, Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 44.81, Test_accy 15.14
+2024-01-11 13:23:20,847 [ewc.py] => Task 4, Epoch 197/200 => Loss 2.645,  Loss_clf 0.037, Loss_ewc 0.201, Loss_kd 2.407, Train_accy 44.83
+2024-01-11 13:23:28,843 [ewc.py] => Task 4, Epoch 198/200 => Loss 2.642,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.405, Train_accy 44.69
+2024-01-11 13:23:36,520 [ewc.py] => Task 4, Epoch 199/200 => Loss 2.638,  Loss_clf 0.034, Loss_ewc 0.201, Loss_kd 2.404, Train_accy 44.64
+2024-01-11 13:23:44,181 [ewc.py] => Task 4, Epoch 200/200 => Loss 2.643,  Loss_clf 0.036, Loss_ewc 0.201, Loss_kd 2.406, Train_accy 44.26
+2024-01-11 13:23:58,429 [trainer.py] => No NME accuracy.
+2024-01-11 13:23:58,429 [trainer.py] => CNN: {'total': 15.29, '0': 5.0, '1': 11.11, '2': 0.0, '3': 0.0, '4': 0.0, '5': 10.56, '6': 0.0, '7': 0.56, '8': 11.11, '9': 0.0, '10': 0.0, '11': 0.0, '12': 0.0, '13': 0.56, '14': 5.56, '15': 20.56, '16': 7.22, '17': 12.22, '18': 2.78, '19': 10.0, '20': 14.44, '21': 0.0, '22': 35.56, '23': 35.56, '24': 38.33, '25': 31.11, '26': 2.78, '27': 13.89, '28': 1.67, '29': 3.33, '30': 16.67, '31': 12.78, '32': 40.0, '33': 20.56, '34': 5.56, '35': 2.78, '36': 18.89, '37': 17.78, '38': 11.67, '39': 11.67, '40': 46.11, '41': 10.56, '42': 37.78, '43': 14.44, '44': 35.0, '45': 42.22, '46': 41.67, '47': 31.67, '48': 30.56, '49': 20.56, '50': 25.0, '51': 28.33, '52': 11.67, '53': 13.89, 'old': 12.8, 'new': 26.5}
+2024-01-11 13:23:58,429 [trainer.py] => CNN top1 curve: [87.41, 45.93, 33.57, 26.8, 15.29]
+2024-01-11 13:23:58,429 [trainer.py] => CNN top5 curve: [98.7, 90.56, 78.98, 68.52, 54.52]
+
