@@ -35,7 +35,7 @@ An overview of the CAREC framework. Each incremental learning session consists o
 
 ## 🏃‍♂️ Running the Code:
 
-1. Navigate to the `/exps directory` and modify the `.json` files for different methods (e.g., icarl.json)
+1. Navigate to the `/exps` directory and modify the `.json` files for different methods (e.g., icarl.json)
    Key customizable parameters:
  ```
   "dataset": "your_dataset_name",  # Dataset configuration
