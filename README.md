@@ -35,22 +35,20 @@ An overview of the CAREC framework. Each incremental learning session consists o
 
 ## 🏃‍♂️ Running the Code:
 
-1. Modify the paths in `basic_config.json` to match your system setup.
-2. To **train** the model:
+1. Navigate to the `/exps directory` and modify the `.json` files for different methods (e.g., icarl.json)
+   Key customizable parameters:
+ ```
+  "dataset": "your_dataset_name",  # Dataset configuration
+  "device": [0],                 # GPU indices (e.g., [0,1] for multi-GPU)
+  "convnet_type": "unet",             # Model architecture
+  "memory_size": 1650,             # Size of memory buffer
+ ```
+2. To **train** the model: Execute the following command to start training:
 ```bash
-   python script/train_run.py
+   python main.py --config ./exp/der.json
 ```
-3. To **test** the model:
+3. All training results are automatically saved in the `/logs` directory
 
-Copy the path of the trained model and specify it in `test_run.py` before running the test:
-
-```
-   test_model_list = [XXXXX]
-```
-
-```bash
-   python script/test_run.py
-```
 ## 📞 Support
 If you encounter any issues or need assistance, feel free to reach out to us.
 
